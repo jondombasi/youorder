@@ -1,0 +1,14 @@
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:04
+Type: Debut
+Livreur: 267
+Commercant: 37
+Vehicule: 0
+Id Planning: 3630
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 14:19:35
+Type: Fin
+Livreur: 267
+Commercant: 0
+Vehicule: 0
+Id Planning: 3630
+-------------------------

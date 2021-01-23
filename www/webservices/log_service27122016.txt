@@ -1,0 +1,21 @@
+UPDATE: 213.152.28.84 - 27/12/2016 17:03:04
+Type: Fin
+Livreur: 249
+Commercant: 25
+Vehicule: 0
+Id Planning: 3733
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:28:49
+Type: Debut
+Livreur: 249
+Commercant: 25
+Vehicule: 33
+Id Planning: 3738
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:31:47
+Type: Fin
+Livreur: 249
+Commercant: 25
+Vehicule: 33
+Id Planning: 3738
+-------------------------

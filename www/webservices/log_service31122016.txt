@@ -1,0 +1,14 @@
+UPDATE: 176.187.70.98 - 31/12/2016 21:54:18
+Type: Fin
+Livreur: 243
+Commercant: 119
+Vehicule: 0
+Id Planning: 3940
+-------------------------
+UPDATE: 176.187.70.98 - 31/12/2016 21:54:36
+Type: Fin
+Livreur: 243
+Commercant: 119
+Vehicule: 0
+Id Planning: 3940
+-------------------------

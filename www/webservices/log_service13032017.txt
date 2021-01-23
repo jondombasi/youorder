@@ -1,0 +1,385 @@
+UPDATE: 80.12.34.36 - 13/03/2017 10:25:05
+Type: Debut
+Livreur: 336
+Commercant: 37
+Vehicule: 0
+Id Planning: 11514
+-------------------------
+UPDATE: 80.12.37.16 - 13/03/2017 10:25:21
+Type: Debut
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 11712
+-------------------------
+UPDATE: 80.12.37.108 - 13/03/2017 10:25:26
+Type: Debut
+Livreur: 394
+Commercant: 119
+Vehicule: 0
+Id Planning: 11720
+-------------------------
+UPDATE: 80.12.34.57 - 13/03/2017 10:26:02
+Type: Debut
+Livreur: 361
+Commercant: 37
+Vehicule: 0
+Id Planning: 11518
+-------------------------
+UPDATE: 80.12.42.248 - 13/03/2017 10:27:11
+Type: Debut
+Livreur: 360
+Commercant: 27
+Vehicule: 0
+Id Planning: 11601
+-------------------------
+UPDATE: 80.12.37.148 - 13/03/2017 10:27:28
+Type: Debut
+Livreur: 339
+Commercant: 37
+Vehicule: 0
+Id Planning: 11516
+-------------------------
+UPDATE: 80.12.27.205 - 13/03/2017 10:29:58
+Type: Debut
+Livreur: 203
+Commercant: 138
+Vehicule: 0
+Id Planning: 11908
+-------------------------
+UPDATE: 80.12.42.121 - 13/03/2017 10:29:58
+Type: Debut
+Livreur: 372
+Commercant: 37
+Vehicule: 0
+Id Planning: 11510
+-------------------------
+UPDATE: 80.12.33.38 - 13/03/2017 10:34:55
+Type: Debut
+Livreur: 200
+Commercant: 19
+Vehicule: 0
+Id Planning: 11922
+-------------------------
+UPDATE: 80.215.3.10 - 13/03/2017 10:35:32
+Type: Debut
+Livreur: 364
+Commercant: 19
+Vehicule: 0
+Id Planning: 11928
+-------------------------
+UPDATE: 80.12.33.26 - 13/03/2017 10:47:32
+Type: Debut
+Livreur: 176
+Commercant: 119
+Vehicule: 0
+Id Planning: 11722
+-------------------------
+UPDATE: 80.12.34.168 - 13/03/2017 11:21:56
+Type: Debut
+Livreur: 267
+Commercant: 128
+Vehicule: 0
+Id Planning: 12229
+-------------------------
+UPDATE: 80.12.38.203 - 13/03/2017 11:23:08
+Type: Debut
+Livreur: 374
+Commercant: 129
+Vehicule: 0
+Id Planning: 12188
+-------------------------
+UPDATE: 80.12.38.172 - 13/03/2017 11:25:37
+Type: Debut
+Livreur: 351
+Commercant: 124
+Vehicule: 0
+Id Planning: 12011
+-------------------------
+UPDATE: 80.12.38.7 - 13/03/2017 11:26:17
+Type: Debut
+Livreur: 196
+Commercant: 119
+Vehicule: 0
+Id Planning: 11770
+-------------------------
+UPDATE: 80.12.34.135 - 13/03/2017 11:29:25
+Type: Debut
+Livreur: 359
+Commercant: 37
+Vehicule: 0
+Id Planning: 11546
+-------------------------
+UPDATE: 80.12.34.62 - 13/03/2017 11:29:27
+Type: Debut
+Livreur: 260
+Commercant: 37
+Vehicule: 0
+Id Planning: 11549
+-------------------------
+UPDATE: 80.12.38.62 - 13/03/2017 11:30:33
+Type: Debut
+Livreur: 392
+Commercant: 130
+Vehicule: 0
+Id Planning: 11994
+-------------------------
+UPDATE: 80.12.37.117 - 13/03/2017 11:39:02
+Type: Debut
+Livreur: 371
+Commercant: 27
+Vehicule: 0
+Id Planning: 11603
+-------------------------
+UPDATE: 80.12.33.109 - 13/03/2017 12:05:54
+Type: Debut
+Livreur: 352
+Commercant: 37
+Vehicule: 0
+Id Planning: 11550
+-------------------------
+UPDATE: 80.12.37.209 - 13/03/2017 12:22:31
+Type: Debut
+Livreur: 380
+Commercant: 124
+Vehicule: 0
+Id Planning: 12018
+-------------------------
+UPDATE: 80.12.37.126 - 13/03/2017 13:41:29
+Type: Fin
+Livreur: 392
+Commercant: 129
+Vehicule: 0
+Id Planning: 11994
+-------------------------
+UPDATE: 80.12.37.117 - 13/03/2017 14:00:31
+Type: Fin
+Livreur: 371
+Commercant: 27
+Vehicule: 0
+Id Planning: 11603
+-------------------------
+UPDATE: 80.12.38.172 - 13/03/2017 14:01:52
+Type: Fin
+Livreur: 351
+Commercant: 124
+Vehicule: 0
+Id Planning: 12011
+-------------------------
+UPDATE: 80.12.34.36 - 13/03/2017 14:05:37
+Type: Fin
+Livreur: 336
+Commercant: 129
+Vehicule: 0
+Id Planning: 11514
+-------------------------
+UPDATE: 80.12.37.108 - 13/03/2017 14:08:55
+Type: Fin
+Livreur: 394
+Commercant: 19
+Vehicule: 0
+Id Planning: 11720
+-------------------------
+UPDATE: 80.214.116.228 - 13/03/2017 14:11:08
+Type: Fin
+Livreur: 200
+Commercant: 19
+Vehicule: 0
+Id Planning: 11922
+-------------------------
+UPDATE: 80.12.38.11 - 13/03/2017 14:24:19
+Type: Fin
+Livreur: 176
+Commercant: 119
+Vehicule: 0
+Id Planning: 11722
+-------------------------
+UPDATE: 80.12.38.11 - 13/03/2017 14:24:21
+Type: Fin
+Livreur: 176
+Commercant: 119
+Vehicule: 0
+Id Planning: 11699
+-------------------------
+UPDATE: 80.12.39.164 - 13/03/2017 14:29:14
+Type: Fin
+Livreur: 361
+Commercant: 119
+Vehicule: 0
+Id Planning: 11518
+-------------------------
+UPDATE: 80.12.42.121 - 13/03/2017 14:34:09
+Type: Fin
+Livreur: 372
+Commercant: 129
+Vehicule: 0
+Id Planning: 11510
+-------------------------
+UPDATE: 80.12.37.209 - 13/03/2017 14:54:38
+Type: Fin
+Livreur: 380
+Commercant: 124
+Vehicule: 0
+Id Planning: 12018
+-------------------------
+UPDATE: 80.12.38.154 - 13/03/2017 15:38:14
+Type: Fin
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 11546
+-------------------------
+UPDATE: 80.12.37.191 - 13/03/2017 15:41:46
+Type: Fin
+Livreur: 352
+Commercant: 129
+Vehicule: 0
+Id Planning: 11550
+-------------------------
+UPDATE: 89.157.144.255 - 13/03/2017 15:56:35
+Type: Fin
+Livreur: 196
+Commercant: 124
+Vehicule: 0
+Id Planning: 11770
+-------------------------
+UPDATE: 80.12.43.151 - 13/03/2017 16:40:07
+Type: Fin
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 11712
+-------------------------
+UPDATE: 80.12.39.167 - 13/03/2017 17:55:30
+Type: Debut
+Livreur: 290
+Commercant: 119
+Vehicule: 0
+Id Planning: 11829
+-------------------------
+UPDATE: 80.12.38.216 - 13/03/2017 17:56:16
+Type: Debut
+Livreur: 351
+Commercant: 37
+Vehicule: 0
+Id Planning: 11569
+-------------------------
+UPDATE: 80.12.39.206 - 13/03/2017 17:58:35
+Type: Debut
+Livreur: 394
+Commercant: 19
+Vehicule: 0
+Id Planning: 11947
+-------------------------
+UPDATE: 80.12.38.47 - 13/03/2017 17:58:48
+Type: Debut
+Livreur: 371
+Commercant: 19
+Vehicule: 0
+Id Planning: 11950
+-------------------------
+UPDATE: 80.12.39.201 - 13/03/2017 18:25:38
+Type: Debut
+Livreur: 361
+Commercant: 119
+Vehicule: 0
+Id Planning: 11849
+-------------------------
+UPDATE: 80.12.38.92 - 13/03/2017 19:32:46
+Type: Debut
+Livreur: 258
+Commercant: 127
+Vehicule: 0
+Id Planning: 12092
+-------------------------
+UPDATE: 80.12.34.168 - 13/03/2017 19:55:42
+Type: Debut
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 11882
+-------------------------
+UPDATE: 80.12.34.211 - 13/03/2017 19:58:30
+Type: Debut
+Livreur: 328
+Commercant: 124
+Vehicule: 0
+Id Planning: 12069
+-------------------------
+UPDATE: 80.12.38.158 - 13/03/2017 19:59:45
+Type: Debut
+Livreur: 384
+Commercant: 37
+Vehicule: 0
+Id Planning: 11581
+-------------------------
+UPDATE: 80.12.27.201 - 13/03/2017 20:01:56
+Type: Fin
+Livreur: 374
+Commercant: 119
+Vehicule: 0
+Id Planning: 12188
+-------------------------
+UPDATE: 80.12.39.177 - 13/03/2017 22:00:02
+Type: Fin
+Livreur: 290
+Commercant: 119
+Vehicule: 0
+Id Planning: 11829
+-------------------------
+UPDATE: 80.12.39.206 - 13/03/2017 22:08:20
+Type: Fin
+Livreur: 394
+Commercant: 119
+Vehicule: 0
+Id Planning: 11947
+-------------------------
+UPDATE: 80.12.34.188 - 13/03/2017 22:09:15
+Type: Fin
+Livreur: 371
+Commercant: 119
+Vehicule: 0
+Id Planning: 11950
+-------------------------
+UPDATE: 80.12.42.174 - 13/03/2017 22:11:02
+Type: Fin
+Livreur: 351
+Commercant: 37
+Vehicule: 0
+Id Planning: 11569
+-------------------------
+UPDATE: 80.12.39.201 - 13/03/2017 22:14:42
+Type: Fin
+Livreur: 361
+Commercant: 37
+Vehicule: 0
+Id Planning: 11849
+-------------------------
+UPDATE: 80.12.34.168 - 13/03/2017 22:48:52
+Type: Fin
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 11882
+-------------------------
+UPDATE: 80.12.42.131 - 13/03/2017 22:51:08
+Type: Fin
+Livreur: 384
+Commercant: 37
+Vehicule: 0
+Id Planning: 11581
+-------------------------
+UPDATE: 80.12.42.168 - 13/03/2017 23:03:32
+Type: Fin
+Livreur: 328
+Commercant: 119
+Vehicule: 0
+Id Planning: 12069
+-------------------------
+UPDATE: 80.12.37.148 - 13/03/2017 23:18:05
+Type: Fin
+Livreur: 339
+Commercant: 119
+Vehicule: 0
+Id Planning: 11821
+-------------------------

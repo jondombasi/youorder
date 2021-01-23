@@ -1,0 +1,28 @@
+UPDATE: 80.12.38.1 - 21/01/2017 18:03:46
+Type: Debut
+Livreur: 305
+Commercant: 146
+Vehicule: 0
+Id Planning: 5615
+-------------------------
+UPDATE: 80.12.38.104 - 21/01/2017 19:26:24
+Type: Debut
+Livreur: 267
+Commercant: 127
+Vehicule: 0
+Id Planning: 5653
+-------------------------
+UPDATE: 80.12.37.69 - 21/01/2017 19:33:03
+Type: Debut
+Livreur: 155
+Commercant: 127
+Vehicule: 0
+Id Planning: 5650
+-------------------------
+UPDATE: 80.12.38.104 - 21/01/2017 22:41:40
+Type: Fin
+Livreur: 267
+Commercant: 127
+Vehicule: 0
+Id Planning: 5653
+-------------------------

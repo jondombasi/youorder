@@ -1,0 +1,14 @@
+UPDATE: 80.12.37.27 - 18/12/2016 20:26:37
+Type: Fin
+Livreur: 208
+Commercant: 0
+Vehicule: 0
+Id Planning: 3139
+-------------------------
+UPDATE: 80.12.37.27 - 18/12/2016 20:37:17
+Type: Fin
+Livreur: 208
+Commercant: 0
+Vehicule: 0
+Id Planning: 2819
+-------------------------

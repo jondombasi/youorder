@@ -1,0 +1,196 @@
+UPDATE: 80.12.37.173 - 18/02/2017 10:25:09
+Type: Debut
+Livreur: 361
+Commercant: 19
+Vehicule: 0
+Id Planning: 8447
+-------------------------
+UPDATE: 80.12.38.191 - 18/02/2017 10:28:14
+Type: Debut
+Livreur: 362
+Commercant: 119
+Vehicule: 0
+Id Planning: 8494
+-------------------------
+UPDATE: 80.12.43.184 - 18/02/2017 10:29:53
+Type: Debut
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 8495
+-------------------------
+UPDATE: 80.12.42.6 - 18/02/2017 10:40:43
+Type: Debut
+Livreur: 322
+Commercant: 19
+Vehicule: 0
+Id Planning: 8191
+-------------------------
+UPDATE: 80.12.27.212 - 18/02/2017 12:00:12
+Type: Debut
+Livreur: 336
+Commercant: 119
+Vehicule: 0
+Id Planning: 8500
+-------------------------
+UPDATE: 80.12.34.193 - 18/02/2017 13:33:36
+Type: Debut
+Livreur: 335
+Commercant: 19
+Vehicule: 0
+Id Planning: 8190
+-------------------------
+UPDATE: 80.12.27.212 - 18/02/2017 13:45:47
+Type: Fin
+Livreur: 336
+Commercant: 119
+Vehicule: 0
+Id Planning: 8500
+-------------------------
+UPDATE: 80.12.27.212 - 18/02/2017 13:45:49
+Type: Debut
+Livreur: 336
+Commercant: 119
+Vehicule: 0
+Id Planning: 8500
+-------------------------
+UPDATE: 80.12.38.191 - 18/02/2017 14:13:06
+Type: Fin
+Livreur: 362
+Commercant: 119
+Vehicule: 0
+Id Planning: 8494
+-------------------------
+UPDATE: 80.12.37.173 - 18/02/2017 14:40:00
+Type: Fin
+Livreur: 361
+Commercant: 124
+Vehicule: 0
+Id Planning: 8447
+-------------------------
+UPDATE: 80.12.43.184 - 18/02/2017 15:48:22
+Type: Fin
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 8495
+-------------------------
+UPDATE: 37.208.54.77 - 18/02/2017 17:31:53
+Type: Debut
+Livreur: 374
+Commercant: 129
+Vehicule: 0
+Id Planning: 8690
+-------------------------
+UPDATE: 80.12.43.227 - 18/02/2017 17:55:03
+Type: Debut
+Livreur: 305
+Commercant: 27
+Vehicule: 0
+Id Planning: 8263
+-------------------------
+UPDATE: 80.12.27.182 - 18/02/2017 17:55:11
+Type: Debut
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 8513
+-------------------------
+UPDATE: 80.12.38.191 - 18/02/2017 17:55:38
+Type: Debut
+Livreur: 362
+Commercant: 119
+Vehicule: 0
+Id Planning: 8504
+-------------------------
+UPDATE: 80.12.43.184 - 18/02/2017 17:55:50
+Type: Debut
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 8511
+-------------------------
+UPDATE: 80.12.43.184 - 18/02/2017 17:59:12
+Type: Fin
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 8511
+-------------------------
+UPDATE: 80.12.43.184 - 18/02/2017 17:59:14
+Type: Debut
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 8511
+-------------------------
+UPDATE: 80.12.38.84 - 18/02/2017 18:28:17
+Type: Debut
+Livreur: 259
+Commercant: 124
+Vehicule: 0
+Id Planning: 7338
+-------------------------
+UPDATE: 80.12.27.233 - 18/02/2017 18:28:40
+Type: Debut
+Livreur: 361
+Commercant: 124
+Vehicule: 0
+Id Planning: 7238
+-------------------------
+UPDATE: 80.12.37.246 - 18/02/2017 20:12:42
+Type: Fin
+Livreur: 278
+Commercant: 124
+Vehicule: 0
+Id Planning: 7239
+-------------------------
+UPDATE: 80.12.38.230 - 18/02/2017 21:59:13
+Type: Debut
+Livreur: 334
+Commercant: 124
+Vehicule: 0
+Id Planning: 7266
+-------------------------
+UPDATE: 37.208.54.77 - 18/02/2017 22:06:49
+Type: Fin
+Livreur: 346
+Commercant: 119
+Vehicule: 0
+Id Planning: 8513
+-------------------------
+UPDATE: 80.12.38.6 - 18/02/2017 22:57:15
+Type: Fin
+Livreur: 359
+Commercant: 37
+Vehicule: 0
+Id Planning: 8511
+-------------------------
+UPDATE: 80.12.34.207 - 18/02/2017 23:01:11
+Type: Fin
+Livreur: 374
+Commercant: 119
+Vehicule: 0
+Id Planning: 8690
+-------------------------
+UPDATE: 80.12.38.230 - 18/02/2017 23:01:22
+Type: Fin
+Livreur: 334
+Commercant: 141
+Vehicule: 0
+Id Planning: 7266
+-------------------------
+UPDATE: 80.12.43.183 - 18/02/2017 23:27:09
+Type: Fin
+Livreur: 336
+Commercant: 0
+Vehicule: 0
+Id Planning: 8702
+-------------------------
+UPDATE: 80.12.38.191 - 18/02/2017 23:58:24
+Type: Fin
+Livreur: 362
+Commercant: 27
+Vehicule: 0
+Id Planning: 8504
+-------------------------
