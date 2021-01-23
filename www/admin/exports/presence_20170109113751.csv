@@ -1,0 +1,9 @@
+Livreur;Commercant;Vehicule;Date;"Heure debut";"Heure fin";Type
+"Tyen Leroy";"Frichti Nord 20 Rue Pierre Fontaine, 75009 Paris, France";;03/01/2017;10:45;14:00;appli
+"Tyen Leroy";"Clac des doigts 55 Rue La Boétie, Paris, France";;03/01/2017;14:30;16:30;manuel
+"Tyen Leroy";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;03/01/2017;17:30;22:00;appli
+"Tyen Leroy";"Frichti Ouest 8 Rue Léontine, France";;04/01/2017;10:35;10:35;appli
+;;;;;;
+"Nombre d'heures contractuelles : 35";;;;;;
+"Total des heures de présence du 02/01 au 08/01 : 07h45";;;;;;
+"Total des heures supplémentaires du 02/01 au 08/01 : 02h00";;;;;;

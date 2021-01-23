@@ -1,0 +1,10 @@
+Type;Nom;Immatriculation;Marque;Volume;Etat
+Scooter;Test;xx-123-xx;test;10;maintenance
+Scooter;"test 2";xx-321-xx;test2;20;ko
+fdfdfd;fdfdf;dfdfd;dfdfdfd;10;ok
+Scooter;test;test;test;10;ok
+VÃ©lo;"Mon velo2";xxx-xxx-xxxx;marque2;10;ok
+Moto;Moto;xxx;Moto;20;maintenance
+Velo;Velo;yyy-xxx;Veloo;10;ko
+Velo;veloo;xxx-uuu;velo;10;ko
+Scooter;rgrgrg;rgrg;rgrg;30;ok
