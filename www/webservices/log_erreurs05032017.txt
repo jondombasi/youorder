@@ -1,0 +1,376 @@
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 09:07:08
+Type erreur:trop_tot
+Livreur: 364
+Commercant: 19
+Vehicule: 0
+Id Planning: 9824
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 09:07:43
+Type erreur:trop_tot
+Livreur: 371
+Commercant: 119
+Vehicule: 0
+Id Planning: 10066
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 10:54:06
+Type erreur:trop_tot
+Livreur: 351
+Commercant: 129
+Vehicule: 0
+Id Planning: 10473
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 10:54:07
+Type erreur:trop_tot
+Livreur: 351
+Commercant: 129
+Vehicule: 0
+Id Planning: 10473
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 11:22:52
+Type erreur:trop_tot
+Livreur: 372
+Commercant: 27
+Vehicule: 0
+Id Planning: 9903
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.38.147 - 05/03/2017 11:37:50
+Type erreur:pb_distance : 5715 metres
+Livreur: 176
+Commercant: 119
+Vehicule: 0
+Id Planning: 10020
+Position: 48.8396575/2.3566517
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 13:53:53
+Type erreur:trop_tot
+Livreur: 376
+Commercant: 130
+Vehicule: 0
+Id Planning: 9053
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 14:20:15
+Type erreur:trop_tot
+Livreur: 328
+Commercant: 27
+Vehicule: 0
+Id Planning: 10876
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 16:56:00
+Type erreur:trop_tot
+Livreur: 383
+Commercant: 129
+Vehicule: 0
+Id Planning: 10507
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 17:50:05
+Type erreur:trop_tot
+Livreur: 372
+Commercant: 27
+Vehicule: 0
+Id Planning: 9903
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.33.1 - 05/03/2017 17:56:46
+Type erreur:pb_distance : 1382 metres
+Livreur: 233
+Commercant: 27
+Vehicule: 0
+Id Planning: 9902
+Position: 48.8507664/2.361483
+-------------------------
+ERREUR CONNEXION: 80.12.42.103 - 05/03/2017 17:59:00
+Type erreur:pb_distance : 557 metres
+Livreur: 203
+Commercant: 119
+Vehicule: 0
+Id Planning: 10044
+Position: 48.8479604/2.2838963
+-------------------------
+ERREUR CONNEXION: 80.12.42.103 - 05/03/2017 17:59:10
+Type erreur:pb_distance : 557 metres
+Livreur: 203
+Commercant: 119
+Vehicule: 0
+Id Planning: 10044
+Position: 48.8479604/2.2838963
+-------------------------
+ERREUR CONNEXION: 80.12.34.46 - 05/03/2017 18:01:32
+Type erreur:pb_distance : 4893 metres
+Livreur: 280
+Commercant: 19
+Vehicule: 0
+Id Planning: 10132
+Position: 48.8453988/2.3547139
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:24:02
+Type erreur:trop_tot
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:25:07
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:25:14
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:25:20
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.43.139 - 05/03/2017 18:25:31
+Type erreur:pb_distance : 1122 metres
+Livreur: 290
+Commercant: 19
+Vehicule: 0
+Id Planning: 10134
+Position: 48.8794521/2.3572342
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:26:01
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:26:23
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:26:25
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:26:28
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:26:30
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.37.19 - 05/03/2017 18:29:59
+Type erreur:pb_distance : 3080 metres
+Livreur: 311
+Commercant: 124
+Vehicule: 0
+Id Planning: 10400
+Position: 48.8405604/2.3547953
+-------------------------
+ERREUR CONNEXION: 80.12.42.52 - 05/03/2017 18:30:13
+Type erreur:pb_distance : 1917 metres
+Livreur: 344
+Commercant: 124
+Vehicule: 0
+Id Planning: 10370
+Position: 48.852446/2.3524006
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:47:55
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:48:05
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:52:50
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:53:13
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:53:22
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:53:58
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:54:11
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:54:28
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 18:54:28
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 119
+Vehicule: 0
+Id Planning: 10067
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 19:34:44
+Type erreur:trop_tot
+Livreur: 331
+Commercant: 119
+Vehicule: 0
+Id Planning: 10972
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 20:00:08
+Type erreur:trop_tot
+Livreur: 278
+Commercant: 27
+Vehicule: 0
+Id Planning: 10925
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 20:01:48
+Type erreur:trop_tot
+Livreur: 278
+Commercant: 27
+Vehicule: 0
+Id Planning: 10925
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.43.156 - 05/03/2017 20:03:31
+Type erreur:pb_distance : 1113 metres
+Livreur: 320
+Commercant: 124
+Vehicule: 0
+Id Planning: 10406
+Position: 48.8574361/2.3680565
+-------------------------
+ERREUR CONNEXION: 80.12.43.156 - 05/03/2017 20:03:35
+Type erreur:pb_distance : 1113 metres
+Livreur: 320
+Commercant: 124
+Vehicule: 0
+Id Planning: 10406
+Position: 48.8574361/2.3680565
+-------------------------
+ERREUR CONNEXION: 80.12.43.156 - 05/03/2017 20:03:42
+Type erreur:pb_distance : 1113 metres
+Livreur: 320
+Commercant: 124
+Vehicule: 0
+Id Planning: 10406
+Position: 48.8574361/2.3680565
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 20:08:29
+Type erreur:trop_tot
+Livreur: 376
+Commercant: 130
+Vehicule: 0
+Id Planning: 9053
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 21:31:57
+Type erreur:trop_tot
+Livreur: 375
+Commercant: 119
+Vehicule: 0
+Id Planning: 11021
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 22:02:26
+Type erreur:trop_tot
+Livreur: 260
+Commercant: 37
+Vehicule: 0
+Id Planning: 10822
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 22:17:17
+Type erreur:trop_tot
+Livreur: 290
+Commercant: 119
+Vehicule: 0
+Id Planning: 10982
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 22:21:25
+Type erreur:trop_tot
+Livreur: 351
+Commercant: 124
+Vehicule: 0
+Id Planning: 10678
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 05/03/2017 23:12:43
+Type erreur:trop_tot
+Livreur: 359
+Commercant: 37
+Vehicule: 0
+Id Planning: 10816
+Position: 0/0
+-------------------------

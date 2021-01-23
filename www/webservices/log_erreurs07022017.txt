@@ -1,0 +1,384 @@
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 10:25:39
+Type erreur:trop_tot
+Livreur: 176
+Commercant: 27
+Vehicule: 0
+Id Planning: 7772
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.33.87 - 07/02/2017 10:29:51
+Type erreur:pb_distance : 4639 metres
+Livreur: 258
+Commercant: 37
+Vehicule: 0
+Id Planning: 7763
+Position: 48.8423537/2.3555587
+-------------------------
+ERREUR CONNEXION: 80.12.33.87 - 07/02/2017 10:29:54
+Type erreur:pb_distance : 4639 metres
+Livreur: 258
+Commercant: 37
+Vehicule: 0
+Id Planning: 7763
+Position: 48.8423537/2.3555587
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 10:32:54
+Type erreur:no_service
+Livreur: 19
+Commercant: 0
+Vehicule: 0
+Id Planning: 0
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.37.20 - 07/02/2017 10:47:58
+Type erreur:pb_distance : 5696 metres
+Livreur: 224
+Commercant: 119
+Vehicule: 0
+Id Planning: 7792
+Position: 48.8397414/2.3563953
+-------------------------
+ERREUR CONNEXION: 80.12.37.20 - 07/02/2017 10:48:00
+Type erreur:pb_distance : 5696 metres
+Livreur: 224
+Commercant: 119
+Vehicule: 0
+Id Planning: 7792
+Position: 48.8397414/2.3563953
+-------------------------
+ERREUR CONNEXION: 80.12.37.20 - 07/02/2017 10:49:17
+Type erreur:pb_distance : 5696 metres
+Livreur: 224
+Commercant: 119
+Vehicule: 0
+Id Planning: 7792
+Position: 48.8397414/2.3563953
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 10:57:37
+Type erreur:trop_tot
+Livreur: 334
+Commercant: 27
+Vehicule: 0
+Id Planning: 7776
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.27.254 - 07/02/2017 10:57:45
+Type erreur:pb_distance : 559 metres
+Livreur: 196
+Commercant: 121
+Vehicule: 0
+Id Planning: 7437
+Position: 48.839822/2.293761
+-------------------------
+ERREUR CONNEXION: 80.12.43.237 - 07/02/2017 11:00:48
+Type erreur:pb_distance : 2213 metres
+Livreur: 200
+Commercant: 119
+Vehicule: 0
+Id Planning: 7799
+Position: 48.834632/2.3056152
+-------------------------
+ERREUR CONNEXION: 80.12.43.237 - 07/02/2017 11:01:00
+Type erreur:pb_distance : 2213 metres
+Livreur: 200
+Commercant: 119
+Vehicule: 0
+Id Planning: 7799
+Position: 48.834632/2.3056152
+-------------------------
+ERREUR CONNEXION: 80.12.38.31 - 07/02/2017 11:26:18
+Type erreur:pb_distance : 2524 metres
+Livreur: 334
+Commercant: 27
+Vehicule: 0
+Id Planning: 7776
+Position: 48.8641373/2.3440175
+-------------------------
+ERREUR CONNEXION: 80.12.34.98 - 07/02/2017 11:28:31
+Type erreur:pb_distance : 21212 metres
+Livreur: 240
+Commercant: 119
+Vehicule: 0
+Id Planning: 7801
+Position: 48.87346/2.5647067
+-------------------------
+ERREUR CONNEXION: 80.12.34.132 - 07/02/2017 11:28:53
+Type erreur:pb_distance : 21212 metres
+Livreur: 240
+Commercant: 119
+Vehicule: 0
+Id Planning: 7801
+Position: 48.87346/2.5647067
+-------------------------
+ERREUR CONNEXION: 80.12.34.132 - 07/02/2017 11:28:56
+Type erreur:pb_distance : 21212 metres
+Livreur: 240
+Commercant: 119
+Vehicule: 0
+Id Planning: 7801
+Position: 48.87346/2.5647067
+-------------------------
+ERREUR CONNEXION: 80.12.34.132 - 07/02/2017 11:29:30
+Type erreur:pb_distance : 21212 metres
+Livreur: 240
+Commercant: 119
+Vehicule: 0
+Id Planning: 7801
+Position: 48.87346/2.5647067
+-------------------------
+ERREUR CONNEXION: 80.12.38.31 - 07/02/2017 11:46:04
+Type erreur:pb_distance : 2651 metres
+Livreur: 334
+Commercant: 27
+Vehicule: 0
+Id Planning: 7776
+Position: 48.8679601/2.344361
+-------------------------
+ERREUR CONNEXION: 92.90.20.68 - 07/02/2017 11:56:38
+Type erreur:pb_distance : 678 metres
+Livreur: 327
+Commercant: 119
+Vehicule: 0
+Id Planning: 7804
+Position: 48.8397693/2.2725445
+-------------------------
+ERREUR CONNEXION: 92.90.20.68 - 07/02/2017 11:56:45
+Type erreur:pb_distance : 678 metres
+Livreur: 327
+Commercant: 119
+Vehicule: 0
+Id Planning: 7804
+Position: 48.8397693/2.2725445
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:10:36
+Type erreur:pb_distance : 3200 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8309275/2.3178526
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:10:38
+Type erreur:pb_distance : 3066 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8313551/2.3161337
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:10:53
+Type erreur:pb_distance : 3066 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8313551/2.3161337
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:10:56
+Type erreur:pb_distance : 3066 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8313551/2.3161337
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:10:58
+Type erreur:pb_distance : 3066 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8313551/2.3161337
+-------------------------
+ERREUR CONNEXION: 80.12.38.50 - 07/02/2017 12:11:00
+Type erreur:pb_distance : 3066 metres
+Livreur: 335
+Commercant: 119
+Vehicule: 0
+Id Planning: 7806
+Position: 48.8313551/2.3161337
+-------------------------
+ERREUR CONNEXION: 80.12.34.119 - 07/02/2017 12:17:57
+Type erreur:pb_distance : 8057 metres
+Livreur: 311
+Commercant: 119
+Vehicule: 0
+Id Planning: 7805
+Position: 48.8720131/2.3803954
+-------------------------
+ERREUR CONNEXION: 80.12.34.119 - 07/02/2017 12:18:00
+Type erreur:pb_distance : 8057 metres
+Livreur: 311
+Commercant: 119
+Vehicule: 0
+Id Planning: 7805
+Position: 48.8720131/2.3803954
+-------------------------
+ERREUR CONNEXION: 80.12.38.31 - 07/02/2017 12:20:30
+Type erreur:pb_distance : 6395 metres
+Livreur: 334
+Commercant: 27
+Vehicule: 0
+Id Planning: 7776
+Position: 48.8665145/2.290889
+-------------------------
+ERREUR CONNEXION: 37.208.54.77 - 07/02/2017 12:25:17
+Type erreur:pb_distance : 2549 metres
+Livreur: 334
+Commercant: 27
+Vehicule: 0
+Id Planning: 7776
+Position: 48.8406568/2.3539254
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 14:15:02
+Type erreur:trop_tot
+Livreur: 346
+Commercant: 129
+Vehicule: 0
+Id Planning: 7625
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 15:05:28
+Type erreur:trop_tot
+Livreur: 259
+Commercant: 124
+Vehicule: 0
+Id Planning: 7356
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 17:48:54
+Type erreur:trop_tot
+Livreur: 259
+Commercant: 124
+Vehicule: 0
+Id Planning: 7356
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:56:17
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:56:28
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:57:07
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:57:11
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:57:45
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:58:21
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:59:45
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 17:59:54
+Type erreur:pb_distance : 1054 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8394975/2.2916392
+-------------------------
+ERREUR CONNEXION: 80.12.33.126 - 07/02/2017 18:00:05
+Type erreur:pb_distance : 11232 metres
+Livreur: 313
+Commercant: 119
+Vehicule: 0
+Id Planning: 7808
+Position: 48.93584/2.3431033
+-------------------------
+ERREUR CONNEXION: 80.12.33.126 - 07/02/2017 18:00:08
+Type erreur:pb_distance : 11232 metres
+Livreur: 313
+Commercant: 119
+Vehicule: 0
+Id Planning: 7808
+Position: 48.93584/2.3431033
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 18:00:39
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 18:01:50
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.42.230 - 07/02/2017 18:02:17
+Type erreur:pb_distance : 2580 metres
+Livreur: 233
+Commercant: 119
+Vehicule: 0
+Id Planning: 7809
+Position: 48.8460449/2.3141002
+-------------------------
+ERREUR CONNEXION: 80.12.27.254 - 07/02/2017 18:25:30
+Type erreur:pb_distance : 1881 metres
+Livreur: 196
+Commercant: 124
+Vehicule: 0
+Id Planning: 7313
+Position: 48.8506549/2.3611663
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 19:12:52
+Type erreur:no_service
+Livreur: 133
+Commercant: 0
+Vehicule: 0
+Id Planning: 0
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 07/02/2017 23:41:18
+Type erreur:trop_tot
+Livreur: 290
+Commercant: 129
+Vehicule: 0
+Id Planning: 7624
+Position: 0/0
+-------------------------

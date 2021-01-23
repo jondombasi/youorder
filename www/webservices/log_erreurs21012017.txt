@@ -1,0 +1,80 @@
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:43:58
+Type erreur:pb_distance : 3051 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8406121/2.3561164
+-------------------------
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:45:12
+Type erreur:pb_distance : 3051 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8406121/2.3561164
+-------------------------
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:49:59
+Type erreur:pb_distance : 816 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8617326/2.3728401
+-------------------------
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:50:41
+Type erreur:pb_distance : 816 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8617325/2.3728392
+-------------------------
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:52:04
+Type erreur:pb_distance : 912 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8604911/2.3725297
+-------------------------
+ERREUR CONNEXION: 80.12.39.178 - 21/01/2017 11:52:07
+Type erreur:pb_distance : 912 metres
+Livreur: 254
+Commercant: 124
+Vehicule: 0
+Id Planning: 5475
+Position: 48.8604911/2.3725297
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 21/01/2017 12:39:12
+Type erreur:trop_tot
+Livreur: 313
+Commercant: 129
+Vehicule: 0
+Id Planning: 5725
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 21/01/2017 19:50:27
+Type erreur:trop_tot
+Livreur: 285
+Commercant: 119
+Vehicule: 0
+Id Planning: 5439
+Position: 0/0
+-------------------------
+ERREUR CONNEXION: 80.12.34.226 - 21/01/2017 19:57:27
+Type erreur:pb_distance : 3199 metres
+Livreur: 303
+Commercant: 124
+Vehicule: 0
+Id Planning: 5538
+Position: 48.8393267/2.355537
+-------------------------
+ERREUR CONNEXION: 185.8.76.233 - 21/01/2017 20:11:52
+Type erreur:trop_tot
+Livreur: 241
+Commercant: 129
+Vehicule: 0
+Id Planning: 5636
+Position: 0/0
+-------------------------

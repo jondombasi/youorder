@@ -1,0 +1,42 @@
+UPDATE: 90.2.187.179 - 08/12/2016 14:29:33
+Utilisateur: 232
+Longitude: 2.3632895
+Latitude: 48.8666597
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 14:29:43
+Utilisateur: 232
+Longitude: 2.3632895
+Latitude: 48.8666597
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 14:30:04
+Utilisateur: 232
+Longitude: 2.3632895
+Latitude: 48.8666597
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 15:15:33
+Utilisateur: 232
+Longitude: 2.3632895
+Latitude: 48.8666597
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 15:15:48
+Utilisateur: 232
+Longitude: 2.3632895
+Latitude: 48.8666597
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 15:16:08
+Utilisateur: 232
+Longitude: 2.363303
+Latitude: 48.8666463
+Insertion BDD: OK
+-------------------------
+UPDATE: 90.2.187.179 - 08/12/2016 15:16:18
+Utilisateur: 232
+Longitude: 2.3633098
+Latitude: 48.8666396
+Insertion BDD: OK
+-------------------------

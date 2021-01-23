@@ -1,0 +1,456 @@
+UPDATE: 80.12.37.98 - 01/01/2017 18:00:54
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:05
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:15
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:25
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:01:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:02:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:03:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:03:23
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:03:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:03:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:03:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:04:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:04:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:04:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:04:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:05:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:05:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:05:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:05:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:06:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:07:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:07:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:07:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:07:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:07:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:08:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:08:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:08:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:08:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:08:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:09:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:09:26
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:09:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:09:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816524
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:10:06
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:10:16
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:10:36
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:10:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:10:57
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:11:07
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:11:17
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:11:28
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:11:39
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:11:50
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:01
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:14
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:25
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:35
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:46
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:12:56
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:07
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:17
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:28
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:38
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:48
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:13:59
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:14:09
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:14:20
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:14:31
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:14:42
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:14:52
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:15:02
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:15:13
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.37.98 - 01/01/2017 18:15:24
+Utilisateur: 240
+Longitude: 2.334125
+Latitude: 48.8816517
+Insertion BDD: OK
+-------------------------
