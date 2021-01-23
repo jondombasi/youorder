@@ -1,0 +1,161 @@
+/************************/
+/*     OKAB COLORS      */
+/************************/
+/**
+ * Scss File Content All Colors
+ * Author @PixelDima
+ **/
+/************************/
+/*     !OKAB COLORS     */
+/************************/
+
+
+/**
+ * [Theme Color]
+ */
+$theme-color: #a2da00;
+$border-color: #7bd2f9;
+
+/**
+ * [User Interface Colors]
+ */
+$body-bg-color: #FFFFFF;
+$content-bg-color: #FFFFFF;
+$section-bg-color: #039be5;
+$box-bg-color:#e9e8e2;
+
+/**
+ * [Typo Colors]
+ */
+$header-font-color: #757575;
+$header-link-color: #757575;
+$body-text-color: #616161;
+$body-link-color: $theme-color;
+$body-link-hover-color: darken($body-link-color, 15%);
+
+/**
+ * [Blog  Colors]
+ */
+$blog-bg-color: #29b6f6;
+$blog-text-color: #FFFFFF;
+$blog-header-color: #FFFFFF;
+$widget-bg-color: $blog-bg-color;
+$blog-border-color: $blog-bg-color;
+$box-bg : #FFFFFF ;
+/**
+ * [menu Colors]
+ */
+$nav-bg-color: #0288d1;
+$nav-bg-color-top-style: #f7bf4d;
+$nav-text-color: #FFFFFF;
+$nav-text-hover-color: $theme-color;
+$nav-shadow:#a6a498;
+/**
+ * Vertical menu
+ */
+$navbar-vertical-bg:#FFF;
+$navbar-vertical-bordre-color: lighten($border-color, 17%);
+/*Response Menu Icon*/
+$bt-color: #FFFFFF;
+$bt-bg-color: #29b6f6;
+$bt-bg-hover: #FFFFFF;
+
+/**
+ * [Search Box Colors]
+ */
+$search-box-bg: $theme-color;
+$search-box-text: #FFFFFF;
+
+/**
+ * [Container Title (bottom of the header)]
+ */
+$title_con_bg: $header-font-color;
+$title_con_color: #FFFFFF;
+
+/**
+ * [Divider Colors]
+ */
+$hr-color: $border-color;
+
+/**
+ *     Button
+ */
+ $radius-var:0;
+ $btn-border-color:$theme-color;
+ $default-btn-bg-color:$theme-color;
+ $default-btn-color:#fff;
+ $border:1px;
+ 
+ /*--- colors fill---*/
+
+ $fill-btn-color:#fff;
+ $fill-btn-color-hover:#fff;
+
+ /*--- colors stroke---*/
+
+ $btn-stroke-color: $btn-border-color;
+ $btn-stroke-color-hover:#fff;
+ 
+/**	
+ * [Tabs Colors]
+ */
+$tab-nav-bg: #29b6f6;
+$tab-nav-bg-active: #FFFFFF;
+$tab-nav-color: #FFFFFF;
+$tab-nav-color-active: #FFFFFF;
+$tab-nav-border-color: $tab-nav-bg;
+$tab-cnt-bg:#FFFFFF;
+
+/**
+ * [Code Colors]
+ */
+$code-color: darken($border-color, 30%);
+$code-bg: lighten($border-color, 5%);
+$pre-bg: #021321;
+
+/**
+ * PRICING TABLE
+ */
+$pricing-body-bg: #FFFFFF;
+$pricing-header-bg: $header-font-color;
+$pricing-button-bg: $pricing-header-bg;
+$pricing-separator-border: lighten($border-color,17%);
+
+
+/**
+ * [Alert Colors]
+ */
+$info-color: #0288d1;
+$error-color: #e74c3c;
+$warning-color: #ffbc00;
+$success-color: #7cb342;
+
+/**
+ * [Tooltips Colors]
+ */
+$tooltip-bg: #000000;
+$tooltip-color:#FFFFFF;
+$tooltip-boredr-color:#000000;
+
+/**
+ * [Quote  Color]
+ */
+$quote-bg:$header-font-color;
+$quote-text-color:#FFFFFF;
+
+/**
+ * [Testimonial Color]
+ */
+$testimonial-bg:#29b6f6;
+
+/**
+ * Footer Colors
+ */
+$footer-bg-top: #0288d1;
+$footer-color: #FFFFFF;
+$footer-link: #FFFFFF;
+$footer-header-color: #FFFFFF;
+$footer-bordre-color: #29b6f6;
+//Bottom Footer
+$footer-bg-bottom: #0277bd;
+$footer-bottom-color: #FFFFFF;

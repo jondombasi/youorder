@@ -1,0 +1,50 @@
+.dima-navbar-wrap {
+    .dima-navbar {
+        &.dima-navbar-center {
+            .logo {
+                float: none;
+                position: relative;
+                z-index: 1;
+                margin: 0 auto;
+                h1 {
+                    text-align: center;
+                }
+            }
+            .dima-nav {
+                position: absolute;
+                >li {
+                    display: inline-block;
+                    &:last-child > a {
+                        padding-right: $menu-itms-gutter !important;
+                    }
+                }
+            }
+            .text-end {
+                .dima-nav {
+                    @include end(0);
+                    @include margin-end(70px);
+                }
+            }
+            .text-start {
+                .dima-nav {
+                    @include start(0);
+                    @include margin-start(70px);
+                }
+            }
+        }
+    }
+    .start-nav {
+        height: 125px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 49%;
+    }
+    .end-nav {
+        height: 125px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 49%;
+    }
+}

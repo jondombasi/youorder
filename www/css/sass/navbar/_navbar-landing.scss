@@ -1,0 +1,67 @@
+    .header-offset {
+        margin-top: -$a-height + px;
+    }
+        .dima-navbar-wrap {
+        .dima-navbar-transparent {
+            &.dima-navbar {
+                background-color: rgba(0, 0, 0, 0);
+                @include box-shadow(none);
+                .dima-nav {
+                    li {
+                        a {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            &.fixed {
+                background: #FFF;
+                @include box-shadow(0.5px 0.866px 1px 0px rgb(166, 164, 152));
+                .dima-nav {
+                    li {
+                        a {
+                            color: $nav-text-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: $TabletPortraitMax) {
+        .dima-navbar-wrap {
+            .dima-navbar-transparent {
+                &.dima-navbar {
+                    background-color: $nav-bg-color;
+                    @include box-shadow(0.5px 0.866px 1px 0px rgb( 166, 164, 152));
+                    .dima-nav {
+                        li {
+                            a {
+                                color: $nav-text-color;
+                            }
+                        }
+                    }
+                    .logo {
+                        img {
+                            &.two {
+                                display: inline-block;
+                            }
+                            &.one {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                &.fixed {
+                    background: #FFF;
+                    @include box-shadow(0.5px 0.866px 1px 0px rgb(166, 164, 152));
+                    .dima-nav {
+                        li {
+                            a {
+                                color: $nav-text-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
