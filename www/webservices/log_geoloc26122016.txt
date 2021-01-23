@@ -1,0 +1,108 @@
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:05
+Utilisateur: 267
+Longitude: 2.334125
+Latitude: 48.8816524
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:21
+Utilisateur: 267
+Longitude: 2.3343716
+Latitude: 48.8815177
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:33
+Utilisateur: 267
+Longitude: 2.3342569
+Latitude: 48.881792
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:43
+Utilisateur: 267
+Longitude: 2.3344448
+Latitude: 48.881885
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:28:54
+Utilisateur: 267
+Longitude: 2.3343975
+Latitude: 48.8818603
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:05
+Utilisateur: 267
+Longitude: 2.3341867
+Latitude: 48.8816912
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:15
+Utilisateur: 267
+Longitude: 2.3341606
+Latitude: 48.8816728
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:26
+Utilisateur: 267
+Longitude: 2.3341119
+Latitude: 48.8816494
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:36
+Utilisateur: 267
+Longitude: 2.3341305
+Latitude: 48.8816505
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:46
+Utilisateur: 267
+Longitude: 2.3341132
+Latitude: 48.8816236
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:29:57
+Utilisateur: 267
+Longitude: 2.3337003
+Latitude: 48.8820274
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:08
+Utilisateur: 267
+Longitude: 2.3329293
+Latitude: 48.8829921
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:18
+Utilisateur: 267
+Longitude: 2.3326847
+Latitude: 48.8835224
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:29
+Utilisateur: 267
+Longitude: 2.3326701
+Latitude: 48.8835536
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:39
+Utilisateur: 267
+Longitude: 2.3326433
+Latitude: 48.8835496
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:49
+Utilisateur: 267
+Longitude: 2.3326174
+Latitude: 48.8835454
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:30:59
+Utilisateur: 267
+Longitude: 2.3325953
+Latitude: 48.8835589
+Insertion BDD: OK
+-------------------------
+UPDATE: 80.12.33.44 - 26/12/2016 10:31:10
+Utilisateur: 267
+Longitude: 2.3333516
+Latitude: 48.883431
+Insertion BDD: OK
+-------------------------

@@ -1,0 +1,1596 @@
+UPDATE: 213.152.28.84 - 27/12/2016 17:28:51
+Utilisateur: 249
+Longitude: 2.3132277
+Latitude: 48.8731802
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:29:02
+Utilisateur: 249
+Longitude: 2.3132934
+Latitude: 48.873167
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:29:14
+Utilisateur: 249
+Longitude: 2.3133832
+Latitude: 48.8730932
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:29:30
+Utilisateur: 249
+Longitude: 2.3134729
+Latitude: 48.8730098
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:29:54
+Utilisateur: 249
+Longitude: 2.3134719
+Latitude: 48.8730127
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:30:18
+Utilisateur: 249
+Longitude: 2.3133897
+Latitude: 48.8730942
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:30:33
+Utilisateur: 249
+Longitude: 2.3132586
+Latitude: 48.87311
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:30:52
+Utilisateur: 249
+Longitude: 2.3131981
+Latitude: 48.8731118
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:31:03
+Utilisateur: 249
+Longitude: 2.3131939
+Latitude: 48.8731157
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:31:13
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:31:27
+Utilisateur: 249
+Longitude: 2.3130808
+Latitude: 48.8731712
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:31:51
+Utilisateur: 249
+Longitude: 2.3131217
+Latitude: 48.8731377
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:32:02
+Utilisateur: 249
+Longitude: 2.3131552
+Latitude: 48.8731318
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:32:15
+Utilisateur: 249
+Longitude: 2.3131523
+Latitude: 48.8731282
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:32:30
+Utilisateur: 249
+Longitude: 2.3131785
+Latitude: 48.8731344
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:32:40
+Utilisateur: 249
+Longitude: 2.3131793
+Latitude: 48.8731346
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:32:51
+Utilisateur: 249
+Longitude: 2.3131337
+Latitude: 48.8731034
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:33:04
+Utilisateur: 249
+Longitude: 2.3131803
+Latitude: 48.8731357
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:33:15
+Utilisateur: 249
+Longitude: 2.313179
+Latitude: 48.873136
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:33:30
+Utilisateur: 249
+Longitude: 2.3131777
+Latitude: 48.8731302
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:33:44
+Utilisateur: 249
+Longitude: 2.3131481
+Latitude: 48.873121
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:34:01
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:34:14
+Utilisateur: 249
+Longitude: 2.3131376
+Latitude: 48.8731182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:34:24
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:34:37
+Utilisateur: 249
+Longitude: 2.3131396
+Latitude: 48.873117
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:34:56
+Utilisateur: 249
+Longitude: 2.3131354
+Latitude: 48.8731187
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:35:12
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:35:26
+Utilisateur: 249
+Longitude: 2.3131421
+Latitude: 48.8731165
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:35:41
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:36:01
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:36:15
+Utilisateur: 249
+Longitude: 2.3131232
+Latitude: 48.8731368
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:36:25
+Utilisateur: 249
+Longitude: 2.3131227
+Latitude: 48.8731372
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:36:41
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:36:52
+Utilisateur: 249
+Longitude: 2.3131113
+Latitude: 48.8731436
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:37:02
+Utilisateur: 249
+Longitude: 2.3132277
+Latitude: 48.8731802
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:37:13
+Utilisateur: 249
+Longitude: 2.3131111
+Latitude: 48.8731439
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:37:23
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:37:41
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:37:55
+Utilisateur: 249
+Longitude: 2.3131008
+Latitude: 48.873153
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:38:05
+Utilisateur: 249
+Longitude: 2.3130981
+Latitude: 48.873156
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:38:19
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:38:40
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:38:52
+Utilisateur: 249
+Longitude: 2.3130961
+Latitude: 48.8731598
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:39:03
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:39:16
+Utilisateur: 249
+Longitude: 2.3130952
+Latitude: 48.8731608
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:39:27
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:39:38
+Utilisateur: 249
+Longitude: 2.3130966
+Latitude: 48.8731635
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:39:55
+Utilisateur: 249
+Longitude: 2.3130755
+Latitude: 48.8731703
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:40:09
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:40:29
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:40:43
+Utilisateur: 249
+Longitude: 2.3130644
+Latitude: 48.8731775
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:41:00
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:41:11
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:41:30
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:41:41
+Utilisateur: 249
+Longitude: 2.3130522
+Latitude: 48.8731829
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:41:52
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:42:12
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:42:23
+Utilisateur: 249
+Longitude: 2.3130563
+Latitude: 48.8731837
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:42:33
+Utilisateur: 249
+Longitude: 2.3130567
+Latitude: 48.8731832
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:42:43
+Utilisateur: 249
+Longitude: 2.3130581
+Latitude: 48.8731831
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:42:53
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:43:04
+Utilisateur: 249
+Longitude: 2.3130579
+Latitude: 48.8731828
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:43:17
+Utilisateur: 249
+Longitude: 2.3130609
+Latitude: 48.8731801
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:43:31
+Utilisateur: 249
+Longitude: 2.3130675
+Latitude: 48.8731768
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:43:44
+Utilisateur: 249
+Longitude: 2.3130697
+Latitude: 48.8731759
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:44:04
+Utilisateur: 249
+Longitude: 2.3130783
+Latitude: 48.8731731
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:44:24
+Utilisateur: 249
+Longitude: 2.3130816
+Latitude: 48.8731732
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:44:34
+Utilisateur: 249
+Longitude: 2.3130818
+Latitude: 48.873173
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:44:46
+Utilisateur: 249
+Longitude: 2.3130808
+Latitude: 48.8731763
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:45:03
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:45:15
+Utilisateur: 249
+Longitude: 2.3130858
+Latitude: 48.8731762
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:45:25
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:45:44
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:46:02
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:46:12
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:46:24
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:46:40
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:46:51
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:47:13
+Utilisateur: 249
+Longitude: 2.3130938
+Latitude: 48.8731672
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:47:33
+Utilisateur: 249
+Longitude: 2.3130937
+Latitude: 48.8731681
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:47:43
+Utilisateur: 249
+Longitude: 2.3130936
+Latitude: 48.8731685
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:47:53
+Utilisateur: 249
+Longitude: 2.3130922
+Latitude: 48.873168
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:48:04
+Utilisateur: 249
+Longitude: 2.3130922
+Latitude: 48.873168
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:48:21
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:48:34
+Utilisateur: 249
+Longitude: 2.3130895
+Latitude: 48.8731688
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:48:45
+Utilisateur: 249
+Longitude: 2.3130893
+Latitude: 48.8731689
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:48:57
+Utilisateur: 249
+Longitude: 2.3130894
+Latitude: 48.8731689
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:49:11
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:49:22
+Utilisateur: 249
+Longitude: 2.3130845
+Latitude: 48.873169
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:49:32
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:49:43
+Utilisateur: 249
+Longitude: 2.313084
+Latitude: 48.873169
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:49:58
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:50:18
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:50:39
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:50:52
+Utilisateur: 249
+Longitude: 2.3130857
+Latitude: 48.8731659
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:51:03
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:51:16
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:51:27
+Utilisateur: 249
+Longitude: 2.3130829
+Latitude: 48.8731672
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:51:37
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:51:56
+Utilisateur: 249
+Longitude: 2.3130787
+Latitude: 48.8731704
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:52:06
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:52:25
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:52:38
+Utilisateur: 249
+Longitude: 2.3130661
+Latitude: 48.8731757
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:52:55
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:53:07
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:53:26
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:53:46
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:54:04
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:54:22
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:54:34
+Utilisateur: 249
+Longitude: 2.3130529
+Latitude: 48.8731829
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:54:45
+Utilisateur: 249
+Longitude: 2.3132277
+Latitude: 48.8731802
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:54:55
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:08
+Utilisateur: 249
+Longitude: 2.3130532
+Latitude: 48.8731822
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:18
+Utilisateur: 249
+Longitude: 2.3130532
+Latitude: 48.8731822
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:28
+Utilisateur: 249
+Longitude: 2.3131337
+Latitude: 48.8731034
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:39
+Utilisateur: 249
+Longitude: 2.3130531
+Latitude: 48.8731822
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:49
+Utilisateur: 249
+Longitude: 2.3131337
+Latitude: 48.8731034
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:55:59
+Utilisateur: 249
+Longitude: 2.3130512
+Latitude: 48.8731826
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:56:12
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:56:32
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:56:44
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:57:03
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:57:13
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:57:30
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:57:40
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:57:51
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:58:11
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:58:28
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:58:43
+Utilisateur: 249
+Longitude: 2.3130445
+Latitude: 48.8731854
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:58:59
+Utilisateur: 249
+Longitude: 2.3130451
+Latitude: 48.8731846
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:59:13
+Utilisateur: 249
+Longitude: 2.3131337
+Latitude: 48.8731034
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:59:25
+Utilisateur: 249
+Longitude: 2.3130463
+Latitude: 48.8731842
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:59:36
+Utilisateur: 249
+Longitude: 2.3131337
+Latitude: 48.8731034
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 17:59:47
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:00:01
+Utilisateur: 249
+Longitude: 2.3130461
+Latitude: 48.8731844
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:00:18
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:00:29
+Utilisateur: 249
+Longitude: 2.3130451
+Latitude: 48.8731851
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:00:43
+Utilisateur: 249
+Longitude: 2.3130443
+Latitude: 48.8731853
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:01:08
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:01:18
+Utilisateur: 249
+Longitude: 2.3130448
+Latitude: 48.873185
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:01:31
+Utilisateur: 249
+Longitude: 2.3130458
+Latitude: 48.8731846
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:01:45
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:01:55
+Utilisateur: 249
+Longitude: 2.3130515
+Latitude: 48.8731823
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:02:09
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:02:20
+Utilisateur: 249
+Longitude: 2.3130531
+Latitude: 48.873183
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:02:31
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:02:41
+Utilisateur: 249
+Longitude: 2.3130531
+Latitude: 48.8731827
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:02:55
+Utilisateur: 249
+Longitude: 2.3130539
+Latitude: 48.8731812
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:03:16
+Utilisateur: 249
+Longitude: 2.3130528
+Latitude: 48.8731825
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:03:25
+Utilisateur: 249
+Longitude: 2.3130529
+Latitude: 48.8731825
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:03:40
+Utilisateur: 249
+Longitude: 2.3130524
+Latitude: 48.8731824
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:04:03
+Utilisateur: 249
+Longitude: 2.3130524
+Latitude: 48.8731826
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:04:14
+Utilisateur: 249
+Longitude: 2.3130524
+Latitude: 48.8731826
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:04:28
+Utilisateur: 249
+Longitude: 2.3130522
+Latitude: 48.8731828
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:04:40
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:04:51
+Utilisateur: 249
+Longitude: 2.3130518
+Latitude: 48.8731835
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:05:07
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:05:27
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:05:43
+Utilisateur: 249
+Longitude: 2.3130495
+Latitude: 48.873184
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:05:58
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:06:13
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:06:23
+Utilisateur: 249
+Longitude: 2.3130495
+Latitude: 48.8731815
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:06:38
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:06:57
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:07:17
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:07:30
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:07:48
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:08:07
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:08:17
+Utilisateur: 249
+Longitude: 2.3130438
+Latitude: 48.873184
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:08:31
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:08:43
+Utilisateur: 249
+Longitude: 2.3130423
+Latitude: 48.8731846
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:08:53
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:09:04
+Utilisateur: 249
+Longitude: 2.3130395
+Latitude: 48.8731862
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:09:18
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:09:38
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:09:58
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:10:18
+Utilisateur: 249
+Longitude: 2.3132277
+Latitude: 48.8731802
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:10:29
+Utilisateur: 249
+Longitude: 2.3130414
+Latitude: 48.8731866
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:10:39
+Utilisateur: 249
+Longitude: 2.3132277
+Latitude: 48.8731802
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:10:59
+Utilisateur: 249
+Longitude: 2.313093
+Latitude: 48.8731436
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:11:10
+Utilisateur: 249
+Longitude: 2.3130435
+Latitude: 48.8731831
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:11:20
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:11:32
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:11:51
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:12:02
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:12:19
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:12:34
+Utilisateur: 249
+Longitude: 2.3130508
+Latitude: 48.8731797
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:12:44
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:12:55
+Utilisateur: 249
+Longitude: 2.3130519
+Latitude: 48.8731801
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:13:06
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:13:26
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:13:38
+Utilisateur: 249
+Longitude: 2.3130536
+Latitude: 48.8731786
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:13:49
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:14:01
+Utilisateur: 249
+Longitude: 2.3130551
+Latitude: 48.8731769
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:14:18
+Utilisateur: 249
+Longitude: 2.3130556
+Latitude: 48.8731769
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:14:32
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:14:52
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:15:05
+Utilisateur: 249
+Longitude: 2.3130557
+Latitude: 48.8731751
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:15:21
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:15:32
+Utilisateur: 249
+Longitude: 2.3130547
+Latitude: 48.8731767
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:15:42
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:15:53
+Utilisateur: 249
+Longitude: 2.3130549
+Latitude: 48.873177
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:16:08
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:16:19
+Utilisateur: 249
+Longitude: 2.313054
+Latitude: 48.8731781
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:16:29
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:16:40
+Utilisateur: 249
+Longitude: 2.3130538
+Latitude: 48.8731782
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:16:51
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:17:10
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:17:21
+Utilisateur: 249
+Longitude: 2.3130494
+Latitude: 48.8731798
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:17:31
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:17:44
+Utilisateur: 249
+Longitude: 2.3130507
+Latitude: 48.8731785
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:17:54
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:18:11
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:18:22
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:18:33
+Utilisateur: 249
+Longitude: 2.3130497
+Latitude: 48.8731794
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:18:47
+Utilisateur: 249
+Longitude: 2.3130489
+Latitude: 48.8731806
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:19:02
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:19:12
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:19:29
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:21:30
+Utilisateur: 249
+Longitude: 2.3130505
+Latitude: 48.8731801
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:21:46
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:21:56
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:22:09
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:22:20
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:22:32
+Utilisateur: 249
+Longitude: 2.3130529
+Latitude: 48.873179
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:22:42
+Utilisateur: 249
+Longitude: 2.3130521
+Latitude: 48.8731797
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:22:57
+Utilisateur: 249
+Longitude: 2.3130509
+Latitude: 48.8731783
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:23:07
+Utilisateur: 249
+Longitude: 2.3130492
+Latitude: 48.8731803
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:23:22
+Utilisateur: 249
+Longitude: 2.313048
+Latitude: 48.8731821
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:23:37
+Utilisateur: 249
+Longitude: 2.3130461
+Latitude: 48.8731848
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:23:46
+Utilisateur: 249
+Longitude: 2.3130473
+Latitude: 48.8731825
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:23:56
+Utilisateur: 249
+Longitude: 2.3130472
+Latitude: 48.8731826
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:24:07
+Utilisateur: 249
+Longitude: 2.3130484
+Latitude: 48.8731812
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:24:18
+Utilisateur: 249
+Longitude: 2.3130476
+Latitude: 48.8731824
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:24:39
+Utilisateur: 249
+Longitude: 2.3130466
+Latitude: 48.8731832
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:24:57
+Utilisateur: 249
+Longitude: 2.3130467
+Latitude: 48.8731824
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:25:07
+Utilisateur: 249
+Longitude: 2.3130463
+Latitude: 48.8731835
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:25:27
+Utilisateur: 249
+Longitude: 2.3130465
+Latitude: 48.8731817
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:25:36
+Utilisateur: 249
+Longitude: 2.3130471
+Latitude: 48.8731808
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:25:46
+Utilisateur: 249
+Longitude: 2.3130475
+Latitude: 48.8731804
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:25:57
+Utilisateur: 249
+Longitude: 2.3130467
+Latitude: 48.8731805
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:26:07
+Utilisateur: 249
+Longitude: 2.3130468
+Latitude: 48.8731804
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:26:17
+Utilisateur: 249
+Longitude: 2.3130469
+Latitude: 48.8731801
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:26:38
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:26:49
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:27:02
+Utilisateur: 249
+Longitude: 2.3130478
+Latitude: 48.8731791
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:27:18
+Utilisateur: 249
+Longitude: 2.3130481
+Latitude: 48.8731788
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:27:28
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:27:46
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:27:58
+Utilisateur: 249
+Longitude: 2.3130488
+Latitude: 48.8731776
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:28:09
+Utilisateur: 249
+Longitude: 2.3130491
+Latitude: 48.8731777
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:28:19
+Utilisateur: 249
+Longitude: 2.3130498
+Latitude: 48.8731784
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:28:30
+Utilisateur: 249
+Longitude: 2.3130496
+Latitude: 48.8731786
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:28:47
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:28:58
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:29:16
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:29:27
+Utilisateur: 249
+Longitude: 2.3130535
+Latitude: 48.8731777
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:29:42
+Utilisateur: 249
+Longitude: 2.3130546
+Latitude: 48.8731764
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:29:53
+Utilisateur: 249
+Longitude: 2.3130548
+Latitude: 48.8731759
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:30:10
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:30:21
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:30:39
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:30:50
+Utilisateur: 249
+Longitude: 2.3132213
+Latitude: 48.8731017
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:31:01
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:31:19
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
+UPDATE: 213.152.28.84 - 27/12/2016 18:31:38
+Utilisateur: 249
+Longitude: 2.3131401
+Latitude: 48.873182
+Insertion BDD: OK
+-------------------------
