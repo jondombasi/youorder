@@ -1,0 +1,65 @@
+Nom;Commercant;Vehicule;Date;"Heure debut planifie";"Heure fin planifie";"Heure debut effectuee";"Heure fin effectue"
+"Dantas De Sousa";"Frichti Nord";;07/11/2016;10:45;13:30;Absent;Absent
+Barahmat;"Frichti Ouest";;07/11/2016;10:45;13:45;Absent;Absent
+Mhanni;"Frichti Nord";;07/11/2016;10:45;13:30;Absent;Absent
+Kennich;"Frichti Ouest";;07/11/2016;10:45;13:45;Absent;Absent
+Sifi;"Frichti Ouest";;07/11/2016;10:45;13:45;Absent;Absent
+Meite;"Frichti Nord";;07/11/2016;10:45;13:30;Absent;Absent
+Diakhite;"Frichti Ouest";;07/11/2016;10:45;13:45;Absent;Absent
+Tan;"Frichti Nord";;07/11/2016;10:45;13:30;Absent;Absent
+Khalloqi;"Frichti Nord";;07/11/2016;11:00;14:00;Absent;Absent
+Berthe;"Frichti Ouest";;07/11/2016;11:00;14:00;Absent;Absent
+Mafuta;"Frichti Ouest";;07/11/2016;11:00;14:00;Absent;Absent
+Bouaicha;"Frichti Nord";;07/11/2016;11:00;14:00;Absent;Absent
+Morin;"Frichti Nord";;07/11/2016;11:00;14:00;Absent;Absent
+Loyson;"Frichti Ouest";;07/11/2016;11:00;14:00;Absent;Absent
+Srey;"Frichti Nord";;07/11/2016;11:00;14:00;Absent;Absent
+Gassama;"Frichti Ouest";;07/11/2016;11:00;14:00;Absent;Absent
+Bnouzalim;Rooj;;07/11/2016;11:45;13:15;Absent;Absent
+Guzel;"Frichti Nord";;07/11/2016;11:45;14:45;Absent;Absent
+Hamel;"Frichti Ouest";;07/11/2016;11:45;14:45;Absent;Absent
+Luvuezo;"Frichti Nord";;07/11/2016;11:45;14:45;Absent;Absent
+Chaalal;"Frichti Nord";;07/11/2016;11:45;14:45;Absent;Absent
+Cisse;"Frichti Ouest";;07/11/2016;11:45;14:45;Absent;Absent
+Mendame;"Frichti Ouest";;07/11/2016;11:45;14:45;Absent;Absent
+Sanaa;"Frichti Nord";;07/11/2016;11:45;14:45;Absent;Absent
+Amoura;"Frichti Ouest";;07/11/2016;12:00;15:00;Absent;Absent
+Heddi;"Frichti Nord";;07/11/2016;12:00;15:00;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Sud";;07/11/2016;12:00;15:00;Absent;Absent
+Pereira;"Frichti Nord";;07/11/2016;12:00;15:00;Absent;Absent
+Yabiri;"Frichti Ouest";;07/11/2016;12:00;15:00;Absent;Absent
+Vinot;"Frichti Ouest";;07/11/2016;12:00;15:00;Absent;Absent
+Diawara;"Frichti Nord";;07/11/2016;12:00;15:00;Absent;Absent
+Chote;"Frichti Nord";;07/11/2016;12:30;15:30;Absent;Absent
+Luvuezo;"Frichti Sud";;07/11/2016;12:30;15:30;Absent;Absent
+Sajad;"Hôtel Chef";;07/11/2016;19:30;22:30;Absent;Absent
+Srey;"Frichti Nord";;07/11/2016;20:00;23:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;08/11/2016;10:00;12:00;Absent;Absent
+Bnouzalim;Rooj;;08/11/2016;11:45;13:15;Absent;Absent
+Intrand;"You Order";;08/11/2016;14:35;16:00;14:35;15:57
+Sajad;"Hôtel Chef";;08/11/2016;19:30;22:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;09/11/2016;10:00;12:00;Absent;Absent
+Srey;"You Order Garage";;09/11/2016;10:00;14:00;Absent;Absent
+Bnouzalim;Rooj;;09/11/2016;11:45;13:15;Absent;Absent
+Intrand;"You Order Garage";;09/11/2016;16:30;18:00;16:40;16:40
+Tebtoub;"You Order Garage";RP;09/11/2016;16:37;18:00;Absent;Absent
+Sajad;"Hôtel Chef";;09/11/2016;19:30;22:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;10/11/2016;10:00;12:00;Absent;Absent
+Bnouzalim;Rooj;RP;10/11/2016;11:45;13:15;Absent;Absent
+Srey;"Frichti Sud";;10/11/2016;12:00;15:00;Absent;Absent
+CHRONO;"test mh";;10/11/2016;14:30;15:30;14:30;14:58
+Srey;"You Order Garage";;10/11/2016;17:30;22:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;11/11/2016;10:00;12:00;Absent;Absent
+Bnouzalim;Rooj;;11/11/2016;11:45;13:15;Absent;Absent
+Sajad;"Hôtel Chef";;11/11/2016;19:30;22:30;Absent;Absent
+Srey;"Hôtel Chef";;11/11/2016;19:30;22:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;12/11/2016;10:00;12:00;Absent;Absent
+CHRONO;"test mh";"test 2";12/11/2016;11:30;12:30;Absent;Absent
+"D'Arrondel De Hayes";"Hôtel Chef";;12/11/2016;19:00;22:00;Absent;Absent
+Sajad;"Hôtel Chef";;12/11/2016;19:30;22:30;Absent;Absent
+Srey;"Hôtel Chef";;12/11/2016;19:30;22:30;Absent;Absent
+CHRONO;"test mh";fdfdf;13/11/2016;11:30;12:30;Absent;Absent
+Intrand;"You Order";;13/11/2016;16:00;17:00;Absent;Absent
+"D'Arrondel De Hayes";"Hôtel Chef";;13/11/2016;19:00;22:00;Absent;Absent
+Sajad;"Hôtel Chef";;13/11/2016;19:30;22:30;Absent;Absent
+Srey;"Hôtel Chef";;13/11/2016;19:30;22:30;Absent;Absent

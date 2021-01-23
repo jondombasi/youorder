@@ -1,0 +1,322 @@
+Nom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Sewifi;"Foodcheri Maubeuge";;05/12/2016;10:00;13:00;Absent;Absent
+Delannay;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+SFAYHY;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Rzig;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Dutreuil;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Karamoko;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Tan;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Garcia;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Bislimi;"Frichti Nord";;05/12/2016;10:15;14:00;Absent;Absent
+Atek;"Foodcheri Tocqueville";;05/12/2016;10:30;13:30;Absent;Absent
+Jean-Jacques;"Foodcheri Lecourbe";;05/12/2016;10:45;13:30;Absent;Absent
+Sylla;"Foodcheri Maubeuge";;05/12/2016;10:45;13:30;11:03;11:03
+Makalou;"Frichti Ouest";;05/12/2016;10:45;14:00;Absent;Absent
+Yabiri;"Foodcheri Lecourbe";;05/12/2016;10:45;13:30;Absent;Absent
+Mokni;"Foodcheri Maubeuge";;05/12/2016;10:45;13:30;Absent;Absent
+Goncalves;"Foodcheri Lecourbe";;05/12/2016;10:45;13:30;Absent;Absent
+Sepulveda;"Foodcheri Tocqueville";;05/12/2016;10:45;13:30;Absent;Absent
+Leveille;"Foodcheri Maubeuge";;05/12/2016;10:45;13:30;Absent;Absent
+Loucham;Alloresto;;05/12/2016;11:30;14:00;Absent;Absent
+Cisse;Wing;;05/12/2016;11:30;13:30;Absent;Absent
+Bnouzalim;Rooj;;05/12/2016;11:30;12:30;11:35;11:35
+Damasi;Alloresto;;05/12/2016;11:30;14:30;Absent;Absent
+Doho;"You Order Test";;05/12/2016;11:30;12:30;Absent;Absent
+Siby;Alloresto;;05/12/2016;12:00;14:30;Absent;Absent
+Malnoe;"test mh2";;05/12/2016;12:30;14:30;12:46;12:47
+Tebtoub;"You Order Garage";;05/12/2016;16:30;20:30;Absent;Absent
+Cisse;"Bureau garage";;05/12/2016;16:30;20:00;22:26;22:26
+Ribeiro;"You Order Garage";;05/12/2016;17:30;22:30;Absent;Absent
+Bendhaou;"Frichti Nord";;05/12/2016;17:30;22:00;Absent;Absent
+Cicio;"You Order Garage";;05/12/2016;17:30;22:30;21:52;21:52
+Briard;"Bureau garage";;05/12/2016;17:30;22:30;Absent;Absent
+Ettaj;"Frichti Nord";;05/12/2016;17:30;22:00;Absent;Absent
+Bah;"You Order Garage";;05/12/2016;17:30;22:30;20:31;20:31
+Elayeb;"You Order Garage";;05/12/2016;17:30;22:30;Absent;Absent
+Loucham;"Frichti Nord";;05/12/2016;17:30;22:00;Absent;Absent
+Augustin;"Frichti Ouest";;05/12/2016;17:45;22:00;Absent;Absent
+Leroy;"Frichti Ouest";;05/12/2016;17:45;22:00;Absent;Absent
+Tan;"Frichti Ouest";;05/12/2016;17:45;22:00;Absent;Absent
+Diawara;"Frichti Nord";;05/12/2016;18:15;22:00;Absent;Absent
+SFAYHY;"Frichti Ouest";;05/12/2016;18:15;22:30;19:54;20:08
+Masseh;"Foodcheri Maubeuge";;05/12/2016;18:15;21:30;Absent;Absent
+Sylla;"Frichti Nord";;05/12/2016;18:15;22:00;18:15;21:57
+Martin;"Frichti Ouest";;05/12/2016;18:15;22:30;Absent;Absent
+Leveille;"Foodcheri Maubeuge";;05/12/2016;18:15;21:30;Absent;Absent
+Rosbif;"Frichti Nord";;05/12/2016;18:15;22:00;Absent;Absent
+Jean-Jacques;"Frichti Ouest";;05/12/2016;18:15;22:30;Absent;Absent
+Damasi;Alloresto;;05/12/2016;18:30;21:30;Absent;Absent
+Graffeo;Alloresto;;05/12/2016;18:30;23:00;Absent;Absent
+Ali;Alloresto;;05/12/2016;18:30;23:00;Absent;Absent
+Belisaire;"Foodcheri Lecourbe";;05/12/2016;18:30;21:30;Absent;Absent
+Rosbif;Alloresto;;05/12/2016;18:30;21:30;Absent;Absent
+Siby;Alloresto;;05/12/2016;18:30;23:00;Absent;Absent
+Camara;"Frichti Ouest";;05/12/2016;18:45;22:00;Absent;Absent
+Gdaiem;"Frichti Nord";;05/12/2016;18:45;22:00;Absent;Absent
+Atek;"Frichti Nord";;05/12/2016;18:45;22:00;19:05;19:05
+Karamoko;"Frichti Ouest";;05/12/2016;18:45;22:00;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Nord";;05/12/2016;18:45;22:00;Absent;Absent
+Delannay;"Frichti Ouest";;05/12/2016;18:45;22:00;Absent;Absent
+Diakite;"Frichti Nord";;05/12/2016;18:45;22:00;Absent;Absent
+Bara;Alloresto;;05/12/2016;19:00;22:00;Absent;Absent
+Chiche;Alloresto;;05/12/2016;19:00;22:00;Absent;Absent
+Vinot;"Frichti Ouest";;05/12/2016;19:45;23:00;Absent;Absent
+Fortune;"Frichti Nord";;05/12/2016;19:45;23:00;Absent;Absent
+Guzel;Alloresto;;05/12/2016;20:00;23:00;Absent;Absent
+Chaalal;Alloresto;;05/12/2016;20:00;23:00;Absent;Absent
+Elayeb;"You Order Garage";;06/12/2016;10:00;14:00;Absent;Absent
+Augustin;"You Order Garage";;06/12/2016;10:00;14:00;Absent;Absent
+Fortune;"You Order Garage";;06/12/2016;10:00;14:00;Absent;Absent
+H'Nini;"Frichti Nord";;06/12/2016;10:15;14:00;Absent;Absent
+Berthe;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Gdaiem;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Chiche;"Frichti Nord";;06/12/2016;10:15;14:00;Absent;Absent
+Diakite;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Rzig;"Frichti Nord";;06/12/2016;10:15;14:00;Absent;Absent
+Chote;"Frichti Nord";;06/12/2016;10:15;14:00;11:16;11:16
+Ettaj;"Frichti Nord";;06/12/2016;10:15;14:00;10:15;10:15
+Angulo;"Frichti Sud";;06/12/2016;10:15;14:00;Absent;Absent
+Cicio;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Garcia;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Briard;"Frichti Nord";;06/12/2016;10:15;14:00;Absent;Absent
+Bouaicha;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Moussay;"Frichti Nord";;06/12/2016;10:15;14:00;Absent;Absent
+Daumont;"Frichti Ouest";;06/12/2016;10:15;14:00;Absent;Absent
+Sepulveda;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Dutreuil;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Chaalal;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Leroy;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Bara;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Timera;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Vinot;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Guzel;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Belisaire;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Abdul;"Frichti Ouest";;06/12/2016;10:30;14:00;Absent;Absent
+Ribeiro;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Atek;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Tan;"Frichti Ouest";;06/12/2016;10:30;14:30;Absent;Absent
+Camara;"Frichti Nord";;06/12/2016;10:30;14:00;Absent;Absent
+Makalou;"Frichti Sud";;06/12/2016;10:30;14:00;Absent;Absent
+Yabiri;"Foodcheri Tocqueville";;06/12/2016;10:45;13:30;Absent;Absent
+Heddi;"Frichti Neuilly";;06/12/2016;10:45;14:00;Absent;Absent
+Sylla;"Foodcheri Maubeuge";;06/12/2016;10:45;13:30;10:45;11:31
+Jean-Jacques;"Frichti Sud";;06/12/2016;10:45;14:00;Absent;Absent
+Pereira;"Frichti Neuilly";;06/12/2016;10:45;14:00;Absent;Absent
+Bislimi;"Foodcheri Maubeuge";;06/12/2016;10:45;13:30;Absent;Absent
+Loyson;"Foodcheri Lecourbe";;06/12/2016;10:45;13:30;Absent;Absent
+Mokni;"Frichti Neuilly";;06/12/2016;10:45;14:00;Absent;Absent
+Diawara;"Foodcheri Tocqueville";;06/12/2016;10:45;13:30;Absent;Absent
+Loucham;"Foodcheri La Garenne Colombes";;06/12/2016;10:45;13:30;Absent;Absent
+Boutra;"Frichti Sud";;06/12/2016;10:45;14:00;10:45;23:10
+Leveille;"Foodcheri Maubeuge";;06/12/2016;10:45;13:30;Absent;Absent
+Ambras;"Frichti Sud";;06/12/2016;10:45;14:00;Absent;Absent
+Delannay;"Foodcheri Lecourbe";;06/12/2016;10:45;13:30;Absent;Absent
+Goncalves;"Foodcheri Lecourbe";;06/12/2016;10:45;13:30;Absent;Absent
+Rosbif;"Frichti Ouest";;06/12/2016;11:15;14:30;Absent;Absent
+Sewifi;"Frichti Ouest";;06/12/2016;11:15;14:30;Absent;Absent
+Ali;"Frichti Ouest";;06/12/2016;11:15;14:30;Absent;Absent
+Damasi;Alloresto;;06/12/2016;11:30;14:30;Absent;Absent
+Siby;Alloresto;;06/12/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;06/12/2016;11:30;12:30;11:30;11:28
+Sifi;"Frichti Ouest";;06/12/2016;11:45;15:30;Absent;Absent
+SFAYHY;"Frichti Sud";;06/12/2016;11:45;15:30;11:45;11:45
+"D'Arrondel De Hayes";"Frichti Nord";;06/12/2016;11:45;15:30;Absent;Absent
+Martin;"Frichti Ouest";;06/12/2016;11:45;15:30;Absent;Absent
+Karamoko;"Frichti Sud";;06/12/2016;11:45;15:30;Absent;Absent
+"Bernard Alexander";"Frichti Ouest";;06/12/2016;11:45;15:30;Absent;Absent
+Graffeo;"Frichti Nord";;06/12/2016;11:45;15:30;Absent;Absent
+Bendhaou;Alloresto;;06/12/2016;12:00;14:30;Absent;Absent
+"D'Arrondel De Hayes";"You Order Garage";;06/12/2016;16:00;18:05;Absent;Absent
+Sepulveda;"You Order Garage";;06/12/2016;16:30;22:00;Absent;Absent
+Tebtoub;"You Order Garage";;06/12/2016;16:30;20:30;Absent;Absent
+Cicio;"You Order Garage";;06/12/2016;17:30;22:30;Absent;Absent
+Angulo;"Frichti Ouest";;06/12/2016;17:45;22:00;Absent;Absent
+Leroy;"Frichti Nord";;06/12/2016;17:45;22:00;Absent;Absent
+Diakite;"Frichti Nord";;06/12/2016;17:45;22:00;Absent;Absent
+Fortune;"Frichti Nord";;06/12/2016;17:45;22:00;Absent;Absent
+Ettaj;"You Order Garage";;06/12/2016;18:00;22:00;Absent;Absent
+Yabiri;"Foodcheri Maubeuge";;06/12/2016;18:15;21:30;Absent;Absent
+Masseh;"Frichti Ouest";;06/12/2016;18:15;22:00;Absent;Absent
+Moussay;"Frichti Nord";;06/12/2016;18:15;22:00;Absent;Absent
+Guzel;"Foodcheri Lecourbe";;06/12/2016;18:15;21:30;Absent;Absent
+Daumont;"Frichti Ouest";;06/12/2016;18:15;22:00;Absent;Absent
+Boutra;"Frichti Nord";;06/12/2016;18:15;22:00;Absent;Absent
+Leveille;"Foodcheri Maubeuge";;06/12/2016;18:15;21:30;Absent;Absent
+Diawara;"Frichti Ouest";;06/12/2016;18:15;22:00;Absent;Absent
+Martin;"Frichti Nord";;06/12/2016;18:15;22:00;Absent;Absent
+Siby;Alloresto;;06/12/2016;18:30;21:30;Absent;Absent
+Bislimi;Alloresto;;06/12/2016;18:30;23:00;Absent;Absent
+Loyson;Alloresto;;06/12/2016;18:30;23:00;Absent;Absent
+Rosbif;Alloresto;;06/12/2016;18:30;21:30;Absent;Absent
+Rosbif;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+Augustin;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+Delannay;"Frichti Nord";;06/12/2016;18:45;22:00;Absent;Absent
+Bara;"Frichti Sud";;06/12/2016;18:45;22:00;Absent;Absent
+Dutreuil;"Frichti Nord";;06/12/2016;18:45;22:00;Absent;Absent
+Briard;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+Mokni;"Frichti Neuilly";;06/12/2016;18:45;22:00;Absent;Absent
+Chote;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+Camara;"Frichti Nord";;06/12/2016;18:45;22:00;Absent;Absent
+Karamoko;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+H'Nini;"Frichti Ouest";;06/12/2016;18:45;22:00;Absent;Absent
+SFAYHY;"Frichti Nord";;06/12/2016;18:45;22:00;Absent;Absent
+Pereira;"Frichti Neuilly";;06/12/2016;18:45;22:00;Absent;Absent
+Heddi;"Frichti Neuilly";;06/12/2016;18:45;22:00;Absent;Absent
+Bendhaou;Alloresto;;06/12/2016;19:00;22:00;Absent;Absent
+Goncalves;Alloresto;;06/12/2016;19:00;22:00;Absent;Absent
+Chaalal;Alloresto;;06/12/2016;20:00;23:00;Absent;Absent
+Damasi;Alloresto;;06/12/2016;20:00;23:00;Absent;Absent
+Belisaire;"Frichti Ouest";;07/12/2016;10:15;14:00;Absent;Absent
+Loyson;"Frichti Ouest";;07/12/2016;10:15;14:15;Absent;Absent
+Masseh;"Frichti Ouest";;07/12/2016;10:15;14:00;Absent;Absent
+H'Nini;"Frichti Ouest";;07/12/2016;10:15;14:15;Absent;Absent
+Fortune;"Frichti Ouest";;07/12/2016;10:15;14:15;Absent;Absent
+Chote;"Frichti Ouest";;07/12/2016;10:15;14:00;Absent;Absent
+Chaalal;"Frichti Ouest";;07/12/2016;10:15;14:15;Absent;Absent
+Camara;"Frichti Ouest";;07/12/2016;10:15;14:00;Absent;Absent
+Ali;"Foodcheri Lecourbe";;07/12/2016;10:45;13:30;Absent;Absent
+Mokni;"Frichti Neuilly";;07/12/2016;10:45;14:00;Absent;Absent
+Leveille;"Foodcheri Tocqueville";;07/12/2016;10:45;13:30;Absent;Absent
+Goncalves;"Foodcheri Tocqueville";;07/12/2016;10:45;13:30;Absent;Absent
+Timera;"Foodcheri La Garenne Colombes";;07/12/2016;10:45;13:30;Absent;Absent
+SFAYHY;"Foodcheri Maubeuge";;07/12/2016;10:45;13:30;Absent;Absent
+Bendhaou;"Foodcheri Lecourbe";;07/12/2016;10:45;13:30;Absent;Absent
+Daumont;"Foodcheri Tocqueville";;07/12/2016;10:45;13:30;Absent;Absent
+Heddi;"Frichti Neuilly";;07/12/2016;10:45;14:00;Absent;Absent
+Yabiri;"Foodcheri Maubeuge";;07/12/2016;10:45;13:30;Absent;Absent
+Pereira;"Frichti Neuilly";;07/12/2016;10:45;14:00;Absent;Absent
+Makalou;"Foodcheri Maubeuge";;07/12/2016;10:45;13:30;Absent;Absent
+Bnouzalim;Rooj;;07/12/2016;11:30;13:00;Absent;Absent
+Dosso;Alloresto;;07/12/2016;11:30;14:00;Absent;Absent
+Delannay;Alloresto;;07/12/2016;11:30;14:30;Absent;Absent
+Cisse;Wing;;07/12/2016;11:30;13:30;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Sud";;07/12/2016;11:45;15:10;Absent;Absent
+Damasi;Alloresto;;07/12/2016;12:00;14:30;Absent;Absent
+Tebtoub;"You Order Garage";;07/12/2016;16:30;20:30;Absent;Absent
+Siby;Alloresto;;07/12/2016;18:30;21:30;Absent;Absent
+Graffeo;Alloresto;;07/12/2016;18:30;23:00;Absent;Absent
+Chaalal;Alloresto;;07/12/2016;18:30;23:00;Absent;Absent
+Bara;Alloresto;;07/12/2016;18:30;21:30;Absent;Absent
+Mokni;"Frichti Neuilly";;07/12/2016;18:45;22:00;Absent;Absent
+Heddi;"Frichti Neuilly";;07/12/2016;18:45;22:00;Absent;Absent
+Pereira;"Frichti Neuilly";;07/12/2016;18:45;22:00;Absent;Absent
+Karamoko;Alloresto;;07/12/2016;19:00;22:00;Absent;Absent
+Leroy;Alloresto;;07/12/2016;19:00;22:00;Absent;Absent
+Damasi;Alloresto;;07/12/2016;20:00;23:00;Absent;Absent
+Loucham;Alloresto;;07/12/2016;20:00;23:00;Absent;Absent
+Cisse;"You Order Garage";;08/12/2016;10:30;14:30;Absent;Absent
+Leveille;"Foodcheri Maubeuge";;08/12/2016;10:45;13:30;Absent;Absent
+Loucham;"Foodcheri Lecourbe";;08/12/2016;10:45;13:30;Absent;Absent
+Cicio;"Foodcheri Tocqueville";;08/12/2016;10:45;13:30;Absent;Absent
+Heddi;"Frichti Neuilly";;08/12/2016;10:45;14:00;Absent;Absent
+Yabiri;"Foodcheri Maubeuge";;08/12/2016;10:45;13:30;Absent;Absent
+Garcia;"Foodcheri Lecourbe";;08/12/2016;10:45;13:30;Absent;Absent
+Pereira;"Frichti Neuilly";;08/12/2016;10:45;14:00;Absent;Absent
+Bendhaou;"Foodcheri Maubeuge";;08/12/2016;10:45;13:30;Absent;Absent
+Goncalves;"Foodcheri Lecourbe";;08/12/2016;10:45;13:30;Absent;Absent
+Mokni;"Frichti Neuilly";;08/12/2016;10:45;14:00;Absent;Absent
+Elayeb;"Foodcheri Tocqueville";;08/12/2016;10:45;13:30;Absent;Absent
+Atek;"Foodcheri Tocqueville";;08/12/2016;10:45;13:30;Absent;Absent
+Timera;"Foodcheri La Garenne Colombes";;08/12/2016;10:45;13:30;Absent;Absent
+Jean-Jacques;Alloresto;;08/12/2016;11:30;14:30;Absent;Absent
+Damasi;Alloresto;;08/12/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;08/12/2016;11:30;13:00;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Ouest";;08/12/2016;11:45;15:10;Absent;Absent
+Siby;Alloresto;;08/12/2016;12:00;14:30;Absent;Absent
+Tebtoub;"You Order Garage";;08/12/2016;16:30;20:30;Absent;Absent
+Masseh;Alloresto;;08/12/2016;18:30;21:30;Absent;Absent
+Ambras;Alloresto;;08/12/2016;18:30;23:00;Absent;Absent
+Siby;Alloresto;;08/12/2016;18:30;23:00;Absent;Absent
+Fortune;Alloresto;;08/12/2016;18:30;21:30;Absent;Absent
+Heddi;"Frichti Neuilly";;08/12/2016;18:45;22:00;Absent;Absent
+Pereira;"Frichti Neuilly";;08/12/2016;18:45;22:00;Absent;Absent
+Mokni;"Frichti Neuilly";;08/12/2016;18:45;22:00;Absent;Absent
+Damasi;Alloresto;;08/12/2016;19:00;22:00;Absent;Absent
+Berthe;Alloresto;;08/12/2016;19:00;22:00;Absent;Absent
+"D'Arrondel De Hayes";"Hôtel Chef";;08/12/2016;19:15;22:30;Absent;Absent
+Dosso;Alloresto;;08/12/2016;20:00;23:00;Absent;Absent
+Chaalal;Alloresto;;08/12/2016;20:00;23:00;Absent;Absent
+Timera;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Bara;"Frichti Ouest";;09/12/2016;10:15;14:00;Absent;Absent
+"Bernard Alexander";"Frichti Ouest";;09/12/2016;10:15;14:00;Absent;Absent
+Ettaj;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Moussay;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Camara;"Frichti Ouest";;09/12/2016;10:15;14:00;Absent;Absent
+Jean-Jacques;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Chaalal;"Frichti Ouest";;09/12/2016;10:15;14:00;Absent;Absent
+Gdaiem;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Ambras;"Frichti Ouest";;09/12/2016;10:15;14:00;Absent;Absent
+Tan;"Frichti Nord";;09/12/2016;10:15;14:00;Absent;Absent
+Belisaire;"Frichti Nord";;09/12/2016;10:30;14:00;Absent;Absent
+Guzel;"Frichti Ouest";;09/12/2016;10:30;14:00;Absent;Absent
+Cicio;"Frichti Nord";;09/12/2016;10:30;14:00;Absent;Absent
+Graffeo;"Frichti Ouest";;09/12/2016;10:30;14:00;Absent;Absent
+Vinot;"Frichti Nord";;09/12/2016;10:30;14:00;Absent;Absent
+Boutra;"Frichti Ouest";;09/12/2016;10:30;14:00;Absent;Absent
+H'Nini;"Frichti Nord";;09/12/2016;10:30;14:00;Absent;Absent
+Diakite;"Frichti Ouest";;09/12/2016;10:30;14:00;Absent;Absent
+Angulo;"Frichti Nord";;09/12/2016;10:30;14:00;Absent;Absent
+Siby;"Frichti Ouest";;09/12/2016;10:30;14:00;Absent;Absent
+Dutreuil;"Frichti Sud";;09/12/2016;10:30;14:00;Absent;Absent
+Makalou;"Frichti Ouest";;09/12/2016;10:45;14:00;Absent;Absent
+Pereira;"Frichti Neuilly";;09/12/2016;10:45;14:00;Absent;Absent
+Yabiri;"Foodcheri Maubeuge";;09/12/2016;10:45;13:30;Absent;Absent
+Rosbif;"Foodcheri Lecourbe";;09/12/2016;10:45;13:30;Absent;Absent
+Sylla;"Foodcheri Maubeuge";;09/12/2016;10:45;13:30;Absent;Absent
+Leroy;"Foodcheri Lecourbe";;09/12/2016;10:45;13:30;Absent;Absent
+Heddi;"Frichti Neuilly";;09/12/2016;10:45;14:00;Absent;Absent
+SFAYHY;"Foodcheri Tocqueville";;09/12/2016;10:45;13:30;Absent;Absent
+Bendhaou;"Frichti Ouest";;09/12/2016;10:45;14:00;Absent;Absent
+Atek;"Foodcheri Tocqueville";;09/12/2016;10:45;13:30;Absent;Absent
+Elayeb;"Foodcheri La Garenne Colombes";;09/12/2016;10:45;13:30;Absent;Absent
+Abdul;"Frichti Ouest";;09/12/2016;10:45;14:00;Absent;Absent
+Leveille;"Foodcheri Maubeuge";;09/12/2016;10:45;13:30;Absent;Absent
+Mokni;"Frichti Neuilly";;09/12/2016;10:45;14:00;Absent;Absent
+Goncalves;"Foodcheri Lecourbe";;09/12/2016;10:45;13:30;Absent;Absent
+Chiche;"Foodcheri Tocqueville";;09/12/2016;10:45;13:30;Absent;Absent
+Masseh;"Frichti Ouest";;09/12/2016;11:15;14:30;Absent;Absent
+Karamoko;"Frichti Ouest";;09/12/2016;11:15;14:30;Absent;Absent
+Daumont;"Frichti Ouest";;09/12/2016;11:15;14:30;Absent;Absent
+Cisse;Wing;;09/12/2016;11:30;13:30;Absent;Absent
+Bnouzalim;Rooj;;09/12/2016;11:30;13:00;Absent;Absent
+Chote;Alloresto;;09/12/2016;11:30;14:00;Absent;Absent
+Dosso;Alloresto;;09/12/2016;11:30;14:30;Absent;Absent
+Rosbif;"Frichti Ouest";;09/12/2016;11:45;15:30;Absent;Absent
+Berthe;"Frichti Nord";;09/12/2016;11:45;15:30;Absent;Absent
+Ribeiro;"Frichti Ouest";;09/12/2016;11:45;15:30;Absent;Absent
+Loyson;"Frichti Sud";;09/12/2016;11:45;15:30;Absent;Absent
+Loucham;"Frichti Nord";;09/12/2016;11:45;15:30;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Ouest";;09/12/2016;11:45;15:30;Absent;Absent
+Damasi;Alloresto;;09/12/2016;12:00;14:30;Absent;Absent
+Tebtoub;"You Order Garage";;09/12/2016;16:30;20:30;Absent;Absent
+Damasi;Alloresto;;09/12/2016;18:30;21:30;Absent;Absent
+Ambras;Alloresto;;09/12/2016;18:30;23:00;Absent;Absent
+Diawara;Alloresto;;09/12/2016;18:30;23:00;Absent;Absent
+Tan;Alloresto;;09/12/2016;18:30;21:30;Absent;Absent
+Mokni;"Frichti Neuilly";;09/12/2016;18:45;22:00;Absent;Absent
+Heddi;"Frichti Neuilly";;09/12/2016;18:45;22:00;Absent;Absent
+Pereira;"Frichti Neuilly";;09/12/2016;18:45;22:00;Absent;Absent
+Bara;Alloresto;;09/12/2016;19:00;22:00;Absent;Absent
+Siby;Alloresto;;09/12/2016;19:00;22:00;Absent;Absent
+Bouaicha;Alloresto;;09/12/2016;20:00;23:00;Absent;Absent
+Berthe;Alloresto;;09/12/2016;20:00;23:00;Absent;Absent
+Ali;Alloresto;;10/12/2016;11:30;14:00;Absent;Absent
+Leveille;Alloresto;;10/12/2016;11:30;14:30;Absent;Absent
+Tokplo;Alloresto;;10/12/2016;12:00;14:30;Absent;Absent
+Tokplo;Alloresto;;10/12/2016;18:30;23:00;Absent;Absent
+H'Nini;Alloresto;;10/12/2016;18:30;21:30;Absent;Absent
+Abdul;Alloresto;;10/12/2016;18:30;21:30;Absent;Absent
+Leveille;Alloresto;;10/12/2016;19:00;22:00;Absent;Absent
+Delannay;Alloresto;;10/12/2016;19:00;22:00;Absent;Absent
+Rzig;Alloresto;;10/12/2016;20:00;23:00;Absent;Absent
+Tan;Alloresto;;10/12/2016;20:00;23:00;Absent;Absent
+Leroy;Alloresto;;11/12/2016;11:30;14:30;Absent;Absent
+Damasi;Alloresto;;11/12/2016;11:30;14:00;Absent;Absent
+Rzig;Alloresto;;11/12/2016;12:00;14:30;Absent;Absent
+Rosbif;Alloresto;;11/12/2016;18:30;23:00;Absent;Absent
+Tokplo;Alloresto;;11/12/2016;18:30;23:00;Absent;Absent
+Graffeo;Alloresto;;11/12/2016;18:30;21:30;Absent;Absent
+Sylla;Alloresto;;11/12/2016;19:00;22:00;Absent;Absent
+Damasi;Alloresto;;11/12/2016;19:00;22:00;Absent;Absent
+Loucham;Alloresto;;11/12/2016;20:00;23:00;Absent;Absent
+Masseh;Alloresto;;11/12/2016;20:00;23:00;Absent;Absent

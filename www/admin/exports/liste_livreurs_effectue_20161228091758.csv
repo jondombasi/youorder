@@ -1,0 +1,38 @@
+Nom;Prenom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+H'Nini;Bilale;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Rzig;Aymen;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Masseh;Marouane;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Karamoko;Zakaria;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Camara;Bouyagui;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Garcia;Carlos;"Frichti Nord";;26/12/2016;10:30;14:00;10:30;14:00
+Bislimi;Wandy;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Abdul;Hasan;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;26/12/2016;11:00;13:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Lecourbe";;26/12/2016;11:00;13:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Saint Ambroise";;26/12/2016;11:00;13:00;Absent;Absent
+Sepulveda;Juan;"Foodcheri Tocqueville";;26/12/2016;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;26/12/2016;11:30;13:30;Absent;Absent
+Bara;Ishak;Alloresto;;26/12/2016;11:30;14:00;Absent;Absent
+Damasi;Mazen;Alloresto;;26/12/2016;11:30;14:30;Absent;Absent
+Siby;Idrissa;Alloresto;;26/12/2016;12:00;14:30;Absent;Absent
+Belisaire;Christopher;"Foodcheri Lecourbe";;26/12/2016;18:00;21:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;26/12/2016;18:00;21:00;Absent;Absent
+Masseh;Marouane;"Foodcheri Saint Ambroise";;26/12/2016;18:00;21:00;Absent;Absent
+Graffeo;Gerome;Alloresto;;26/12/2016;18:30;23:00;Absent;Absent
+Sylla;Djibril;Alloresto;;26/12/2016;18:30;21:30;Absent;Absent
+Siby;Idrissa;Alloresto;;26/12/2016;18:30;23:00;Absent;Absent
+Damasi;Mazen;Alloresto;;26/12/2016;18:30;21:30;Absent;Absent
+Berthe;Gabin;Alloresto;;26/12/2016;19:00;22:00;Absent;Absent
+Chiche;Dylan;Alloresto;;26/12/2016;19:00;22:00;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;26/12/2016;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;26/12/2016;19:30;22:30;Absent;Absent
+Dutreuil;Steven;Alloresto;;26/12/2016;20:00;23:00;Absent;Absent
+Cicio;Florin;Alloresto;;26/12/2016;20:00;23:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;27/12/2016;10:00;12:00;Absent;Absent
+"EKOKA EYOMBWAN";Jonathan;"You Order";RP;27/12/2016;17:30;18:30;17:30;18:30
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;28/12/2016;10:00;12:00;Absent;Absent
+Cisse;Npali;Wing;;28/12/2016;11:30;13:30;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;29/12/2016;10:00;12:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;30/12/2016;10:00;12:00;Absent;Absent
+Cisse;Npali;Wing;;30/12/2016;11:30;13:30;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;31/12/2016;10:00;12:00;Absent;Absent

@@ -1,0 +1,41 @@
+Nom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Intrand;"You Order";;12/12/2016;19:00;20:00;19:00;19:00
+Intrand;"Rice Trotters";;12/12/2016;20:00;21:00;Absent;Absent
+CHRONO;"test mh2";;13/12/2016;00:00;01:00;Absent;Absent
+CHRONO;"test mh2";;13/12/2016;08:00;09:00;Absent;Absent
+CHRONO;"test mh";;13/12/2016;09:00;10:00;Absent;Absent
+Intrand;"Comptoir Des Vignes";;13/12/2016;11:00;12:00;Absent;Absent
+CHRONO;"test mh2";;13/12/2016;11:00;12:00;11:05;11:05
+Malnoe;"test mh2";;13/12/2016;11:30;12:30;11:44;12:32
+Malnoe;"test mh2";;13/12/2016;12:30;13:30;12:35;12:36
+Intrand;Igloo;;13/12/2016;12:30;13:30;Absent;Absent
+CHRONO;"test mh2";;13/12/2016;12:30;13:30;12:40;14:30
+Intrand;Mabento;;13/12/2016;14:00;15:00;Absent;Absent
+CHRONO;"test mh2";;13/12/2016;15:00;16:00;15:12;15:12
+Malnoe;"test mh2";;13/12/2016;16:00;17:00;16:00;17:00
+Malnoe;"test resto";;13/12/2016;17:00;18:00;17:00;17:35
+Intrand;"Frichti Sud";;13/12/2016;18:00;22:00;Absent;Absent
+CHRONO;"test mh2";fdfdf;14/12/2016;10:30;13:30;10:30;18:30
+Malnoe;"test mh";"test 2";14/12/2016;11:00;12:30;11:00;12:30
+Bnouzalim;Rooj;;14/12/2016;11:30;13:00;13:08;13:00
+Cisse;Wing;;14/12/2016;11:30;13:30;Absent;Absent
+"Ben guiza";"test mh";;14/12/2016;11:30;12:30;Absent;Absent
+Malnoe;"test mh2";;14/12/2016;12:40;13:40;12:47;13:40
+Malnoe;"test mh2";;14/12/2016;14:20;15:20;14:21;15:08
+Malnoe;"test mh2";;14/12/2016;17:00;18:00;17:00;18:00
+CHRONO;"test mh2";;14/12/2016;19:00;22:00;19:04;22:00
+Damasi;Alloresto;;14/12/2016;20:00;23:00;Absent;Absent
+Malnoe;"test mh2";;15/12/2016;10:30;12:30;11:54;11:56
+"Ben guiza";"test mh2";;15/12/2016;11:00;14:00;11:39;11:39
+Bnouzalim;Rooj;;15/12/2016;11:30;13:00;11:30;13:00
+Damasi;Alloresto;;15/12/2016;11:30;14:00;Absent;Absent
+CHRONO;"test mh2";;15/12/2016;12:30;14:30;12:30;13:40
+Damasi;Alloresto;;15/12/2016;19:00;22:00;Absent;Absent
+Malnoe;"test resto";;16/12/2016;10:30;11:30;Absent;Absent
+Cisse;Wing;;16/12/2016;11:30;13:30;Absent;Absent
+Bnouzalim;Rooj;;16/12/2016;11:30;13:00;12:39;13:00
+Damasi;Alloresto;;16/12/2016;12:00;14:30;Absent;Absent
+Malnoe;"test resto";;16/12/2016;14:30;15:30;Absent;Absent
+Damasi;"You Order";;16/12/2016;15:30;16:30;Absent;Absent
+Damasi;Alloresto;;18/12/2016;11:30;14:00;Absent;Absent
+Damasi;Alloresto;;18/12/2016;19:00;22:00;Absent;Absent

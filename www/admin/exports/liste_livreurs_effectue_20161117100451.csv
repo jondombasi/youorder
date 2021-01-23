@@ -1,0 +1,121 @@
+Nom;Commercant;Vehicule;Date;"Heure debut planifie";"Heure fin planifie";"Heure debut effectuee";"Heure fin effectue"
+Dutreuil;20/80;;14/11/2016;11:30;14:00;Absent;Absent
+Tebtoub;"Bercy Service";;14/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;14/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;14/11/2016;11:45;13:15;Absent;Absent
+Tebtoub;"You Order Garage";fdfdf;14/11/2016;14:30;17:00;Absent;Absent
+Intrand;"You Order Test";;14/11/2016;18:32;20:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;15/11/2016;10:00;12:00;Absent;Absent
+Tebtoub;"Bercy Service";;15/11/2016;11:30;14:00;Absent;Absent
+Damasi;Alloresto;;15/11/2016;11:30;14:30;Absent;Absent
+Timera;20/80;;15/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;15/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;15/11/2016;11:45;13:15;Absent;Absent
+Siby;Alloresto;;15/11/2016;12:00;14:30;Absent;Absent
+Meite;Alloresto;;15/11/2016;18:30;23:00;Absent;Absent
+Loyson;Alloresto;;15/11/2016;18:30;23:00;Absent;Absent
+Rosbif;Alloresto;;15/11/2016;18:30;21:30;Absent;Absent
+Siby;Alloresto;;15/11/2016;18:30;21:30;Absent;Absent
+Goncalves;Alloresto;;15/11/2016;19:00;22:00;Absent;Absent
+Timera;Alloresto;;15/11/2016;19:00;22:00;Absent;Absent
+Chaalal;Alloresto;;15/11/2016;20:00;23:00;Absent;Absent
+Damasi;Alloresto;;15/11/2016;20:00;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;16/11/2016;10:00;12:00;Absent;Absent
+Diawara;"Frichti Ouest";;16/11/2016;10:30;13:30;Absent;Absent
+Duciel;"Frichti Ouest";;16/11/2016;10:30;13:30;Absent;Absent
+Guitard;"Frichti Sud";;16/11/2016;10:30;13:30;Absent;Absent
+Vinot;"Frichti Ouest";;16/11/2016;10:30;13:30;Absent;Absent
+Rosbif;"Frichti Ouest";;16/11/2016;10:30;13:30;Absent;Absent
+"El Omrani";"Frichti Ouest";;16/11/2016;10:30;13:30;Absent;Absent
+Rosbif;"Frichti Ouest";;16/11/2016;10:45;13:45;Absent;Absent
+Heddi;"Frichti Ouest";;16/11/2016;10:45;13:45;Absent;Absent
+Angulo;"Frichti Ouest";;16/11/2016;10:45;13:45;Absent;Absent
+Gdaiem;"Frichti Ouest";;16/11/2016;10:45;13:45;Absent;Absent
+Cisse;"Frichti Ouest";;16/11/2016;11:15;14:15;Absent;Absent
+Mokni;"Frichti Ouest";;16/11/2016;11:15;14:15;Absent;Absent
+Cicio;"Frichti Ouest";;16/11/2016;11:15;14:15;Absent;Absent
+Meite;"Frichti Sud";;16/11/2016;11:15;14:15;Absent;Absent
+Hamel;"Frichti Ouest";;16/11/2016;11:15;14:15;Absent;Absent
+Sifi;"Frichti Sud";;16/11/2016;11:15;14:15;Absent;Absent
+Tebtoub;"Bercy Service";;16/11/2016;11:30;14:00;Absent;Absent
+Siby;Alloresto;;16/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;16/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;16/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;16/11/2016;11:45;13:15;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Sud";;16/11/2016;12:00;15:30;Absent;Absent
+Damasi;Alloresto;;16/11/2016;12:00;14:30;Absent;Absent
+Leveille;"Frichti Ouest";;16/11/2016;12:00;15:30;Absent;Absent
+Boutra;"Frichti Ouest";;16/11/2016;12:00;15:30;Absent;Absent
+Luvuezo;"Frichti Ouest";;16/11/2016;12:00;15:30;Absent;Absent
+Barahmat;"Frichti Ouest";;16/11/2016;12:00;15:30;Absent;Absent
+Tebtoub;"You Order Garage";;16/11/2016;14:30;17:00;Absent;Absent
+Pereira;"Frichti Ouest";;16/11/2016;18:00;22:00;Absent;Absent
+Leveille;"Frichti Ouest";;16/11/2016;18:00;22:00;Absent;Absent
+Ribeiro;"Frichti Ouest";;16/11/2016;18:00;22:00;Absent;Absent
+"El Omrani";"Frichti Ouest";;16/11/2016;18:00;22:00;Absent;Absent
+Hamel;Alloresto;;16/11/2016;18:30;21:30;Absent;Absent
+Siby;Alloresto;;16/11/2016;18:30;21:30;Absent;Absent
+Chaalal;Alloresto;;16/11/2016;18:30;23:00;Absent;Absent
+Morin;"Frichti Ouest";;16/11/2016;19:00;22:00;Absent;Absent
+Gassama;"Frichti Ouest";;16/11/2016;19:00;23:30;Absent;Absent
+Martin;"Frichti Ouest";;16/11/2016;19:00;22:00;Absent;Absent
+Cisse;"Frichti Ouest";;16/11/2016;19:00;22:00;Absent;Absent
+Timera;Alloresto;;16/11/2016;19:00;22:00;Absent;Absent
+Barahmat;Alloresto;;16/11/2016;19:00;22:00;Absent;Absent
+Diawara;"Frichti Ouest";;16/11/2016;19:00;23:30;Absent;Absent
+Mhanni;Alloresto;;16/11/2016;20:00;23:00;Absent;Absent
+Damasi;Alloresto;;16/11/2016;20:00;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;17/11/2016;10:00;12:00;Absent;Absent
+Tebtoub;"Bercy Service";;17/11/2016;11:30;14:00;Absent;Absent
+Damasi;Alloresto;;17/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;17/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;17/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;17/11/2016;11:45;13:15;Absent;Absent
+Mhanni;Alloresto;;17/11/2016;12:00;14:30;Absent;Absent
+Tebtoub;"You Order Garage";;17/11/2016;14:30;17:00;Absent;Absent
+Malnoe;"test resto";;17/11/2016;18:30;19:30;Absent;Absent
+"Le Moine";Alloresto;;17/11/2016;18:30;23:00;Absent;Absent
+Siby;Alloresto;;17/11/2016;18:30;23:00;Absent;Absent
+"Dantas De Sousa";Alloresto;;17/11/2016;18:30;21:30;Absent;Absent
+Damasi;Alloresto;;17/11/2016;19:00;22:00;Absent;Absent
+Berthe;Alloresto;;17/11/2016;19:00;22:00;Absent;Absent
+Chaalal;Alloresto;;17/11/2016;20:00;23:00;Absent;Absent
+Hamel;Alloresto;;17/11/2016;20:00;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;18/11/2016;10:00;12:00;Absent;Absent
+Tebtoub;"Bercy Service";;18/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;18/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;18/11/2016;11:30;14:00;Absent;Absent
+Siby;Alloresto;;18/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;18/11/2016;11:45;13:15;Absent;Absent
+Damasi;Alloresto;;18/11/2016;12:00;14:30;Absent;Absent
+Tebtoub;"You Order Garage";;18/11/2016;14:30;17:00;Absent;Absent
+Diawara;Alloresto;;18/11/2016;18:30;23:00;Absent;Absent
+Tan;Alloresto;;18/11/2016;18:30;21:30;Absent;Absent
+"Le Moine";Alloresto;;18/11/2016;18:30;23:00;Absent;Absent
+Damasi;Alloresto;;18/11/2016;18:30;21:30;Absent;Absent
+"Dantas De Sousa";Alloresto;;18/11/2016;18:30;22:30;Absent;Absent
+Chaalal;Alloresto;;18/11/2016;19:00;22:00;Absent;Absent
+Siby;Alloresto;;18/11/2016;19:00;22:00;Absent;Absent
+Bouaicha;Alloresto;;18/11/2016;20:00;23:00;Absent;Absent
+Berthe;Alloresto;;18/11/2016;20:00;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;19/11/2016;10:00;12:00;Absent;Absent
+Tebtoub;"You Order Garage";;19/11/2016;11:00;16:00;Absent;Absent
+Sanaa;Alloresto;;19/11/2016;11:30;14:00;Absent;Absent
+Leveille;Alloresto;;19/11/2016;11:30;14:30;Absent;Absent
+Tokplo;Alloresto;;19/11/2016;12:00;14:30;Absent;Absent
+Tokplo;Alloresto;;19/11/2016;18:30;23:00;Absent;Absent
+Marzouki;Alloresto;;19/11/2016;18:30;21:30;Absent;Absent
+Hamel;Alloresto;;19/11/2016;18:30;23:00;Absent;Absent
+Leveille;Alloresto;;19/11/2016;19:00;22:00;Absent;Absent
+Tan;Alloresto;;19/11/2016;20:00;23:00;Absent;Absent
+Berthe;Alloresto;;19/11/2016;20:00;23:00;Absent;Absent
+Tokplo;Alloresto;;20/11/2016;11:30;14:30;Absent;Absent
+Barahmat;Alloresto;;20/11/2016;11:30;14:30;Absent;Absent
+Damasi;Alloresto;;20/11/2016;11:30;14:00;Absent;Absent
+Leveille;Alloresto;;20/11/2016;18:30;21:30;Absent;Absent
+Rosbif;Alloresto;;20/11/2016;18:30;23:00;Absent;Absent
+Siby;Alloresto;;20/11/2016;18:30;23:00;Absent;Absent
+Tokplo;Alloresto;;20/11/2016;18:30;23:00;Absent;Absent
+Sylla;Alloresto;;20/11/2016;19:00;22:00;Absent;Absent
+Damasi;Alloresto;;20/11/2016;19:00;22:00;Absent;Absent
+Mhanni;Alloresto;;20/11/2016;20:00;23:00;Absent;Absent

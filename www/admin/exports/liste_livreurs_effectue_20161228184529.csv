@@ -1,0 +1,89 @@
+Nom;Prenom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Karamoko;Zakaria;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Bislimi;Wandy;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Camara;Bouyagui;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+H'Nini;Bilale;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Abdul;Hasan;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Garcia;Carlos;"Frichti Nord";;26/12/2016;10:30;14:00;10:30;14:00
+Masseh;Marouane;"Frichti Ouest";;26/12/2016;10:30;14:00;Absent;Absent
+Rzig;Aymen;"Frichti Nord";;26/12/2016;10:30;14:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Lecourbe";;26/12/2016;11:00;13:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Saint Ambroise";;26/12/2016;11:00;13:00;Absent;Absent
+Sepulveda;Juan;"Foodcheri Tocqueville";;26/12/2016;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;26/12/2016;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;26/12/2016;11:30;13:30;Absent;Absent
+Bara;Ishak;Alloresto;;26/12/2016;11:30;14:00;Absent;Absent
+Damasi;Mazen;Alloresto;;26/12/2016;11:30;14:30;Absent;Absent
+Siby;Idrissa;Alloresto;;26/12/2016;12:00;14:30;Absent;Absent
+Belisaire;Christopher;"Foodcheri Lecourbe";;26/12/2016;18:00;21:00;Absent;Absent
+Masseh;Marouane;"Foodcheri Saint Ambroise";;26/12/2016;18:00;21:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;26/12/2016;18:00;21:00;Absent;Absent
+Graffeo;Gerome;Alloresto;;26/12/2016;18:30;23:00;Absent;Absent
+Sylla;Djibril;Alloresto;;26/12/2016;18:30;21:30;Absent;Absent
+Siby;Idrissa;Alloresto;;26/12/2016;18:30;23:00;Absent;Absent
+Damasi;Mazen;Alloresto;;26/12/2016;18:30;21:30;Absent;Absent
+Chiche;Dylan;Alloresto;;26/12/2016;19:00;22:00;Absent;Absent
+Berthe;Gabin;Alloresto;;26/12/2016;19:00;22:00;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;26/12/2016;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;26/12/2016;19:30;22:30;Absent;Absent
+Cicio;Florin;Alloresto;;26/12/2016;20:00;23:00;Absent;Absent
+Dutreuil;Steven;Alloresto;;26/12/2016;20:00;23:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;27/12/2016;10:00;12:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;28/12/2016;10:00;12:00;Absent;Absent
+Khalloqi;Anas;"Frichti Ouest";;28/12/2016;10:15;13:15;Absent;Absent
+Bah;Isaac;"Frichti Ouest";;28/12/2016;10:15;13:15;10:15;10:44
+Garcia;Carlos;"Frichti Ouest";;28/12/2016;10:15;13:15;12:55;12:56
+Bara;Ishak;"Frichti Nord";;28/12/2016;10:30;14:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Ouest";;28/12/2016;10:30;14:00;Absent;Absent
+Gdaiem;Nizar;"Frichti Ouest";;28/12/2016;10:30;14:00;Absent;Absent
+Leroy;Tyen;"Frichti Ouest";;28/12/2016;10:30;14:00;10:44;14:00
+"Bernard Alexander";Bryane;"Frichti Ouest";;28/12/2016;10:30;14:00;10:30;10:26
+Ali;Karamoko;"Foodcheri Saint Ambroise";;28/12/2016;11:00;13:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;28/12/2016;11:00;13:00;11:10;11:13
+Rzig;Aymen;"Foodcheri Tocqueville";;28/12/2016;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;28/12/2016;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;28/12/2016;11:30;13:30;Absent;Absent
+Delannay;Wesley;Alloresto;;28/12/2016;11:30;14:30;Absent;Absent
+Makalou;Hamedy;Alloresto;;28/12/2016;12:00;14:30;Absent;Absent
+Ettaj;Ilias;"You Order";;28/12/2016;12:30;13:30;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;28/12/2016;18:00;22:00;18:17;18:17
+Ettaj;Ilias;"Foodcheri Lecourbe";;28/12/2016;18:00;21:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;28/12/2016;18:00;21:00;Absent;Absent
+Jean-Jacques;Alexandre;"Frichti Ouest";;28/12/2016;18:00;22:00;18:00;18:00
+Ali;Karamoko;"Foodcheri Saint Ambroise";;28/12/2016;18:00;21:00;Absent;Absent
+Graffeo;Gerome;Alloresto;;28/12/2016;18:30;23:00;Absent;Absent
+Abdul;Hasan;Alloresto;;28/12/2016;18:30;21:30;Absent;Absent
+"Bernard Alexander";Bryane;Alloresto;;28/12/2016;18:30;21:30;Absent;Absent
+Sifi;Adel;Alloresto;;28/12/2016;18:30;23:00;Absent;Absent
+Sewifi;Karim;"Frichti Sud";;28/12/2016;19:00;23:00;Absent;Absent
+Karamoko;Zakaria;Alloresto;;28/12/2016;19:00;22:00;Absent;Absent
+Leroy;Tyen;Alloresto;;28/12/2016;19:00;22:00;Absent;Absent
+Doho;Sarah;"You Order";;28/12/2016;19:30;23:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;28/12/2016;19:30;22:30;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;28/12/2016;19:30;22:30;Absent;Absent
+Bara;Ishak;Alloresto;;28/12/2016;20:00;23:00;Absent;Absent
+Bislimi;Wandy;Alloresto;;28/12/2016;20:00;23:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;29/12/2016;10:00;12:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;29/12/2016;10:30;14:00;Absent;Absent
+Sepulveda;Juan;"Frichti Nord";;29/12/2016;10:30;14:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;29/12/2016;10:30;14:00;Absent;Absent
+Bara;Ishak;"Frichti Ouest";;29/12/2016;10:30;13:30;Absent;Absent
+Rosbif;Emmanuel;"Frichti Nord";;29/12/2016;10:30;14:00;Absent;Absent
+Bislimi;Wandy;"Frichti Ouest";;29/12/2016;10:30;14:00;Absent;Absent
+Makalou;Hamedy;"Frichti Nord";;29/12/2016;10:30;14:00;Absent;Absent
+Masseh;Marouane;"Frichti Ouest";;29/12/2016;10:30;14:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;29/12/2016;11:00;13:00;Absent;Absent
+Cicio;Florin;"Foodcheri Saint Ambroise";;29/12/2016;11:00;13:00;Absent;Absent
+Sylla;Djibril;"Foodcheri Tocqueville";;29/12/2016;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;29/12/2016;11:00;13:00;Absent;Absent
+Jean-Jacques;Alexandre;Alloresto;;29/12/2016;11:30;14:30;Absent;Absent
+Masseh;Marouane;Alloresto;;29/12/2016;18:30;21:30;Absent;Absent
+Ettaj;Ilias;Alloresto;;29/12/2016;18:30;23:00;Absent;Absent
+Bah;Isaac;Alloresto;;29/12/2016;18:30;21:30;Absent;Absent
+Berthe;Gabin;Alloresto;;29/12/2016;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;29/12/2016;19:30;22:30;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;29/12/2016;19:30;22:30;Absent;Absent
+TANOH;Amede;Alloresto;;29/12/2016;20:00;23:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;30/12/2016;10:00;12:00;Absent;Absent
+Cisse;Npali;Wing;;30/12/2016;11:30;13:30;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;31/12/2016;10:00;12:00;Absent;Absent

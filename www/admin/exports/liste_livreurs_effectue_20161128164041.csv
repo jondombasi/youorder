@@ -1,0 +1,176 @@
+Nom;Commercant;Vehicule;Date;"Heure debut planifie";"Heure fin planifie";"Heure debut effectuee";"Heure fin effectue"
+Belisaire;"Frichti Ouest";;21/11/2016;10:45;13:45;Absent;Absent
+Barahmat;"Frichti Ouest";;21/11/2016;10:45;13:45;Absent;Absent
+Timera;20/80;;21/11/2016;11:30;14:00;Absent;Absent
+Damasi;Alloresto;;21/11/2016;11:30;14:30;Absent;Absent
+Hamel;Alloresto;;21/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;21/11/2016;11:30;14:00;Absent;Absent
+Tebtoub;"Bercy Service";;21/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;"test 2";21/11/2016;11:45;13:15;11:45;11:45
+Siby;Alloresto;;21/11/2016;12:00;14:30;Absent;Absent
+Siby;Alloresto;;21/11/2016;18:30;21:30;Absent;Absent
+Damasi;Alloresto;;21/11/2016;19:00;22:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;22/11/2016;10:00;12:00;Absent;Absent
+Loyson;"Frichti Nord";;22/11/2016;10:30;14:15;Absent;Absent
+Tan;"Frichti Nord";;22/11/2016;10:30;14:15;Absent;Absent
+Sifi;"Frichti Nord";;22/11/2016;10:30;14:15;Absent;Absent
+Belisaire;"Frichti Nord";;22/11/2016;10:30;14:15;Absent;Absent
+Moussay;"Frichti Nord";;22/11/2016;10:45;13:45;Absent;Absent
+Leveille;"Frichti Ouest";;22/11/2016;10:45;13:45;Absent;Absent
+Cicio;"Frichti Ouest";;22/11/2016;10:45;13:45;Absent;Absent
+Daumont;"Frichti Ouest";;22/11/2016;10:45;13:45;Absent;Absent
+Cisse;"Frichti Nord";;22/11/2016;10:45;13:45;Absent;Absent
+Mokni;"Frichti Nord";;22/11/2016;10:45;13:45;Absent;Absent
+Diawara;"Foodcheri Maubeuge";;22/11/2016;11:00;13:30;Absent;Absent
+Chote;"Foodcheri Tocqueville";;22/11/2016;11:00;13:30;Absent;Absent
+Chiche;"Frichti Nord";;22/11/2016;11:00;14:00;Absent;Absent
+Borsla;"Foodcheri Maubeuge";;22/11/2016;11:00;13:30;Absent;Absent
+Bouaicha;"Foodcheri Tocqueville";;22/11/2016;11:00;13:30;Absent;Absent
+Angulo;"Frichti Sud";;22/11/2016;11:00;14:00;Absent;Absent
+Vinot;"Frichti Nord";;22/11/2016;11:00;14:00;Absent;Absent
+Goncalves;"Foodcheri Lecourbe";;22/11/2016;11:00;13:30;Absent;Absent
+Ettaj;"Frichti Sud";;22/11/2016;11:00;14:00;Absent;Absent
+Barahmat;"Frichti Nord";;22/11/2016;11:00;14:00;Absent;Absent
+Diakite;"Frichti Sud";;22/11/2016;11:15;14:15;Absent;Absent
+Chaalal;"Frichti Ouest";;22/11/2016;11:15;14:15;Absent;Absent
+Loucham;"Frichti Ouest";;22/11/2016;11:15;14:15;Absent;Absent
+Ribeiro;"Frichti Ouest";;22/11/2016;11:15;14:15;Absent;Absent
+Pereira;"Frichti Ouest";;22/11/2016;11:15;14:15;Absent;Absent
+Sylla;"Frichti Nord";;22/11/2016;11:30;14:30;Absent;Absent
+Guzel;"Frichti Ouest";;22/11/2016;11:30;14:30;Absent;Absent
+Siby;Alloresto;;22/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;22/11/2016;11:30;14:00;Absent;Absent
+Berthe;"Frichti Nord";;22/11/2016;11:30;14:30;Absent;Absent
+Tebtoub;"Bercy Service";;22/11/2016;11:30;14:00;Absent;Absent
+Luvuezo;"Frichti Sud";;22/11/2016;11:30;14:30;Absent;Absent
+Dutreuil;20/80;;22/11/2016;11:30;14:00;Absent;Absent
+Gdaiem;"Frichti Nord";;22/11/2016;11:30;14:30;Absent;Absent
+Gassama;"Frichti Ouest";;22/11/2016;11:30;14:30;Absent;Absent
+Bnouzalim;Rooj;;22/11/2016;11:45;13:15;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Nord";;22/11/2016;12:00;15:30;Absent;Absent
+Boutra;"Frichti Sud";;22/11/2016;12:00;15:30;Absent;Absent
+Martin;"Frichti Ouest";;22/11/2016;12:00;15:30;12:00;15:27
+Damasi;Alloresto;;22/11/2016;12:00;14:30;Absent;Absent
+Morin;"Frichti Nord";;22/11/2016;12:00;15:30;Absent;Absent
+Rosbif;"Frichti Ouest";;22/11/2016;12:00;15:30;Absent;Absent
+Guitard;"Frichti Ouest";;22/11/2016;12:00;15:30;Absent;Absent
+Barahmat;"Frichti Nord";;22/11/2016;18:00;22:00;Absent;Absent
+"Dantas De Sousa";"Frichti Nord";;22/11/2016;18:00;22:00;Absent;Absent
+Angulo;"Frichti Ouest";;22/11/2016;18:00;22:00;Absent;Absent
+Guitard;"Frichti Nord";;22/11/2016;18:00;22:00;Absent;Absent
+Dutreuil;"Frichti Ouest";;22/11/2016;18:00;22:00;Absent;Absent
+Diakite;"Frichti Nord";;22/11/2016;18:00;22:00;Absent;Absent
+Luvuezo;"Foodcheri Lecourbe";;22/11/2016;18:30;21:30;Absent;Absent
+Damasi;Alloresto;;22/11/2016;18:30;21:30;Absent;Absent
+Borsla;"Foodcheri Maubeuge";;22/11/2016;18:30;21:30;Absent;Absent
+Sajad;"Frichti Nord";;22/11/2016;19:00;22:00;Absent;Absent
+Martin;"Frichti Nord";;22/11/2016;19:00;23:30;Absent;Absent
+Pereira;"Frichti Ouest";;22/11/2016;19:00;22:00;Absent;Absent
+Loucham;"Frichti Ouest";;22/11/2016;19:00;23:30;Absent;Absent
+Guzel;"Frichti Nord";;22/11/2016;19:00;23:30;Absent;Absent
+Leveille;"Frichti Ouest";;22/11/2016;19:00;22:00;Absent;Absent
+Siby;Alloresto;;22/11/2016;19:00;22:00;Absent;Absent
+Daumont;"Frichti Ouest";;22/11/2016;19:00;23:30;Absent;Absent
+Moussay;"Frichti Nord";;22/11/2016;19:00;23:30;Absent;Absent
+Tebtoub;"Frichti Nord";;22/11/2016;20:00;23:30;Absent;Absent
+Cisse;"Frichti Ouest";;22/11/2016;20:00;23:30;Absent;Absent
+Morin;"Frichti Nord";;22/11/2016;20:00;23:30;Absent;Absent
+Diawara;"Frichti Ouest";;22/11/2016;20:00;23:30;Absent;Absent
+Ribeiro;"Frichti Nord";;22/11/2016;20:00;23:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;23/11/2016;10:00;12:00;Absent;Absent
+"Dantas De Sousa";"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Morin;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Tan;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Guzel;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Belisaire;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Bara;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Chote;"Frichti Nord";;23/11/2016;10:30;14:15;Absent;Absent
+Ambras;"Frichti Ouest";;23/11/2016;10:45;13:45;Absent;Absent
+Masseh;"Frichti Nord";;23/11/2016;10:45;13:45;Absent;Absent
+Loyson;"Frichti Nord";;23/11/2016;10:45;13:45;Absent;Absent
+Loucham;"Frichti Nord";;23/11/2016;10:45;13:45;Absent;Absent
+Jean-Jacques;"Frichti Ouest";;23/11/2016;10:45;13:45;Absent;Absent
+Vinot;"Frichti Ouest";;23/11/2016;10:45;13:45;Absent;Absent
+Sifi;"Frichti Sud";;23/11/2016;11:00;14:00;Absent;Absent
+Ribeiro;"Frichti Nord";;23/11/2016;11:00;14:00;Absent;Absent
+Diawara;"Frichti Ouest";;23/11/2016;11:00;14:00;Absent;Absent
+Guitard;"Frichti Sud";;23/11/2016;11:00;14:00;Absent;Absent
+Ginier;"Frichti Nord";;23/11/2016;11:00;14:00;Absent;Absent
+Rosbif;"Frichti Ouest";;23/11/2016;11:00;14:00;Absent;Absent
+Bouaicha;"Frichti Nord";;23/11/2016;11:00;14:00;Absent;Absent
+Gdaiem;"Frichti Ouest";;23/11/2016;11:15;14:15;Absent;Absent
+"Bernard Alexander";"Frichti Ouest";;23/11/2016;11:15;14:15;Absent;Absent
+Makalou;"Frichti Sud";;23/11/2016;11:15;14:15;Absent;Absent
+Heddi;"Frichti Ouest";;23/11/2016;11:15;14:15;Absent;Absent
+Meite;"Frichti Sud";;23/11/2016;11:15;14:15;Absent;Absent
+Rosbif;"Frichti Ouest";;23/11/2016;11:15;14:15;Absent;Absent
+Abdelaziz;"Frichti Sud";;23/11/2016;11:15;14:15;Absent;Absent
+Tebtoub;"Bercy Service";;23/11/2016;11:30;14:00;Absent;Absent
+Damasi;Alloresto;;23/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;23/11/2016;11:30;14:00;Absent;Absent
+Mokni;"Frichti Ouest";;23/11/2016;11:30;14:30;Absent;Absent
+Siby;Alloresto;;23/11/2016;11:30;14:30;Absent;Absent
+Martin;"Frichti Nord";;23/11/2016;11:30;14:30;Absent;Absent
+Angulo;"Frichti Ouest";;23/11/2016;11:30;14:30;Absent;Absent
+Daumont;"Frichti Nord";;23/11/2016;11:30;14:30;Absent;Absent
+Diakite;"Frichti Ouest";;23/11/2016;11:30;14:30;Absent;Absent
+Timera;20/80;;23/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;23/11/2016;11:45;13:15;Absent;Absent
+Ettaj;"Frichti Sud";;23/11/2016;12:00;15:30;Absent;Absent
+Leroy;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+Boutra;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+Cisse;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+Sylla;"Frichti Nord";;23/11/2016;12:00;15:30;Absent;Absent
+Cicio;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+H'Nini;"Frichti Sud";;23/11/2016;12:00;15:30;Absent;Absent
+Leveille;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+"D'Arrondel De Hayes";"Frichti Sud";;23/11/2016;12:00;15:30;Absent;Absent
+Luvuezo;"Frichti Ouest";;23/11/2016;12:00;15:30;Absent;Absent
+Moussay;"Frichti Nord";;23/11/2016;12:00;15:30;Absent;Absent
+Ribeiro;"Frichti Ouest";;23/11/2016;18:00;22:00;Absent;Absent
+Loucham;"Frichti Sud";;23/11/2016;18:00;22:00;Absent;Absent
+Diakite;"Frichti Nord";;23/11/2016;18:00;22:00;Absent;Absent
+"Bernard Alexander";"Frichti Ouest";;23/11/2016;18:00;22:00;Absent;Absent
+Luvuezo;"Frichti Nord";;23/11/2016;18:00;22:00;Absent;Absent
+Leveille;"Frichti Ouest";;23/11/2016;18:00;22:00;Absent;Absent
+Heddi;"Frichti Nord";;23/11/2016;18:00;22:00;Absent;Absent
+Angulo;"Frichti Nord";;23/11/2016;18:00;22:00;Absent;Absent
+Pereira;"Frichti Ouest";;23/11/2016;18:00;22:00;Absent;Absent
+Siby;Alloresto;;23/11/2016;18:30;21:30;Absent;Absent
+Morin;"Frichti Ouest";;23/11/2016;19:00;22:00;Absent;Absent
+Cisse;"Frichti Ouest";;23/11/2016;19:00;22:00;Absent;Absent
+Masseh;"Frichti Nord";;23/11/2016;19:00;23:30;Absent;Absent
+Fortune;"Frichti Ouest";;23/11/2016;19:00;23:30;Absent;Absent
+Martin;"Frichti Ouest";;23/11/2016;19:00;22:00;Absent;Absent
+Vinot;"Frichti Nord";;23/11/2016;19:00;22:00;Absent;Absent
+Diawara;"Frichti Ouest";;23/11/2016;19:00;23:30;Absent;Absent
+Berthe;"Frichti Nord";;23/11/2016;19:00;23:30;Absent;Absent
+Gassama;"Frichti Ouest";;23/11/2016;19:00;23:30;Absent;Absent
+Goncalves;"Frichti Nord";;23/11/2016;19:00;23:30;Absent;Absent
+Loyson;"Frichti Nord";;23/11/2016;19:00;23:30;Absent;Absent
+Guzel;"Frichti Nord";;23/11/2016;19:00;22:00;20:57;20:57
+Damasi;Alloresto;;23/11/2016;20:00;23:00;Absent;Absent
+Chote;"Frichti Nord";;23/11/2016;20:00;23:30;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;24/11/2016;10:00;12:00;Absent;Absent
+Damasi;Alloresto;;24/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;24/11/2016;11:30;14:00;Absent;Absent
+Timera;20/80;;24/11/2016;11:30;14:00;Absent;Absent
+Tebtoub;"Bercy Service";;24/11/2016;11:30;14:00;Absent;Absent
+Bnouzalim;Rooj;;24/11/2016;11:45;13:15;Absent;Absent
+Siby;Alloresto;;24/11/2016;12:00;14:30;Absent;Absent
+Damasi;Alloresto;;24/11/2016;19:00;22:00;Absent;Absent
+Siby;Alloresto;;24/11/2016;20:00;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;25/11/2016;10:00;12:00;Absent;Absent
+Timera;20/80;;25/11/2016;11:30;14:00;Absent;Absent
+Tebtoub;"Bercy Service";;25/11/2016;11:30;14:00;Absent;Absent
+Dutreuil;20/80;;25/11/2016;11:30;14:00;Absent;Absent
+Siby;Alloresto;;25/11/2016;11:30;14:30;Absent;Absent
+Bnouzalim;Rooj;;25/11/2016;11:45;13:15;Absent;Absent
+Damasi;Alloresto;;25/11/2016;12:00;14:30;Absent;Absent
+Intrand;Wing;;25/11/2016;16:00;17:00;16:29;16:29
+Siby;Alloresto;;25/11/2016;18:30;21:30;Absent;Absent
+Damasi;Alloresto;;25/11/2016;18:30;23:00;Absent;Absent
+Ibnchatou;"Hugo Desnoyer Boulard";;26/11/2016;10:00;12:00;Absent;Absent
+Tebtoub;"You Order Garage";;26/11/2016;11:00;16:00;Absent;Absent
+Damasi;Alloresto;;27/11/2016;12:00;14:30;Absent;Absent
+Damasi;Alloresto;;27/11/2016;19:00;22:00;Absent;Absent
