@@ -1,0 +1,377 @@
+/*******************/
+
+/*  testimonials   */
+
+/*******************/
+
+.dima-testimonial {
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    
+    &.testimonial-side{
+      position: relative;
+
+      blockquote{
+        background: $testimonial-bg;
+        border: 1px solid $border-color;
+        padding: 30px; 
+        width: 100%;       
+      }
+      .dima-testimonial-image{
+        margin-top: 30px;
+      }
+    }
+    &.quote-style{
+      blockquote{
+        width: 100%;
+        font-style: italic;
+        &:before{
+            content:'';
+            margin-top: 0px;
+          }
+          
+          p{
+            color: #FFF;
+            @include font-size(24,30);
+            margin-bottom: 35px;
+            font-weight: $quote-weight;
+          }
+          .dima-testimonial-meta,.timePosted{
+            color: $theme-color;
+            @include font-size($base-font-size,$base-font-size+2);
+            letter-spacing: 0.5px;
+            margin-bottom: 0;
+          }
+      }
+    }
+    blockquote {
+        overflow: hidden;
+        @if($border-radius!=0) {
+            @include border-radius($border-radius);
+        }
+        
+        &:before {
+            content: "\f10d";
+            font-family: "FontAwesome";
+            @include font-size(25, 30);
+            color: $theme-color;
+            vertical-align: -0.4em;
+            float: left;
+            @include margin-end(20px);
+            margin-top: 7px;
+            font-style: normal;
+        }
+        @include border-start(none);
+        @include padding-start(0);
+        .quote-content{
+        overflow: hidden;
+        p {
+            @include font-size(18, 30);
+            font-style: italic;
+            margin-bottom: 0;
+        }
+        .dima-testimonial-meta {
+            display: block;
+            margin-top: 15px;
+            color: $theme-color !important;
+            @include font-size(14, 20);
+
+            strong {                
+                letter-spacing: 2px;
+                font-weight: 400;
+            }
+        }
+    }
+    &.without-icon{
+      &:before {
+            content: "";
+      }
+    }
+  }
+  &.quote-start{
+     .dima-testimonial-image {
+        @extend .start-image;
+        margin-top: 9px;
+        border: 2px solid $border-color;    
+    }
+  }  
+  &.quote-end{
+     .dima-testimonial-image {
+        @extend .end-image;
+        margin-top: 9px;
+        border: 2px solid $border-color;  
+        @include margin-end(0);  
+    }
+
+  }
+.dima-testimonial-image {
+        @extend .start-image;
+        margin-top: 9px;
+        border: 2px solid $border-color;    
+    }
+  .rating span:before{
+    color: #FFFFFF;
+  }
+}
+
+.quote-text {
+    @include border-start(none);
+    @include font-size(16,15);
+    font-style: italic;
+    position: relative;
+    margin-bottom: 30px;
+
+.dima-testimonial-image{
+  margin-top: 20px !important;
+}
+    &.quote-start{
+      blockquote{
+        width: auto;
+      }
+       &:before {
+        top: 54px;
+        @include end(auto);
+        @include start(89px);
+        @include border-start-color($testimonial-bg);
+       }
+       &:after {
+          top: 55px;
+          @include end(auto);
+          @include start(88px);
+          @include border-start-color($border-color);
+       }
+    }
+
+    &.quote-end{
+      blockquote{
+        width: auto;
+      }
+       &:before {
+        top: 54px;
+        @include start(auto);
+        @include end(88px);
+        @include border-end-color($testimonial-bg);
+       }
+       &:after {
+          top: 55px;
+          @include start(auto);
+          @include end(88px);
+          @include border-end-color($border-color);
+       }
+    }
+
+    &.quote-start-bottom{
+       &:before {
+        top: auto;
+        @include end(auto);
+        bottom: 78px;
+        @include start(30px);
+        border-top-color: $testimonial-bg;
+       }
+       &:after {
+          top: auto;
+          @include end(auto);
+          bottom: 78px;
+          @include start(31px);
+          border-top-color: $border-color;
+       }
+    }
+
+    &.quote-end-bottom{
+      .dima-testimonial-image{
+        @include float-end() ;
+        @include margin-end(0px);
+      }
+       &:before {
+          top: auto;
+          @include start(auto);
+          @include end(30px);
+          @include margin-end(-4px);
+          bottom: 78px;
+          border-top-color: $testimonial-bg;
+       }
+       &:after {
+          top: auto;
+          @include start(auto);
+          @include end(27px);
+          bottom: 78px;
+          border-top-color: $border-color;
+       }
+    }
+
+    
+
+     &.quote-start-top{      
+      .dima-testimonial-image{
+        @include float-start() ;
+        @include margin-start(0px);
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+      }
+
+          margin-top: 25px;  
+           blockquote{
+            @include float-start();
+           }       
+          &:before {
+            bottom: auto;
+            top: 78px;
+            @include end(auto);
+            @include start(25px);
+            @include margin-end(0);
+            border-bottom-color: $testimonial-bg;
+          }
+          &:after {
+            bottom: auto;
+            top: 78px;
+            @include end(auto);
+            @include start(26px);
+            border-bottom-color: $border-color;
+          }
+    }
+
+    &.quote-end-top{
+      .dima-testimonial-image{
+        @include float-end() ;
+        @include margin-end(0px);
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+      }
+
+          margin-top: 25px;  
+           blockquote{
+            @include float-end();
+           }       
+          &:before {
+            bottom: auto;
+            top: 78px;
+            @include start(auto);
+            @include end(25px);
+            @include margin-start(0);
+            border-bottom-color: $testimonial-bg;
+          }
+          &:after {
+            bottom: auto;
+            top: 78px;
+            @include start(auto);
+            @include end(26px);
+            border-bottom-color: $border-color;
+          }
+    }    
+
+    &.quote-top-center{
+      .dima-testimonial-image{
+        display: block;
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+        @include start(50%);
+        @include margin-start(-40px);
+      }
+
+       blockquote{
+        @include float-end();
+        width: 100%;
+      } 
+    }    
+
+    &.quote-bottom-center{
+      .dima-testimonial-image{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 0px !important;
+        @include start(50%);
+        @include margin-start(-40px);
+      }
+       blockquote{
+        @include float-end();
+        width: 100%;
+      } 
+    }
+
+    &.quote-top-center-arrow{
+      .dima-testimonial-image{
+        display: block;
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 0px !important;
+        @include start(50%);
+        @include margin-start(-40px);
+      }
+       blockquote{
+        @include float-end();
+      } 
+
+      &:before {
+        bottom: auto;
+        top: 78px;
+        @include start(auto);
+        @include end(47%);
+        @include margin-start(0);
+        border-bottom-color: $testimonial-bg;
+      }
+      &:after {
+        bottom: auto;
+        top: 78px;
+        @include start(auto);
+        @include end(47.1%);
+        border-bottom-color: $border-color;
+      }
+    } 
+
+    &.quote-bottom-center-arrow{
+      .dima-testimonial-image{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 0px !important;
+        @include start(50%);
+        @include margin-start(-40px);
+      }
+       blockquote{
+        @include float-end();
+      } 
+
+      &:before {
+        top: auto;
+        bottom: 78px;
+        @include start(auto);
+        @include end(47%);
+        @include margin-start(0);
+        border-top-color: $testimonial-bg;
+      }
+      &:after {
+        top: auto;
+        bottom: 78px;
+        @include start(auto);
+        @include end(47.1%);
+        border-top-color: $border-color;
+      }
+    }
+
+    &:before {
+        border: solid 14px transparent;
+        z-index: 3;       
+    }
+    &:before,&:after {
+        content: "";
+        display: block;
+        height: 0;
+        width: 0;
+        position: absolute;
+    }
+    &:after {
+      border: solid 14px transparent;
+      z-index: 2;
+      border-width: 13px;
+    }
+}
+
+.owl-item {
+  .dima-testimonial{
+    margin-bottom: 0px !important;
+  }
+}

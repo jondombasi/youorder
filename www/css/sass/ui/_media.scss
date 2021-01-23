@@ -1,0 +1,811 @@
+$media-h : 50;
+$media-bg: #faf9f5;
+$media-color:#828077;
+$media-border :#d0cdbc;
+$media-bar-h : 10;
+$media-bar-top : (($media-h - $media-bar-h)/2 );
+.mejs-overlay-play {
+    cursor: pointer;
+}
+.me-plugin {
+    position: absolute;
+    width: 100%;
+}
+.mejs-embed,
+.mejs-embed body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    overflow: hidden;
+}
+.mejs-container-fullscreen {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1000;
+    .mejs-mediaelement, video {
+        width: 100%;
+        height: 100%;
+    }
+}
+/* Start: LAYERS */
+
+.mejs-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mejs-mediaelement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mejs-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    img {
+        border: 0;
+        padding: 0;
+        border: 0;
+        display: block;
+        width: auto;
+        height: 100%;
+    }
+}
+.mejs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:hover {
+        background-position: 0 -100px;
+    }
+}
+.mejs-overlay-button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    background: url(../images/bigplay.png) no-repeat;
+    background-position: 0 -100px;
+}
+.mejs-overlay-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    span {
+        display: block;
+        width: 80px;
+        height: 80px;
+        background: #3A3C3D url(loading.gif) 50% 50% no-repeat;
+        border-radius: 40px;
+    }
+}
+/* End: LAYERS */
+/* Start: CONTROL BAR */
+
+.mejs-container {
+    .mejs-controls {
+        position: absolute;
+        padding: 0 25px;
+        bottom: -1px;
+        left: 0;
+        height: $media-h + px ;
+        width: 100%;
+        background: $media-bg;
+        list-style: none;
+        @include box-shadow(inset 0px 0px 0px 1px  $media-border)
+    }
+}
+
+.mejs-container {
+    position: relative;
+    min-width: 150px;
+    background: none;
+    font-family: sans-serif;
+    text-align: left;
+    vertical-align: top;
+    width: 100% !important;
+    .mejs-controls {
+        .mejs-button {
+            position: relative;
+            button {
+                cursor: pointer;
+                top: 18px;
+                display: block;
+                text-decoration: none;
+                padding: 0;
+                position: absolute;
+                border: 0;
+                background: transparent ;
+                &:before{
+                	content: '\f028';
+                	font-family: $FontAwesome;
+                	font-size: 16px;
+				}
+                &:focus {                	
+                	 outline: none;
+                }
+            }
+            
+        }
+        /* End: CONTROL BAR */
+        /* Start: Time (current / duration) */
+        
+        .mejs-time {
+        	position: relative;
+        	top: ($media-bar-top - 1)+px;
+            color: $media-color;
+            display: block;
+            width: auto;
+            padding: 0px 10px;
+            overflow: hidden;
+            text-align: center;
+            @include box-sizing(content-box);
+            span {
+                font-size: 11px;
+                color: $media-color;
+                line-height: 12px;
+                display: block;
+                float: left;
+                width: auto;
+            }
+        }
+        /* End: Time (current / duration) */
+        /* Start: Play/pause */
+        
+        .mejs-playpause-button {
+            cursor: pointer;
+            background: none;
+            width: 30px;
+            button {
+                margin: 0px 8px 0px 0px;
+                &:before {
+                    content: '\f04b';
+                    font-family: $FontAwesome;
+                    font-size: 16px;
+                }
+
+         	}
+        }
+        .mejs-play {
+            button {
+                background-position: 0 0;
+                &:before {
+                    content: '\f04b';
+                    font-family: $FontAwesome;
+                    font-size: 16px;
+                }
+            }
+            &:hover {
+                button {
+                    background-position: 0 -32px;
+                }
+            }
+        }
+        .mejs-pause {
+            button {
+            	&:before {
+                    content: '\f04c';
+                    font-family: $FontAwesome;
+                    font-size: 16px;
+                }
+                background-position: 0-16px;
+            }
+            &:hover {
+                button {
+                    background-position: 0 -48px;
+                }
+            }
+        }
+        /* End: Play/pause */
+        /* Stop */
+        
+        .mejs-stop {
+            button {
+                background-position: -112px 0;
+            }
+            &:hover {
+                button {
+                    background-position: -112px -32px;
+                }
+            }
+        }
+        /* End: Play/pause */
+        /* Start: Progress bar */
+        
+        div {
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 32px;
+            height: 30px;
+            &.mejs-time-rail {
+                width: 200px;
+            }
+        }
+        .mejs-time-rail {
+            span {
+                display: block;
+                position: absolute;
+                width: 180px;
+                height: 5px;
+                cursor: pointer;
+            }
+            .mejs-time-total {
+            	top: $media-bar-top+px;
+            	height: $media-bar-h+px;
+                background: transparent;
+                background: rgba(0,0,0,0);
+                @include box-shadow(inset  0px 0px 0px 1px $theme-color);
+            }
+            .mejs-time-buffering {
+                width: 100%;
+                background: $theme-color;
+                z-index: 1;
+            }
+            .mejs-time-loaded {
+            	height: $media-bar-h+px;
+                background: $theme-color;
+                width: 0;
+                @include opacity(0.5);
+                @include box-shadow(inset  0px 0px 0px 1px $theme-color);
+			}
+			.mejs-time-current {
+			    width: 0;
+			    height: $media-bar-h+px;
+			    background: $theme-color;
+			    z-index: 1;
+			}
+			.mejs-time-handle {
+			    display: none;
+			    position: absolute;
+			    margin: 0;
+			    width: 5px;
+			    background: transparent;
+			    cursor: pointer;
+			    top: 1px;
+			    z-index: 1;
+			    text-align: center;
+			}
+			.mejs-time-float {
+			    position: absolute;
+			    display: none;
+			    background: $theme-color;
+			    width: 36px;
+			    height: 15px;
+			    top: -16px;
+			    margin-left: -18px;
+			    text-align: center;
+			    color: #FFFFFF;
+			    font-size: 10px;
+			}
+
+
+			.mejs-time-float-current {
+			    margin: 3px;
+			    width: 30px;
+			    display: block;
+			    text-align: center;
+			    left: 0;
+			}
+			.mejs-time-float-corner {
+			    position: absolute;
+			    display: none;
+			    width: 0;
+			    height: 0;
+			    line-height: 0;
+			    border: solid 4px $theme-color;
+			    -webkit-border-radius: 0;
+			    -moz-border-radius: 0;
+			    border-radius: 0;
+			    top: 17px;
+			    left: 13px;
+			}
+        }
+    }
+}
+
+/* End: Progress bar */
+/* Start: Fullscreen */
+
+.mejs-fullscreen-button {
+    button {
+        &:before {
+            content: '\f0b2' !important;
+            font-family: $FontAwesome;
+            font-size: 16px;
+            position: absolute;
+			right: -30px;
+        }
+    }
+}
+
+.mejs-unfullscreen {
+	button {
+    	background-position: -32px -16px;
+	}
+}
+/* End: Fullscreen */
+/* Start: Mute/Volume */
+
+.mejs-mute {
+    button {
+        &:before {
+            content: '\f026';
+            font-family: $FontAwesome;
+            font-size: 16px;
+        }
+        
+    }
+}
+.mejs-unmute {
+    button {
+        &:before {
+            content: '\f026' !important;
+            font-family: $FontAwesome;
+            font-size: 16px;
+        }
+        
+    }
+}
+
+
+.mejs-volume-button {
+    position: relative;
+    .mejs-volume-slider {
+     display: none;
+     height: 68px !important;
+     width: 19px !important;
+     background: transparent;
+     background: rgba(0,0,0,0);
+     border-radius: 0;
+     top: -60px;
+     z-index: 1;
+     position: absolute;
+ }
+
+    &:hover {
+        -webkit-border-radius: 0 0 4px 4px;
+        -moz-border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 4px;
+    }
+}
+
+
+/*
+.mejs-controls .mejs-volume-button:hover .mejs-volume-slider {
+	display: block;
+}
+*/
+
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total {
+    position: absolute;
+    left: 5px;
+    top: 18px;
+    width: 6px;
+    height: 50px;
+    @include box-shadow(0 0 0 1px $theme-color);
+    background: $media-bg;
+}
+
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current {
+    position: absolute;
+left: 5px;
+top: 8px;
+width: 6px;
+height: 50px;
+background: $theme-color;
+}
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    margin: 0;
+}
+/* horizontal version */
+
+.mejs-controls div.mejs-horizontal-volume-slider {
+    height: 26px;
+    width: 62px;
+    position: relative;
+    background: none;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    position: absolute;
+    left: 0;
+    top: $media-bar-top+px;
+    width: $media-h+px;
+    height: $media-bar-h+px;
+    background: transparent;
+    background: rgba(0,0,0,0);
+    @include box-shadow(inset 0px 0px 0px 1px $theme-color);
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    position: absolute;
+    left: 0;
+    top: $media-bar-top+px;
+    width: $media-h +px;
+    height: $media-bar-h+px;
+    padding: 0;
+    background: $theme-color;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+    display: none;
+}
+/* End: Mute/Volume */
+/* Start: TRACK (Captions and Chapters) */
+
+.mejs-controls {
+    .mejs-captions-button {
+        position: relative;
+        button {
+            background-position: -48px 0;
+        }
+        &:hover button {
+            background-position: -48px -32px;
+        }
+        .mejs-captions-selector {
+            visibility: hidden;
+            position: absolute;
+            bottom: 30px;
+            right: -10px;
+            width: 130px;
+            height: 100px;
+            background: #3A3C3D;
+            border: solid 1px transparent;
+            padding: 10px;
+            overflow: hidden;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+    }
+}
+
+.mejs-captions-button {
+    .mejs-captions-selector {
+        ul {
+            margin: 0;
+            padding: 0;
+            display: block;
+            list-style-type: none !important;
+            overflow: hidden;
+            li {
+                margin: 0 0 6px 0;
+                padding: 0;
+                list-style-type: none !important;
+                display: block;
+                color: $media-color;
+                overflow: hidden;
+                input {
+                    clear: both;
+                    float: left;
+                    margin: 3px 3px 0 5px;
+                }
+                label {
+                    width: 100px;
+                    float: left;
+                    padding: 4px 0 0 0;
+                    line-height: 15px;
+                    font-family: sans-serif;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .mejs-captions-translations {
+        font-size: 10px;
+        margin: 0 0 5px 0;
+    }
+}
+
+.mejs-chapters {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: solid 1px $media-color;
+    width: 10000px;
+    z-index: 1;
+    .mejs-chapter {
+        position: absolute;
+        float: left;
+        background: #3A3C3D;
+        background: rgba(58, 60, 61, 0.7);
+        overflow: hidden;
+        border: 0;
+        .mejs-chapter-block {
+            font-size: 11px;
+            color: $media-color;
+            padding: 5px;
+            display: block;
+            border-right: solid 1px #313335;
+            border-right: solid 1px rgba(49, 51, 53, .7);
+            border-bottom: solid 1px #313335;
+            border-bottom: solid 1px rgba(49, 51, 53, .7);
+            cursor: pointer;
+            &:hover {
+                background: #333;
+                background: rgba(102, 102, 102, 0.7);
+            }
+            .ch-title {
+                font-size: 12px;
+                font-weight: bold;
+                display: block;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin: 0 0 3px 0;
+                line-height: 12px;
+            }
+            .ch-timespan {
+                font-size: 12px;
+                line-height: 12px;
+                margin: 3px 0 4px 0;
+                display: block;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .mejs-chapter-block-last {
+            border-right: none;
+        }
+    }
+}
+
+
+.mejs-captions-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    /*font-weight: bold;*/
+    
+    line-height: 22px;
+    font-size: 12px;
+    color: $media-color;
+}
+.mejs-captions-layer a {
+    color: $media-color;
+    text-decoration: underline;
+}
+.mejs-captions-layer[lang=ar] {
+    font-size: 20px;
+    font-weight: normal;
+}
+.mejs-captions-position {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    left: 0;
+}
+.mejs-captions-position-hover {
+    bottom: 45px;
+}
+.mejs-captions-text {
+    padding: 5px 7px;
+    background: #3a3c3d;
+    background: rgba(58, 60, 61, 0.8);
+    border-radius: 4px;
+}
+/* End: TRACK (Captions and Chapters) */
+
+.mejs-clear {
+    clear: both;
+}
+/* Start: ERROR */
+
+.me-cannotplay {
+    a {
+        color: $media-color;
+        font-weight: bold;
+    }
+    span {
+        padding: 15px;
+        display: block;
+    }
+}
+
+
+/* End: ERROR */
+/* Start: Loop */
+
+.mejs-controls {
+    .mejs-loop-off {
+        button {
+            background-position: -64px -16px;
+        }
+        &:hover {
+            button {
+                background-position: -64px -48px;
+            }
+        }
+    }
+    .mejs-loop-on{
+    	button {
+   			 background-position: -64px 0;
+		}
+		&:hover {
+            button {
+                background-position: -64px -32px;
+            }
+        }
+    }
+    .mejs-backlight-off{
+    	button {
+   			 background-position: -80px -16px;
+		}
+		&:hover {
+            button {
+                background-position: -80px -48px;
+            }
+        }
+    }
+    .mejs-backlight-on{
+    	button {
+   			 background-position: -80px 0;
+		}
+		&:hover {
+            button {
+                background-position: -80px -32px;
+            }
+        }
+    }
+}
+
+/* End: backlight */
+/* Start: picture controls */
+
+.mejs-controls {
+    .mejs-picturecontrols-button {
+        background-position: -96px 0;
+        &:hover {
+            background-position: -96px -32px;
+        }
+    }
+}
+
+
+
+/* End: picture controls */
+/* context menu */
+
+.mejs-contextmenu {
+    position: absolute;
+    width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    background: $media-color;
+    border: solid 1px #999;
+    z-index: 1001;
+    /* make sure it shows on fullscreen */    
+    .mejs-contextmenu-separator {
+        height: 1px;
+        font-size: 0;
+        margin: 5px 6px;
+        background: #333;
+    }
+    .mejs-contextmenu-item {
+        font-family: sans-serif;
+        font-size: 12px;
+        padding: 4px 6px;
+        cursor: pointer;
+        color: #333;
+        &:hover {
+            background: #2C7C91;
+            color: $media-color;
+        }
+    }
+}
+
+/* Start: SourceChooser */
+
+.mejs-sourcechooser-button {
+    position: relative;
+    button {
+        background-position: -128px 0;
+    }
+    .mejs-sourcechooser-selector {
+        visibility: hidden;
+        position: absolute;
+        bottom: 26px;
+        right: -10px;
+        width: 130px;
+        height: 100px;
+        background: #3A3C3D;
+        border: solid 1px transparent;
+        padding: 10px;
+        overflow: hidden;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+            display: block;
+            list-style-type: none !important;
+            overflow: hidden;
+            li {
+                margin: 0 0 6px 0;
+                padding: 0;
+                list-style-type: none !important;
+                display: block;
+                color: $media-color;
+                overflow: hidden;
+                input {
+                    clear: both;
+                    float: left;
+                    margin: 3px 3px 0 5px;
+                }
+                label {
+                    width: 100px;
+                    float: left;
+                    padding: 4px 0 0 0;
+                    line-height: 15px;
+                    font-family: sans-serif;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+/* End: SourceChooser */
+@-webkit-keyframes buffering-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 30px 0;
+    }
+}
+@-moz-keyframes buffering-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 30px 0;
+    }
+}
+@-ms-keyframes buffering-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 30px 0;
+    }
+}
+@-o-keyframes buffering-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 30px 0;
+    }
+}
+@keyframes buffering-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 30px 0;
+    }
+}

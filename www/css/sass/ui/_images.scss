@@ -1,0 +1,65 @@
+img, a img {
+		border:none;
+		padding: 0;
+		margin:0 auto;
+		max-width: 100%;
+		height:auto;
+    width: 100%;
+		image-rendering: optimizeQuality;
+    vertical-align: middle;
+}
+//Icons Box Images
+.image{
+
+	.thumb {
+	  position: relative;
+	  width:  170px;
+	  height: 170px;
+	  line-height: 170px;
+	  font-weight: normal;
+	  text-align: center;
+	  margin: 0 auto 25px;
+	  @include font-size(8.5);
+	  overflow: hidden;
+
+		img {
+			 position: relative;
+			 @include border-radius(85px);	   
+    }
+    &.overlay {    
+        &:before{
+          @include border-radius(85px); 
+        }  
+              
+      }    	
+    }
+}
+
+
+//Left images for authors and testemonial
+.start-image{
+    @include float_start();
+    @include margin-end(30px);
+    overflow: hidden;
+    &.right{
+      @include margin-end(0px);
+    }
+}
+.end-image{
+    @include float_end();
+    @include margin-start(30px);
+    overflow: hidden;
+    &.right{
+      @include margin-start(0px);
+    }
+}
+
+.end-image,.start-image{
+  .circle{
+       @include border-radius(80px);
+    }
+}
+
+img{
+  -ms-interpolation-mode: bicubic;  
+}
