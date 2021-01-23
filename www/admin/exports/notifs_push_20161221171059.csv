@@ -1,0 +1,20 @@
+Nom;Message;"Date creation";"Date envoi";"Nb envoi";Etat
+"nom test";"test message";31/10/2016;31/10/2016;2;send
+ok2;"test 2";31/10/2016;01/11/2016;1;supprime
+Intrand;TEST;02/11/2016;02/11/2016;1;send
+Intrand;TEST;02/11/2016;02/11/2016;1;send
+Intrand;TEST;02/11/2016;02/11/2016;2;send
+Planning;TEST;02/11/2016;02/11/2016;1;send
+test;TEST;07/11/2016;07/11/2016;1;send
+Guilhem;Test;08/11/2016;08/11/2016;1;send
+Guilhem;"Test notif";14/11/2016;14/11/2016;1;supprime
+Guilhem;"Test notif";14/11/2016;14/11/2016;1;send
+Planning;"CHANGEMENT DE PROGRAMME";16/11/2016;16/11/2016;1;send
+Guilhem;Test;22/11/2016;22/11/2016;1;send
+Test;Test;29/11/2016;29/11/2016;1;send
+Test;Test;30/11/2016;30/11/2016;1;send
+"test cron";"test test";05/12/2016;05/12/2016;1;send
+"Test notif ";"Test sur la notif ";05/12/2016;05/12/2016;1;send
+"TEST2 ";"DOUBLE TEST SUR NOTIF ";05/12/2016;05/12/2016;1;send
+notif;"texte de la notif";06/12/2016;06/12/2016;1;send
+Réunion;"Réunion information";07/12/2016;07/12/2016;1;send

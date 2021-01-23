@@ -1,0 +1,118 @@
+Nom;Prenom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Gbadjamo;Blesson;Delicorner;;20/02/2017;08:30;12:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;20/02/2017;09:30;11:00;09:47;11:00
+Gharbi;Yanis;"You Order Garage";;20/02/2017;10:00;14:30;Absent;Absent
+Sepulveda;Juan;"Mix and Match";;20/02/2017;10:00;13:00;12:09;13:00
+Moussay;Jonathan;"Le Cercle";;20/02/2017;10:00;13:30;Absent;Absent
+Belisaire;Christopher;"You Order Garage";;20/02/2017;10:00;14:00;Absent;Absent
+Thiane;Moustapha;"You Order Garage";;20/02/2017;10:30;15:30;Absent;Absent
+Tan;Souvan;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ernestine ";;20/02/2017;10:30;14:00;Absent;Absent
+Ettaj;Ilias;"Frichti Nord";;20/02/2017;10:30;14:00;Absent;Absent
+Kingue;Jonathan;"Frichti Nord";;20/02/2017;10:30;14:00;10:49;10:49
+H'nini;Bilale;"Frichti Sud";;20/02/2017;10:30;14:00;Absent;Absent
+Coulibaly;Makan;"Frichti Nord";;20/02/2017;10:30;14:00;10:33;10:33
+Charrad;Adam;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+Konate;Abdoulaye;"Frichti Ernestine ";;20/02/2017;10:30;14:00;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;20/02/2017;10:30;14:00;Absent;Absent
+Leroy;Tyen;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+Borsla;Zakaria;"Frichti Neuilly";;20/02/2017;10:30;14:00;Absent;Absent
+Maimouna;Sikhou;"Frichti Sud";;20/02/2017;10:30;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+Benrabah;Sabri;"Frichti Sud";;20/02/2017;10:30;14:00;Absent;Absent
+Touron;Kimon;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+Gdaiem;Nizar;"Frichti Ernestine ";;20/02/2017;10:30;14:00;Absent;Absent
+Cicio;Florin;"Frichti Nord";;20/02/2017;10:30;14:00;Absent;Absent
+Coulibaly;Demba;"Frichti Ouest";;20/02/2017;10:30;14:00;Absent;Absent
+Sifi;Adel;"Frichti Ouest";;20/02/2017;10:45;14:00;Absent;Absent
+Laine;Mickael;"Frichti Ouest";;20/02/2017;10:45;14:00;10:45;10:45
+Maachi;Mehdi;"Frichti Ouest";;20/02/2017;10:45;14:00;10:45;10:45
+Guiti;Samir;"Frichti Ouest";;20/02/2017;10:45;14:00;Absent;Absent
+Makalou;Hamedy;"Frichti Ouest";;20/02/2017;11:00;14:00;Absent;Absent
+Cisse;Npali;Wing;;20/02/2017;11:00;14:30;Absent;Absent
+Sylla;Djibril;"Foodcheri Lecourbe";;20/02/2017;11:00;13:00;Absent;Absent
+Felix;Sammy;"Foodcheri Tocqueville";;20/02/2017;11:00;13:00;11:27;11:27
+BOURHALA;Akram;"Foodcheri Maubeuge";;20/02/2017;11:00;13:00;Absent;Absent
+"LE ROURHIS";Gael;"Foodcheri Saint Ambroise";;20/02/2017;11:00;13:00;11:00;13:00
+Traore;Ibrahima;"Frichti Ouest";;20/02/2017;11:00;14:00;Absent;Absent
+Dutreuil;Steven;"Foodcheri Lecourbe";;20/02/2017;11:00;13:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;20/02/2017;11:00;13:00;11:00;13:00
+Dosso;Nogo;"You Order Garage";;20/02/2017;11:00;14:30;Absent;Absent
+Heddi;Omar;"Frichti Ouest";;20/02/2017;11:00;14:00;11:00;11:00
+Toure;Mohamed;"Frichti Ouest";;20/02/2017;11:00;14:00;Absent;Absent
+Rosbif;Jonathan;"Foodcheri Maubeuge";;20/02/2017;11:00;13:00;Absent;Absent
+Sylla;Moussa;"Foodcheri Saint Ambroise";;20/02/2017;11:00;13:00;11:00;10:57
+"Bernard Alexander";Bryane;"Frichti Nord";;20/02/2017;11:30;15:30;11:30;11:30
+Hamour;Chahine;"Frichti Sud";;20/02/2017;11:30;15:30;Absent;Absent
+Bauras;Dylan;20/80;;20/02/2017;11:30;13:30;11:30;11:30
+Mraoui;Aymen;"Frichti Nord";;20/02/2017;11:30;15:30;11:30;11:30
+Said;Moussa;"Frichti Ouest";;20/02/2017;11:30;15:30;Absent;Absent
+Martin;Kevin;"Frichti Sud";;20/02/2017;11:30;15:30;Absent;Absent
+YOUSFI;Walid;"Frichti Ouest";;20/02/2017;11:30;15:30;Absent;Absent
+KEFFAZ;HAMZA;"Frichti Ouest";;20/02/2017;11:30;15:30;11:40;11:40
+Li;Paul;"Frichti Ernestine ";;20/02/2017;11:30;15:30;11:30;11:30
+DIAGOURAGA;Salif;"Frichti Sud";;20/02/2017;11:30;15:30;Absent;Absent
+Kemmad;Lyes;"Frichti Sud";;20/02/2017;11:30;15:30;11:30;11:30
+Fofana;Hamed;Alloresto;;20/02/2017;11:30;14:00;Absent;Absent
+"EL KAFIF";Zakaria;"Frichti Ernestine ";;20/02/2017;11:30;15:30;Absent;Absent
+Boucenna;"Ala Eddine";"Frichti Nord";;20/02/2017;11:30;15:30;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;20/02/2017;11:30;15:30;Absent;Absent
+Augustin;Michael;"Frichti Nord";;20/02/2017;11:30;15:30;11:30;11:30
+Bah;Isaac;Rooj;;20/02/2017;11:30;13:15;Absent;Absent
+Goncalves;Jérémy;"Frichti Ernestine ";;20/02/2017;11:30;15:30;11:37;11:37
+Kalukembi;Gyver;"Frichti Ouest";;20/02/2017;11:30;15:30;11:30;11:30
+Daumont;Ziggy;"Frichti Sud";;20/02/2017;11:30;15:30;Absent;Absent
+Jacob;Youri;"Frichti Ernestine ";;20/02/2017;11:30;15:30;11:30;11:30
+Damasi;Mazen;Alloresto;;20/02/2017;11:30;14:30;Absent;Absent
+Boukhalfi;Yannis;"Frichti Ernestine ";;20/02/2017;11:30;15:30;Absent;Absent
+Dutrinus;Romuald;"Frichti Nord";;20/02/2017;11:30;15:30;Absent;Absent
+Nsingui;Nixon;"Frichti Ouest";;20/02/2017;11:30;15:30;Absent;Absent
+Leveille;Ygnaky;"Bercy Service";;20/02/2017;11:45;13:45;Absent;Absent
+HIR;Adam;"Bercy Service";;20/02/2017;11:45;13:45;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;20/02/2017;11:45;13:45;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;20/02/2017;11:45;13:45;Absent;Absent
+Preaud;Cedric;Alloresto;;20/02/2017;12:00;14:30;12:00;12:00
+Chote;Jérôme;"You Order Garage";;20/02/2017;13:00;14:00;13:00;13:00
+Moussay;Jonathan;"Le Cercle";;20/02/2017;14:30;18:00;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;20/02/2017;15:00;18:00;Absent;Absent
+Cisse;Npali;"You Order Garage";;20/02/2017;16:00;19:30;Absent;Absent
+Garcia;Carlos;"You Order Garage";;20/02/2017;17:30;22:30;Absent;Absent
+Mokni;Mohamed;"You Order Garage";;20/02/2017;17:30;22:00;Absent;Absent
+Coulibaly;Demba;"You Order Garage";;20/02/2017;17:30;22:00;Absent;Absent
+Konate;Abdoulaye;"You Order Garage";;20/02/2017;17:30;22:00;Absent;Absent
+Bah;Isaac;"You Order Garage";;20/02/2017;17:30;22:00;Absent;Absent
+Cicio;Florin;"You Order Garage";;20/02/2017;17:30;22:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Ouest";;20/02/2017;18:00;22:00;Absent;Absent
+Gdaiem;Nizar;"You Order Garage";;20/02/2017;18:00;22:00;Absent;Absent
+Touron;Kimon;"Frichti Ernestine ";;20/02/2017;18:00;22:00;Absent;Absent
+Belisaire;Christopher;"Frichti Nord";;20/02/2017;18:00;22:00;Absent;Absent
+Charrad;Adam;"Frichti Ouest";;20/02/2017;18:00;22:00;Absent;Absent
+HIR;Adam;"Foodcheri Saint Ambroise";;20/02/2017;18:00;21:00;Absent;Absent
+Kemmad;Lyes;"Frichti Ouest";;20/02/2017;18:00;22:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;20/02/2017;18:00;21:00;Absent;Absent
+Ettaj;Ilias;"Frichti Nord";;20/02/2017;18:00;22:00;Absent;Absent
+Damasi;Mazen;Alloresto;;20/02/2017;18:30;21:30;Absent;Absent
+Guiti;Samir;"Frichti Ouest";;20/02/2017;18:30;22:00;Absent;Absent
+DOUMBIA;Aziz;"You Order Garage";;20/02/2017;18:30;22:30;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;20/02/2017;18:30;22:00;Absent;Absent
+Gbadjamo;Blesson;"You Order Garage";;20/02/2017;18:30;23:00;Absent;Absent
+Maimouna;Sikhou;"Frichti Sud";;20/02/2017;18:30;22:00;Absent;Absent
+Sylla;Djibril;Alloresto;;20/02/2017;18:30;21:30;Absent;Absent
+Sifi;Adel;"Frichti Ouest";;20/02/2017;18:30;22:00;Absent;Absent
+Goncalves;Jérémy;"You Order Garage";;20/02/2017;18:30;22:00;Absent;Absent
+Jean-Jacques;Alexandre;Alloresto;;20/02/2017;18:30;22:00;Absent;Absent
+BOURHALA;Akram;Alloresto;;20/02/2017;19:00;22:00;Absent;Absent
+Benrabah;Sabri;"Frichti Ouest";;20/02/2017;19:00;22:00;Absent;Absent
+Sylla;Moussa;"You Order Garage";;20/02/2017;19:00;23:00;Absent;Absent
+Traore;Ibrahima;"You Order Garage";;20/02/2017;19:00;22:30;Absent;Absent
+Kingue;Jonathan;Alloresto;;20/02/2017;19:00;22:00;Absent;Absent
+Borsla;Zakaria;"Frichti Ouest";;20/02/2017;19:00;22:00;Absent;Absent
+Heddi;Omar;"Frichti Ouest";;20/02/2017;19:00;22:00;Absent;Absent
+Leroy;Tyen;"Hôtel Chef";;20/02/2017;19:30;22:30;Absent;Absent
+Rosbif;Jonathan;"You Order Garage";;20/02/2017;19:30;23:00;Absent;Absent
+Preaud;Cedric;Alloresto;;20/02/2017;19:30;23:00;Absent;Absent
+H'nini;Bilale;"Hôtel Chef";;20/02/2017;19:30;22:30;Absent;Absent
+Gharbi;Yanis;Alloresto;;20/02/2017;20:00;23:00;Absent;Absent
+Dosso;Nogo;"Frichti Ernestine ";;20/02/2017;20:00;23:00;Absent;Absent
+Felix;Sammy;Alloresto;;20/02/2017;20:00;23:00;Absent;Absent
+Martin;Kevin;"Frichti Ernestine ";;20/02/2017;20:00;23:00;Absent;Absent

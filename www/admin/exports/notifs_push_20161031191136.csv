@@ -1,0 +1,5 @@
+Nom;Message;"Date creation";"Date envoi";"Nb envoi";Etat
+"nom test";"test message";31/10/2016;31/10/2016;2;send
+"test 2";"test test test";31/10/2016;01/11/2016;2;pending
+"test new";fffff;31/10/2016;01/11/2016;1;pending
+ok2;"test 2";31/10/2016;01/11/2016;1;supprime

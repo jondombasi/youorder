@@ -1,0 +1,663 @@
+Nom;Prenom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Cisse;Npali;"Pâtisserie Eugene 4";;30/01/2017;09:00;09:30;Absent;Absent
+Ibnchatou;Youssef;Delicorner;;30/01/2017;09:00;11:00;Absent;Absent
+Chote;Jérôme;"You Order Garage";;30/01/2017;09:45;10:45;Absent;Absent
+Akkari;Nizar;"You Order Garage";;30/01/2017;10:00;14:30;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;30/01/2017;10:00;14:30;Absent;Absent
+Kalukembi;Gyver;"You Order Garage";;30/01/2017;10:00;14:30;Absent;Absent
+Guiti;Samir;"Frichti Nord";;30/01/2017;10:30;14:00;Absent;Absent
+Fofana;Hamed;"Frichti Nord";;30/01/2017;10:30;14:00;Absent;Absent
+Daumont;Ziggy;"Frichti Sud";;30/01/2017;10:30;14:00;10:36;10:36
+Siby;Idrissa;"Frichti Nord";;30/01/2017;10:30;14:00;Absent;Absent
+Borsla;Zakaria;"Frichti Ouest";;30/01/2017;10:30;14:00;10:51;10:51
+Rosbif;Emmanuel;"Frichti Sud";;30/01/2017;10:30;14:00;Absent;Absent
+Leroy;Tyen;"Frichti Ouest";;30/01/2017;10:30;14:00;10:30;10:30
+Touron;Kimon;"Frichti Ouest";;30/01/2017;10:30;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Nord";;30/01/2017;10:30;14:00;Absent;Absent
+Dutreuil;Steven;"Frichti Ouest";;30/01/2017;10:30;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;30/01/2017;10:30;13:30;Absent;Absent
+Gharbi;Yanis;"Frichti Ouest";;30/01/2017;10:30;14:00;10:30;14:00
+Rosbif;Jonathan;"Frichti Nord";;30/01/2017;10:45;14:00;Absent;Absent
+H'nini;Bilale;"Frichti Ouest";;30/01/2017;10:45;14:00;Absent;Absent
+Traore;Ibrahima;"Frichti Sud";;30/01/2017;10:45;14:00;10:45;10:42
+Sepulveda;Juan;"Frichti Nord";;30/01/2017;10:45;14:00;10:50;14:00
+Chinine;Nabil;"Frichti Ouest";;30/01/2017;10:45;14:00;Absent;Absent
+Tan;Souvan;"Frichti Nord";;30/01/2017;10:45;14:00;Absent;Absent
+Jacob;Youri;"Frichti Ouest";;30/01/2017;10:45;14:00;10:45;14:00
+Augustin;Michael;"Frichti Ouest";;30/01/2017;10:45;14:00;Absent;Absent
+Cicio;Florin;"Frichti Sud";;30/01/2017;10:45;14:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Nord";;30/01/2017;10:45;14:00;10:45;14:00
+Goncalves;Jérémy;"Foodcheri Saint Ambroise";;30/01/2017;11:00;13:00;11:05;13:00
+Konate;Abdoulaye;"Frichti Ouest";;30/01/2017;11:00;14:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;30/01/2017;11:00;14:00;Absent;Absent
+Belisaire;Christopher;"Foodcheri Lecourbe";;30/01/2017;11:00;13:00;Absent;Absent
+Boucenna;"Ala Eddine";"Frichti Ouest";;30/01/2017;11:00;14:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;30/01/2017;11:00;13:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;30/01/2017;11:00;14:00;11:01;11:01
+HIR;Adam;"Foodcheri Tocqueville";;30/01/2017;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;30/01/2017;11:00;14:00;Absent;Absent
+"EL KAFIF";Zakaria;"Frichti Ouest";;30/01/2017;11:00;14:00;Absent;Absent
+BOURHALA;Akram;"Foodcheri Maubeuge";;30/01/2017;11:00;13:00;Absent;Absent
+Li;Paul;"Foodcheri Tocqueville";;30/01/2017;11:00;13:00;11:00;13:00
+Sylla;Djibril;"Foodcheri Maubeuge";;30/01/2017;11:00;13:00;Absent;Absent
+Martin;Kevin;"Frichti Ouest";;30/01/2017;11:00;14:00;Absent;Absent
+Merad;Imed;"Frichti Nord";;30/01/2017;11:30;14:30;11:42;14:30
+Ambras;Zakaria;"Frichti Ouest";;30/01/2017;11:30;14:30;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;30/01/2017;11:30;13:45;11:30;13:45
+Heddi;Omar;"Frichti Nord";;30/01/2017;11:30;14:30;Absent;Absent
+Chiche;Dylan;"Bercy Service";;30/01/2017;11:30;13:45;Absent;Absent
+Kingue;Jonathan;Alloresto;;30/01/2017;11:30;14:00;11:39;14:00
+Soares;Nathalie;"Frichti Ouest";;30/01/2017;11:30;14:30;Absent;Absent
+Sylla;Moussa;"Frichti Ouest";;30/01/2017;11:30;14:30;11:30;14:30
+Ettaj;Ilias;"Frichti Nord";;30/01/2017;11:30;14:30;Absent;Absent
+Damasi;Mazen;Alloresto;;30/01/2017;11:30;14:30;Absent;Absent
+Bouras;Dylan;"Frichti Sud";;30/01/2017;11:30;14:30;Absent;Absent
+Zegari;Mehdi;"Frichti Nord";;30/01/2017;11:30;14:30;11:45;14:30
+Boukhalfi;Yannis;"Frichti Ouest";;30/01/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;30/01/2017;11:30;13:15;Absent;Absent
+Garcia;Carlos;20/80;;30/01/2017;11:30;13:30;11:30;13:30
+Tebtoub;Abderrahmane;"Bercy Service";;30/01/2017;11:45;13:45;Absent;Absent
+Vinot;Baptiste;"Frichti Ouest";;30/01/2017;12:00;15:30;Absent;Absent
+Sifi;Adel;"Frichti Sud";;30/01/2017;12:00;15:30;Absent;Absent
+Diakite;Hamet;Alloresto;;30/01/2017;12:00;14:30;Absent;Absent
+Gbadjamo;Blesson;"Frichti Ouest";;30/01/2017;12:00;15:30;12:05;15:30
+" AIT SALAH ";Nabil;"Frichti Ouest";;30/01/2017;12:00;15:30;Absent;Absent
+Angulo;Stéphane;"Frichti Sud";;30/01/2017;12:00;15:30;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;30/01/2017;12:00;15:30;Absent;Absent
+Coulibaly;Demba;"Frichti Nord";;30/01/2017;12:00;15:30;Absent;Absent
+Makalou;Hamedy;"Frichti Nord";;30/01/2017;12:00;15:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;30/01/2017;13:00;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;30/01/2017;14:30;18:30;Absent;Absent
+Cicio;Florin;"You Order Garage";;30/01/2017;15:00;18:00;15:00;15:00
+Cisse;Npali;"You Order Garage";;30/01/2017;15:00;17:30;Absent;Absent
+Jean-Jacques;Alexandre;"You Order Garage";;30/01/2017;15:00;19:00;15:00;15:00
+Tebtoub;Abderrahmane;"You Order Garage";;30/01/2017;16:00;19:00;Absent;Absent
+H'nini;Bilale;"You Order Garage";;30/01/2017;17:30;22:30;Absent;Absent
+"LE ROURHIS";Gael;"You Order Garage";;30/01/2017;17:30;22:30;Absent;Absent
+Makalou;Hamedy;"You Order Garage";;30/01/2017;17:30;22:00;Absent;Absent
+Garcia;Carlos;"You Order Garage";;30/01/2017;17:30;22:00;Absent;Absent
+Kalukembi;Gyver;"Frichti Ouest";;30/01/2017;18:00;22:00;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;30/01/2017;18:00;22:00;Absent;Absent
+Pereira;Ludovic;"Frichti Nord";;30/01/2017;18:00;22:00;Absent;Absent
+Zegari;Mehdi;"You Order Garage";;30/01/2017;18:00;22:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;30/01/2017;18:00;22:00;Absent;Absent
+Traore;Ibrahima;"Foodcheri Saint Ambroise";;30/01/2017;18:00;21:00;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;30/01/2017;18:00;22:00;Absent;Absent
+HIR;Adam;"You Order Garage";;30/01/2017;18:00;23:00;Absent;Absent
+Goncalves;Jérémy;Afromiam;;30/01/2017;18:00;23:00;Absent;Absent
+Tan;Souvan;"Frichti Ouest";;30/01/2017;18:00;22:00;Absent;Absent
+Vinot;Baptiste;"Foodcheri Maubeuge";;30/01/2017;18:00;21:00;Absent;Absent
+Boukhalfi;Yannis;"Frichti Ouest";;30/01/2017;18:00;22:00;Absent;Absent
+Sylla;Moussa;"Frichti Ouest";;30/01/2017;18:30;22:00;Absent;Absent
+Siby;Idrissa;Alloresto;;30/01/2017;18:30;23:00;Absent;Absent
+Sylla;Djibril;Alloresto;;30/01/2017;18:30;21:30;Absent;Absent
+Belisaire;Christopher;"Frichti Sud";;30/01/2017;18:30;22:00;Absent;Absent
+Sifi;Adel;"Frichti Ouest";;30/01/2017;18:30;22:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Nord";;30/01/2017;18:30;22:00;Absent;Absent
+Akkari;Nizar;"Frichti Sud";;30/01/2017;18:30;22:00;Absent;Absent
+Bouras;Dylan;"You Order Garage";;30/01/2017;18:30;23:00;Absent;Absent
+Diakite;Hamet;Alloresto;;30/01/2017;18:30;23:00;Absent;Absent
+Gbadjamo;Blesson;"Frichti Ouest";;30/01/2017;18:30;22:00;Absent;Absent
+Leroy;Tyen;"Frichti Sud";;30/01/2017;18:30;22:00;Absent;Absent
+Damasi;Mazen;Alloresto;;30/01/2017;18:30;21:30;Absent;Absent
+BOURHALA;Akram;"You Order Garage";;30/01/2017;18:30;22:30;Absent;Absent
+Heddi;Omar;"Frichti Nord";;30/01/2017;18:30;22:00;Absent;Absent
+Daumont;Ziggy;"Frichti Sud";;30/01/2017;18:30;22:00;Absent;Absent
+Bah;Isaac;"Frichti Ouest";;30/01/2017;19:00;22:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ouest";;30/01/2017;19:00;22:00;Absent;Absent
+Fofana;Hamed;Alloresto;;30/01/2017;19:00;22:00;Absent;Absent
+Merad;Imed;"You Order Garage";;30/01/2017;19:00;22:00;Absent;Absent
+Borsla;Zakaria;"Frichti Sud";;30/01/2017;19:00;22:00;Absent;Absent
+Ettaj;Ilias;"Frichti Ouest";;30/01/2017;19:00;22:00;Absent;Absent
+Chiche;Dylan;Alloresto;;30/01/2017;19:00;22:00;Absent;Absent
+Dembele;Moustaphe;"You Order Garage";;30/01/2017;19:00;23:00;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;30/01/2017;19:30;22:30;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;30/01/2017;19:30;22:30;Absent;Absent
+Gharbi;Yanis;Alloresto;;30/01/2017;20:00;23:00;Absent;Absent
+Ambras;Zakaria;Alloresto;;30/01/2017;20:00;23:00;Absent;Absent
+Chote;Jérôme;"You Order Garage";;31/01/2017;09:45;10:45;Absent;Absent
+"EL KAFIF";Zakaria;"You Order Garage";;31/01/2017;10:00;14:30;Absent;Absent
+Bouras;Dylan;"You Order Garage";;31/01/2017;10:00;14:30;Absent;Absent
+Boucenna;"Ala Eddine";"You Order Garage";;31/01/2017;10:00;14:30;Absent;Absent
+Cisse;Npali;"You Order Garage";;31/01/2017;10:00;14:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;31/01/2017;10:00;12:00;Absent;Absent
+Ettaj;Ilias;"Frichti Nord";;31/01/2017;10:30;14:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Nord";;31/01/2017;10:30;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;31/01/2017;10:30;13:30;Absent;Absent
+Leroy;Tyen;"Frichti Sud";;31/01/2017;10:30;14:00;Absent;Absent
+Rosbif;Emmanuel;"Frichti Ouest";;31/01/2017;10:30;14:00;Absent;Absent
+Sifi;Adel;"Frichti Nord";;31/01/2017;10:30;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Ouest";;31/01/2017;10:30;14:00;Absent;Absent
+" AIT SALAH ";Nabil;"Frichti Nord";;31/01/2017;10:30;14:00;Absent;Absent
+Gharbi;Yanis;"Frichti Ouest";;31/01/2017;10:30;14:00;Absent;Absent
+Todasca;Alexandre;"Frichti Ouest";;31/01/2017;10:30;14:00;Absent;Absent
+Daumont;Ziggy;"Frichti Sud";;31/01/2017;10:30;14:00;Absent;Absent
+Ambras;Zakaria;"Frichti Nord";;31/01/2017;10:45;14:00;Absent;Absent
+Makalou;Hamedy;"Frichti Ouest";;31/01/2017;10:45;14:00;Absent;Absent
+Dutreuil;Steven;"Frichti Nord";;31/01/2017;10:45;14:00;Absent;Absent
+Borsla;Zakaria;"Frichti Ouest";;31/01/2017;10:45;14:00;Absent;Absent
+Sylla;Moussa;"Frichti Sud";;31/01/2017;10:45;14:00;Absent;Absent
+Vinot;Baptiste;"Frichti Ouest";;31/01/2017;10:45;14:00;Absent;Absent
+Coulibaly;Demba;"Frichti Nord";;31/01/2017;10:45;14:00;Absent;Absent
+Tan;Souvan;"Frichti Nord";;31/01/2017;10:45;14:00;Absent;Absent
+H'nini;Bilale;"Frichti Sud";;31/01/2017;10:45;14:00;Absent;Absent
+Fofana;Hamed;"Foodcheri Saint Ambroise";;31/01/2017;11:00;13:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;31/01/2017;11:00;13:00;Absent;Absent
+Guiti;Samir;"Frichti Ouest";;31/01/2017;11:00;14:00;Absent;Absent
+Jacob;Youri;"Foodcheri Lecourbe";;31/01/2017;11:00;13:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;31/01/2017;11:00;14:00;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;31/01/2017;11:00;14:00;Absent;Absent
+BOURHALA;Akram;"Foodcheri Maubeuge";;31/01/2017;11:00;13:00;Absent;Absent
+Konate;Abdoulaye;"Foodcheri Tocqueville";;31/01/2017;11:00;13:00;Absent;Absent
+Heddi;Omar;"Frichti Neuilly";;31/01/2017;11:00;14:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;31/01/2017;11:00;13:00;Absent;Absent
+Augustin;Michael;"Foodcheri Lecourbe";;31/01/2017;11:00;13:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;31/01/2017;11:00;14:00;Absent;Absent
+Martin;Kevin;"Frichti Ouest";;31/01/2017;11:00;14:00;Absent;Absent
+HIR;Adam;"Foodcheri Tocqueville";;31/01/2017;11:00;13:00;Absent;Absent
+Sylla;Djibril;"Foodcheri Saint Ambroise";;31/01/2017;11:00;13:00;Absent;Absent
+Chinine;Nabil;"Frichti Ouest";;31/01/2017;11:30;14:30;Absent;Absent
+Garcia;Carlos;20/80;;31/01/2017;11:30;13:30;Absent;Absent
+Merad;Imed;"Frichti Nord";;31/01/2017;11:30;14:30;Absent;Absent
+Siby;Idrissa;Alloresto;;31/01/2017;11:30;14:00;Absent;Absent
+Chiche;Dylan;"Bercy Service";;31/01/2017;11:30;13:45;Absent;Absent
+Damasi;Mazen;Alloresto;;31/01/2017;11:30;14:30;Absent;Absent
+Belisaire;Christopher;"Frichti Sud";;31/01/2017;11:30;14:30;Absent;Absent
+Traore;Ibrahima;"Frichti Ouest";;31/01/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;31/01/2017;11:30;13:15;Absent;Absent
+Akkari;Nizar;"Frichti Nord";;31/01/2017;11:30;14:30;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;31/01/2017;11:30;13:45;Absent;Absent
+Cicio;Florin;"Frichti Ouest";;31/01/2017;11:30;14:30;Absent;Absent
+Sepulveda;Juan;"Frichti Nord";;31/01/2017;11:30;14:30;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;31/01/2017;11:45;13:45;Absent;Absent
+Soares;Nathalie;"Frichti Sud";;31/01/2017;12:00;15:30;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;31/01/2017;12:00;15:30;Absent;Absent
+Touron;Kimon;"Frichti Sud";;31/01/2017;12:00;15:30;Absent;Absent
+Gbadjamo;Blesson;"Frichti Nord";;31/01/2017;12:00;15:30;Absent;Absent
+Boukhalfi;Yannis;"Frichti Ouest";;31/01/2017;12:00;15:30;Absent;Absent
+Kalukembi;Gyver;"Frichti Nord";;31/01/2017;12:00;15:30;Absent;Absent
+Li;Paul;"Frichti Ouest";;31/01/2017;12:00;15:30;Absent;Absent
+Zegari;Mehdi;"Frichti Sud";;31/01/2017;12:00;15:30;Absent;Absent
+Kingue;Jonathan;"Frichti Ouest";;31/01/2017;12:00;15:30;Absent;Absent
+Rosbif;Jonathan;"Frichti Sud";;31/01/2017;12:00;15:30;Absent;Absent
+Diakite;Hamet;Alloresto;;31/01/2017;12:00;14:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;31/01/2017;13:00;14:00;Absent;Absent
+Sylla;Djibril;"You Order Garage";;31/01/2017;14:00;16:00;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;31/01/2017;14:00;17:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;31/01/2017;14:30;18:30;Absent;Absent
+Bah;Isaac;"You Order Garage";;31/01/2017;14:30;17:30;Absent;Absent
+Cisse;Npali;"You Order Garage";;31/01/2017;15:00;17:30;Absent;Absent
+Jean-Jacques;Alexandre;"You Order Garage";;31/01/2017;15:00;19:00;Absent;Absent
+Cicio;Florin;"You Order Garage";;31/01/2017;15:30;19:00;Absent;Absent
+Garcia;Carlos;"You Order Garage";;31/01/2017;17:30;22:00;Absent;Absent
+Ambras;Zakaria;"You Order Garage";;31/01/2017;17:30;22:30;Absent;Absent
+Daumont;Ziggy;"You Order Garage";;31/01/2017;17:30;22:30;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;31/01/2017;18:00;22:00;Absent;Absent
+Heddi;Omar;"Frichti Nord";;31/01/2017;18:00;22:00;Absent;Absent
+Belisaire;Christopher;"Foodcheri Saint Ambroise";;31/01/2017;18:00;21:00;Absent;Absent
+Merad;Imed;"You Order Garage";;31/01/2017;18:00;22:30;Absent;Absent
+Sylla;Moussa;"You Order Garage";;31/01/2017;18:00;22:30;Absent;Absent
+Chiche;Dylan;"Foodcheri Maubeuge";;31/01/2017;18:00;21:00;Absent;Absent
+Pereira;Ludovic;"Frichti Nord";;31/01/2017;18:00;22:00;Absent;Absent
+Abdul;Hasan;Afromiam;;31/01/2017;18:00;23:00;Absent;Absent
+Jacob;Youri;"Frichti Nord";;31/01/2017;18:30;22:00;Absent;Absent
+Tan;Souvan;"Frichti Nord";;31/01/2017;18:30;22:00;Absent;Absent
+Coulibaly;Demba;Alloresto;;31/01/2017;18:30;23:00;Absent;Absent
+Guiti;Samir;"Frichti Sud";;31/01/2017;18:30;22:00;Absent;Absent
+Dutreuil;Steven;"Frichti Ouest";;31/01/2017;18:30;22:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Sud";;31/01/2017;18:30;22:00;Absent;Absent
+Siby;Idrissa;Alloresto;;31/01/2017;18:30;21:30;Absent;Absent
+Traore;Ibrahima;"You Order Garage";;31/01/2017;18:30;23:00;Absent;Absent
+BOURHALA;Akram;"You Order Garage";;31/01/2017;18:30;22:30;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;31/01/2017;18:30;22:30;Absent;Absent
+Touron;Kimon;Alloresto;;31/01/2017;18:30;23:00;Absent;Absent
+Gharbi;Yanis;Alloresto;;31/01/2017;18:30;21:30;Absent;Absent
+Borsla;Zakaria;"Frichti Ouest";;31/01/2017;18:30;22:00;Absent;Absent
+HIR;Adam;Alloresto;;31/01/2017;19:00;22:00;Absent;Absent
+Sifi;Adel;"Frichti Sud";;31/01/2017;19:00;22:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;31/01/2017;19:00;22:00;Absent;Absent
+H'nini;Bilale;"Frichti Ouest";;31/01/2017;19:00;22:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Sud";;31/01/2017;19:00;22:00;Absent;Absent
+Goncalves;Jérémy;Alloresto;;31/01/2017;19:00;22:00;Absent;Absent
+Ettaj;Ilias;"Frichti Ouest";;31/01/2017;19:00;22:00;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;31/01/2017;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;31/01/2017;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;31/01/2017;19:30;22:30;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;31/01/2017;19:30;22:30;Absent;Absent
+Fofana;Hamed;"Frichti Ouest";;31/01/2017;20:00;23:00;Absent;Absent
+Damasi;Mazen;Alloresto;;31/01/2017;20:00;23:00;Absent;Absent
+Vinot;Baptiste;"Frichti Sud";;31/01/2017;20:00;23:00;Absent;Absent
+Li;Paul;"Frichti Ouest";;31/01/2017;20:00;23:00;Absent;Absent
+Leroy;Tyen;"Frichti Sud";;31/01/2017;20:00;23:00;Absent;Absent
+Diakite;Hamet;Alloresto;;31/01/2017;20:00;23:00;Absent;Absent
+Cisse;Npali;"Pâtisserie Eugene 4";;01/02/2017;07:00;08:00;Absent;Absent
+Chote;Jérôme;"You Order Garage";;01/02/2017;09:45;10:45;Absent;Absent
+"EL KAFIF";Zakaria;"You Order Garage";;01/02/2017;10:00;14:30;Absent;Absent
+Zegari;Mehdi;"You Order Garage";;01/02/2017;10:00;14:30;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;01/02/2017;10:00;12:00;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;01/02/2017;10:00;14:30;Absent;Absent
+Chinine;Nabil;"You Order Garage";;01/02/2017;10:00;14:30;Absent;Absent
+Boukhalfi;Yannis;"Frichti Sud";;01/02/2017;10:30;14:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;01/02/2017;10:30;14:00;Absent;Absent
+Gharbi;Yanis;"Frichti Nord";;01/02/2017;10:30;14:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Ouest";;01/02/2017;10:30;14:00;Absent;Absent
+Touron;Kimon;"Frichti Nord";;01/02/2017;10:30;14:00;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;01/02/2017;10:30;14:00;Absent;Absent
+Sylla;Djibril;"Frichti Ouest";;01/02/2017;10:30;14:00;Absent;Absent
+Kalukembi;Gyver;"Frichti Sud";;01/02/2017;10:30;14:00;Absent;Absent
+Kingue;Jonathan;"Frichti Nord";;01/02/2017;10:30;14:00;Absent;Absent
+Sepulveda;Juan;"Frichti Nord";;01/02/2017;10:30;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;01/02/2017;10:30;13:30;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;01/02/2017;10:45;14:00;Absent;Absent
+Ettaj;Ilias;"Frichti Sud";;01/02/2017;10:45;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Ouest";;01/02/2017;10:45;14:00;Absent;Absent
+Guiti;Samir;"Frichti Nord";;01/02/2017;10:45;14:00;Absent;Absent
+Merad;Imed;"Frichti Sud";;01/02/2017;10:45;14:00;Absent;Absent
+Li;Paul;"Frichti Nord";;01/02/2017;10:45;14:00;Absent;Absent
+Leroy;Tyen;"Frichti Nord";;01/02/2017;10:45;14:00;Absent;Absent
+Sifi;Adel;"Frichti Ouest";;01/02/2017;10:45;14:00;Absent;Absent
+Vinot;Baptiste;"Frichti Nord";;01/02/2017;10:45;14:00;Absent;Absent
+BOURHALA;Akram;"Foodcheri Maubeuge";;01/02/2017;11:00;13:00;Absent;Absent
+Jacob;Youri;"Foodcheri Tocqueville";;01/02/2017;11:00;13:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;01/02/2017;11:00;14:00;Absent;Absent
+HIR;Adam;"Frichti Ouest";;01/02/2017;11:00;14:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;01/02/2017;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;01/02/2017;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;01/02/2017;11:00;14:00;Absent;Absent
+Soares;Nathalie;"Foodcheri Lecourbe";;01/02/2017;11:00;13:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;01/02/2017;11:00;14:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;01/02/2017;11:00;13:00;Absent;Absent
+Cicio;Florin;"Frichti Ouest";;01/02/2017;11:00;14:00;Absent;Absent
+Tan;Souvan;"Foodcheri Saint Ambroise";;01/02/2017;11:00;13:00;Absent;Absent
+Daumont;Ziggy;"Foodcheri Tocqueville";;01/02/2017;11:00;13:00;Absent;Absent
+Heddi;Omar;"Frichti Neuilly";;01/02/2017;11:00;14:00;Absent;Absent
+Belisaire;Christopher;"Foodcheri Lecourbe";;01/02/2017;11:00;13:00;Absent;Absent
+Traore;Ibrahima;"Frichti Ouest";;01/02/2017;11:00;14:00;Absent;Absent
+Damasi;Mazen;Alloresto;;01/02/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;01/02/2017;11:30;13:15;Absent;Absent
+Akkari;Nizar;"Frichti Nord";;01/02/2017;11:30;14:30;Absent;Absent
+Abdul;Hasan;"Frichti Ouest";;01/02/2017;11:30;14:30;Absent;Absent
+" AIT SALAH ";Nabil;"Frichti Nord";;01/02/2017;11:30;14:30;Absent;Absent
+Coulibaly;Demba;"Frichti Sud";;01/02/2017;11:30;14:30;Absent;Absent
+Martin;Kevin;"Frichti Ouest";;01/02/2017;11:30;14:30;Absent;Absent
+H'nini;Bilale;"Frichti Sud";;01/02/2017;11:30;14:30;Absent;Absent
+Rosbif;Emmanuel;"Frichti Ouest";;01/02/2017;11:30;14:30;Absent;Absent
+Garcia;Carlos;20/80;;01/02/2017;11:30;13:30;Absent;Absent
+Diakite;Hamet;Alloresto;;01/02/2017;11:30;14:00;Absent;Absent
+Siby;Idrissa;"Frichti Sud";;01/02/2017;11:30;14:30;Absent;Absent
+Bouras;Dylan;"Frichti Nord";;01/02/2017;11:30;14:30;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;01/02/2017;11:30;13:45;Absent;Absent
+"LE ROURHIS";Gael;"Frichti Nord";;01/02/2017;11:30;14:30;Absent;Absent
+Chiche;Dylan;"Bercy Service";;01/02/2017;11:30;13:45;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;01/02/2017;11:45;13:45;Absent;Absent
+Borsla;Zakaria;"Frichti Nord";;01/02/2017;12:00;15:30;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;01/02/2017;12:00;15:30;Absent;Absent
+Dutreuil;Steven;"Frichti Nord";;01/02/2017;12:00;15:30;Absent;Absent
+Sylla;Moussa;"Frichti Sud";;01/02/2017;12:00;15:30;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ouest";;01/02/2017;12:00;15:30;Absent;Absent
+Gbadjamo;Blesson;"Frichti Ouest";;01/02/2017;12:00;15:30;Absent;Absent
+Makalou;Hamedy;Alloresto;;01/02/2017;12:00;14:30;Absent;Absent
+Ambras;Zakaria;"Frichti Sud";;01/02/2017;12:00;15:30;Absent;Absent
+Fofana;Hamed;"Frichti Ouest";;01/02/2017;12:00;15:30;Absent;Absent
+Konate;Abdoulaye;"Frichti Sud";;01/02/2017;12:00;15:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;01/02/2017;13:00;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;01/02/2017;14:30;18:30;Absent;Absent
+Cisse;Npali;"You Order Garage";;01/02/2017;15:00;17:30;Absent;Absent
+Daumont;Ziggy;"You Order Garage";;01/02/2017;15:00;19:00;Absent;Absent
+Jean-Jacques;Alexandre;"You Order Garage";;01/02/2017;15:00;19:00;Absent;Absent
+Dembele;Moustaphe;"You Order Garage";;01/02/2017;15:00;18:30;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;01/02/2017;16:00;20:30;Absent;Absent
+Sifi;Adel;Alancienne;;01/02/2017;16:00;20:30;Absent;Absent
+Garcia;Carlos;"You Order Garage";;01/02/2017;16:30;19:30;Absent;Absent
+"LE ROURHIS";Gael;"You Order Garage";;01/02/2017;17:30;22:30;Absent;Absent
+Bah;Isaac;"You Order Garage";;01/02/2017;17:30;22:00;Absent;Absent
+Kalukembi;Gyver;"You Order Garage";;01/02/2017;17:30;22:00;Absent;Absent
+Zegari;Mehdi;"You Order Garage";;01/02/2017;18:00;22:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;01/02/2017;18:00;21:00;Absent;Absent
+Chiche;Dylan;"You Order Garage";;01/02/2017;18:00;22:00;Absent;Absent
+Ettaj;Ilias;"Frichti Ouest";;01/02/2017;18:00;22:00;Absent;Absent
+Touron;Kimon;"You Order Garage";;01/02/2017;18:00;23:00;Absent;Absent
+Belisaire;Christopher;"Frichti Ouest";;01/02/2017;18:00;22:00;Absent;Absent
+Abdul;Hasan;Afromiam;;01/02/2017;18:00;23:00;Absent;Absent
+Angulo;Stéphane;"Foodcheri Saint Ambroise";;01/02/2017;18:00;21:00;Absent;Absent
+Boukhalfi;Yannis;"You Order Garage";;01/02/2017;18:00;22:00;Absent;Absent
+Diakite;Hamet;Alloresto;;01/02/2017;18:30;21:30;Absent;Absent
+Vinot;Baptiste;"Frichti Ouest";;01/02/2017;18:30;22:00;Absent;Absent
+Traore;Ibrahima;"You Order Garage";;01/02/2017;18:30;23:00;Absent;Absent
+Bouras;Dylan;"You Order Garage";;01/02/2017;18:30;23:00;Absent;Absent
+Guiti;Samir;"Frichti Nord";;01/02/2017;18:30;22:00;Absent;Absent
+HIR;Adam;Alloresto;;01/02/2017;18:30;23:00;Absent;Absent
+"Bernard Alexander";Bryane;Alloresto;;01/02/2017;18:30;21:30;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ouest";;01/02/2017;18:30;22:00;Absent;Absent
+Gbadjamo;Blesson;"Frichti Sud";;01/02/2017;18:30;22:00;Absent;Absent
+Goncalves;Jérémy;"Frichti Nord";;01/02/2017;18:30;22:00;Absent;Absent
+Merad;Imed;"Frichti Sud";;01/02/2017;18:30;22:00;Absent;Absent
+Akkari;Nizar;"Frichti Ouest";;01/02/2017;18:30;22:00;Absent;Absent
+Damasi;Mazen;Alloresto;;01/02/2017;18:30;23:00;Absent;Absent
+H'nini;Bilale;"Frichti Sud";;01/02/2017;19:00;22:00;Absent;Absent
+BOURHALA;Akram;Alloresto;;01/02/2017;19:00;22:00;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;01/02/2017;19:00;22:00;Absent;Absent
+Cicio;Florin;"Frichti Ouest";;01/02/2017;19:00;22:00;Absent;Absent
+Augustin;Michael;"Frichti Sud";;01/02/2017;19:00;22:00;Absent;Absent
+Pereira;Ludovic;"Frichti Nord";;01/02/2017;19:00;22:00;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;01/02/2017;19:00;22:00;Absent;Absent
+Siby;Idrissa;Alloresto;;01/02/2017;19:00;22:00;Absent;Absent
+Heddi;Omar;"Frichti Nord";;01/02/2017;19:00;22:00;Absent;Absent
+Tan;Souvan;"Frichti Ouest";;01/02/2017;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;01/02/2017;19:30;22:30;Absent;Absent
+Leroy;Tyen;"Hôtel Chef";;01/02/2017;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;01/02/2017;19:30;22:30;Absent;Absent
+Todasca;Alexandre;"Frichti Sud";;01/02/2017;20:00;23:00;Absent;Absent
+Jacob;Youri;Alloresto;;01/02/2017;20:00;23:00;Absent;Absent
+Coulibaly;Demba;"Frichti Sud";;01/02/2017;20:00;23:00;Absent;Absent
+Li;Paul;Alloresto;;01/02/2017;20:00;23:00;Absent;Absent
+Cisse;Npali;"Pâtisserie Eugene 4";;02/02/2017;07:00;08:00;Absent;Absent
+Chote;Jérôme;"You Order Garage";;02/02/2017;09:45;10:45;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;02/02/2017;10:00;12:00;Absent;Absent
+Cisse;Npali;"You Order Garage";;02/02/2017;10:00;15:30;Absent;Absent
+"LE ROURHIS";Gael;"You Order Garage";;02/02/2017;10:00;14:30;Absent;Absent
+Chinine;Nabil;"You Order Garage";;02/02/2017;10:00;14:30;Absent;Absent
+Boucenna;"Ala Eddine";"You Order Garage";;02/02/2017;10:00;14:30;Absent;Absent
+"EL KAFIF";Zakaria;"You Order Garage";;02/02/2017;10:00;14:30;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;02/02/2017;10:00;14:30;Absent;Absent
+Sylla;Moussa;"Frichti Ouest";;02/02/2017;10:30;14:00;Absent;Absent
+Kalukembi;Gyver;"Frichti Ouest";;02/02/2017;10:30;14:00;Absent;Absent
+Belisaire;Christopher;"Frichti Sud";;02/02/2017;10:30;14:00;Absent;Absent
+Traore;Ibrahima;"Frichti Nord";;02/02/2017;10:30;14:00;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;02/02/2017;10:30;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;02/02/2017;10:30;13:30;Absent;Absent
+Leroy;Tyen;"Frichti Sud";;02/02/2017;10:30;14:00;Absent;Absent
+Sepulveda;Juan;"Frichti Ouest";;02/02/2017;10:30;14:00;Absent;Absent
+Pereira;Ludovic;"Frichti Nord";;02/02/2017;10:30;14:00;Absent;Absent
+Guiti;Samir;"Frichti Ouest";;02/02/2017;10:30;14:00;Absent;Absent
+Heddi;Omar;"Frichti Nord";;02/02/2017;10:30;14:00;Absent;Absent
+Rosbif;Emmanuel;"Frichti Nord";;02/02/2017;10:45;14:00;Absent;Absent
+Touron;Kimon;"Frichti Ouest";;02/02/2017;10:45;14:00;Absent;Absent
+Vinot;Baptiste;"Frichti Sud";;02/02/2017;10:45;14:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;02/02/2017;10:45;14:00;Absent;Absent
+Ambras;Zakaria;"Frichti Nord";;02/02/2017;10:45;14:00;Absent;Absent
+Zegari;Mehdi;"Frichti Sud";;02/02/2017;10:45;14:00;Absent;Absent
+Borsla;Zakaria;"Frichti Nord";;02/02/2017;10:45;14:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;02/02/2017;10:45;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Ouest";;02/02/2017;10:45;14:00;Absent;Absent
+Abdul;Hasan;"Frichti Sud";;02/02/2017;10:45;14:00;Absent;Absent
+Gharbi;Yanis;"Frichti Nord";;02/02/2017;10:45;14:00;Absent;Absent
+Akalin;Denizkan;"You Order Garage";;02/02/2017;11:00;14:30;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;02/02/2017;11:00;13:00;Absent;Absent
+Boukhalfi;Yannis;"Frichti Ouest";;02/02/2017;11:00;14:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;02/02/2017;11:00;13:00;Absent;Absent
+HIR;Adam;"Foodcheri Saint Ambroise";;02/02/2017;11:00;13:00;Absent;Absent
+BOURHALA;Akram;"Foodcheri Tocqueville";;02/02/2017;11:00;13:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ouest";;02/02/2017;11:00;14:00;Absent;Absent
+Kingue;Jonathan;"You Order Garage";;02/02/2017;11:00;15:30;Absent;Absent
+Angulo;Stéphane;"Foodcheri Lecourbe";;02/02/2017;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;02/02/2017;11:00;13:00;Absent;Absent
+Dutreuil;Steven;"Frichti Ouest";;02/02/2017;11:00;14:00;Absent;Absent
+Fofana;Hamed;"Foodcheri Tocqueville";;02/02/2017;11:00;13:00;Absent;Absent
+Cicio;Florin;"Foodcheri Saint Ambroise";;02/02/2017;11:00;13:00;Absent;Absent
+Martin;Kevin;"Foodcheri Lecourbe";;02/02/2017;11:00;13:00;Absent;Absent
+Merad;Imed;"Frichti Sud";;02/02/2017;11:30;14:30;Absent;Absent
+Tan;Souvan;"Frichti Ouest";;02/02/2017;11:30;14:30;Absent;Absent
+Garcia;Carlos;20/80;;02/02/2017;11:30;13:30;Absent;Absent
+Li;Paul;"Frichti Ouest";;02/02/2017;11:30;14:30;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;02/02/2017;11:30;13:45;Absent;Absent
+Damasi;Mazen;Alloresto;;02/02/2017;11:30;14:00;Absent;Absent
+Makalou;Hamedy;"Frichti Nord";;02/02/2017;11:30;14:30;Absent;Absent
+Chiche;Dylan;"Bercy Service";;02/02/2017;11:30;13:45;Absent;Absent
+Daumont;Ziggy;"Frichti Sud";;02/02/2017;11:30;14:30;Absent;Absent
+Sifi;Adel;"Frichti Nord";;02/02/2017;11:30;14:30;Absent;Absent
+Bouras;Dylan;"Frichti Ouest";;02/02/2017;11:30;14:30;Absent;Absent
+Siby;Idrissa;Alloresto;;02/02/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;02/02/2017;11:30;13:15;Absent;Absent
+H'nini;Bilale;"Frichti Sud";;02/02/2017;11:30;14:30;Absent;Absent
+" AIT SALAH ";Nabil;"Frichti Nord";;02/02/2017;11:30;14:30;Absent;Absent
+Rosbif;Jonathan;"Frichti Ouest";;02/02/2017;11:30;14:30;Absent;Absent
+Ettaj;Ilias;"Frichti Nord";;02/02/2017;11:30;14:30;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;02/02/2017;11:45;13:45;Absent;Absent
+Gbadjamo;Blesson;"Frichti Sud";;02/02/2017;12:00;15:30;Absent;Absent
+Diakite;Hamet;Alloresto;;02/02/2017;12:00;14:30;Absent;Absent
+Coulibaly;Demba;"Frichti Sud";;02/02/2017;12:00;15:30;Absent;Absent
+Jacob;Youri;"Frichti Ouest";;02/02/2017;12:00;15:30;Absent;Absent
+Konate;Abdoulaye;"Frichti Sud";;02/02/2017;12:00;15:30;Absent;Absent
+Soares;Nathalie;"Frichti Nord";;02/02/2017;12:00;15:30;Absent;Absent
+ZEEVAKUMAR;Josué;"Frichti Ouest";;02/02/2017;12:00;15:30;Absent;Absent
+Akkari;Nizar;"Frichti Nord";;02/02/2017;12:00;15:30;Absent;Absent
+Sylla;Djibril;"Frichti Ouest";;02/02/2017;12:00;15:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;02/02/2017;13:00;14:00;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;02/02/2017;14:30;19:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;02/02/2017;14:30;18:30;Absent;Absent
+Cicio;Florin;"You Order Garage";;02/02/2017;15:00;18:30;Absent;Absent
+Gbadjamo;Blesson;"You Order Garage";;02/02/2017;16:30;20:30;Absent;Absent
+Bah;Isaac;"You Order Garage";;02/02/2017;17:30;22:00;Absent;Absent
+ZEEVAKUMAR;Josué;"You Order Garage";;02/02/2017;17:30;22:00;Absent;Absent
+Heddi;Omar;"Frichti Nord";;02/02/2017;18:00;22:00;Absent;Absent
+Chiche;Dylan;"Lavoir Moderne";;02/02/2017;18:00;21:00;Absent;Absent
+Angulo;Stéphane;"Frichti Sud";;02/02/2017;18:00;22:00;Absent;Absent
+Akalin;Denizkan;"Frichti Ouest";;02/02/2017;18:00;22:00;Absent;Absent
+Fofana;Hamed;"Foodcheri Saint Ambroise";;02/02/2017;18:00;21:00;Absent;Absent
+Mokni;Mohamed;"Frichti Nord";;02/02/2017;18:00;22:00;Absent;Absent
+Sifi;Adel;"Frichti Ouest";;02/02/2017;18:00;22:00;Absent;Absent
+Abdul;Hasan;Afromiam;;02/02/2017;18:00;23:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;02/02/2017;18:00;21:00;Absent;Absent
+Pereira;Ludovic;"Frichti Nord";;02/02/2017;18:00;22:00;Absent;Absent
+Sylla;Moussa;"You Order Garage";;02/02/2017;18:00;22:30;Absent;Absent
+Touron;Kimon;Alloresto;;02/02/2017;18:30;21:30;Absent;Absent
+"LE ROURHIS";Gael;"Frichti Ouest";;02/02/2017;18:30;22:00;Absent;Absent
+HIR;Adam;"Frichti Ouest";;02/02/2017;18:30;22:00;Absent;Absent
+Merad;Imed;Alloresto;;02/02/2017;18:30;23:00;Absent;Absent
+Jean-Jacques;Alexandre;Alloresto;;02/02/2017;18:30;21:30;Absent;Absent
+Sylla;Djibril;"Frichti Sud";;02/02/2017;18:30;22:00;Absent;Absent
+Chinine;Nabil;"Frichti Ouest";;02/02/2017;18:30;22:00;Absent;Absent
+BOURHALA;Akram;Alloresto;;02/02/2017;18:30;23:00;Absent;Absent
+Belisaire;Christopher;"Frichti Sud";;02/02/2017;18:30;22:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Sud";;02/02/2017;19:00;22:00;Absent;Absent
+Goncalves;Jérémy;"Frichti Nord";;02/02/2017;19:00;22:00;Absent;Absent
+Guiti;Samir;"Frichti Ouest";;02/02/2017;19:00;22:00;Absent;Absent
+Kingue;Jonathan;"Frichti Nord";;02/02/2017;19:00;22:00;Absent;Absent
+Dembele;Moustaphe;"You Order Garage";;02/02/2017;19:00;23:00;Absent;Absent
+Garcia;Carlos;"Hôtel Chef";;02/02/2017;19:00;22:00;Absent;Absent
+Tan;Souvan;"Frichti Nord";;02/02/2017;19:00;22:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;02/02/2017;19:00;22:00;Absent;Absent
+Boukhalfi;Yannis;Alloresto;;02/02/2017;19:00;22:00;Absent;Absent
+Leroy;Tyen;"Hôtel Chef";;02/02/2017;19:00;22:00;Absent;Absent
+Borsla;Zakaria;"Frichti Sud";;02/02/2017;19:00;22:00;Absent;Absent
+Coulibaly;Demba;"Frichti Nord";;02/02/2017;19:00;22:00;Absent;Absent
+Akkari;Nizar;"Frichti Ouest";;02/02/2017;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;02/02/2017;19:30;22:30;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;02/02/2017;19:30;22:30;Absent;Absent
+Rosbif;Jonathan;"Frichti Nord";;02/02/2017;20:00;23:00;Absent;Absent
+Siby;Idrissa;Alloresto;;02/02/2017;20:00;23:00;Absent;Absent
+Bouras;Dylan;"Frichti Sud";;02/02/2017;20:00;23:00;Absent;Absent
+Dutreuil;Steven;"Frichti Nord";;02/02/2017;20:00;23:00;Absent;Absent
+Konate;Abdoulaye;Alloresto;;02/02/2017;20:00;23:00;Absent;Absent
+Vinot;Baptiste;"Frichti Ouest";;02/02/2017;20:00;23:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Sud";;02/02/2017;20:00;23:00;Absent;Absent
+Traore;Ibrahima;"Frichti Nord";;02/02/2017;20:00;23:00;Absent;Absent
+Chote;Jérôme;"You Order Garage";;03/02/2017;09:45;10:45;Absent;Absent
+Chinine;Nabil;"You Order Garage";;03/02/2017;10:00;14:30;Absent;Absent
+Soares;Nathalie;"You Order Garage";;03/02/2017;10:00;14:30;Absent;Absent
+Guiti;Samir;"You Order Garage";;03/02/2017;10:00;14:30;Absent;Absent
+"EL KAFIF";Zakaria;"You Order Garage";;03/02/2017;10:00;14:30;Absent;Absent
+Boucenna;"Ala Eddine";"You Order Garage";;03/02/2017;10:00;14:30;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;03/02/2017;10:00;12:00;Absent;Absent
+Konate;Abdoulaye;"Frichti Ouest";;03/02/2017;10:30;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;03/02/2017;10:30;13:30;Absent;Absent
+Belisaire;Christopher;"Frichti Ouest";;03/02/2017;10:30;14:00;Absent;Absent
+Traore;Ibrahima;"Frichti Nord";;03/02/2017;10:30;14:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Sud";;03/02/2017;10:30;14:00;Absent;Absent
+Li;Paul;"Frichti Ouest";;03/02/2017;10:30;14:00;Absent;Absent
+Ettaj;Ilias;"Frichti Nord";;03/02/2017;10:30;14:00;Absent;Absent
+" AIT SALAH ";Nabil;"Frichti Nord";;03/02/2017;10:30;14:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;03/02/2017;10:30;14:00;Absent;Absent
+Dembele;Moustaphe;"Frichti Sud";;03/02/2017;10:30;14:00;Absent;Absent
+Sylla;Djibril;"Frichti Ouest";;03/02/2017;10:30;14:00;Absent;Absent
+Daumont;Ziggy;"Frichti Sud";;03/02/2017;10:45;14:00;Absent;Absent
+Tan;Souvan;"Frichti Nord";;03/02/2017;10:45;14:00;Absent;Absent
+ZEEVAKUMAR;Josué;"Frichti Nord";;03/02/2017;10:45;14:00;Absent;Absent
+Boukhalfi;Yannis;"Frichti Sud";;03/02/2017;10:45;14:00;Absent;Absent
+DOUMBIA;Aziz;"Frichti Ouest";;03/02/2017;10:45;14:00;Absent;Absent
+Sylla;Moussa;"Frichti Ouest";;03/02/2017;10:45;14:00;Absent;Absent
+Borsla;Zakaria;"Frichti Ouest";;03/02/2017;10:45;14:00;Absent;Absent
+Cicio;Florin;"Frichti Nord";;03/02/2017;10:45;14:00;Absent;Absent
+Gbadjamo;Blesson;"Frichti Sud";;03/02/2017;10:45;14:00;Absent;Absent
+Siby;Idrissa;"Frichti Nord";;03/02/2017;10:45;14:00;Absent;Absent
+Makalou;Hamedy;"Frichti Ouest";;03/02/2017;10:45;14:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;03/02/2017;11:00;14:00;Absent;Absent
+Kingue;Jonathan;"You Order Garage";;03/02/2017;11:00;15:30;Absent;Absent
+Cisse;Npali;Wing;;03/02/2017;11:00;14:00;Absent;Absent
+Merad;Imed;"Foodcheri Maubeuge";;03/02/2017;11:00;13:00;Absent;Absent
+Dutreuil;Steven;"Foodcheri Lecourbe";;03/02/2017;11:00;13:00;Absent;Absent
+H'nini;Bilale;"Foodcheri Tocqueville";;03/02/2017;11:00;13:00;Absent;Absent
+Heddi;Omar;"Frichti Neuilly";;03/02/2017;11:00;14:00;Absent;Absent
+Angulo;Stéphane;"Foodcheri Saint Ambroise";;03/02/2017;11:00;13:00;Absent;Absent
+Rosbif;Emmanuel;"Foodcheri Lecourbe";;03/02/2017;11:00;13:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;03/02/2017;11:00;14:00;Absent;Absent
+Goncalves;Jérémy;"Foodcheri Lecourbe";;03/02/2017;11:00;13:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Tocqueville";;03/02/2017;11:00;13:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;03/02/2017;11:00;13:00;Absent;Absent
+Gharbi;Yanis;"Foodcheri Tocqueville";;03/02/2017;11:00;13:00;Absent;Absent
+Bouras;Dylan;"You Order Garage";;03/02/2017;11:00;14:30;Absent;Absent
+Diakite;Hamet;Alloresto;;03/02/2017;11:30;14:00;Absent;Absent
+Akalin;Denizkan;"Frichti Nord";;03/02/2017;11:30;14:30;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;03/02/2017;11:30;14:30;Absent;Absent
+Chiche;Dylan;"Bercy Service";;03/02/2017;11:30;13:45;Absent;Absent
+Leroy;Tyen;"Frichti Nord";;03/02/2017;11:30;14:30;Absent;Absent
+BOURHALA;Akram;Alloresto;;03/02/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;03/02/2017;11:30;13:15;Absent;Absent
+Todasca;Alexandre;"Frichti Nord";;03/02/2017;11:30;14:30;Absent;Absent
+Martin;Kevin;"Frichti Nord";;03/02/2017;11:30;14:30;Absent;Absent
+Jean-Jacques;Alexandre;"Bercy Service";;03/02/2017;11:30;13:45;Absent;Absent
+HIR;Adam;"Frichti Ouest";;03/02/2017;11:30;14:30;Absent;Absent
+Zegari;Mehdi;"Frichti Ouest";;03/02/2017;11:30;14:30;Absent;Absent
+Garcia;Carlos;20/80;;03/02/2017;11:30;13:30;Absent;Absent
+Touron;Kimon;"Frichti Ouest";;03/02/2017;11:30;14:30;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;03/02/2017;11:45;13:45;Absent;Absent
+Akkari;Nizar;"Frichti Ouest";;03/02/2017;12:00;15:30;Absent;Absent
+Jacob;Youri;"Frichti Ouest";;03/02/2017;12:00;15:30;Absent;Absent
+Coulibaly;Demba;"Frichti Nord";;03/02/2017;12:00;15:30;Absent;Absent
+Sepulveda;Juan;"Frichti Nord";;03/02/2017;12:00;15:30;Absent;Absent
+Ambras;Zakaria;"Frichti Ouest";;03/02/2017;12:00;15:30;Absent;Absent
+"LE ROURHIS";Gael;"Frichti Sud";;03/02/2017;12:00;15:30;Absent;Absent
+Damasi;Mazen;Alloresto;;03/02/2017;12:00;14:30;Absent;Absent
+Fofana;Hamed;"Frichti Ouest";;03/02/2017;12:00;15:30;Absent;Absent
+Chote;Jérôme;"You Order Garage";;03/02/2017;13:00;14:00;Absent;Absent
+Moussay;Jonathan;"Le Cercle";;03/02/2017;14:30;18:30;Absent;Absent
+Jean-Jacques;Alexandre;"You Order Garage";;03/02/2017;15:00;18:30;Absent;Absent
+Cicio;Florin;"You Order Garage";;03/02/2017;15:00;18:30;Absent;Absent
+Cisse;Npali;"You Order Garage";;03/02/2017;15:30;19:30;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;03/02/2017;16:00;19:30;Absent;Absent
+Bah;Isaac;"You Order Garage";;03/02/2017;17:30;22:30;Absent;Absent
+Ambras;Zakaria;"You Order Garage";;03/02/2017;17:30;22:30;Absent;Absent
+"LE ROURHIS";Gael;"You Order Garage";;03/02/2017;17:30;22:30;Absent;Absent
+DOUMBIA;Aziz;"You Order Garage";;03/02/2017;17:30;22:30;Absent;Absent
+Gharbi;Yanis;"Frichti Sud";;03/02/2017;18:00;22:00;Absent;Absent
+Abdul;Hasan;Alancienne;;03/02/2017;18:00;22:00;Absent;Absent
+Dutreuil;Steven;Afromiam;;03/02/2017;18:00;23:00;Absent;Absent
+Angulo;Stéphane;"Frichti Ouest";;03/02/2017;18:00;22:00;Absent;Absent
+H'nini;Bilale;"Foodcheri Maubeuge";;03/02/2017;18:00;21:00;Absent;Absent
+Vinot;Baptiste;"Frichti Sud";;03/02/2017;18:00;22:00;Absent;Absent
+Leveille;Ygnaky;"Frichti Sud";;03/02/2017;18:00;22:00;Absent;Absent
+Augustin;Michael;"Frichti Ouest";;03/02/2017;18:00;22:00;Absent;Absent
+Goncalves;Jérémy;"Frichti Sud";;03/02/2017;18:00;22:00;Absent;Absent
+Gbadjamo;Blesson;"Frichti Ouest";;03/02/2017;18:00;22:00;Absent;Absent
+Diakite;Hamet;Alloresto;;03/02/2017;18:30;23:00;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;03/02/2017;18:30;22:00;Absent;Absent
+Sylla;Djibril;"Frichti Ouest";;03/02/2017;18:30;22:00;Absent;Absent
+Li;Paul;Alloresto;;03/02/2017;18:30;21:30;Absent;Absent
+ZEEVAKUMAR;Josué;Alloresto;;03/02/2017;18:30;23:00;Absent;Absent
+Rosbif;Jonathan;"Frichti Ouest";;03/02/2017;18:30;22:00;Absent;Absent
+Borsla;Zakaria;Alloresto;;03/02/2017;18:30;21:30;Absent;Absent
+Kalukembi;Gyver;"Frichti Ouest";;03/02/2017;18:30;22:00;Absent;Absent
+Siby;Idrissa;Alloresto;;03/02/2017;19:00;22:00;Absent;Absent
+Mokni;Mohamed;"Frichti Ouest";;03/02/2017;19:00;22:00;Absent;Absent
+Garcia;Carlos;"Hôtel Chef";;03/02/2017;19:00;22:00;Absent;Absent
+Tan;Souvan;Alloresto;;03/02/2017;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;03/02/2017;19:00;22:00;Absent;Absent
+Makalou;Hamedy;"Frichti Ouest";;03/02/2017;19:00;22:00;Absent;Absent
+Zegari;Mehdi;"You Order Garage";;03/02/2017;19:00;22:30;Absent;Absent
+Chiche;Dylan;"You Order Garage";;03/02/2017;19:00;23:00;Absent;Absent
+Akalin;Denizkan;"Frichti Sud";;03/02/2017;19:00;22:00;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;03/02/2017;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;03/02/2017;19:30;22:30;Absent;Absent
+Boukhalfi;Yannis;"Frichti Nord";;03/02/2017;20:00;23:00;Absent;Absent
+"Bernard Alexander";Bryane;Alloresto;;03/02/2017;20:00;23:00;Absent;Absent
+Akkari;Nizar;"Frichti Nord";;03/02/2017;20:00;23:00;Absent;Absent
+Fofana;Hamed;Alloresto;;03/02/2017;20:00;23:00;Absent;Absent
+Makalou;Hamedy;"You Order Garage";;04/02/2017;10:00;15:00;Absent;Absent
+Ibnchatou;Youssef;"Hugo Desnoyer Boulard";;04/02/2017;10:00;12:00;Absent;Absent
+Rosbif;Emmanuel;"You Order Garage";;04/02/2017;10:00;14:30;Absent;Absent
+Bouras;Dylan;"You Order Garage";;04/02/2017;10:30;14:30;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;04/02/2017;10:30;16:30;Absent;Absent
+" AIT SALAH ";Nabil;"You Order Garage";;04/02/2017;10:30;14:30;Absent;Absent
+Garcia;Carlos;"You Order Garage";;04/02/2017;11:00;15:00;Absent;Absent
+Fofana;Hamed;"Frichti Sud";;04/02/2017;11:00;14:00;Absent;Absent
+H'nini;Bilale;"Frichti Sud";;04/02/2017;11:00;14:00;Absent;Absent
+Kalukembi;Gyver;Alloresto;;04/02/2017;11:30;14:30;Absent;Absent
+Tokplo;Félix;Alloresto;;04/02/2017;12:00;14:30;Absent;Absent
+Akkari;Nizar;"You Order Garage";;04/02/2017;17:30;22:00;Absent;Absent
+Heddi;Omar;"Frichti Neuilly";;04/02/2017;18:00;22:00;Absent;Absent
+ZEEVAKUMAR;Josué;Afromiam;;04/02/2017;18:00;23:00;Absent;Absent
+Makalou;Hamedy;"Frichti Sud";;04/02/2017;18:00;22:00;Absent;Absent
+Jean-Jacques;Alexandre;Alloresto;;04/02/2017;18:30;22:00;Absent;Absent
+Tokplo;Félix;Alloresto;;04/02/2017;18:30;23:00;Absent;Absent
+Todasca;Alexandre;"You Order Garage";;04/02/2017;18:30;22:30;Absent;Absent
+Belisaire;Christopher;Alloresto;;04/02/2017;18:30;22:00;Absent;Absent
+Vinot;Baptiste;Alloresto;;04/02/2017;19:00;22:00;Absent;Absent
+Abdul;Hasan;"Frichti Sud";;04/02/2017;19:00;22:00;Absent;Absent
+Fofana;Hamed;"Frichti Sud";;04/02/2017;19:00;22:00;Absent;Absent
+Kalukembi;Gyver;Alloresto;;04/02/2017;19:00;22:00;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;04/02/2017;19:00;22:00;Absent;Absent
+Rosbif;Emmanuel;"Hôtel Chef";;04/02/2017;19:30;22:30;Absent;Absent
+H'nini;Bilale;"Hôtel Chef";;04/02/2017;19:30;22:30;Absent;Absent
+Jacob;Youri;Alloresto;;04/02/2017;20:00;23:00;Absent;Absent
+Coulibaly;Demba;Alloresto;;04/02/2017;20:00;23:00;Absent;Absent
+Li;Paul;"You Order Garage";;05/02/2017;10:00;14:30;Absent;Absent
+Boucenna;"Ala Eddine";"You Order Garage";;05/02/2017;10:30;14:00;Absent;Absent
+Tan;Souvan;"You Order Garage";;05/02/2017;10:30;14:00;Absent;Absent
+Ettaj;Ilias;"You Order Garage";;05/02/2017;10:30;14:00;Absent;Absent
+Kingue;Jonathan;"You Order Garage";;05/02/2017;10:30;15:30;Absent;Absent
+Soares;Nathalie;"You Order Garage";;05/02/2017;10:30;14:00;Absent;Absent
+Gbadjamo;Blesson;"Foodcheri Saint Ambroise";;05/02/2017;11:00;13:00;Absent;Absent
+Chinine;Nabil;"Frichti Ouest";;05/02/2017;11:00;14:00;Absent;Absent
+Chiche;Dylan;"Foodcheri Lecourbe";;05/02/2017;11:00;13:00;Absent;Absent
+Borsla;Zakaria;"Foodcheri Lecourbe";;05/02/2017;11:00;13:00;Absent;Absent
+Chote;Jérôme;"Foodcheri Saint Ambroise";;05/02/2017;11:00;13:00;Absent;Absent
+Sylla;Djibril;"Frichti Ouest";;05/02/2017;11:00;14:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;05/02/2017;11:00;13:00;Absent;Absent
+Siby;Idrissa;Alloresto;;05/02/2017;11:30;14:30;Absent;Absent
+Tokplo;Félix;Alloresto;;05/02/2017;11:30;14:30;Absent;Absent
+Damasi;Mazen;Alloresto;;05/02/2017;12:00;14:30;Absent;Absent
+Guiti;Samir;"You Order Garage";;05/02/2017;17:30;22:30;Absent;Absent
+Angulo;Stéphane;"Frichti Sud";;05/02/2017;18:00;22:00;Absent;Absent
+Zegari;Mehdi;"You Order Garage";;05/02/2017;18:00;22:30;Absent;Absent
+Diakite;Hamet;Alloresto;;05/02/2017;18:00;22:00;Absent;Absent
+Abdul;Hasan;"Frichti Ouest";;05/02/2017;18:00;22:00;Absent;Absent
+Daumont;Ziggy;"Frichti Neuilly";;05/02/2017;18:00;22:00;Absent;Absent
+Dutreuil;Steven;Afromiam;;05/02/2017;18:00;23:00;Absent;Absent
+Merad;Imed;"Frichti Sud";;05/02/2017;18:00;22:00;Absent;Absent
+Sylla;Moussa;"You Order Garage";;05/02/2017;18:00;22:30;Absent;Absent
+Ettaj;Ilias;"Frichti Ouest";;05/02/2017;18:00;22:00;Absent;Absent
+Sifi;Adel;"Frichti Sud";;05/02/2017;18:00;22:00;Absent;Absent
+Boukhalfi;Yannis;"Frichti Ouest";;05/02/2017;18:00;22:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;05/02/2017;18:00;22:00;Absent;Absent
+Bah;Isaac;"Frichti Neuilly";;05/02/2017;18:00;22:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;05/02/2017;18:00;22:00;Absent;Absent
+BOURHALA;Akram;"You Order Garage";;05/02/2017;18:30;22:30;Absent;Absent
+Tokplo;Félix;Alloresto;;05/02/2017;18:30;23:00;Absent;Absent
+Gharbi;Yanis;Alloresto;;05/02/2017;18:30;23:00;Absent;Absent
+Damasi;Mazen;Alloresto;;05/02/2017;18:30;21:30;Absent;Absent
+Kingue;Jonathan;Alloresto;;05/02/2017;18:30;21:30;Absent;Absent
+"LE ROURHIS";Gael;"You Order Garage";;05/02/2017;18:30;22:30;Absent;Absent
+Akalin;Denizkan;"Frichti Nord";;05/02/2017;19:00;22:00;Absent;Absent
+Dembele;Moustaphe;"You Order Garage";;05/02/2017;19:00;23:00;Absent;Absent
+Ambras;Zakaria;"Frichti Sud";;05/02/2017;19:00;22:00;Absent;Absent
+Goncalves;Jérémy;"Frichti Ouest";;05/02/2017;19:00;22:00;Absent;Absent
+Sylla;Djibril;Alloresto;;05/02/2017;19:00;22:00;Absent;Absent
+HIR;Adam;"Frichti Nord";;05/02/2017;19:00;22:00;Absent;Absent
+Leveille;Ygnaky;Alloresto;;05/02/2017;19:00;22:00;Absent;Absent
+Cicio;Florin;"Frichti Nord";;05/02/2017;19:00;22:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;05/02/2017;19:30;22:30;Absent;Absent
+Leroy;Tyen;"Hôtel Chef";;05/02/2017;19:30;22:30;Absent;Absent
+Sajad;Qassim;"Hôtel Chef";;05/02/2017;19:30;22:30;Absent;Absent
+Chiche;Dylan;Alloresto;;05/02/2017;20:00;23:00;Absent;Absent
+Touron;Kimon;Alloresto;;05/02/2017;20:00;23:00;Absent;Absent

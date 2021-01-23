@@ -1,0 +1,93 @@
+Nom;Prenom;Commercant;Vehicule;Date;"Heure debut planifiée";"Heure fin planifiée";"Heure debut effectuée";"Heure fin effectuée"
+Cisse;Npali;"Pâtisserie Eugene 4";;04/01/2017;07:00;08:00;Absent;Absent
+Bnouzalim;Yassine;"youOrder coordination";;04/01/2017;09:00;16:00;09:00;16:00
+H'Nini;Bilale;"You Order Garage";;04/01/2017;10:00;14:00;Absent;Absent
+TANOH;Amede;"You Order Garage";;04/01/2017;10:00;14:00;Absent;Absent
+Khalloqi;Anas;"You Order Garage";;04/01/2017;10:00;14:00;Absent;Absent
+Sepulveda;Juan;"You Order Garage";;04/01/2017;10:00;14:30;10:05;14:10
+Diakite;Hamet;"You Order Garage";;04/01/2017;10:00;14:00;Absent;Absent
+Sewifi;Karim;"You Order Garage";;04/01/2017;10:00;14:30;Absent;Absent
+Sifi;Adel;"You Order Garage";;04/01/2017;10:00;14:30;10:00;14:29
+Kalukembi;Gyver;"You Order Garage";;04/01/2017;10:00;14:00;Absent;Absent
+Leroy;Tyen;"Frichti Ouest";;04/01/2017;10:30;14:00;10:35;10:35
+Camara;Bouyagui;"Frichti Nord";;04/01/2017;10:30;14:00;Absent;Absent
+"Bernard Alexander";Bryane;"Frichti Ouest";;04/01/2017;10:30;14:00;10:30;14:00
+Sylla;Djibril;"Frichti Ouest";;04/01/2017;10:30;14:00;Absent;Absent
+Augustin;Michael;"Frichti Nord";;04/01/2017;10:30;14:00;Absent;Absent
+Bara;Ishak;"Frichti Nord";;04/01/2017;10:30;14:00;10:30;14:00
+Luvuezo;Nathan;"Frichti Ouest";;04/01/2017;10:30;14:00;Absent;Absent
+Berthe;Gabin;"Frichti Nord";;04/01/2017;10:30;14:00;10:39;14:00
+Ouail;Ramzie;"Frichti Nord";;04/01/2017;10:30;14:00;Absent;Absent
+Li;Paul;"Frichti Nord";;04/01/2017;10:30;14:00;10:30;14:00
+Rosbif;Jonathan;"Frichti Ouest";;04/01/2017;10:30;14:00;Absent;Absent
+Karamoko;Zakaria;"Frichti Nord";;04/01/2017;10:45;14:00;Absent;Absent
+Bislimi;Wandy;"Frichti Ouest";;04/01/2017;10:45;14:00;Absent;Absent
+Boukhalfi;Yannis;"Frichti Nord";;04/01/2017;10:45;14:00;10:51;14:00
+Angulo;Stéphane;"Frichti Ouest";;04/01/2017;10:45;14:00;10:45;14:00
+Merad;Imed;"Frichti Ouest";;04/01/2017;10:45;14:00;Absent;Absent
+Martin;Kevin;"Frichti Nord";;04/01/2017;10:45;14:00;10:47;14:00
+Jean-Jacques;Alexandre;"Frichti Ouest";;04/01/2017;10:45;14:00;11:08;14:00
+Rosbif;Emmanuel;"Frichti Ouest";;04/01/2017;10:45;14:00;Absent;Absent
+Dutreuil;Steven;"Frichti Nord";;04/01/2017;10:45;14:00;10:45;14:00
+Tan;Souvan;"Foodcheri Saint Ambroise";;04/01/2017;11:00;13:00;11:00;13:00
+Belisaire;Christopher;"You Order Garage";;04/01/2017;11:00;15:30;Absent;Absent
+Chiche;Dylan;"Foodcheri Saint Ambroise";;04/01/2017;11:00;13:00;Absent;Absent
+Cisse;Npali;Wing;;04/01/2017;11:00;14:30;Absent;Absent
+Gbadjamo;Blesson;"You Order Garage";;04/01/2017;11:00;15:30;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Maubeuge";;04/01/2017;11:00;13:00;11:05;13:00
+Goncalves;Jérémy;"Foodcheri Lecourbe";;04/01/2017;11:00;13:00;11:00;13:00
+GHLIWACH;Badredine;"Foodcheri Maubeuge";;04/01/2017;11:00;13:00;Absent;Absent
+Daumont;Ziggy;"Foodcheri Tocqueville";;04/01/2017;11:00;13:00;Absent;Absent
+Heddi;Omar;"Frichti Neuilly";;04/01/2017;11:00;14:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;04/01/2017;11:00;14:00;11:02;14:00
+Pereira;Ludovic;"Frichti Neuilly";;04/01/2017;11:00;14:00;11:00;14:00
+Mambomgo;Aniclay;"You Order Garage";;04/01/2017;11:00;15:30;Absent;Absent
+Rzig;Aymen;"Foodcheri Tocqueville";;04/01/2017;11:00;13:00;Absent;Absent
+Delannay;Wesley;"Foodcheri Tocqueville";;04/01/2017;11:00;13:00;11:05;13:00
+Marquet;Cedric;"Frichti Ouest";;04/01/2017;11:30;14:30;Absent;Absent
+Garcia;Carlos;20/80;;04/01/2017;11:30;14:30;11:30;14:30
+Siby;Idrissa;"Frichti Ouest";;04/01/2017;11:30;14:30;Absent;Absent
+Cicio;Florin;"Frichti Ouest";;04/01/2017;11:30;14:30;Absent;Absent
+Damasi;Mazen;Alloresto;;04/01/2017;11:30;14:30;Absent;Absent
+Borsla;Zakaria;Alloresto;;04/01/2017;11:30;14:00;11:33;14:00
+Ettaj;Ilias;"Frichti Ouest";;04/01/2017;11:30;14:30;Absent;Absent
+Bah;Isaac;Rooj;;04/01/2017;11:45;13:15;Absent;Absent
+Tebtoub;Abderrahmane;"Bercy Service";;04/01/2017;11:45;13:45;Absent;Absent
+Makalou;Hamedy;Alloresto;;04/01/2017;12:00;14:30;12:01;14:30
+Vinot;Baptiste;"You Order Garage";;04/01/2017;15:00;18:30;Absent;Absent
+Makalou;Hamedy;"You Order Garage";;04/01/2017;15:30;20:00;15:30;20:00
+Masseh;Marouane;"You Order Garage";;04/01/2017;16:00;20:00;Absent;Absent
+Tebtoub;Abderrahmane;"You Order Garage";;04/01/2017;17:00;20:30;Absent;Absent
+Obeso;Xavier;"youOrder coordination";;04/01/2017;17:00;23:59;17:00;23:59
+Damasi;Mazen;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+DOUMBIA;Aziz;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+Moussay;Jonathan;"You Order Garage";;04/01/2017;17:30;22:00;17:30;22:00
+H'Nini;Bilale;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+Ouail;Ramzie;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+Borsla;Zakaria;"You Order Garage";;04/01/2017;17:30;22:00;17:30;22:00
+Luvuezo;Nathan;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+Rzig;Aymen;"You Order Garage";;04/01/2017;17:30;22:00;Absent;Absent
+Leveille;Ygnaky;"Foodcheri Saint Ambroise";;04/01/2017;18:00;21:00;18:00;18:33
+Bah;Isaac;"Frichti Nord";;04/01/2017;18:00;22:00;18:21;22:00
+Jean-Jacques;Alexandre;"Frichti Ouest";;04/01/2017;18:00;22:00;18:00;22:00
+Augustin;Michael;"Frichti Ouest";;04/01/2017;18:00;22:00;Absent;Absent
+Ettaj;Ilias;"Foodcheri Maubeuge";;04/01/2017;18:00;21:00;Absent;Absent
+Dutreuil;Steven;Alancienne;;04/01/2017;18:00;22:00;Absent;Absent
+Gbadjamo;Blesson;"Frichti Ouest";;04/01/2017;18:00;22:00;18:05;22:00
+Garcia;Carlos;"You Order Garage";;04/01/2017;18:30;22:00;Absent;Absent
+Abdul;Hasan;Alloresto;;04/01/2017;18:30;21:30;18:30;21:30
+Sifi;Adel;Alloresto;;04/01/2017;18:30;23:00;Absent;Absent
+"Bernard Alexander";Bryane;Alloresto;;04/01/2017;18:30;21:30;18:30;21:30
+Graffeo;Gerome;Alloresto;;04/01/2017;18:30;23:00;Absent;Absent
+Leroy;Tyen;Alloresto;;04/01/2017;19:00;22:00;Absent;Absent
+Mokni;Mohamed;"Frichti Neuilly";;04/01/2017;19:00;22:00;19:03;22:00
+Heddi;Omar;"Frichti Neuilly";;04/01/2017;19:00;22:00;Absent;Absent
+Pereira;Ludovic;"Frichti Neuilly";;04/01/2017;19:00;22:00;19:00;22:00
+Karamoko;Zakaria;Alloresto;;04/01/2017;19:00;22:00;Absent;Absent
+Chiche;Dylan;"Frichti Nord";;04/01/2017;19:00;22:00;19:00;22:00
+Angulo;Stéphane;"Frichti Nord";;04/01/2017;19:00;22:00;19:00;19:03
+Khalloqi;Anas;"You Order Garage";;04/01/2017;19:30;23:00;Absent;Absent
+Martin;Kevin;"Hôtel Chef";;04/01/2017;19:30;22:30;Absent;Absent
+Sewifi;Karim;"You Order Garage";;04/01/2017;19:30;23:00;Absent;Absent
+Bara;Ishak;Alloresto;;04/01/2017;20:00;23:00;Absent;Absent
+Bislimi;Wandy;Alloresto;;04/01/2017;20:00;23:00;Absent;Absent
