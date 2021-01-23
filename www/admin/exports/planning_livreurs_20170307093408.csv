@@ -1,0 +1,601 @@
+Livreur;Commercant;Vehicule;Date;"Heure de debut";"Heure de fin"
+"Npali Cisse";"Pâtisserie Eugene 4 28 Rue des Lombards, 75004 Paris, France";;16/01/2017;09:00;09:30
+"Blesson Gbadjamo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;10:00;14:00
+" ";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;10:00;14:00
+"Samir Guiti";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:30;14:00
+"Emmanuel Rosbif";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:30;14:00
+"Idrissa Siby";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:30;14:00
+"Taoufiki Camar-Eddine";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:30;14:00
+"Demba Coulibaly";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:30;14:00
+"Hasan Abdul";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:30;14:00
+"Tyen Leroy";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:30;14:00
+"Bouyagui Camara";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:30;14:00
+"Zakaria Borsla";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:30;14:00
+"Oukeba Hadjidj";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:30;14:00
+"Florin Cicio";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;10:30;14:30
+"Wesley Delannay";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:45;14:00
+"Hamed Fofana";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:45;14:00
+"Mohamed Mokni";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:45;14:00
+"Juan Sepulveda";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;10:45;14:00
+"Akram BOURHALA";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:45;14:00
+"Bilale H'nini";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:45;14:00
+"Bryane Bernard Alexander";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:45;14:00
+"Michael Augustin";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:45;14:00
+"Ziggy Daumont";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;10:45;14:00
+"Jérôme Chote";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;16/01/2017;11:00;13:00
+"Adam HIR";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;16/01/2017;11:00;13:00
+"Paul Li";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;16/01/2017;11:00;13:00
+" ";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;16/01/2017;11:00;13:00
+"Jérémy Goncalves";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;16/01/2017;11:00;13:00
+"Alexandre Jean-Jacques";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;16/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;16/01/2017;11:00;13:00
+"Djibril Sylla";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;16/01/2017;11:00;13:00
+"Jonathan Rosbif";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;11:00;14:00
+"Souvan Tan";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;11:00;14:00
+"Aziz DOUMBIA";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;11:00;14:00
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;11:00;14:00
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;16/01/2017;11:00;14:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;16/01/2017;11:00;14:00
+"Christopher Belisaire";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;16/01/2017;11:00;13:00
+"Gyver Kalukembi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;11:00;15:30
+"Npali Cisse";"Wing 3 Rue Bellini, Puteaux, France";;16/01/2017;11:00;14:00
+"Carlos Garcia";"20/80 39 Rue Rivay, Levallois-Perret, France";;16/01/2017;11:30;13:30
+"Nathan Luvuezo";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Moussa Sylla";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Abdoulaye Konate";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Nizar Akkari";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Yannis Boukhalfi";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Kevin Martin";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;11:30;14:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;11:30;14:30
+"Hamet Diakite";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;11:30;14:00
+"Isaac Bah";"Rooj 21 Rue de Neuilly, 92110 Clichy, France";;16/01/2017;11:45;13:15
+"Abderrahmane Tebtoub";"Bercy Service 38 Rue de Washington, Paris, France";;16/01/2017;11:45;13:45
+"Imed Merad";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;12:00;15:30
+"Ilias Ettaj";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;12:00;15:30
+"Zakaria Ambras";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;12:00;15:30
+"Adel Sifi";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;12:00;15:30
+"Stéphane Angulo";"Frichti Sud 29 Rue Popincourt, Paris, France";;16/01/2017;12:00;15:30
+"Ramzie Ouail";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;12:00;15:30
+"Dylan Chiche";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;12:00;15:30
+"Baptiste Vinot";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;12:00;15:30
+" ";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;12:00;15:30
+"Ishak Bara";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;12:00;14:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;13:30;15:30
+"Alexandre Jean-Jacques";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;15:00;19:00
+"Yannis Boukhalfi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;15:00;19:00
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;15:00;17:30
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;16:00;19:00
+"Christopher Belisaire";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;16:00;19:00
+"Taoufiki Camar-Eddine";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;16:30;21:30
+"Abdoulaye Konate";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;17:30;22:00
+"Moussa Sylla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;17:30;22:30
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;16/01/2017;18:00;21:00
+"Adam HIR";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;16/01/2017;18:00;21:00
+"Michael Augustin";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;18:00;22:00
+"Wesley Delannay";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;16/01/2017;18:00;22:00
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;16/01/2017;18:00;22:00
+"Jérémy Goncalves";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;16/01/2017;18:00;23:30
+"Oukeba Hadjidj";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;18:00;21:00
+"Souvan Tan";"Clac des doigts 55 Rue La Boétie, Paris, France";;16/01/2017;18:00;23:00
+"Zakaria Ambras";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;18:00;22:00
+"Djibril Sylla";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;18:30;21:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;18:30;21:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;18:30;23:00
+"Aziz DOUMBIA";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;18:30;23:00
+"Ishak Bara";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;18:30;22:00
+"Mohamed Mokni";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;16/01/2017;19:00;22:00
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;16/01/2017;19:00;22:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;16/01/2017;19:00;22:00
+"Hamed Fofana";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;19:00;22:00
+"Dylan Chiche";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;19:00;22:00
+"Baptiste Vinot";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;16/01/2017;19:00;22:00
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;16/01/2017;19:30;22:30
+"Emmanuel Rosbif";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;16/01/2017;19:30;22:30
+"Florin Cicio";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;20:00;23:00
+"Bouyagui Camara";"Alloresto 10 Place de la République, Paris, France";;16/01/2017;20:00;23:00
+"Steven Dutreuil";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:30
+"Zakaria Borsla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:30
+"Paul Li";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:30
+"Hamet Diakite";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:30
+"Tyen Leroy";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:30
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;10:00;14:00
+"Aziz DOUMBIA";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:30;14:00
+"Ilias Ettaj";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:30;14:00
+"Juan Sepulveda";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:30;14:00
+"Ziggy Daumont";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:30;14:00
+"Hasan Abdul";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:30;14:00
+"Bilale H'nini";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:30;14:00
+"Emmanuel Rosbif";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:30;14:00
+"Ludovic Pereira";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:45;14:00
+"Bouyagui Camara";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:45;14:00
+"Souvan Tan";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:45;14:00
+"Demba Coulibaly";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:45;14:00
+"Omar Heddi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;10:45;14:00
+"Nathan Luvuezo";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:45;14:00
+"Hamedy Makalou";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:45;14:00
+"Baptiste Vinot";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:45;14:00
+"Bryane Bernard Alexander";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:45;14:00
+"Moussa Sylla";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;10:45;14:00
+"Abdoulaye Konate";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;17/01/2017;11:00;13:00
+"Taoufiki Camar-Eddine";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;17/01/2017;11:00;13:00
+"Jérôme Chote";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;17/01/2017;11:00;13:00
+"Djibril Sylla";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;17/01/2017;11:00;13:00
+"Alexandre Jean-Jacques";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;17/01/2017;11:00;13:00
+"Michael Augustin";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;17/01/2017;11:00;13:00
+"Jérémy Goncalves";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;17/01/2017;11:00;13:00
+"Wesley Delannay";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;17/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;17/01/2017;11:00;13:00
+"Ishak Bara";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:00;14:00
+"Dylan Chiche";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:00;14:00
+"Mohamed Mokni";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:00;14:00
+"Oukeba Hadjidj";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:00;14:00
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:00;14:00
+"Stéphane Angulo";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:00;14:00
+"Kevin Martin";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:00;14:00
+"Carlos Garcia";"20/80 39 Rue Rivay, Levallois-Perret, France";;17/01/2017;11:30;13:30
+"Imed Merad";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;11:30;14:30
+"Ramzie Ouail";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:30;14:30
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;11:30;14:30
+"Florin Cicio";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+"Akram BOURHALA";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+"Christopher Belisaire";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+"Samir Guiti";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+"Hamed Fofana";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+" ";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;11:30;14:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;11:30;14:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;11:30;14:00
+"Isaac Bah";"Rooj 21 Rue de Neuilly, 92110 Clichy, France";;17/01/2017;11:45;13:15
+"Abderrahmane Tebtoub";"Bercy Service 38 Rue de Washington, Paris, France";;17/01/2017;11:45;13:45
+"Blesson Gbadjamo";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;12:00;15:00
+"Gyver Kalukembi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;12:00;15:00
+"Zakaria Ambras";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;12:00;15:30
+"Jonathan Rosbif";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;12:00;15:30
+"Nizar Akkari";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;12:00;15:30
+"Adam HIR";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;12:00;14:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;13:30;15:30
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;14:00;17:00
+"Alexandre Jean-Jacques";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;14:30;19:00
+"Tyen Leroy";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;15:00;19:30
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;15:00;17:30
+"Florin Cicio";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;15:30;19:00
+"Christopher Belisaire";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;15:30;19:00
+"Demba Coulibaly";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;16:00;20:00
+"Oukeba Hadjidj";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;16:30;20:30
+"Gyver Kalukembi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;16:30;21:30
+"Ziggy Daumont";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;17:30;22:00
+"Youri Jacob";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;17:30;22:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;17/01/2017;18:00;21:00
+"Dylan Chiche";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;17/01/2017;18:00;21:00
+"Stéphane Angulo";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;18:00;22:00
+"Bilale H'nini";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;18:00;22:00
+"Wesley Delannay";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;18:00;22:00
+"Souvan Tan";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;17/01/2017;18:00;22:00
+"Hasan Abdul";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;17/01/2017;18:00;23:30
+"Aziz DOUMBIA";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;18:00;22:00
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;18:00;22:00
+"Samir Guiti";"Frichti Ouest 8 Rue Léontine, France";;17/01/2017;18:00;22:00
+"Imed Merad";"Frichti Sud 29 Rue Popincourt, Paris, France";;17/01/2017;18:00;22:00
+"Nathan Luvuezo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;18:00;22:00
+"Zakaria Ambras";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;18:00;22:00
+"Ishak Bara";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;17/01/2017;18:00;22:30
+"Bouyagui Camara";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;18:30;21:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;18:30;21:30
+"Taoufiki Camar-Eddine";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;18:30;23:00
+"Zakaria Borsla";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;18:30;23:00
+"Paul Li";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;18:30;23:00
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;17/01/2017;19:00;22:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;17/01/2017;19:00;22:00
+"Mohamed Mokni";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;17/01/2017;19:00;22:00
+"Adam HIR";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;19:00;22:00
+"Jérémy Goncalves";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;19:00;22:00
+"Emmanuel Rosbif";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;17/01/2017;19:30;22:30
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;17/01/2017;19:30;22:30
+"Qassim Sajad";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;17/01/2017;19:30;22:30
+"Hamet Diakite";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;20:00;23:00
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;17/01/2017;20:00;23:00
+"Npali Cisse";"Pâtisserie Eugene 4 28 Rue des Lombards, 75004 Paris, France";;18/01/2017;07:00;08:00
+"Ramzie Ouail";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;10:00;14:30
+"Youri Jacob";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;10:00;14:30
+"Bouyagui Camara";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:30;14:00
+"Ishak Bara";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:30;14:00
+"Akram BOURHALA";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:30;14:00
+"Tyen Leroy";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:30;14:00
+"Djibril Sylla";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:30;14:00
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:30;14:00
+"Nathan Luvuezo";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:30;14:00
+"Bryane Bernard Alexander";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:30;14:00
+"Paul Li";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:30;14:00
+"Wesley Delannay";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:45;14:00
+"Samir Guiti";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:45;14:00
+"Imed Merad";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:45;14:00
+"Baptiste Vinot";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;10:45;14:00
+"Adel Sifi";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:45;14:00
+"Alexandre Jean-Jacques";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:45;14:00
+"Taoufiki Camar-Eddine";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:45;14:00
+"Stéphane Angulo";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;10:45;14:00
+"Jérôme Chote";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;18/01/2017;11:00;13:00
+"Ziggy Daumont";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;18/01/2017;11:00;13:00
+"Souvan Tan";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;18/01/2017;11:00;13:00
+"Dylan Chiche";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;18/01/2017;11:00;13:00
+"Jérémy Goncalves";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;18/01/2017;11:00;13:00
+"Steven Dutreuil";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;18/01/2017;11:00;13:00
+"Christopher Belisaire";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;18/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;18/01/2017;11:00;13:00
+"Zakaria Ambras";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:00;14:00
+"Yannis Boukhalfi";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:00;14:00
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:00;14:00
+"Idrissa Siby";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Florin Cicio";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Adam HIR";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Ilias Ettaj";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Gyver Kalukembi";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Juan Sepulveda";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:00;14:00
+"Mohamed Mokni";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:00;14:00
+"Hamet Diakite";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;18/01/2017;11:00;13:00
+"Npali Cisse";"Wing 3 Rue Bellini, Puteaux, France";;18/01/2017;11:00;14:00
+"Carlos Garcia";"20/80 39 Rue Rivay, Levallois-Perret, France";;18/01/2017;11:30;13:30
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:30;14:30
+"Moussa Sylla";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;11:30;14:30
+"Blesson Gbadjamo";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;11:30;14:30
+"Emmanuel Rosbif";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:30;14:30
+"Kevin Martin";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:30;14:30
+"Demba Coulibaly";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:30;14:30
+"Bilale H'nini";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;11:30;14:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;11:30;14:30
+"Zakaria Borsla";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;11:30;14:00
+"Isaac Bah";"Rooj 21 Rue de Neuilly, 92110 Clichy, France";;18/01/2017;11:45;13:15
+"Abderrahmane Tebtoub";"Bercy Service 38 Rue de Washington, Paris, France";;18/01/2017;11:45;13:45
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;12:00;15:30
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;12:00;15:30
+"Abdoulaye Konate";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;12:00;15:30
+"Ludovic Pereira";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;12:00;15:30
+"Omar Heddi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;12:00;15:30
+"Hasan Abdul";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;12:00;15:30
+"Michael Augustin";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;12:00;15:30
+"Oukeba Hadjidj";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;12:00;15:30
+"Aziz DOUMBIA";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;12:00;15:30
+"Hamed Fofana";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;12:00;15:30
+"Hamedy Makalou";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;12:00;14:30
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;12:00;15:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;13:30;15:30
+"Stéphane Angulo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;14:30;17:30
+"Alexandre Jean-Jacques";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;15:00;19:30
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;15:00;16:30
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;16:00;20:30
+"Florin Cicio";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;16:00;20:00
+"Nathan Luvuezo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;16:00;20:00
+"Christopher Belisaire";"Alancienne 42 Avenue Pasteur, Courbevoie, France";;18/01/2017;16:30;22:00
+"Isaac Bah";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;17:30;22:00
+"Abdoulaye Konate";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;17:30;22:00
+"Bouyagui Camara";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;17:30;22:30
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;17:30;22:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;18/01/2017;18:00;21:00
+"Ilias Ettaj";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;18/01/2017;18:00;21:00
+"Akram BOURHALA";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;18:00;22:00
+"Ramzie Ouail";"Frichti Sud 29 Rue Popincourt, Paris, France";;18/01/2017;18:00;22:00
+"Adel Sifi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;18:00;22:00
+"Zakaria Borsla";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;18/01/2017;18:00;22:00
+"Demba Coulibaly";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;18:00;22:00
+"Dylan Chiche";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;18:00;22:00
+"Michael Augustin";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;18:00;22:00
+"Blesson Gbadjamo";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;18:00;22:00
+"Hasan Abdul";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;18/01/2017;18:00;23:30
+"Imed Merad";"Frichti Ouest 8 Rue Léontine, France";;18/01/2017;18:00;22:00
+"Zakaria Ambras";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;18:00;22:00
+"Bryane Bernard Alexander";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;18:30;21:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;18:30;23:00
+"Aziz DOUMBIA";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;18:30;23:00
+"Nizar Akkari";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;18:30;22:00
+"Baptiste Vinot";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;18:30;22:00
+"Hamet Diakite";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;18/01/2017;18:30;22:30
+"Mohamed Mokni";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;18/01/2017;19:00;22:00
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;18/01/2017;19:00;22:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;18/01/2017;19:00;22:00
+"Samir Guiti";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;19:00;22:00
+"Tyen Leroy";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;19:00;22:00
+"Carlos Garcia";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;18/01/2017;19:00;22:00
+"Qassim Sajad";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;18/01/2017;19:30;22:30
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;18/01/2017;19:30;22:30
+"Taoufiki Camar-Eddine";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;20:00;23:00
+"Ishak Bara";"Alloresto 10 Place de la République, Paris, France";;18/01/2017;20:00;23:00
+"Npali Cisse";"Pâtisserie Eugene 4 28 Rue des Lombards, 75004 Paris, France";;19/01/2017;07:00;08:00
+"Yannis Boukhalfi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Hasan Abdul";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Ramzie Ouail";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Hamedy Makalou";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;15:30
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Youri Jacob";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;10:00;14:30
+"Emmanuel Rosbif";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:30;14:00
+"Zakaria Borsla";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:30;14:00
+"Adel Sifi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:30;14:00
+"Samir Guiti";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:30;14:00
+"Akram BOURHALA";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:30;14:00
+"Christopher Belisaire";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:30;14:00
+"Gyver Kalukembi";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:30;14:00
+"Imed Merad";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:30;14:00
+"Alexandre Jean-Jacques";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:30;14:00
+" ";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:45;14:00
+"Zakaria Ambras";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:45;14:00
+"Ludovic Pereira";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:45;14:00
+"Bouyagui Camara";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;10:45;14:00
+"Bryane Bernard Alexander";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:45;14:00
+"Oukeba Hadjidj";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:45;14:00
+"Taoufiki Camar-Eddine";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:45;14:00
+"Dylan Chiche";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:45;14:00
+"Michael Augustin";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;10:45;14:00
+"Jérôme Chote";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;19/01/2017;11:00;13:00
+"Idrissa Siby";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;19/01/2017;11:00;13:00
+"Moussa Sylla";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;19/01/2017;11:00;13:00
+"Florin Cicio";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;19/01/2017;11:00;13:00
+"Ishak Bara";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;19/01/2017;11:00;13:00
+"Jérémy Goncalves";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;19/01/2017;11:00;13:00
+"Kevin Martin";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;19/01/2017;11:00;13:00
+"Stéphane Angulo";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;19/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;19/01/2017;11:00;13:00
+"Juan Sepulveda";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;11:00;14:00
+"Ilias Ettaj";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;11:00;14:00
+"Omar Heddi";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:00;14:00
+"Aziz DOUMBIA";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:00;14:00
+"Steven Dutreuil";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:00;14:00
+"Ziggy Daumont";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:00;14:00
+"Carlos Garcia";"20/80 39 Rue Rivay, Levallois-Perret, France";;19/01/2017;11:30;13:30
+"Mohamed Mokni";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;11:30;14:30
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;11:30;14:30
+"Souvan Tan";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+" ";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+"Wesley Delannay";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+"Hamed Fofana";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+"Djibril Sylla";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+"Josué ZEEVAKUMAR";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;11:30;14:30
+"Hamet Diakite";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;11:30;14:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;11:30;14:00
+"Isaac Bah";"Rooj 21 Rue de Neuilly, 92110 Clichy, France";;19/01/2017;11:45;13:15
+"Abderrahmane Tebtoub";"Bercy Service 38 Rue de Washington, Paris, France";;19/01/2017;11:45;13:45
+"Blesson Gbadjamo";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;12:00;15:00
+"Abdoulaye Konate";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;12:00;15:00
+"Paul Li";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;12:00;15:30
+" ";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;12:00;15:30
+"Bilale H'nini";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;12:00;15:30
+" ";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;12:00;15:30
+"Nizar Akkari";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;12:00;15:30
+"Baptiste Vinot";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;12:00;15:30
+"Nathan Luvuezo";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;12:00;15:30
+"Tyen Leroy";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;12:00;15:30
+"Demba Coulibaly";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;12:00;15:30
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;12:00;15:30
+"Adam HIR";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;12:00;14:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;13:30;15:30
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;14:30;19:00
+"Alexandre Jean-Jacques";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;15:00;19:00
+"Nathan Luvuezo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;15:30;19:30
+"Mohamed Mokni";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;15:30;18:30
+"Ziggy Daumont";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;16:00;22:00
+"Ramzie Ouail";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;17:30;22:00
+"Adel Sifi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;17:30;22:30
+"Bryane Bernard Alexander";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;17:30;22:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;19/01/2017;18:00;21:00
+"Steven Dutreuil";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;19/01/2017;18:00;21:00
+"Wesley Delannay";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;18:00;22:00
+"Dylan Chiche";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;18:00;22:00
+"Ishak Bara";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:00;22:00
+"Akram BOURHALA";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:00;22:00
+"Jérémy Goncalves";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:00;22:00
+"Carlos Garcia";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:00;22:00
+"Christopher Belisaire";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;18:00;22:00
+"Nizar Akkari";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;18:00;22:00
+"Souvan Tan";"Frichti Sud 29 Rue Popincourt, Paris, France";;19/01/2017;18:00;22:00
+"Hasan Abdul";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;19/01/2017;18:00;23:30
+"Tyen Leroy";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;18:00;22:00
+"Moussa Sylla";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:00;22:00
+"Imed Merad";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;19/01/2017;18:00;22:00
+"Djibril Sylla";"Frichti Ouest 8 Rue Léontine, France";;19/01/2017;18:30;22:00
+"Isaac Bah";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;18:30;21:30
+"Oukeba Hadjidj";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;18:30;21:30
+"Zakaria Borsla";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;18:30;23:00
+"Ilias Ettaj";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;18:30;23:00
+"Florin Cicio";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;18:30;22:00
+"Hamet Diakite";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;18:30;22:30
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;19/01/2017;19:00;22:00
+" ";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;19/01/2017;19:00;22:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;19/01/2017;19:00;22:00
+"Hamed Fofana";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;19:00;22:00
+"Yannis Boukhalfi";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;19:00;22:00
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;19/01/2017;19:00;23:00
+"Emmanuel Rosbif";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;19/01/2017;19:30;22:30
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;19/01/2017;19:30;22:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;20:00;23:00
+"Abdoulaye Konate";"Alloresto 10 Place de la République, Paris, France";;19/01/2017;20:00;23:00
+"Stéphane Angulo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;10:00;14:00
+"Bryane Bernard Alexander";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;10:00;14:00
+"Baptiste Vinot";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;10:00;14:00
+"Hamet Diakite";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;10:00;14:00
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;10:00;14:00
+"Alexandre Jean-Jacques";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:30;14:00
+"Ilias Ettaj";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:30;14:00
+"Kevin Martin";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:30;14:00
+"Nathan Luvuezo";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:30;14:00
+"Abdoulaye Konate";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:30;14:00
+"Michael Augustin";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:30;14:00
+"Paul Li";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:30;14:00
+"Christopher Belisaire";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:30;14:00
+"Josué ZEEVAKUMAR";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:45;14:00
+"Omar Heddi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:45;14:00
+"Souvan Tan";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:45;14:00
+"Florin Cicio";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;10:45;14:00
+"Aziz DOUMBIA";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:45;14:00
+"Moussa Sylla";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:45;14:00
+"Hamedy Makalou";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:45;14:00
+"Adam HIR";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;10:45;14:00
+"Dylan Chiche";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;20/01/2017;11:00;13:00
+"Bouyagui Camara";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;20/01/2017;11:00;13:00
+"Jérôme Chote";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;20/01/2017;11:00;13:00
+"Adel Sifi";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;20/01/2017;11:00;13:00
+"Imed Merad";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;20/01/2017;11:00;13:00
+"Emmanuel Rosbif";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;20/01/2017;11:00;13:00
+"Jérémy Goncalves";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;20/01/2017;11:00;13:00
+"Samir Guiti";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;20/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;20/01/2017;11:00;13:00
+"Taoufiki Camar-Eddine";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;11:00;14:00
+"Zakaria Borsla";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;11:00;14:00
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:00;14:00
+"Djibril Sylla";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:00;14:00
+"Oukeba Hadjidj";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:00;14:00
+"Ziggy Daumont";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:00;14:00
+"Npali Cisse";"Wing 3 Rue Bellini, Puteaux, France";;20/01/2017;11:00;14:00
+"Carlos Garcia";"20/80 39 Rue Rivay, Levallois-Perret, France";;20/01/2017;11:30;13:30
+"Ramzie Ouail";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;11:30;14:30
+"Ludovic Pereira";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;11:30;14:30
+"Blesson Gbadjamo";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:30;14:30
+"Yannis Boukhalfi";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:30;14:30
+"Gyver Kalukembi";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:30;14:30
+"Ishak Bara";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:30;14:30
+"Bilale H'nini";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;11:30;14:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;11:30;14:30
+"Steven Dutreuil";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;11:30;14:00
+"Cristian Gavriluta";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;11:30;14:30
+"Isaac Bah";"Rooj 21 Rue de Neuilly, 92110 Clichy, France";;20/01/2017;11:45;13:15
+"Abderrahmane Tebtoub";"Bercy Service 38 Rue de Washington, Paris, France";;20/01/2017;11:45;13:45
+"Mohamed Mokni";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;12:00;15:30
+" ";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;12:00;15:30
+"Juan Sepulveda";"Frichti Sud 29 Rue Popincourt, Paris, France";;20/01/2017;12:00;15:30
+"Tyen Leroy";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;12:00;15:30
+"Youri Jacob";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;12:00;15:30
+"Akram BOURHALA";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;12:00;15:30
+"Demba Coulibaly";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;12:00;15:30
+"Zakaria Ambras";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;12:00;15:30
+"Nizar Akkari";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;12:00;15:30
+"Wesley Delannay";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;12:00;15:30
+"Hamed Fofana";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;12:00;15:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;12:00;14:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;13:30;15:30
+"Blesson Gbadjamo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;15:00;18:00
+" ";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;15:00;18:30
+"Djibril Sylla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;15:00;19:00
+"Npali Cisse";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;15:30;19:30
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;16:00;19:30
+"Isaac Bah";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;16:00;19:00
+"Ygnaky Leveille";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;16:00;21:00
+"Gyver Kalukembi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:00;22:00
+"Moussa Sylla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:00;22:00
+"Christopher Belisaire";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:30;22:00
+"Samir Guiti";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:30;22:00
+"Mazen Damasi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:30;22:00
+"Cristian Gavriluta";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;17:30;22:00
+"Nizar Akkari";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;18:00;22:00
+"Yannis Boukhalfi";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;20/01/2017;18:00;22:00
+"Bilale H'nini";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;18:00;22:00
+"Jérémy Goncalves";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;18:00;22:00
+"Steven Dutreuil";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;20/01/2017;18:00;23:30
+"Hasan Abdul";"Alancienne 42 Avenue Pasteur, Courbevoie, France";;20/01/2017;18:00;22:00
+"Zakaria Ambras";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;18:00;22:00
+"Ahmed Mekid";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;20/01/2017;18:00;21:00
+" ";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;20/01/2017;18:00;21:00
+"Jonathan Rosbif";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;18:30;22:00
+"Bouyagui Camara";"Frichti Ouest 8 Rue Léontine, France";;20/01/2017;18:30;22:00
+"Souvan Tan";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;18:30;21:30
+"Paul Li";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;18:30;21:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;18:30;23:00
+"Ilias Ettaj";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;18:30;23:00
+"Abdoulaye Konate";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;18:30;22:30
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;20/01/2017;18:30;22:30
+"Lucas Bullanceau";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;20/01/2017;18:30;23:00
+"Omar Heddi";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;20/01/2017;19:00;22:00
+"Mohamed Mokni";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;20/01/2017;19:00;22:00
+"Ludovic Pereira";"Frichti Neuilly 181 Avenue Achille Peretti, Neuilly-sur-Seine, France";;20/01/2017;19:00;22:00
+"Carlos Garcia";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;19:00;22:00
+"Hamedy Makalou";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;19:00;22:00
+"Qassim Sajad";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;20/01/2017;19:30;22:30
+"Emmanuel Rosbif";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;20/01/2017;19:30;22:30
+"Hamed Fofana";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;20:00;23:00
+"Bryane Bernard Alexander";"Alloresto 10 Place de la République, Paris, France";;20/01/2017;20:00;23:00
+"Adel Sifi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;09:30;13:00
+"Hamedy Makalou";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;15:30
+"Stéphane Angulo";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;15:30
+"Hamed Fofana";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;14:00
+"Hasan Abdul";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;14:00
+"Ahmed Mekid";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;14:00
+"Moustaphe Dembele";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:00;14:00
+"Abderrahmane Tebtoub";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;10:30;16:30
+"Ramzie Ouail";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;11:00;15:00
+"Akram BOURHALA";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;11:30;14:30
+"Zakaria Ambras";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;11:30;14:00
+"Nabil Chinine";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;11:30;15:30
+"Lucas Bullanceau";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;11:30;14:00
+"Félix Tokplo";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;12:00;14:30
+"Ramzie Ouail";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;16:30;20:30
+"Hamed Fofana";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;17:30;22:30
+"Lucas Bullanceau";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;17:30;22:00
+"Josué ZEEVAKUMAR";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;21/01/2017;18:00;23:30
+"Moustaphe Dembele";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;18:00;22:00
+"Bilale H'nini";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;18:30;21:30
+"Cristian Gavriluta";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;18:30;21:30
+"Stéphane Angulo";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;18:30;23:00
+"Félix Tokplo";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;18:30;23:00
+"Steven Dutreuil";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;18:30;22:00
+"Hamedy Makalou";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;18:30;22:00
+"Qassim Sajad";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;21/01/2017;18:30;22:30
+"Imed Merad";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;18:30;23:00
+"Akram BOURHALA";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;19:00;22:00
+"Baptiste Vinot";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;19:00;22:00
+"Adel Sifi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;21/01/2017;19:00;22:00
+"Emmanuel Rosbif";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;21/01/2017;19:30;22:30
+"Carlos Garcia";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;21/01/2017;19:30;22:30
+"Nabil Chinine";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;20:00;23:00
+"Demba Coulibaly";"Alloresto 10 Place de la République, Paris, France";;21/01/2017;20:00;23:00
+"Michael Augustin";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:00;14:00
+" ";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:00;14:00
+"Djibril Sylla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:00;14:00
+"Ziggy Daumont";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:00;14:00
+"Souvan Tan";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:00;14:00
+"Ilias Ettaj";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:30;14:30
+"Abdoulaye Konate";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;10:30;14:00
+"Jérôme Chote";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;22/01/2017;11:00;13:00
+"Blesson Gbadjamo";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;22/01/2017;11:00;13:00
+"Zakaria Borsla";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;22/01/2017;11:00;13:00
+"Aziz DOUMBIA";"Foodcheri Lecourbe 301 Rue Lecourbe, Paris, France";;22/01/2017;11:00;13:00
+"Ygnaky Leveille";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;22/01/2017;11:00;13:00
+"Paul Li";"Foodcheri Tocqueville 99 Rue de Tocqueville, Paris, France";;22/01/2017;11:00;13:00
+"Nabil Chinine";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;11:00;14:30
+"Idrissa Siby";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;11:30;14:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;11:30;14:00
+"Félix Tokplo";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;11:30;14:30
+"Adam HIR";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;12:00;14:30
+"Jérôme Chote";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;13:30;15:30
+"Baptiste Vinot";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Isaac Bah";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Adel Sifi";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Ziggy Daumont";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:30
+"Kimon Touron";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Lucas Bullanceau";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Ahmed Mekid";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Moustaphe Dembele";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;17:30;22:00
+"Nizar Akkari";"Foodcheri Maubeuge 34 Rue Pierre Semard, Paris, France";;22/01/2017;18:00;21:00
+"Blesson Gbadjamo";"Foodcheri Saint Ambroise 3 Rue du Général Guilhem, Paris, France";;22/01/2017;18:00;21:00
+"Florin Cicio";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;22/01/2017;18:00;22:00
+"Nathan Luvuezo";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;22/01/2017;18:00;22:00
+"Cristian Gavriluta";"Frichti Nord 29 Rue Saint-Lazare, 75009 Paris, France";;22/01/2017;18:00;22:00
+"Jérémy Goncalves";"Frichti Ouest 8 Rue Léontine, France";;22/01/2017;18:00;22:00
+"Bryane Bernard Alexander";"Frichti Ouest 8 Rue Léontine, France";;22/01/2017;18:00;22:00
+"Moussa Sylla";"Frichti Ouest 8 Rue Léontine, France";;22/01/2017;18:00;22:00
+"Yannis Boukhalfi";"Frichti Ouest 8 Rue Léontine, France";;22/01/2017;18:00;22:00
+"Youri Jacob";"Frichti Ouest 8 Rue Léontine, France";;22/01/2017;18:00;22:00
+"Steven Dutreuil";"Afromiam 17 Avenue Jean Moulin, Montreuil, France";;22/01/2017;18:00;23:30
+"Paul Li";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;18:00;22:30
+"Nabil Chinine";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;18:30;21:30
+"Mazen Damasi";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;18:30;21:30
+"Félix Tokplo";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;18:30;23:00
+"Bouyagui Camara";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;18:30;23:00
+"Samir Guiti";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;18:30;23:00
+"Djibril Sylla";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;19:00;22:00
+"Ygnaky Leveille";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;19:00;22:00
+"Zakaria Borsla";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;19:00;22:00
+"Alexandre Jean-Jacques";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;19:00;22:00
+"Hamet Diakite";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;19:00;23:00
+"Michael Augustin";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;19:00;23:00
+"Ludovic Pereira";"You Order Garage 25 Rue Geoffroy-Saint-Hilaire, France";;22/01/2017;19:00;22:00
+"Tyen Leroy";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;22/01/2017;19:30;22:30
+"Kevin Martin";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;22/01/2017;19:30;22:30
+"Qassim Sajad";"Hôtel Chef 17 Rue Notre Dame de Lorette, Paris, France";;22/01/2017;19:30;22:30
+"Dylan Chiche";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;20:00;23:00
+"Oukeba Hadjidj";"Alloresto 10 Place de la République, Paris, France";;22/01/2017;20:00;23:00
