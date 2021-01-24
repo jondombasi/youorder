@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Dashboard</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+        
+        <!-- pop up -->
+        <div id="pop-up">
+            <div class="pop-up">
+                <div class="pop-up-text">
+                    <span id="service" class="service">Apparaître en service ?</span>
+                </div>
+                <span id="annuler">Annuler</span>
+                <span id="oui">Oui</span>
+                <div class="stop"></div>
+            </div>
+        </div>
+        <!-- /pop up -->
+
+        <!-- page -->
+        <div class="page">
+            
+            <!-- header -->
+            <header>
+                <a href="#menu" class="hamburger" id="hamburger">
+                    <div id="notif" class="notif"></div>
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </a>
+                <div class="title">
+                    <span>Tableau de bord</span>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+
+            <!-- detail -->
+            <div class="detail">
+                <div class="detail-item">
+                    <span>Heures prévues<br> dans la journée</span>
+                    <span id="nb_heures"></span>
+                </div>
+                <div class="middle detail-item">
+                    <span>Commandes affectées dans la journée</span>
+                    <span id="nb_commandes"></span>
+                </div>
+                <div class="detail-item">
+                    <span>Prochain commerçant</span>
+                    <span id="nom_resto"></span>
+                    <span id="plage_horaire"></span>
+                </div>
+                <div class="stop"></div>
+            </div>
+            <!-- /detail-->
+
+            <!-- statistique -->
+            <a id="statistique" class="statistique" href="statistiques.html">Voir plus de statistiques &nbsp; <span><i class="fa fa-angle-right"></i></span></a>
+            <!-- /statistique -->
+            
+            <!-- detail action -->
+            <div class="detail-action">
+                <a class="action" id="action1" href="planning.html" onclick="opacity30(1)">
+                    <span>Planning &nbsp;<span><i class="fa fa-angle-right"></i></span></span>
+                    <img src="images/planning-on.png" alt="planning-on">
+                    <span class="bottom-green"></span>
+                </a>
+                <a class="action middle" id="action2" onclick="opacity30(2)" href="commandes.html">
+                    <span>Commandes &nbsp;<span><i class="fa fa-angle-right"></i></span></span>
+                    <img src="images/commandes-on.png" alt="commandes-on">
+                    <span class="bottom-green"></span>
+                </a>
+                <a class="action" id="action3" onclick="opacity30(3)" href="vehicule.html">
+                    <span>Scooter &nbsp;<span><i class="fa fa-angle-right"></i></span></span>
+                    <span class="type" id="nom_vehicule"></span>
+                    <span class="bottom-green"></span>
+                </a>
+                <div class="stop"></div>
+            </div>
+            <!-- /detail action -->
+
+            <!-- footer -->
+            <footer id="footer">
+                Apparaître "en service"
+            </footer>
+            <!-- /footer -->
+            
+        </div>
+        <!-- /page -->
+
+        <!-- menu -->
+        <nav id="menu" class="menu">
+            <span>Tableau de bord</span>
+            <a href="notifications.html"><img src="images/alert.png" alt="alert"> &nbsp; Notifications <span class="notif-dashboard">2</span></a>
+            <a href="historique.html"><img src="images/clock.png" class="img-historique" alt="clock"> &nbsp;Historique des commandes</a>
+            <a href="statistiques.html"><img src="images/stats.png" class="img-stat" alt="stats"> &nbsp; Statistiques</a>
+            <a href="profil.html"><img src="images/profil.png" alt="profil"> &nbsp; Profil <span id="service-dashboard">Absent</span></a>
+            <a href="javascript:void(0)" onclick="deconnexion()"><img src="images/logout.png" alt="logout"> &nbsp; Déconnexion</a>
+            <span class="copyright">© youOrder 2016</span>
+        </nav>
+        <!-- /menu -->
+        
+        <script>
+            
+            $(document).ready(function(){
+                $('#menu').mmenu();
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_livreur=results.rows.item(0).id_livreur;
+                            id_connexion=results.rows.item(0).id_connexion;
+                            if (id_connexion!=0 && id_connexion!="" && id_connexion!=null) {
+                                footer.classList.add('green');
+                                footer.innerHTML = 'Ne plus apparaître "en service"';
+                                service_dashboard.innerHTML = 'En service';
+                                service_dashboard.style.backgroundColor = '#67ae73';
+                            }
+                        }
+                        $.ajax({
+                            url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                            data     : 'action=info_dashboard&id_livreur='+id_livreur,
+                            type     : "GET",
+                            cache    : false,
+                            timeout: 2000,
+                            success: function(transport) {
+                                console.log(transport);
+                                $("#nb_heures").html((transport["nb_heures"]=="00:00:00") ? "0" : transport["nb_heures"].split(":")[0].replace(/^0+/, ''));
+                                //$("#nb_heures").html(transport["nb_heures"].split(":")[0].replace(/^0+/, ''));
+                                $("#nb_commandes").html(transport["nb_commandes"]);
+                                $("#nom_resto").html(transport["nom_commercant"]);
+                                $("#plage_horaire").html(transport["plage_horaire"]);
+                                $("#nom_vehicule").html(transport["vehicule"]);
+                                id_commercant=transport["id_commercant"];
+                                id_vehicule=transport["id_vehicule"];
+                                db.transaction(function (tx) {
+                                    tx.executeSql('UPDATE localstorage SET id_commercant=?, id_vehicule=? WHERE id=?', [id_commercant, id_vehicule, 1]);
+                                });
+                            },
+                            error: function(transport) {
+                                console.log(transport);
+                            }
+                        });
+                    });
+                });
+            });
+            
+            var statistique = document.getElementById('statistique');
+            var footer = document.getElementById('footer');
+            var popup = document.getElementById('pop-up');
+            var annuler = document.getElementById('annuler');
+            var oui = document.getElementById('oui');
+            var service = document.getElementById('service');
+            var hamburger = document.getElementById('hamburger');
+            var body = document.getElementById('body');
+            var notif = document.getElementById('notif');
+            var service_dashboard = document.getElementById('service-dashboard');
+            
+            statistique.addEventListener('click', opacity);
+            footer.addEventListener('click', pop_up);
+            annuler.addEventListener('click', cacher_pop_up);
+            oui.addEventListener('click', commencer_service);
+            
+            function opacity(evt){
+                evt.preventDefault();
+                statistique.style.opacity = "0.5";
+                window.location = "statistiques.html";
+            }
+            
+            function opacity30(id){
+                document.getElementById('action'+id).style.opacity = "0.7";
+                if(id === 1) window.location = "planning.html";
+                if(id === 2) window.location = "commande.html";
+                else window.location = "scooter.html";
+            }
+            
+            function pop_up(){
+                popup.style.display = "block";
+                if(footer.getAttribute('class') === 'green'){
+                    service.innerHTML = 'Ne plus apparaître en service ?';
+                    annuler.style.fontWeight = 'bold';
+                    oui.style.fontWeight = 'normal';
+                }
+                else{
+                    service.innerHTML = 'Apparaître en service ?';
+                    oui.style.fontWeight = 'bold';
+                    annuler.style.fontWeight = 'normal';
+                }
+            }
+            
+            function cacher_pop_up(){
+                popup.style.display = "none";
+            }
+            
+            /*function changement_couleur(){
+                
+                
+            }*/
+            
+            function commencer_service() {
+                $.ajax({
+                    url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=commencer_service&id_livreur='+id_livreur+'&id_commercant='+id_commercant+'&id_vehicule='+id_vehicule+'&id_connexion='+id_connexion,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        console.log(transport);
+                        db.transaction(function (tx) {
+                            tx.executeSql('UPDATE localstorage SET id_connexion=? WHERE id=?', [transport, 1], function (tx, results) {
+                                if(footer.getAttribute('class') === 'green'){
+                                    footer.classList.remove('green');
+                                    footer.innerHTML = 'Apparaître "en service"';
+                                    service_dashboard.innerHTML = 'Absent';
+                                    service_dashboard.style.backgroundColor= '#949499';
+                                }
+                                else{
+                                    footer.classList.add('green');
+                                    footer.innerHTML = 'Ne plus apparaître "en service"';
+                                    service_dashboard.innerHTML = 'En service';
+                                    service_dashboard.style.backgroundColor = '#67ae73';
+                                }
+                                popup.style.display = "none";
+                            });
+                        });
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                    }
+                });
+            }
+        </script>
+        
+    </body>
+    
+</html>

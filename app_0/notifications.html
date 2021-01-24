@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Notifications</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/notifications.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="javascript:void(0)" onclick="window.history.go(-1);"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Notifications</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- nbr notifications -->
+            <div class="nbr-notifs">
+                <div id="new-notif">
+                    <div><img src="images/arrow.png" alt="arrow"></div>
+                    <span>3 nouvelles notifications</span>
+                </div>
+                Total : 23 notifiations
+            </div>
+            <!-- /nbr commandes -->
+            
+            <!-- notifications -->
+            <div class="notifs">
+                <span>Notifications</span>
+            </div>
+             <!-- /notifications -->
+             
+             <div class="notif">
+                 <ul id="notif" class="md-wo-list" style="display:none;">
+                    <li data-id="1">
+                        <h2>Titre de la notification</h2>
+                        <h3>Message</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p>
+                        <p class="date"><img src="images/clock2.png" alt="clock">Le 23 Juin 2016 à 12:15</p>
+                    </li>
+                    <li data-id="2">
+                        <h2>Titre de la notification</h2>
+                        <h3>Message</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p>
+                        <p class="date"><img src="images/clock2.png" alt="clock">Le 23 Juin 2016 à 12:15</p>
+                    </li>
+                    <li data-id="3">
+                        <h2>Titre de la notification</h2>
+                        <h3>Message</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p>
+                        <p class="date"><img src="images/clock2.png" alt="clock">Le 23 Juin 2016 à 12:15</p>
+                    </li>
+                    <li data-id="4">
+                        <h2>Titre de la notification</h2>
+                        <h3>Message</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p>
+                        <p class="date"><img src="images/clock2.png" alt="clock">Le 23 Juin 2016 à 12:15</p>
+                    </li>
+                 </ul> 
+             </div>
+            
+        </div>
+        <!-- /page -->
+        
+        <script>
+        
+            mobiscroll_listview();
+            
+            $('#new-notif').click(function(){
+                $('#notif').prepend("<li data-id='5'><h2>Nouvelle notification</h2><h3>Message</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p><p class='date'><img src='images/clock2.png' alt='clock'>Le 23 Juin 2016 à 12:15</p></li>");
+                $('#new-notif').animate({
+                    left: '-=300'
+                }, 500);
+                mobiscroll_listview();
+            });
+            
+            function mobiscroll_listview(){
+
+                $('#notif').mobiscroll().listview({
+                     theme: 'mobiscroll',
+                     iconSlide: true,
+                     stages: [{
+                         percent: -25,
+                         color: '#67ae73',
+                         text: 'Supprimer',
+                         confirm: true,
+                         action: function (event, inst) {
+                             setTimeout(function(){event.css('display', 'none');}, 300); 
+                         }
+                     }]
+                });
+
+           };
+            
+        </script>
+        
+    </body>
+    
+</html>

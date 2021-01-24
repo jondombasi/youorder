@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Détails du véhicule</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/vehicule.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="javascript:void(0)" onclick="window.history.go(-1);"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Détails du véhicule</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- date -->
+            <h1 id="date">Mardi 21 juin 2016 <img src="images/arrow3.png" alt="arrow"></h1>
+            <!-- /date -->
+            
+            <!-- jours -->
+            <div class="jours">
+                
+                <!-- icons -->
+                <div class="icons">
+                    <div><img src="images/clock.png" alt="clock"></div>
+                    <div><img src="images/deliver.png" alt="deliver"></div>
+                    <div><img src="images/power.png" alt="power"></div>
+                    <div class="stop"></div>
+                </div>
+                <!-- /icons -->
+                
+                <!-- tab -->
+                <div class="tab">
+                    <div>
+                        <span>11h20</span>
+                        <span>12h20</span>
+                        <span>13h20</span>
+                        <span>13h20</span>
+                        <span>13h20</span>
+                    </div>
+                    <div>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                    </div>
+                    <div>
+                        <span>En fonctionnement</span>
+                        <span>En fonctionnement</span>
+                        <span>HS</span>
+                        <span>En fonctionnement</span>
+                        <span>HS</span>
+                    </div>
+                    <div class="stop"></div>
+                </div>
+                
+                <h2>Mercredi 22 Juin 2016</h2>
+                
+                <div class="tab">
+                    <div>
+                        <span>11h20</span>
+                        <span>12h20</span>
+                        <span>13h20</span>
+                        <span>13h20</span>
+                        <span>13h20</span>
+                    </div>
+                    <div>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                        <span>Michel Dupont</span>
+                    </div>
+                    <div>
+                        <span>En fonctionnement</span>
+                        <span>En fonctionnement</span>
+                        <span>HS</span>
+                        <span>En fonctionnement</span>
+                        <span>HS</span>
+                    </div>
+                    <div class="stop"></div>
+                </div>
+                <!-- /tab -->
+                
+            </div>
+            <!-- /jours -->
+            
+        </div>
+        
+        <script>
+            
+            $(function(){
+                
+                $('#date').mobiscroll().calendar({
+                    theme: 'mobiscroll',
+                    lang: 'fr',
+                    display: 'bottom',
+                    color: 'red',
+                    buttons: [ 
+                        { 
+                            text: 'Ok',
+                            cssClass: 'fwb dwb',
+                            handler: 'cancel'
+                        }, {
+                            text: 'Annuler',
+                            handler: 'cancel'
+                        }
+                    ],
+                    marked: [{
+                        d: new Date(2016, 7, 14),
+                        color: '#c7c7cd'   
+                    }, {
+                        d: new Date(2016, 7, 23),
+                        color: '#c7c7cd'   
+                    }, {
+                        d: new Date(2016, 7, 4),
+                        color: '#c7c7cd'   
+                    }]
+                });
+        
+            });
+    
+        </script>
+        
+    </body>
+    
+</html>

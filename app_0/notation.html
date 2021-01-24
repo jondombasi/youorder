@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Profil</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+        <link rel="stylesheet" href="css/notation.css">
+        <!-- /style -->
+    
+    </head>
+    
+    <body>
+        
+        <!-- page -->
+        <div id="page">
+        
+            <!-- header -->
+            <header>
+                Merci d'avoir utilisé You Order !
+            </header>
+            <!-- /header -->
+
+            <!-- content -->
+            <div class="content">
+
+                <!-- bilan carbone -->
+                <div class="content-item">
+                    <h2>bilan carbone de votre commande</h2>
+                    <div class="bilan">
+                        <span>économie de carbone réalisée grâce au <br>véhicule électrique</span><br>
+                        <span class="bilan-total">132<sup>kg</sup></span>
+                    </div>
+                </div>
+                <!-- /bilan carbone -->
+
+                <!-- recapitulatif -->
+                <div class="content-item">
+                    <h2>récapitulatif de votre commande</h2>
+                    <img src="images/pin2.png" alt="pin"><span>23 Rue du Louvre, 75002 PARIS, France</span><br>
+                    <img src="images/clock4.png" alt="clock"><span>Aujourd'hui entre 15:00 et 16:00</span>
+                </div>
+                <!-- /recapitulatif -->
+
+                <!-- notation -->
+                <div class="content-item notation">
+                    <h2>notation du livreur</h2>
+                    <img src="images/profile-exemple.png" alt="profil"><br>
+                    <span>Michel</span>
+                    <div class="note">
+                        <img id="star1" onclick="noter(1)" src="images/notation-off.png" alt="star">
+                        <img id="star2" onclick="noter(2)" src="images/notation-off.png" alt="star">
+                        <img id="star3" onclick="noter(3)" src="images/notation-off.png" alt="star">
+                        <img id="star4" onclick="noter(4)" src="images/notation-off.png" alt="star">
+                        <img id="star5" onclick="noter(5)" src="images/notation-off.png" alt="star">
+                        <div id="appreciation"></div>
+                    </div>
+                    <div style="height:80px;"></div>
+                </div>
+                <!-- /notation -->
+
+            </div>
+            <!-- /content -->
+
+            <!-- confirmation -->
+            <a href="confirmation.html" id="confirmation">
+                Confirmer
+            </a>
+            <!-- /confirmation -->
+        
+        </div>
+        <!-- /page -->
+        
+        <script>
+            
+            var confirmation = document.getElementById('confirmation');
+            var appreciation = document.getElementById('appreciation');
+            var pop_up = document.getElementById('pop-up');
+            
+            confirmation.addEventListener('click', pop_up_confirmation);
+            
+            function noter(nbr){
+                for(var i=1; i <= 5; i++){
+                    var star = document.getElementById('star'+i);
+                    if(i <= nbr){
+                        star.src = 'images/notation-on.png';
+                    } else {
+                        star.src = 'images/notation-off.png';
+                    }
+                }
+                
+                if(confirmation.style.display !== 'block'){
+                    confirmation.style.display = 'block';
+                }
+                
+                switch(nbr) {
+                    case 1:
+                        appreciation.innerHTML ='Très mauvais';
+                        break;
+                    case 2:
+                        appreciation.innerHTML ='Mauvais';
+                        break;
+                    case 3:
+                        appreciation.innerHTML ='OK';
+                        break;
+                    case 4:
+                        appreciation.innerHTML ='Bon';
+                        break;
+                    default:
+                        appreciation.innerHTML ='Excellent';
+                }
+                
+            }
+            
+        </script>
+        
+    </body>
+
+</html>
