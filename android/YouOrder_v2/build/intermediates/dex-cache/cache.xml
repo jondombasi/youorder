@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.8.0_6293d1915dbdd0a6320d4fede36a71d468b3124c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_f1c785786a41707ef024be4585258daa0d7d488a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f76f397a488a719983bc8c0471f3bae4ae1108f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.8.0_a602e396c1330a6fdb2446a321620fffa72f0193.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/okio-1.8.0_774fbc0b95200dd29243520cab17bf97afcd6017.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b5b103b32f9dbf469c3a217f3036e2ad481cd2d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.8.0_38affca8ab563659280ab92de83b1aa6efa853fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_a3e9e1ed46f244f8d3ba61a63f0e6f4bab88a3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.8.0_100a6f62ad7729d1570ac7be650ab9b4a7b12a2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_3adf783af4b5b278834060d16057b7016b101c98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.25.0/866b539d3ae58abbd47880f243c02f914fec5cda/rxandroid-0.25.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="866b539d3ae58abbd47880f243c02f914fec5cda">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/rxandroid-0.25.0_c1c55b2fc0138c79734c736f5347ea4ac4ae8485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9fd866cd3c4765d3a9208d15ab0cc04ea512214f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_5434c7e7ddca93e6fda90298e36e7b99c014f5a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_2f6bbef8b48676bbd1cf6890528a7e85e1d25067.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_986109cb1eeadc1289f80bfb2f5227678c11002e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_c65ba51aa3e62460db05cf8fe1488256aec74749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8e0a44ea608f371cefb11643131153cff1096eea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_30713ee9a9111bb68ba3b54c5b77c49d451870bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_c8f1436b0ae154d239c9862ea965d8539aff0bdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_8da3654b9d369984bc6d2102dbbb7fd435ca7155.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_8b5241dc2b625349922876bda10687d15dd0b301.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_144321c9129d58b1774844211f630636e1efba6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/pl.charmas.android/android-reactive-location/0.10/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="473b888e323fd725b5ae1a7e221169d69cf2d158">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/pl.charmas.android-android-reactive-location-0.10_fa8cbc82a55a56fd355d92f220330880df553070.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/gson-2.7_0c35487db074b762e63d4864f872a19cfbed5783.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_9738f7a893f141abcc163a790cee125e616617d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_cd075d89312a00be350bdb8ed00a22f38f242662.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6b778872e979bbf0f971b1581e7a8a0d0ab86360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_1497484d02790a02ad1c88d08ad098ef18f0d879.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_45401f3b7abb0ac3c1f870a757879995530c485d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.8.0_015c6d6ab63bd09cc6dc443f825b6a44dd6a7d4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_841c95f4cea1352b741a80b1234a8b0869a1dbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_096e553a96d1bf29e8510ce9aa1a53b4094c085b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_83e1c76507bbcc735941ff175e98697b6fcf4c37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_b977846bd6192aee94cde95b3c640364590e8a05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_67d9924ecc5296af5594f6ee30b7404d07cab27a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_aea7f73e8cb3798d6e95278e2c79486baea4098a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.8.0_24ea83d3ffee7a4e0c30c8c95aac1d7204faad7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_fb866a4f2b01dfeab0646b1fd8130dca945df002.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_d7a253fa27ce749d6e2ae96f7458662a0018197c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e38ceffed1fb752b3ab4f4b3678697ff1924c57">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/com.github.gcacace-signature-pad-1.2.0_282b87b695c42e3f5cab8e5bb91846ed2bb26847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7b78c10524dbd82937136cc64bdd75fcc690396c.jar" />
+    </item>
+
+</items>
