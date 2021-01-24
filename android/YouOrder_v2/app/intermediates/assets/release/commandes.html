@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Commandes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/commandes.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC15w0ru2bvazBjNdaHtVLXngRT6JfSh2s" async defer></script>
+        <!-- <script type="text/javascript" src="js/geolocation-marker.js" async defer></script> -->
+        <!--<script type="text/javascript" src="js/gmaps.js" async defer></script>-->
+        <!-- /script -->
+        
+        <style>
+            #map-view {
+                width:100% !important;
+                /* Firefox */
+                height: -moz-calc(100% - 115px) !important;
+                /* WebKit */
+                height: -webkit-calc(100% - 115px) !important;
+                /* Opera */
+                height: -o-calc(100% - 115px) !important;
+                /* Standard */
+                height: calc(100% - 115px) !important;
+            }
+
+            #map_el {
+                height: 100% !important;
+                width:100% !important;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <!-- page -->
+        <div class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Commandes</span>
+                    <a href="commandes.html"><img src="images/commandes-on.png" alt=""></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- submenu -->
+            <nav class="submenu">
+                <div class="submenu-etat">
+                    <span id="menu-reserver">A réserver</span>
+                    <span id="menu-affecter">Affectées</span>
+                    <span id="menu-recuperer">Récupérées</span>
+                </div>
+                <div class="submenu-tab-map">
+                    <div id="map" class="submenu-tab-map-map"><img src="images/menu-map-off.png" alt="map-off"></div>
+                    <div id="liste" class="submenu-tab-map-tab bgc-green-r"><img src="images/menu-liste-on.png" alt="liste-on"></div>
+                    <div class="stop"></div>
+                </div>
+            </nav>
+            <!-- /submenu -->
+            
+            <div id="liste-view">
+                <img src="images/ajax-loader.gif" id="loading" alt="chargement..." style="margin-left: -moz-calc(50% - 15px);margin-left: -webkit-calc(50% - 15px);margin-left: -o-calc(50% - 15px);margin-left: calc(50% - 15px);margin-top: 50px;"/>
+                <!-- reserver -->
+                <div id="reserver" style="display:block">
+                    <div id="new-notif-ajouter" class="new-notif new-notif2" style="display:none">
+                        <div><img src="images/arrow.png" alt="arrow"></div>
+                        <span class="span_cpt"></span>
+                    </div>
+                    <ul id="demo" class="md-wo-list" style="display: none"></ul>
+                    <div id="notif">
+                        <img src="images/clock2.png" alt="clock"><span id="notif_signature"></span>
+                    </div>
+                </div>
+                <!-- /reserver -->
+
+                <!-- affecter -->
+                <div id="affecter">
+                    <div id="new-notif-reserver" class="new-notif" style="display:none">
+                        <div><img src="images/arrow.png" alt="arrow"></div>
+                        <span class="span_cpt"></span>
+                    </div>
+                    <ul id="demo2" class="md-wo-list" style="display: none"></ul>
+                </div>
+                <!-- /affecter -->
+
+                <!-- recuperer -->
+                <div id="recuperer">
+                    <div id="new-notif-recuperer" class="new-notif new-notif2" style="display:none">
+                        <div><img src="images/arrow.png" alt="arrow"></div>
+                        <span class="span_cpt"></span>
+                    </div>
+                    <ul id="demo3" class="md-wo-list" style="display: none"></ul>
+                </div>
+                <!-- /recuperer -->
+            </div>
+            
+            <div id="map-view">
+                <span id="test2"></span>
+                <div id="map_el"></div>
+                <div id="test">
+                    <div class="commande-title">
+                        <span>Le Bloc</span>
+                        <span>900m - 3min</span>
+                        <div class="stop"></div>
+                    </div>
+                    <div class="commande-trajet">
+                        <div class="circle green"></div>
+                        <div class="pipe"></div>
+                        <div class="circle red"></div>
+                    </div>
+                    <div class="commande-detail">
+                        <span>12 Rue de Campo-Fornio, 75013 PARIS, France</span>
+                        <span>235 Rue du Faubourg Saint Honoré, 75013 PARIS, France</span>
+                    </div>
+                    <div class="stop"></div>
+                    <div class="commande-horaire">
+                        <div><img src="images/clock.png" alt="clock"></div>
+                        <span>Le 24/08/2016 entre 15:00 et 16:00</span>
+                        <div class="stop"></div>
+                    </div>
+                    <a href="javascript:void(0)" onclick="">
+                        <div class="etat-map"></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- pop up -->
+            <div id="pop-up">
+                <div class="pop-up">
+                    <div class="pop-up-text">
+                        <span>Une erreur est survenue</span>
+                        <span></span>
+                    </div>
+                    <span id="close-pop-up">Ok</span>
+                </div>
+            </div>
+            <!-- /pop up -->
+            
+            
+        </div>
+        <!-- /page -->
+
+        <script>
+            var map_el;
+            var markers = [];
+            var id_livreur;
+            var latlng_geoloc;
+
+            bool_new=false;
+            $(document).ready(function() {
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                        }
+                        console.log(id_livreur);
+                        listeView("demo", "Réserver");
+                        listeView("demo2", "Récupérer");
+                        listeView("demo3", "Fin");
+                        counter=0;
+                        cpt_ajoute=0;
+                        cpt_reserve=0;
+                        cpt_recupere=0;
+                        load_commandes();
+                        load_bdd(true);
+                    });
+                });
+            });
+
+            function load_commandes() {
+                $("#demo").html("");
+                $("#demo2").html("");
+                $("#demo3").html("");
+                //console.log("id_livreur="+id_livreur);
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT c.id, c.date_debut, c.date_fin, c.statut, r.nom as nom_resto, r.adresse as adresse_resto, cl.adresse as adresse_client FROM commandes c JOIN restaurant r ON c.restaurant=r.id JOIN client cl ON c.client=cl.id WHERE c.statut NOT IN ("signé", "echec") AND c.livreur IN (0, '+id_livreur+', "0", "'+id_livreur+'") AND c.date_fin>=strftime("%Y-%m-%d", "now", "-1 day") ORDER BY c.date_debut', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        console.log(len)
+                        for (j = 0; j < len; j++) {
+                            //console.log(results.rows.item(j));
+
+                            if (j==len-1) {
+                                $("#loading").hide();
+                            }
+
+                            ts_date_debut=new Date(results.rows.item(j).date_debut);
+                            ts_date_fin=new Date(results.rows.item(j).date_fin);
+                            date_debut=("0"+ts_date_debut.getDate()).slice(-2)+"/"+('0'+(ts_date_debut.getMonth()+1)).slice(-2)+"/"+ts_date_debut.getFullYear();
+                            heure_debut=("0"+ts_date_debut.getHours()).slice(-2)+":"+("0"+ts_date_debut.getMinutes()).slice(-2)
+                            heure_fin=("0"+ts_date_fin.getHours()).slice(-2)+":"+("0"+ts_date_fin.getMinutes()).slice(-2)
+
+                            //console.log(date_debut+" entre "+heure_debut+" et "+heure_fin);
+                            if (results.rows.item(j).statut=="ajouté") {
+                                $("#demo").append('<li id="commande_'+results.rows.item(j).id+'" class="mbsc-lv-item"><a href="javascript:void(0)" onclick="lien_commande('+results.rows.item(j).id+', \'detail_commande\')"><div class="commande-title"><span>'+results.rows.item(j).nom_resto+'</span><img src="images/arrow2.png" alt="arrow"><div class="stop"></div></div><div class="commande-trajet"><div class="circle green"></div><div class="pipe"></div><div class="circle red"></div></div><div class="commande-detail"><span>'+results.rows.item(j).adresse_resto+'</span><span>'+results.rows.item(j).adresse_client+'</span></div><div class="stop"></div><div class="commande-horaire"><div><img src="images/clock.png" alt="clock"></div><span>Le '+date_debut+' entre '+heure_debut+' et '+heure_fin+'</span><div class="stop"></div></div></a></li>');
+                            }
+                            else if (results.rows.item(j).statut=="réservé") {
+                                $("#demo2").append('<li id="commande_'+results.rows.item(j).id+'" class="mbsc-lv-item"><a href="javascript:void(0)" onclick="lien_commande('+results.rows.item(j).id+', \'detail_commande\')"><div class="commande-title"><span>'+results.rows.item(j).nom_resto+'</span><img src="images/arrow2.png" alt="arrow"><div class="stop"></div></div><div class="commande-trajet"><div class="circle green"></div><div class="pipe"></div><div class="circle red"></div></div><div class="commande-detail"><span>'+results.rows.item(j).adresse_resto+'</span><span>'+results.rows.item(j).adresse_client+'</span></div><div class="stop"></div><div class="commande-horaire"><div><img src="images/clock.png" alt="clock"></div><span>Le '+date_debut+' entre '+heure_debut+' et '+heure_fin+'</span><div class="stop"></div></div></a></li>');
+                            }
+                            else if (results.rows.item(j).statut=="récupéré") {
+                                $("#demo3").append('<li id="commande_'+results.rows.item(j).id+'" class="mbsc-lv-item"><a href="javascript:void(0)" onclick="lien_commande('+results.rows.item(j).id+', \'detail_commande\')"><div class="commande-title"><span>'+results.rows.item(j).nom_resto+'</span><img src="images/arrow2.png" alt="arrow"><div class="stop"></div></div><div class="commande-trajet"><div class="circle green"></div><div class="pipe"></div><div class="circle red"></div></div><div class="commande-detail"><span>'+results.rows.item(j).adresse_resto+'</span><span>'+results.rows.item(j).adresse_client+'</span></div><div class="stop"></div><div class="commande-horaire"><div><img src="images/clock.png" alt="clock"></div><span>Le '+date_debut+' entre '+heure_debut+' et '+heure_fin+'</span><div class="stop"></div></div></a></li>');
+                            }
+                        }
+                    }, function (err) { console.log(err); });
+                });
+            }
+
+            function load_bdd(first) { 
+                console.log("dans load bdd")
+                $.ajax({
+                    url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_commandes&id_livreur='+id_livreur,
+                    type     : "GET",
+                    async    : true,
+                    timeout: 5000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "commandes", first);
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                    }
+                });
+
+                $.ajax({
+                    url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_clients&id_livreur='+id_livreur,
+                    type     : "GET",
+                    async    : true,
+                    timeout: 5000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "clients", first);
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                    }
+                });
+
+                $.ajax({
+                    url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_restaurants&id_livreur='+id_livreur,
+                    type     : "GET",
+                    async    : true,
+                    timeout: 5000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "restaurants", first);
+                    },
+                    error: function(transport) {
+                        //console.log(transport);
+                    }
+                });
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport, table, first) {
+                console.log("ok "+table);
+                nextRecord(transport, table, first);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+
+            function nextRecord(transport, table, first) {
+                var row = transport.shift();
+                if (row) {
+                    switch (table) {
+                        case "commandes":
+                            //console.log(row)
+                            db.transaction(function (txCommande) {
+                                txCommande.executeSql('SELECT * FROM commandes WHERE id=?',[row.id], function (txCommande, resultsCommande) {
+                                    var lenCommande = resultsCommande.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenCommande>=1) {
+                                        console.log("existe");
+                                        //console.log(row);
+                                        //console.log(resultsCommande.rows.item(0));
+                                        if (resultsCommande.rows.item(0).restaurant!=row.restaurant || resultsCommande.rows.item(0).client!=row.client || resultsCommande.rows.item(0).livreur!=row.livreur || resultsCommande.rows.item(0).date_debut!=row.date_debut || resultsCommande.rows.item(0).date_fin!=row.date_fin || resultsCommande.rows.item(0).commentaire!=row.commentaire || resultsCommande.rows.item(0).statut!=row.statut) {
+
+                                            //console.log("different")
+
+                                            if (row.statut=="ajouté" && (resultsCommande.rows.item(0).statut!=row.statut)) {
+                                                cpt_ajoute++;
+                                            }
+                                            else if (row.statut=="réservé" && (resultsCommande.rows.item(0).statut!=row.statut)) {
+                                                cpt_reserve++;
+                                            }
+                                            else if (row.statut=="récupéré" && (resultsCommande.rows.item(0).statut!=row.statut)) {
+                                                cpt_recupere++;
+                                            }
+
+                                            bool_new=true;
+
+                                            doQuery(txCommande, 'UPDATE commandes SET restaurant=?, client=?, commentaire=?, date_debut=?, date_fin=?, date_ajout=?, statut=?, raison_refus=?, comm_refus=?, date_statut=?, distance=?, duree=?, livreur=?, signature=? WHERE id=?',[row.restaurant, row.client, row.commentaire, row.date_debut, row.date_fin, row.date_ajout, row.statut, row.raison_refus, row.comm_refus, row.date_statut, row.distance, row.duree, row.livreur, row.signature, row.id],successHandler(transport, table, first)); 
+                                        }
+                                        else {
+                                            //console.log("les mêmes")
+                                            nextRecord(transport, table, first);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        if (row.statut=="ajouté" || row.livreur==id_livreur) {
+                                            //console.log("nouveau");
+                                            if (!first) {
+                                                if (row.statut=="ajouté") {
+                                                    cpt_ajoute++;
+                                                }
+                                                else if (row.statut=="réservé") {
+                                                    cpt_reserve++;
+                                                }
+                                                else if (row.statut=="récupéré") {
+                                                    cpt_recupere++;
+                                                }
+                                            }
+
+                                            bool_new=true;
+
+                                            doQuery(txCommande, 'INSERT INTO commandes (id, restaurant, client, commentaire, date_debut, date_fin, date_ajout, statut, raison_refus, comm_refus, date_statut, distance, duree, livreur, signature) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',[row.id, row.restaurant, row.client, row.commentaire, row.date_debut, row.date_fin, row.date_ajout, row.statut, row.raison_refus, row.comm_refus, row.date_statut, row.distance, row.duree, row.livreur, row.signature],successHandler(transport, table, first));
+                                        }
+                                        else {
+                                            //console.log("ne concerne pas le livreur")
+                                            nextRecord(transport, table, first);
+                                        }
+                                    }
+                                });
+                            });
+                            break;
+
+                        case "clients":
+                            //console.log(row)
+                            db.transaction(function (txClient) {
+                                txClient.executeSql('SELECT * FROM client WHERE id=?',[row.id], function (txClient, resultsClient) {
+                                    var lenClient = resultsClient.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenClient>=1) {
+                                        if (resultsClient.rows.item(0).nom!=row.prenom+' '+row.nom || resultsClient.rows.item(0).adresse!=row.adresse || resultsClient.rows.item(0).latitude!=row.latitude || resultsClient.rows.item(0).longitude!=row.longitude || resultsClient.rows.item(0).numero!=row.numero) {
+                                            doQuery(txClient, 'UPDATE client SET nom=?, adresse=?, latitude=?, longitude=?, numero=? WHERE id=?',[row.prenom+' '+row.nom, row.adresse, row.latitude, row.longitude, row.numero, row.id],successHandler(transport, table, first)); 
+                                        }
+                                        else {
+                                            nextRecord(transport, table, first);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        doQuery(txClient, 'INSERT INTO client (id, nom, adresse, latitude, longitude, numero) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.prenom+' '+row.nom, row.adresse, row.latitude, row.longitude, row.numero],successHandler(transport, table, first));
+                                    }
+                                });
+                            });
+                            break;
+
+                        case "restaurants":
+                            //console.log(row)
+                            db.transaction(function (txResto) {
+                                txResto.executeSql('SELECT * FROM restaurant WHERE id=?',[row.id], function (txResto, resultsResto) {
+                                    var lenResto = resultsResto.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenResto>=1) {
+                                        if (resultsResto.rows.item(0).nom!=row.nom || resultsResto.rows.item(0).adresse!=row.adresse || resultsResto.rows.item(0).latitude!=row.latitude || resultsResto.rows.item(0).longitude!=row.longitude || resultsResto.rows.item(0).numero!=row.numero) {
+                                            doQuery(txResto, 'UPDATE restaurant SET nom=?, adresse=?, latitude=?, longitude=?, numero=? WHERE id=?',[row.nom, row.adresse, row.latitude, row.longitude, row.numero, row.id],successHandler(transport, table, first)); 
+                                        }
+                                        else {
+                                            nextRecord(transport, table, first);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        doQuery(txResto, 'INSERT INTO restaurant (id, nom, adresse, latitude, longitude, numero) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.nom, row.adresse, row.latitude, row.longitude, row.numero],successHandler(transport, table, first));
+                                    }
+                                });
+                            });
+                            break;
+                    }
+                }
+                else {
+                    counter++;
+                    if (counter==3) {
+                        console.log("TERMINE OK");
+                        if (first) {
+                            if (bool_new) {
+                                $("#loading").hide();
+                                load_commandes();
+                            }
+                        }
+                        else {
+                            console.log(cpt_ajoute+" / "+cpt_reserve+" / "+cpt_recupere)
+                            if (cpt_ajoute>=1) {
+                                $("#new-notif-ajouter").show();
+                                $("#new-notif-ajouter").find(".span_cpt").html((cpt_ajoute>1) ? cpt_ajoute+" nouvelles notifications" : cpt_ajoute+" nouvelle notification");
+                            }
+                            if (cpt_reserve>=1) {
+                                $("#new-notif-reserver").show();
+                                $("#new-notif-reserver").find(".span_cpt").html((cpt_reserve>1) ? cpt_reserve+" nouvelles notifications" : cpt_reserve+" nouvelle notification");
+                            }
+                            if (cpt_recupere>=1) {
+                                $("#new-notif-recuperer").show();
+                                $("#new-notif-recuperer").find(".span_cpt").html((cpt_recupere>1) ? cpt_recupere+" nouvelles notifications" : cpt_recupere+" nouvelle notification");
+                            }
+                        }
+                        $("#loading").hide();
+                        setTimeout(function() {
+                            counter=0;
+                            load_bdd(false);
+                        },10000);
+                    }
+                }
+            }
+
+            function listeView(id, type) {
+                $('#'+id).mobiscroll().listview({
+                    theme: 'mobiscroll',
+                    iconSlide: true,
+                    stages: [{
+                        percent: -25,
+                        color: '#67ae73',
+                        text: type,
+                        confirm: true,
+                        action: function (event, inst) {
+                            id_commande=event[0].id.replace("commande_", "");
+                            statut="";
+                            switch(event[0].offsetParent.id) {
+                                case "demo":
+                                    statut="ajouté";
+                                    //console.log("le livreur s'assigne la commande d'id "+id_commande)
+                                    break;
+                                case "demo2":
+                                    statut="réservé";
+                                    //console.log("le livreur récupère la commande d'id "+id_commande)
+                                    break;
+                                case "demo3":
+                                    lien_commande(id_commande, 'finalisation');
+                                    break;
+                            }
+
+                            if (statut!="") {
+                                console.log(statut+" / "+id_commande);
+                                change_statut("commandes", statut, id_commande, id_livreur, "", "", event)
+                            }   
+                        }
+                    }]
+                });
+            }                 
+            
+            $('#new-notif-ajouter, #new-notif-reserver, #new-notif-recuperer').click(function(){
+                //console.log($(this).attr("id"));
+                //reload commandes
+                load_commandes();
+
+                //cacher le bandeau de notif
+                $('#new-notif-ajouter, #new-notif-reserver, #new-notif-recuperer').animate({
+                    left: '-=300'
+                }, 500, function() {console.log("fini");cpt_ajoute=0;cpt_reserve=0;cpt_recupere=0;$("#new-notif-ajouter, #new-notif-reserver, #new-notif-recuperer").attr("style", "left:50%;");$("#new-notif-ajouter, #new-notif-reserver, #new-notif-recuperer").hide();});
+            });
+            
+            var menu_reserver = document.getElementById('menu-reserver');
+            var menu_affecter = document.getElementById('menu-affecter');
+            var menu_recuperer = document.getElementById('menu-recuperer');
+            
+            var reserver = document.getElementById('reserver');
+            var affecter = document.getElementById('affecter');
+            var recuperer = document.getElementById('recuperer');
+            
+            var map = document.getElementById('map');
+            var liste = document.getElementById('liste');
+            var map_view = document.getElementById('map-view');
+            var liste_view = document.getElementById('liste-view');
+            
+            var notif = document.getElementById('notif');
+
+            var popup = document.getElementById('pop-up');
+            var close_pop_up = document.getElementById('close-pop-up');
+            
+            menu_reserver.addEventListener('click', afficher_reserver);
+            menu_affecter.addEventListener('click', afficher_affecter);
+            menu_recuperer.addEventListener('click', afficher_recuperer);
+            
+            map.addEventListener('click', afficher_map);
+            liste.addEventListener('click', afficher_liste);
+            
+
+            //gestion affichage de l'onglet
+            if (getQueryVariable("tab")=="2") {
+                afficher_affecter();
+            }
+            else if (getQueryVariable("tab")=="3") {
+                afficher_recuperer();
+            }
+            else {
+                afficher_reserver();
+            }
+            
+            if(map.className === 'submenu-tab-map-map'){
+                map_view.style.display = 'none';
+                liste_view.style.display = 'block';
+            } else {
+                map_view.style.display = 'block';
+                liste_view.style.display = 'none';
+
+            }
+
+            close_pop_up.addEventListener("click", cacher_pop_up);
+            
+            function afficher_reserver(){
+                affecter.style.display = 'none';
+                recuperer.style.display = 'none';
+                menu_recuperer.classList.remove('menu-green');
+                menu_affecter.classList.remove('menu-green');
+                menu_reserver.classList.add('menu-green');
+                reserver.style.display = 'block';
+                
+                if (map_el!=undefined) setMarker();
+            }
+            
+            function afficher_recuperer(){
+                affecter.style.display = 'none';
+                reserver.style.display = 'none';
+                menu_affecter.classList.remove('menu-green');
+                menu_reserver.classList.remove('menu-green');
+                menu_recuperer.classList.add('menu-green');
+                recuperer.style.display = 'block';
+
+               if (map_el!=undefined) setMarker();
+            }
+            
+            function afficher_affecter(){
+                reserver.style.display = 'none';
+                recuperer.style.display = 'none';
+                menu_recuperer.classList.remove('menu-green');
+                menu_reserver.classList.remove('menu-green');
+                menu_affecter.classList.add('menu-green');
+                affecter.style.display = 'block';
+
+                if (map_el!=undefined) setMarker();
+            }
+            
+            function afficher_map(){
+                map.firstChild.src = 'images/menu-map-on.png';
+                map.classList.add('bgc-green');
+                liste.firstChild.src = 'images/menu-liste-off.png';
+                liste.classList.remove('bgc-green-r');
+                map_view.style.display = 'block';
+                liste_view.style.display = 'none';
+
+                //créer l'instance de la carte si elle n'existe pas
+                if (map_el==undefined) {
+                    map_el = new google.maps.Map(document.getElementById('map_el'), {
+                      center: {lat: 48.860294, lng: 2.338629},
+                      zoom: 11,
+                      disableDefaultUI: true
+                    });
+                }
+                if(navigator.geolocation) {
+                    survId = navigator.geolocation.watchPosition(maPosition,erreurPosition);
+                } else {
+                    alert("Ce navigateur ne supporte pas la géolocalisation");
+                }
+                setMarker();
+            }
+            
+            function afficher_liste(){
+                liste.firstChild.src = 'images/menu-liste-on.png';
+                liste.classList.add('bgc-green-r');
+                map.firstChild.src = 'images/menu-map-off.png';
+                map.classList.remove('bgc-green');
+                map_view.style.display = 'none';
+                liste_view.style.display = 'block';
+
+            }
+
+            function setMarker() {
+                $("#test").hide();
+                /*map_el.refresh();
+                map_el.removeMarkers();*/
+
+                google.maps.event.trigger(map_el, 'resize');
+                deleteMarkers();
+
+                statut_marker="";
+                if ($("#menu-reserver").hasClass("menu-green")) {
+                    statut_marker="ajouté";
+                }
+                else if ($("#menu-affecter").hasClass("menu-green")) {
+                    statut_marker="réservé";
+                }
+                else if ($("#menu-recuperer").hasClass("menu-green")) {
+                    statut_marker="récupéré";
+                }
+
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT c.id, c.date_debut, c.date_fin, c.statut, r.nom as nom_resto, r.adresse as adresse_resto, r.latitude as lat_resto, r.longitude as lng_resto, cl.adresse as adresse_client, cl.latitude as lat_client, cl.longitude as lng_client FROM commandes c JOIN restaurant r ON c.restaurant=r.id JOIN client cl ON c.client=cl.id WHERE c.statut="'+statut_marker+'" AND c.livreur IN (0, '+id_livreur+', "0", "'+id_livreur+'") AND c.date_debut>=strftime("%Y-%m-%d", "now", "-1 day")', 
+                        [], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            //console.log(len)
+                            for (j = 0; j < len; j++) {
+                                //console.log(results.rows.item(j));
+                                id_commande=results.rows.item(j).id
+                                //console.log(id_commande)
+                                var myLatLng = (statut_marker=="ajouté" || statut_marker=="réservé") ? {lat: parseFloat(results.rows.item(j).lat_resto), lng: parseFloat(results.rows.item(j).lng_resto)} : {lat: parseFloat(results.rows.item(j).lat_client), lng: parseFloat(results.rows.item(j).lng_client)} ;
+                                var marker = new google.maps.Marker({
+                                    position: myLatLng,
+                                    map: map_el,
+                                    icon: 'images/map-off.png',
+                                    id_commande: id_commande
+                                    /*click: function(e) {
+                                        console.log(e);
+                                        showInfoCommande(e.id_commande);
+                                    }*/
+                                });
+                                marker.addListener('click', function() {
+                                    console.log(this);
+                                    showInfoCommande(this.id_commande);
+                                });
+
+                                markers.push(marker);
+                            }
+                            console.log(markers)
+                            setMapOnAll(map_el)
+                            //map_el.setCenter(48.860294,2.338629);
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            }
+
+            function showInfoCommande(id_commande) {
+                $("#test").show();
+                //console.log(id_commande)
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT c.id, c.date_debut, c.date_fin, c.statut, c.duree, c.distance, r.nom as nom_resto, r.adresse as adresse_resto, cl.adresse as adresse_client FROM commandes c JOIN restaurant r ON c.restaurant=r.id JOIN client cl ON c.client=cl.id WHERE c.id=?', [id_commande], function (tx, results) {
+                        var len = results.rows.length, i;
+                        //console.log(len)
+                        //console.log(results.rows.item(0))
+                        if (len==1) {
+                            var statut_txt="";
+                            ts_date_debut=new Date(results.rows.item(0).date_debut);
+                            ts_date_fin=new Date(results.rows.item(0).date_fin);
+                            date_debut=("0"+ts_date_debut.getDate()).slice(-2)+"/"+('0'+(ts_date_debut.getMonth()+1)).slice(-2)+"/"+ts_date_debut.getFullYear();
+                            heure_debut=("0"+ts_date_debut.getHours()).slice(-2)+":"+("0"+ts_date_debut.getMinutes()).slice(-2);
+                            heure_fin=("0"+ts_date_fin.getHours()).slice(-2)+":"+("0"+ts_date_fin.getMinutes()).slice(-2);
+                            distance_km=Math.round(results.rows.item(0).distance/1000);
+                            duree_aff=results.rows.item(0).duree.toHHMMSS();
+
+                            if (results.rows.item(0).statut=="ajouté") {
+                                statut_txt="Réserver";
+                                statut="ajouté";
+                            }
+                            else if (results.rows.item(0).statut=="réservé") {
+                                statut_txt="Récupérer";
+                                statut="réservé";
+                            }
+                            else if (results.rows.item(0).statut=="récupéré") {
+                                statut_txt="Fin";
+                                statut="";
+                                lien_txt="lien_commande("+id_commande+", 'finalisation')";
+                            }
+
+                            if (statut!="") {
+                                lien_txt='change_statut(\'commandes\', \''+statut+'\', \''+id_commande+'\', \''+id_livreur+'\', \'\', \'\', \'\')';
+                            }  
+
+
+                            $("#test").html('<div class="commande-title"><span>'+results.rows.item(0).nom_resto+'</span><span>'+distance_km+'km - '+duree_aff+'</span><div class="stop"></div></div><div class="commande-trajet"><div class="circle green"></div><div class="pipe"></div><div class="circle red"></div></div><div class="commande-detail"><span>'+results.rows.item(0).adresse_resto+'</span><span>'+results.rows.item(0).adresse_client+'</span></div><div class="stop"></div><div class="commande-horaire"><div><img src="images/clock.png" alt="clock"></div><span>Le '+date_debut+' entre '+heure_debut+' et '+heure_fin+'</span><div class="stop"></div></div><a href="javascript:void(0)" onclick="'+lien_txt+'"><div class="etat-map">'+statut_txt+'</div></a>');
+                            affiche_test();
+                        }
+                    });
+                });
+            }
+
+            function cacher_pop_up(){
+                popup.style.display = "none";
+            }
+            
+            //setTimeout(function(){ notif.style.display = 'none'; }, 3000);
+            notif.style.display = 'none';
+            
+            /* TEST  */
+            
+            var test = document.getElementById('test');
+            var testDeux = document.getElementById('test2');
+            testDeux.addEventListener('click', affiche_test);
+            
+            function affiche_test(){
+                //test.classList.toggle('apparittion-top');
+                $("#test").addClass('apparittion-top');
+            }
+            
+            /* END TEST  */
+
+            /* GOOGLE MAPS */
+            // Sets the map on all markers in the array.
+            function setMapOnAll(map) {
+                for (var i = 0; i < markers.length; i++) {
+                    markers[i].setMap(map);
+                }
+            }
+
+            function deleteMarkers() {
+                setMapOnAll(null);
+                markers = [];
+            }
+            /* FIN GOOGLE MAPS */
+
+            function show_signature(id_commande) {
+                ts_date_signature=new Date();
+                date_signature=("0"+ts_date_signature.getDate()).slice(-2)+"/"+('0'+(ts_date_signature.getMonth()+1)).slice(-2)+"/"+ts_date_signature.getFullYear();
+                heure_signature=("0"+ts_date_signature.getHours()).slice(-2)+":"+("0"+ts_date_signature.getMinutes()).slice(-2)
+
+                $("#notif_signature").html(" Commande livrée et signée le "+date_signature+" à "+heure_signature);
+                notif.style.display = 'block';
+                setTimeout(function(){ notif.style.display = 'none'; }, 3000);
+            }
+            
+            // Fonction de callback en cas de succès
+            function maPosition(position) {             
+                // Un nouvel objet LatLng pour Google Maps avec les paramètres de position
+                latlng_geoloc = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+             
+                // Ajout d'un marqueur à la position trouvée
+                var marker = new google.maps.Marker({
+                  position: latlng_geoloc,
+                  map: map_el,
+                  icon: 'images/geoloc_icon.png',
+                  title:"Vous êtes ici"
+                });
+
+                map_el.setCenter(marker.getPosition());
+                
+                // Permet de centrer la carte sur la position latlng
+                //map_el.panTo(latlng_geoloc);
+            }
+
+            // Fonction de callback en cas d’erreur
+            function erreurPosition(error) {
+                var info = "Erreur lors de la géolocalisation : ";
+                switch(error.code) {
+                case error.TIMEOUT:
+                    info += "Timeout !";
+                break;
+                case error.PERMISSION_DENIED:
+                info += "Vous n’avez pas donné la permission";
+                break;
+                case error.POSITION_UNAVAILABLE:
+                    info += "La position n’a pu être déterminée";
+                break;
+                case error.UNKNOWN_ERROR:
+                info += "Erreur inconnue";
+                break;
+                }
+                //document.getElementById("infoposition").innerHTML = info;
+                //console.log(info)
+            }
+        </script>
+    </body>
+    
+</html>
