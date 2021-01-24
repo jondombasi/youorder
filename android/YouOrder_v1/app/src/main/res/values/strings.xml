@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">You Order</string>
+    <string name="default_upload_website">http://www.youorder.fr/admin/webservice/addlocation.php</string>
+    <string name="gps_network_not_enabled">Le service de localisation est désactivé</string>
+    <string name="open_location_settings">Accéder\nau paramètre</string>
+    <string name="Cancel">Annuler</string>
+
+    <string name="tracking_is_off">Désactiver</string>
+    <string name="tracking_is_on">Activer</string>
+    <string name="user_needs_to_restart_tracking">Please restart tracking to change the time interval.</string>
+    <string name="reachability_error">Cannot reach the website that you have entered. Did you spell it correctly? Does your website use http or https?</string>
+    <string name="textfields_empty_or_spaces">Please fill in both fields. User names cannot have a space.</string>
+    <string name="google_play_services_unavailable">Allez dans Paramètres > Applications > Tout > Services Google > et activez Google Play Services.</string>
+    <string name="user_name">nom </string>
+    <string name="upload_website">upload</string>
+    <string name="upload_frequency">Synchroniser à chaque :</string>
+    <string name="one_minute">1 minute</string>
+    <string name="five_minutes">5 minutes</string>
+    <string name="fifteen_minutes">15 minutes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Login</string>
+    <string name="username">Email:</string>
+    <string name="password">Mot de passe:</string>
+    <string name="login">Se connecter:</string>
+    <string name="title">Livreur You Order</string>
+    <string name="disconnect">Déconnecter</string>
+    <string name="content">Veuillez-vous connecter au début de votre service pour activer la localisation.</string>
+    <string name="content2">Pensez à désactiver la localisation à la fin du service en vous déconnectant !</string>
+    <string name="check_network"> Vérifier votre connexion internet</string>
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+</resources>
