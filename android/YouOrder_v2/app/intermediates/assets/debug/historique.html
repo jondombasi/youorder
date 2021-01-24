@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Historique</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/historique.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Historique</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- nbr commandes -->
+            <div class="nbr-commandes"></div>
+            <!-- /nbr commandes -->
+            
+            <!-- commandes -->
+            <div class="commandes">
+                <span>Historique</span>
+                <img src="images/ajax-loader.gif" id="loading" alt="chargement..." style="margin-left: 40%;margin-top: 50px;"/>
+                <div id="commandes_histo"></div>
+            </div>
+            <!-- /commandes -->
+            
+        </div>
+        <!-- /page -->
+        
+        <script>
+            
+            var id_livreur;
+            counter=0;
+            limit=10;
+            offset=0;
+            nb_commandes=0;
+            bool_new=false;
+            $(document).ready(function() {
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT * FROM localstorage WHERE id=?', 
+                        [1], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            if (len>=1) {
+                                id_livreur=results.rows.item(0).id_livreur;
+                                if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                                tx.executeSql(
+                                    'SELECT * FROM commandes WHERE livreur=? AND statut IN (?, ?)', 
+                                    [id_livreur, "signé", "echec"], 
+                                    function (tx, results) {
+                                        var nb_commandes = results.rows.length, i;
+                                        $(".nbr-commandes").html((nb_commandes>1) ? nb_commandes+" commandes traîtées à ce jour" : nb_commandes+" commande traîtée à ce jour");
+                                    },
+                                    function (err) {
+                                        console.log(err);
+                                    }
+                                );
+                            }
+                            load_historique(id_livreur, limit, offset);
+                            load_bdd();
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            });
+
+            function load_historique(id_livreur, limit, offset) {
+                console.log(id_livreur)
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT c.id, c.date_debut, c.date_fin, c.statut, r.nom as nom_resto, r.adresse as adresse_resto FROM commandes c JOIN restaurant r ON c.restaurant=r.id WHERE c.statut IN ("signé", "echec") AND c.livreur=? ORDER BY c.date_statut DESC LIMIT ? OFFSET ?', 
+                        [id_livreur, limit, offset], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            //console.log(len)
+                            for (j = 0; j < len; j++) {
+                                //console.log(results.rows.item(j));
+
+                                if (j==len-1) {
+                                    $("#loading").hide();
+                                }
+
+                                if (results.rows.item(j).statut=="signé") {
+                                    statut_txt="Signée";
+                                    statut_class="signee";
+                                }
+                                else {
+                                    statut_txt="Echec";
+                                    statut_class="echec";
+                                }
+
+                                ts_date_debut=new Date(results.rows.item(j).date_debut);
+                                ts_date_fin=new Date(results.rows.item(j).date_fin);
+                                date_debut=("0"+ts_date_debut.getDate()).slice(-2)+"/"+('0'+(ts_date_debut.getMonth()+1)).slice(-2)+"/"+ts_date_debut.getFullYear();
+                                heure_debut=("0"+ts_date_debut.getHours()).slice(-2)+":"+("0"+ts_date_debut.getMinutes()).slice(-2)
+                                heure_fin=("0"+ts_date_fin.getHours()).slice(-2)+":"+("0"+ts_date_fin.getMinutes()).slice(-2)
+
+                                $("#commandes_histo").append('<a href="javascript:void(0)" onclick="lien_commande('+results.rows.item(j).id+', \''+statut_class+'\')" id="commande_'+results.rows.item(j).id+'" onclick="opacity('+results.rows.item(j).id+')" class="commande"><h2>'+results.rows.item(j).nom_resto+'</h2><img src="images/arrow2.png" alt="arrow"><span class="etat '+statut_class+'">'+statut_txt+'</span><span class="stop"></span><div class="details"><div class="detail"><img src="images/menu-map-off.png" alt="map"><span>'+results.rows.item(j).adresse_resto+'</span></div><div class="detail"><img  class="clock" src="images/clock.png" alt="clock"><span>Le '+date_debut+' entre '+heure_debut+' et '+heure_fin+'</span><div class="stop"></div></div></div></a>');
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            }
+
+            function load_bdd() { 
+                console.log("dans load bdd")
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_commandes_histo&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "commandes");
+                    },
+                    error: function(transport) {
+                        counter++;
+                        console.log(transport);
+                    }
+                });
+
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_clients&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "clients");
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        counter++;
+                    }
+                });
+
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_restaurants&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport, "restaurants");
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        counter++;
+                    }
+                });
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport, table, first) {
+                console.log("ok "+table);
+                nextRecord(transport, table, first);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+
+            function nextRecord(transport, table) {
+                var row = transport.shift();
+                if (row) {
+                    switch (table) {
+                        case "commandes":
+                            //console.log(row)
+                            db.transaction(function (txCommande) {
+                                txCommande.executeSql('SELECT * FROM commandes WHERE id=?',[row.id], function (txCommande, resultsCommande) {
+                                    var lenCommande = resultsCommande.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenCommande>=1) {
+                                        console.log("existe");
+                                        //console.log(row);
+                                        //console.log(resultsCommande.rows.item(0));
+                                        if (resultsCommande.rows.item(0).restaurant!=row.restaurant || resultsCommande.rows.item(0).client!=row.client || resultsCommande.rows.item(0).livreur!=row.livreur || resultsCommande.rows.item(0).date_debut!=row.date_debut || resultsCommande.rows.item(0).date_fin!=row.date_fin || resultsCommande.rows.item(0).commentaire!=row.commentaire || resultsCommande.rows.item(0).statut!=row.statut) {
+
+                                            //console.log("different")
+                                            doQuery(txCommande, 'UPDATE commandes SET restaurant=?, client=?, commentaire=?, date_debut=?, date_fin=?, date_ajout=?, statut=?, raison_refus=?, comm_refus=?, date_statut=?, distance=?, duree=?, livreur=?, signature=? WHERE id=?',[row.restaurant, row.client, row.commentaire, row.date_debut, row.date_fin, row.date_ajout, row.statut, row.raison_refus, row.comm_refus, row.date_statut, row.distance, row.duree, row.livreur, row.signature, row.id],successHandler(transport, table)); 
+                                        }
+                                        else {
+                                            //console.log("les mêmes")
+                                            nextRecord(transport, table);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        if (row.statut=="ajouté" || row.livreur==id_livreur) {
+                                            //console.log("nouveau");
+
+                                            bool_new=true;
+
+                                            doQuery(txCommande, 'INSERT INTO commandes (id, restaurant, client, commentaire, date_debut, date_fin, date_ajout, statut, raison_refus, comm_refus, date_statut, distance, duree, livreur, signature) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',[row.id, row.restaurant, row.client, row.commentaire, row.date_debut, row.date_fin, row.date_ajout, row.statut, row.raison_refus, row.comm_refus, row.date_statut, row.distance, row.duree, row.livreur, row.signature],successHandler(transport, table));
+                                        }
+                                        else {
+                                            //console.log("ne concerne pas le livreur")
+                                            nextRecord(transport, table);
+                                        }
+                                    }
+                                });
+                            });
+                            break;
+
+                        case "clients":
+                            //console.log(row)
+                            db.transaction(function (txClient) {
+                                txClient.executeSql('SELECT * FROM client WHERE id=?',[row.id], function (txClient, resultsClient) {
+                                    var lenClient = resultsClient.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenClient>=1) {
+                                        if (resultsClient.rows.item(0).nom!=row.prenom+' '+row.nom || resultsClient.rows.item(0).adresse!=row.adresse || resultsClient.rows.item(0).latitude!=row.latitude || resultsClient.rows.item(0).longitude!=row.longitude || resultsClient.rows.item(0).numero!=row.numero) {
+                                            doQuery(txClient, 'UPDATE client SET nom=?, adresse=?, latitude=?, longitude=?, numero=? WHERE id=?',[row.prenom+' '+row.nom, row.adresse, row.latitude, row.longitude, row.numero, row.id],successHandler(transport, table)); 
+                                        }
+                                        else {
+                                            nextRecord(transport, table);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        doQuery(txClient, 'INSERT INTO client (id, nom, adresse, latitude, longitude, numero) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.prenom+' '+row.nom, row.adresse, row.latitude, row.longitude, row.numero],successHandler(transport, table));
+                                    }
+                                });
+                            });
+                            break;
+
+                        case "restaurants":
+                            //console.log(row)
+                            db.transaction(function (txResto) {
+                                txResto.executeSql('SELECT * FROM restaurant WHERE id=?',[row.id], function (txResto, resultsResto) {
+                                    var lenResto = resultsResto.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenResto>=1) {
+                                        if (resultsResto.rows.item(0).nom!=row.nom || resultsResto.rows.item(0).adresse!=row.adresse || resultsResto.rows.item(0).latitude!=row.latitude || resultsResto.rows.item(0).longitude!=row.longitude || resultsResto.rows.item(0).numero!=row.numero) {
+                                            doQuery(txResto, 'UPDATE restaurant SET nom=?, adresse=?, latitude=?, longitude=?, numero=? WHERE id=?',[row.nom, row.adresse, row.latitude, row.longitude, row.numero, row.id],successHandler(transport, table)); 
+                                        }
+                                        else {
+                                            nextRecord(transport, table);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        doQuery(txResto, 'INSERT INTO restaurant (id, nom, adresse, latitude, longitude, numero) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.nom, row.adresse, row.latitude, row.longitude, row.numero],successHandler(transport, table));
+                                    }
+                                });
+                            });
+                            break;
+                    }
+                }
+                else {
+                    counter++;
+                    if (counter==3) {
+                        console.log("TERMINE OK");
+                        $("#loading").hide();
+                        db.transaction(function (tx) {
+                            tx.executeSql(
+                                'SELECT * FROM commandes WHERE livreur=? AND statut IN (?, ?)', 
+                                [id_livreur, "signé", "echec"], 
+                                function (tx, results) {
+                                    var len = results.rows.length, i;
+                                    nb_commandes=len;
+                                    $(".nbr-commandes").html((len>1) ? len+" commandes traîtées à ce jour" : len+" commande traîtée à ce jour");
+                                },
+                                function (err) {
+                                    console.log(err);
+                                }
+                            );
+                        });
+                        if (bool_new) {
+                            $("#commandes_histo").html("");
+                            load_historique(id_livreur, limit, offset);
+                        }
+                        // on déclence une fonction lorsque l'utilisateur utilise sa molette seulement quand le chargement des données a été fini
+                        $(window).scroll(function() {  
+                            // cette condition vaut true lorsque le visiteur atteint le bas de page
+                            if(($(window).scrollTop() + $(window).height()+100) >= $(document).height()) {
+                              // on effectue nos traitements
+                              if (offset<nb_commandes+10) {
+                                offset+=limit;
+                                console.log(offset+" / "+limit+" / "+nb_commandes);
+                                load_historique(id_livreur, limit, offset);
+                              }
+                            }
+                        });
+                    }
+                }
+            }  
+
+
+            function opacity(id){
+                var commande = document.getElementById('commande_'+id);
+                commande.style.backgroundColor = '#2e3243';
+            }
+            
+        </script>
+        
+    </body>
+    
+</html>

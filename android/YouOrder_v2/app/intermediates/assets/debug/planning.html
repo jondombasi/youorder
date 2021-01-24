@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Planning</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/planning.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+
+        <style>
+            #map a, #appel a {
+                text-decoration: none;
+                color: #67ae73;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <!-- pop up -->
+        <div id="pop-up-map">
+            <div class="pop-up">
+                <div class="pop-up-text">
+                    <span id="service" class="service">Ouvrir le trajet avec Google Map ?</span>
+                </div>
+                <span id="annuler-map">Annuler</span>
+                <span id="map"><a href="javascript:void(0)" target="_blank">Ok</a></span>
+                <div class="stop"></div>
+            </div>
+        </div>
+        <!-- /pop up -->
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Planning</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-on.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- date -->
+            <h1 id="date"><span id="date_txt"></span> <img src="images/arrow3.png" alt="arrow"></h1>
+            <!-- /date -->
+            
+            <img src="images/ajax-loader.gif" id="loading" alt="chargement..." style="margin-left: -webkit-calc(50% - 15px);margin-left: calc(50% - 15px);margin-top:15px"/>
+
+            <!-- planning -->
+            <div class="planning">
+                <div class="phrise"></div>
+                <div class="details"></div>
+                <div class="stop"></div>
+            </div>
+            <!-- /planning -->
+            
+        </div>
+        <!-- /page -->
+        
+        <script>
+            $(document).ready(function() {
+                id_livreur=0;
+                counter=0;
+                bool_new=false;
+                ts_date_jour=new Date();
+                date_planning=ts_date_jour.getFullYear()+"-"+('0'+(ts_date_jour.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_jour.getDate()).slice(-2);
+                $("#date_txt").html(getFullDate(date_planning));
+
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                            load_planning();
+                            load_bdd_planning(date_planning);
+
+                            $('#date').mobiscroll().calendar({
+                                theme: 'mobiscroll',
+                                lang: 'fr',
+                                display: 'bottom',
+                                color: 'red',
+                                dateFormat: 'yy-mm-dd',
+                                buttons: [ 
+                                    { 
+                                        text: 'Ok',
+                                        cssClass: 'fwb dwb',
+                                        handler: 'set'
+                                    }, {
+                                        text: 'Annuler',
+                                        handler: 'cancel'
+                                    }
+                                ],
+                                onSelect: function (valueText, inst) {
+                                    //console.log(valueText)
+                                    date_planning=valueText;
+                                    $("#date_txt").html(getFullDate(date_planning));
+                                    load_bdd_planning(date_planning)
+                                    load_planning();
+                                },
+                                onMonthLoaded: function (year, month, inst) {
+                                    // Load marked days for (year, month), (year, month - 1), (year, month + 1)
+                                    if (!inst.refreshing) {
+                                        db.transaction(function (tx) {
+                                            tx.executeSql(
+                                                'SELECT * FROM livreur_planning WHERE id_livreur=?', 
+                                                [id_livreur], 
+                                                function (tx, results) {
+                                                    var len = results.rows.length, i;
+                                                    console.log(len)
+                                                    inst.settings.marked = [];
+                                                    for (j = 0; j < len; j++) {
+                                                        //inst.settings.marked.push(new Date(results.rows.item(j).date));
+                                                        inst.settings.marked.push({
+                                                            d: new Date(results.rows.item(j).date_debut),
+                                                            color: '#c7c7cd'
+                                                        });
+                                                    }
+                                                    // Refresh the view to display new data
+                                                    inst.refreshing = true;
+                                                    inst.refresh();
+                                                    inst.refreshing = false;
+                                                },
+                                                function (err) {
+                                                    console.log(err);
+                                                }
+                                            );
+                                        });
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+            });
+
+            var pop_up_map = document.getElementById('pop-up-map');
+            var annuler_pop_up_map = document.getElementById('annuler-map');
+            var map = document.getElementById('map');
+            
+            annuler_pop_up_map.addEventListener('click', cacher_pop_up_map);
+            map.addEventListener('click', cacher_pop_up_map);
+
+            function load_planning() {
+                $(".phrise").html("");
+                $(".details").html("");
+                first=true;
+                console.log(date_planning)
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT p.*, r.adresse, r.nom, r.latitude, r.longitude, r.numero FROM livreur_planning p JOIN restaurant r ON p.id_commercant=r.id WHERE p.id_livreur=? AND date_debut BETWEEN ? AND ? ORDER BY date_debut', 
+                        [id_livreur, date_planning+" 00:00:00", date_planning+" 23:59:59"], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            console.log(len)
+                            for (j = 0; j < len; j++) {
+                                if (first) {
+                                    liaison_frise="";
+                                    first=false;
+                                }
+                                else {
+                                    liaison_frise='<div class="m-liaison"></div>';
+                                }
+
+                                if (j==len-1) {
+                                    $("#loading").hide();
+                                }
+
+                                ts_date_debut=new Date(results.rows.item(j).date_debut);
+                                ts_date_fin=new Date(results.rows.item(j).date_fin);
+                                heure_debut=("0"+ts_date_debut.getHours()).slice(-2)+":"+("0"+ts_date_debut.getMinutes()).slice(-2)
+                                heure_fin=("0"+ts_date_fin.getHours()).slice(-2)+":"+("0"+ts_date_fin.getMinutes()).slice(-2)
+
+                                $(".phrise").append(liaison_frise+'<div class="heure">'+heure_debut+'</div><div class="s-liaison"></div><div class="circle"></div><div class="l-liaison"></div><div class="heure">'+heure_fin+'</div>');
+                                $(".details").append('<div class="detail detail1"><div class="triangle"></div><div class="detail-l"><h3>'+results.rows.item(j).nom+'</h3><img src="images/pin2.png" alt="map">'+results.rows.item(j).adresse+'</div><div class="detail-r"><div><img id="map_'+results.rows.item(j).id+'" src="images/map.png" alt="map"></div><div class="stop"></div></div><div class="stop"></div></div>');
+                                $("#map_"+results.rows.item(j).id).attr("onclick", "affiche_pop_up_map('"+results.rows.item(j).latitude+"', '"+results.rows.item(j).longitude+"')")
+                                $("#numero_"+results.rows.item(j).id).attr("onclick", "affiche_pop_up_phone('"+results.rows.item(j).numero+"')")
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            }
+
+            function load_bdd_planning(date_planning) {
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'DELETE FROM livreur_planning WHERE id_livreur=? AND date_debut BETWEEN ? AND ?', 
+                        [id_livreur, date_planning+" 00:00:00", date_planning+" 23:59:59"], 
+                        function (tx, results) {
+                            console.log("deleted")
+                            $.ajax({
+                                url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                                data     : 'action=get_planning&id_livreur='+id_livreur+'&date_planning='+date_planning,
+                                type     : "GET",
+                                cache    : false,
+                                timeout: 2000,
+                                success: function(transport) {
+                                    //console.log(transport);
+                                    nextRecord(transport, "planning");
+                                },
+                                error: function(transport) {
+                                    console.log(transport);
+                                }
+                            });
+
+                            //charger les restaurants manquant
+                            $.ajax({
+                                url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                                data     : 'action=get_restaurants&id_livreur='+id_livreur,
+                                type     : "GET",
+                                cache    : false,
+                                timeout: 2000,
+                                success: function(transport) {
+                                    //console.log(transport);
+                                    nextRecord(transport, "restaurants");
+                                },
+                                error: function(transport) {
+                                    console.log(transport);
+                                }
+                            });
+                        },
+                        function(err) { console.log(err) }
+                    );
+                });
+            }
+
+            function nextRecord(transport, table) {
+                if (transport!=undefined) {
+                    var row = transport.shift();
+                }
+                if (row) {
+                    //console.log(row)
+                    switch(table) {
+
+                        case "planning":
+                            db.transaction(function (txPlanning) {
+                                txPlanning.executeSql(
+                                    'SELECT * FROM livreur_planning WHERE id=?',
+                                    [row.id], 
+                                    function (txPlanning, resultsPlanning) {
+                                        var lenCommande = resultsPlanning.rows.length, i;
+                                        //console.log(row.id)
+                                        if (lenCommande>=1) {
+                                            console.log("existe");
+                                            if (resultsPlanning.rows.item(0).id_livreur!=row.id_livreur || resultsPlanning.rows.item(0).id_commercant!=row.id_commercant || resultsPlanning.rows.item(0).id_vehicule!=row.id_vehicule || resultsPlanning.rows.item(0).date_debut!=row.date_debut || resultsPlanning.rows.item(0).date_fin!=row.date_fin) {
+                                                console.log("différent");
+                                                doQuery(txPlanning, 'UPDATE livreur_planning SET id_livreur=?, id_commercant=?, id_vehicule=?, date_debut=?, date_fin=? WHERE id=?',[row.id_livreur, row.id_commercant, row.id_vehicule, row.date_debut, row.date_fin, row.id], successHandler(transport, table)); 
+                                            }
+                                            else {
+                                                console.log("pas de modif");
+                                                nextRecord(transport, table);
+                                            }
+                                        }
+                                        else {
+                                            console.log("nouveau");
+                                            bool_new=true;
+                                            doQuery(txPlanning, 'INSERT INTO livreur_planning (id, id_livreur, id_commercant, id_vehicule, date_debut, date_fin) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.id_livreur, row.id_commercant, row.id_vehicule, row.date_debut, row.date_fin], successHandler(transport, table));
+                                        }
+                                    }, 
+                                    function (err) {console.log(err)}
+                                );
+                            });
+                            break;
+
+                        case "restaurants":
+                            //console.log(row)
+                            db.transaction(function (txResto) {
+                                txResto.executeSql('SELECT * FROM restaurant WHERE id=?',[row.id], function (txResto, resultsResto) {
+                                    var lenResto = resultsResto.rows.length, i;
+                                    //console.log(row.id)
+                                    if (lenResto>=1) {
+                                        if (resultsResto.rows.item(0).nom!=row.nom || resultsResto.rows.item(0).adresse!=row.adresse || resultsResto.rows.item(0).latitude!=row.latitude || resultsResto.rows.item(0).longitude!=row.longitude || resultsResto.rows.item(0).numero!=row.numero) {
+                                            doQuery(txResto, 'UPDATE restaurant SET nom=?, adresse=?, latitude=?, longitude=?, numero=? WHERE id=?',[row.nom, row.adresse, row.latitude, row.longitude, row.numero, row.id],successHandler(transport, table)); 
+                                        }
+                                        else {
+                                            nextRecord(transport, table);
+                                        }
+                                        
+                                    }
+                                    else {
+                                        doQuery(txResto, 'INSERT INTO restaurant (id, nom, adresse, latitude, longitude, numero) VALUES (?, ?, ?, ?, ?, ?)',[row.id, row.nom, row.adresse, row.latitude, row.longitude, row.numero],successHandler(transport, table));
+                                    }
+                                });
+                            });
+                            break;
+                    }
+                }
+                else {
+                    counter++;
+                    if (counter==2) {
+                        counter=0;
+                        console.log("TERMINE OK");
+                        if (bool_new) load_planning();
+                        $("#loading").hide();
+                    }
+                }
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport, table) {
+                console.log("ok "+table);
+                nextRecord(transport, table);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+            
+            function cacher_pop_up_map(){
+                pop_up_map.style.display = 'none';
+            }
+            
+            function affiche_pop_up_map(lat, lng){
+                $("#map").find("a").attr("href", "https://www.google.com/maps/place/"+lat+","+lng);
+                pop_up_map.style.display = 'block';
+            }
+    
+        </script>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Dashboard</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css">
+        <link rel="stylesheet" type="text/css" href="css/xpull.css">
+        <style>
+            a.hamburger,
+            a.hamburger:hover,
+            a.hamburger:active,
+            a.hamburger:focus{
+                background:transparent none repeat scroll 0 0 !important
+            }
+        </style>
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+        <script type="text/javascript" src="js/xpull.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+        
+        <!-- pop up -->
+        <div id="pop-up">
+            <div class="pop-up">
+                <div class="pop-up-text">
+                    <span id="service" class="service">Apparaître en service ?</span>
+                </div>
+                <span id="annuler">Annuler</span>
+                <span id="oui">Oui</span>
+                <div class="stop"></div>
+            </div>
+        </div>
+        <div id="pop-up2">
+            <div class="pop-up">
+                <div class="pop-up-text">
+                    <span id="service2" class="service">Votre service débutera automatiquement lorsque vous serez à proximité du commerçant.</span>
+                </div>
+                <span id="ok">OK</span>
+                <div class="stop"></div>
+            </div>
+        </div>
+        <!-- /pop up -->
+
+        <!-- page -->
+        <div class="page">
+            
+            <!-- header -->
+            <header>
+                <a href="#menu" class="hamburger" id="hamburger">
+                    <div id="notif" class="notif" style="display:none"></div>
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </a>
+                <div class="title">
+                    <span>Tableau de bord</span>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+
+            <div id="refresh">
+                <!-- detail -->
+                <div class="pb_connexion">
+                    En recherche de connexion réseau
+                </div>
+                <div class="detail">
+                    <div class="detail-item">
+                        <span>Heures prévues<br> dans la journée</span>
+                        <span id="nb_heures"></span>
+                    </div>
+                    <div class="middle detail-item">
+                        <span>Commandes affectées dans la journée</span>
+                        <span id="nb_commandes"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span>Prochain commerçant</span>
+                        <span id="nom_resto"></span>
+                        <span id="plage_horaire"></span>
+                    </div>
+                    <div class="stop"></div>
+                </div>
+                <!-- /detail-->
+
+                <!-- statistique -->
+                <a id="statistique" class="statistique" href="statistiques.html">Voir plus de statistiques &nbsp; <span><i class="fa fa-angle-right"></i></span></a>
+                <!-- /statistique -->
+                
+                <!-- detail action -->
+                <div class="detail-action">
+                    <a class="action" id="action1" href="planning.html" onclick="opacity30(1)">
+                        <span>Planning &nbsp;<span><i class="fa fa-angle-right"></i></span></span><br/>
+                        <img src="images/planning-on.png" alt="planning-on">
+                        <span class="bottom-green"></span>
+                    </a>
+                    <a class="action middle" id="action2" onclick="opacity30(2)" href="commandes.html">
+                        <span>Commandes &nbsp;<span><i class="fa fa-angle-right"></i></span></span>
+                        <img src="images/commandes-on.png" alt="commandes-on">
+                        <span class="bottom-green"></span>
+                    </a>
+                    <a class="action" id="action3" onclick="opacity30(3)" href="vehicule.html">
+                        <span>Scooter &nbsp;<span><i class="fa fa-angle-right"></i></span></span>
+                        <span class="type" id="nom_vehicule"></span>
+                        <span class="bottom-green"></span>
+                    </a>
+                    <div class="stop"></div>
+                </div>
+                <!-- /detail action -->
+            </div>
+
+            <!-- footer -->
+            <footer id="footer">
+                Apparaître "en service"
+            </footer>
+            <!-- /footer -->
+            
+        </div>
+        <!-- /page -->
+
+        <!-- menu -->
+        <nav id="menu" class="menu">
+            <span>Tableau de bord</span>
+            <a href="notifications.html"><img src="images/alert.png" alt="alert"> &nbsp; Notifications <span class="notif-dashboard">2</span></a>
+            <a href="historique.html"><img src="images/clock.png" class="img-historique" alt="clock"> &nbsp;Historique des commandes</a>
+            <a href="statistiques.html"><img src="images/stats.png" class="img-stat" alt="stats"> &nbsp; Statistiques</a>
+            <a href="profil.html"><img src="images/profil.png" alt="profil"> &nbsp; Profil <span id="service-dashboard">Absent</span></a>
+            <a href="javascript:void(0)" onclick="deconnexion()"><img src="images/logout.png" alt="logout"> &nbsp; Déconnexion</a>
+            <span class="copyright">© youOrder 2016</span>
+        </nav>
+        <!-- /menu -->
+        
+        <script>
+            
+            $(document).ready(function(){
+                $('#menu').mmenu();
+                $('#refresh').xpull({
+                    'callback':function(){
+                        load_dashboard();
+                    }
+                });
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            console.log(results.rows.item(0))
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                            id_connexion=results.rows.item(0).id_connexion;
+                            statut_connexion=results.rows.item(0).statut_connexion;
+                            if (statut_connexion=="connecte") {
+                                footer.classList.add('green');
+                                footer.innerHTML = 'Ne plus apparaître "en service"';
+                                service_dashboard.innerHTML = 'En service';
+                                service_dashboard.style.backgroundColor = '#67ae73';
+                            }
+                            load_bdd_notification();
+                            load_dashboard();
+                        }
+                    });
+                });
+            });
+            
+            var statistique = document.getElementById('statistique');
+            var footer = document.getElementById('footer');
+            var popup = document.getElementById('pop-up');
+            var popup2 = document.getElementById('pop-up2');
+            var annuler = document.getElementById('annuler');
+            var oui = document.getElementById('oui');
+            var ok = document.getElementById('ok');
+            var service = document.getElementById('service');
+            var hamburger = document.getElementById('hamburger');
+            var body = document.getElementById('body');
+            var notif = document.getElementById('notif');
+            var service_dashboard = document.getElementById('service-dashboard');
+            
+            statistique.addEventListener('click', opacity);
+            footer.addEventListener('click', pop_up);
+            annuler.addEventListener('click', cacher_pop_up);
+            oui.addEventListener('click', set_service);
+            ok.addEventListener('click', cacher_pop_up2);
+            
+            function opacity(evt){
+                evt.preventDefault();
+                statistique.style.opacity = "0.5";
+                window.location = "statistiques.html";
+            }
+            
+            function opacity30(id){
+                document.getElementById('action'+id).style.opacity = "0.7";
+                if(id === 1) window.location = "planning.html";
+                if(id === 2) window.location = "commande.html";
+                else window.location = "scooter.html";
+            }
+            
+            function pop_up(){
+                if(footer.getAttribute('class') === 'green'){
+                    Android.setService(id_livreur, id_commercant, id_vehicule, id_planning, lat_commercant, lon_commercant, true);
+                    /*console.log("deconnecte");
+                    db.transaction(function (tx) {
+                        tx.executeSql(
+                            'UPDATE localstorage SET statut_connexion=? WHERE id=?', ["deconnecte", 1], 
+                            function (tx, results) {
+                                footer.classList.remove('green');
+                                footer.innerHTML = 'Apparaître "en service"';
+                                service_dashboard.innerHTML = 'Absent';
+                                service_dashboard.style.backgroundColor= '#949499';
+                                Android.setService(id_livreur, id_commercant, id_vehicule, id_planning, lat_commercant, lon_commercant, true);
+                            },
+                            function (err) {
+                                console.log(err);
+                            }
+                        );
+                    });*/
+                }
+                else{
+                    $.ajax({
+                        url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                        data     : 'action=check_service&id_livreur='+id_livreur,
+                        type     : "GET",
+                        dataType: "json",
+                        cache    : false,
+                        async    : true,
+                        timeout: 5000,
+                        success: function(transport) {
+                            console.log(transport);
+                            if (transport=="ok") {
+                                console.log("ok");
+                                if (lat_commercant!=0 && lon_commercant!=0) {
+                                    popup.style.display = "block";
+                                    if(footer.getAttribute('class') === 'green'){
+                                        service.innerHTML = 'Ne plus apparaître en service ?';
+                                        annuler.style.fontWeight = 'bold';
+                                        oui.style.fontWeight = 'normal';
+                                    }
+                                    else{
+                                        service.innerHTML = 'Apparaître en service ?';
+                                        oui.style.fontWeight = 'bold';
+                                        annuler.style.fontWeight = 'normal';
+                                    }
+                                }
+                                else {
+                                    popup2.style.display = "block";
+                                    $("#service2").html("Vous n'avez pas de commerçant affecté.");
+                                    $("#ok").html("OK");
+                                }
+                            }
+                            else if (transport=="ko") {
+                                console.log("erreur")
+                                popup2.style.display = "block";
+                                $("#service2").html("Vous n'avez pas de commerçant affecté.");
+                                $("#ok").html("OK");
+                            }
+                            else {
+                                popup2.style.display = "block";
+                                $("#service2").html(transport);
+                                $("#ok").html("OK");
+                            }
+                        },
+                        error: function(transport) {
+                            console.log(transport);
+                            popup2.style.display = "block";
+                            $("#service2").html("Merci de trouver une connexion réseau");
+                            $("#ok").html("J'ai compris");
+                        }
+                    });
+                }   
+            }
+            
+            function cacher_pop_up(){
+                popup.style.display = "none";
+            }
+
+            function pop_up2(){
+                popup2.style.display = "block";
+            }
+            
+            function cacher_pop_up2(){
+                popup2.style.display = "none";
+            }
+            
+            function set_service() {
+                if(footer.getAttribute('class') === 'green'){
+                    Android.setService(id_livreur, id_commercant, id_vehicule, id_planning, lat_commercant, lon_commercant, true);
+                }
+                else {
+                    Android.setService(id_livreur, id_commercant, id_vehicule, id_planning, lat_commercant, lon_commercant, false);
+                }
+                popup.style.display = "none";
+            }
+
+            function load_dashboard() {
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=info_dashboard&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        console.log(transport);
+                        $(".pb_connexion").hide();
+                        $("#nb_heures").html((transport["nb_heures"]=="00:00:00") ? "0" : transport["nb_heures"].split(":")[0].replace(/^0+/, ''));
+                        //$("#nb_heures").html(transport["nb_heures"].split(":")[0].replace(/^0+/, ''));
+                        $("#nb_commandes").html(transport["nb_commandes"]);
+                        $("#nom_resto").html(transport["nom_commercant"]);
+                        $("#plage_horaire").html(transport["plage_horaire"]);
+                        $("#nom_vehicule").html(transport["vehicule"]);
+                        id_commercant=transport["id_commercant"];
+                        id_vehicule=transport["id_vehicule"];
+                        id_planning=transport["id_planning"];
+                        lat_commercant=transport["latitude"];
+                        lon_commercant=transport["longitude"];
+
+                        db.transaction(function (tx2) {
+                            tx2.executeSql(
+                                'UPDATE localstorage SET id_commercant=?, id_vehicule=?, info_vehicule=?, lat_commercant=?, lon_commercant=?, statut_connexion=? WHERE id=?', 
+                                [transport["id_commercant"], transport["id_vehicule"], transport["vehicule"], transport["latitude"], transport["longitude"], transport["statut_connexion"], 1],
+                                function (tx2, results2){
+                                    console.log("OK");
+                                    if (transport["statut_connexion"]=="deconnecte") {
+                                        footer.classList.remove('green');
+                                        footer.innerHTML = 'Apparaître "en service"';
+                                        service_dashboard.innerHTML = 'Absent';
+                                        service_dashboard.style.backgroundColor= '#949499';
+                                    }
+                                    else{
+                                        footer.classList.add('green');
+                                        footer.innerHTML = 'Ne plus apparaître "en service"';
+                                        service_dashboard.innerHTML = 'En service';
+                                        service_dashboard.style.backgroundColor = '#67ae73';
+                                    }
+                                },
+                                function (err) {
+                                    console.log(err);
+                                }
+                            );
+                        });
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        $(".pb_connexion").show();
+                        setTimeout(function() {
+                            load_dashboard();
+                        }, 5000);
+                    }
+                });
+            }
+
+            //vérifier s'il y a des nouvelles notifications > a clean pour éviter doublons
+            function load_bdd_notification() {
+                //timer_notif=0;
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_notifications&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport);
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        //compter les notifications non lues
+                        db.transaction(function (tx) {
+                            tx.executeSql('SELECT * FROM notifications WHERE statut="unread"', [], function (tx, results) {
+                                var len = results.rows.length, i;
+                                $(".notif-dashboard").html(len);
+                                (len>=1) ? $("#notif").show() : $("#notif").hide();
+                            });
+                        });
+                    }
+                });
+            }
+
+            function nextRecord(transport) {
+                if (transport!=undefined) {
+                    var row = transport.shift();
+                }
+                if (row) {
+                    //console.log(row)
+                    db.transaction(function (txNotif) {
+                        txNotif.executeSql(
+                            'SELECT * FROM notifications WHERE id=?',
+                            [row.id], 
+                            function (txNotif, resultsNotif) {
+                                var len = resultsNotif.rows.length, i;
+                                //console.log(row.id)
+                                if (len>=1) {
+                                    console.log("existe");
+                                    if (resultsNotif.rows.item(0).nom!=row.nom || resultsNotif.rows.item(0).message!=row.message) {
+                                        console.log("différent");
+                                        doQuery(txNotif, 'UPDATE notifications SET nom=?, message=?, statut=? WHERE id=?',[row.nom, row.message, "unread", row.id], successHandler(transport)); 
+                                    }
+                                    else {
+                                        console.log("pas de modif");
+                                        nextRecord(transport);
+                                    }
+                                }
+                                else {
+                                    console.log("nouveau");
+
+                                    ts_date_now=new Date();
+                                    date_now=ts_date_now.getFullYear()+"-"+('0'+(ts_date_now.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_now.getDate()).slice(-2)+" "+("0"+ts_date_now.getHours()).slice(-2)+":"+("0"+ts_date_now.getMinutes()).slice(-2)+":00";
+
+                                    doQuery(txNotif, 'INSERT INTO notifications (id, nom, message, date_reception, statut) VALUES (?, ?, ?, ?, ?)',[row.id, row.nom, row.message, date_now, "unread"], successHandler(transport));
+                                }
+                            }, 
+                            function (err) {console.log(err)}
+                        );
+                    });
+                }
+                else {
+                    //compter les notifications non lues
+                    db.transaction(function (tx) {
+                        tx.executeSql('SELECT * FROM notifications WHERE statut="unread"', [], function (tx, results) {
+                            var len = results.rows.length, i;
+                            $(".notif-dashboard").html(len);
+                            (len>=1) ? $("#notif").show() : $("#notif").hide();
+                        });
+                    });
+                    console.log("TERMINE OK");
+                    setTimeout(function() {
+                        load_bdd_notification();
+                    },20000);
+                }
+            }
+
+            function affiche_popup(type, distance) {
+                switch(type) {
+                    case "pb_connexion":
+                        popup2.style.display = "block";
+                        $("#service2").html("Merci de trouver une connexion réseau");
+                        $("#ok").html("J'ai compris");
+                        break;
+                    case "pb_distance":
+                        popup2.style.display = "block";
+                        $("#service2").html("Vous êtes à "+distance+"m de "+$("#nom_resto").html()+". Veuillez activer votre service à moins de 500m de "+$("#nom_resto").html());
+                        $("#ok").html("J'ai compris");
+                        break;
+                    case "success_connexion":
+                        db.transaction(function (tx) {
+                            tx.executeSql(
+                                'UPDATE localstorage SET statut_connexion=? WHERE id=?', ["connecte", 1], 
+                                function (tx, results) {
+                                    footer.classList.add('green');
+                                    footer.innerHTML = 'Ne plus apparaître "en service"';
+                                    service_dashboard.innerHTML = 'En service';
+                                    service_dashboard.style.backgroundColor = '#67ae73';
+                                },
+                                function (err) {
+                                    console.log(err);
+                                }
+                            );
+                        });
+                        break;
+                    case "success_deconnexion":
+                        db.transaction(function (tx) {
+                            tx.executeSql(
+                                'UPDATE localstorage SET statut_connexion=? WHERE id=?', ["deconnecte", 1], 
+                                function (tx, results) {
+                                    footer.classList.remove('green');
+                                    footer.innerHTML = 'Apparaître "en service"';
+                                    service_dashboard.innerHTML = 'Absent';
+                                    service_dashboard.style.backgroundColor= '#949499';
+                                },
+                                function (err) {
+                                    console.log(err);
+                                }
+                            );
+                        });
+                        break;
+                }
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport) {
+                console.log("ok ");
+                nextRecord(transport);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+        </script>
+        
+    </body>
+    
+</html>

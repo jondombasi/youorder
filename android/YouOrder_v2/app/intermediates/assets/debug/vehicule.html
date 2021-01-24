@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Détails du véhicule</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/vehicule.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Détails du véhicule</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- date -->
+            <h1 id="date"><span id="date_txt"></span> <img src="images/arrow3.png" alt="arrow"></h1>
+            <!-- /date -->
+            
+            <!-- jours -->
+            <div class="jours">
+                
+                <!-- icons -->
+                <div class="icons" style="display:none">
+                    <div><img src="images/clock.png" alt="clock"></div>
+                    <div><img src="images/deliver.png" alt="deliver"></div>
+                    <div><img src="images/power.png" alt="power"></div>
+                    <div class="stop"></div>
+                </div>
+                <!-- /icons -->
+                
+                <!-- tab -->
+                <div class="tab">
+                    <div id="heure_histo">
+                    </div>
+                    <div id="info_histo">
+                    </div>
+                    <div id="etat_histo">
+                    </div>
+                    <div class="stop"></div>
+                </div>
+                <!-- /tab -->
+                
+            </div>
+            <!-- /jours -->
+            
+        </div>
+        
+        <script>
+
+            $(document).ready(function() {
+                id_livreur=0;
+                counter=0;
+                ts_date_jour=new Date();
+                date_planning=ts_date_jour.getFullYear()+"-"+('0'+(ts_date_jour.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_jour.getDate()).slice(-2);
+                $("#date_txt").html(getFullDate(date_planning));
+
+                $('#date').mobiscroll().calendar({
+                    theme: 'mobiscroll',
+                    lang: 'fr',
+                    display: 'bottom',
+                    color: 'red',
+                    dateFormat: 'yy-mm-dd',
+                    buttons: [ 
+                        { 
+                            text: 'Ok',
+                            cssClass: 'fwb dwb',
+                            handler: 'set'
+                        }, {
+                            text: 'Annuler',
+                            handler: 'cancel'
+                        }
+                    ],
+                    onSelect: function (valueText, inst) {
+                        //console.log(valueText)
+                        date_planning=valueText;
+                        $("#date_txt").html(getFullDate(date_planning));
+                        load_vehicule();
+                        load_bdd_vehicule(date_planning)
+                    },
+                    onMonthLoaded: function (year, month, inst) {
+                        // Load marked days for (year, month), (year, month - 1), (year, month + 1)
+                        if (!inst.refreshing) {
+                            db.transaction(function (tx) {
+                                tx.executeSql(
+                                    'SELECT * FROM vehicule_histo WHERE id_vehicule=?', 
+                                    [id_vehicule], 
+                                    function (tx, results) {
+                                        var len = results.rows.length, i;
+                                        console.log(len)
+                                        inst.settings.marked = [];
+                                        for (j = 0; j < len; j++) {
+                                            //inst.settings.marked.push(new Date(results.rows.item(j).date));
+                                            inst.settings.marked.push({
+                                                d: new Date(results.rows.item(j).date),
+                                                color: '#c7c7cd'
+                                            });
+                                        }
+                                        // Refresh the view to display new data
+                                        inst.refreshing = true;
+                                        inst.refresh();
+                                        inst.refreshing = false;
+                                    },
+                                    function (err) {
+                                        console.log(err);
+                                    }
+                                );
+                            });
+                        }
+                    }
+                });
+
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_vehicule=results.rows.item(0).id_vehicule;
+                            if (results.rows.item(0).id_livreur=="" || results.rows.item(0).id_livreur==0) window.location.href="index.html";
+                            console.log(id_vehicule)
+                            load_vehicule();
+                            load_bdd_vehicule(date_planning);
+                        }
+                    });
+                });
+            });
+
+            function load_vehicule() {
+                $("#heure_histo").html("");
+                $("#info_histo").html("");
+                $("#etat_histo").html("");
+
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT * FROM vehicule_histo WHERE id_vehicule=? AND date BETWEEN ? AND ? ORDER BY date DESC', 
+                        [id_vehicule, date_planning+" 00:00:00", date_planning+" 23:59:59"], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            console.log(len)
+                            if (len>=1) {
+                                $(".icons").show();
+                            }
+                            else {
+                                $(".icons").hide();
+                            }
+                            for (j = 0; j < len; j++) {
+                                ts_date_histo=new Date(results.rows.item(j).date);
+                                heure_histo=("0"+ts_date_histo.getHours()).slice(-2)+":"+("0"+ts_date_histo.getMinutes()).slice(-2)
+                                console.log(results.rows.item(j));
+
+                                $("#heure_histo").append("<span>"+heure_histo+"</span>");
+                                $("#info_histo").append("<span>"+results.rows.item(j).info_livreur+"</span>");
+                                if (results.rows.item(j).etat=="maintenance") {
+                                    etat_txt="En maintenance";
+                                }
+                                else if (results.rows.item(j).etat=="HS") {
+                                    etat_txt="HS";
+                                }
+                                else {
+                                    etat_txt="En fonctionnement";
+                                }
+                                $("#etat_histo").append("<span>"+etat_txt+"</span>");
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            }
+
+            function load_bdd_vehicule(date_planning) {
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_historique&id_vehicule='+id_vehicule+'&date_planning='+date_planning,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport);
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                    }
+                });
+            }
+
+            function nextRecord(transport) {
+                if (transport!=undefined) {
+                    var row = transport.shift();
+                }
+
+                if (row) {
+                    db.transaction(function (tx) {
+                        if (row.prenom==null && row.nom==null) {
+                            info_livreur="Non défini";
+                        }
+                        else {
+                            info_livreur=row.prenom+" "+row.nom;
+                        }
+                        doQuery(tx, 'INSERT INTO vehicule_histo (id, id_vehicule, info_livreur, etat, date) VALUES (?, ?, ?, ?, ?)',[row.id, row.id_vehicule, info_livreur, row.etat, row.date], successHandler(transport));
+                    });
+                }
+                else {
+                    console.log("fini")
+                    load_vehicule();
+                }
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport) {
+                console.log("ok ");
+                nextRecord(transport);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+
+        </script>
+        
+    </body>
+    
+</html>

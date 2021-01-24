@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>YouOrder</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/bases.css">
+        <link rel="stylesheet" href="css/connexion.css">
+
+        <!-- script -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+    </head>
+    
+    <body>
+        
+        <!-- pop up -->
+        <div id="pop-up">
+            <div class="pop-up">
+                <div class="pop-up-text">
+                    <span>Connexion à youOrder impossible</span>
+                    <span>Compte ou mot de passe invalide</span>
+                </div>
+                <span id="close-pop-up">Ok</span>
+            </div>
+        </div>
+        <!-- /pop up -->
+        
+        <!-- page -->
+        <div class="connexion" style="display:none">
+            <img src="images/logo.png" alt="logo">
+            <span>Connexion à votre compte</span>
+            <form autocomplete="nope">
+                
+                <label>
+                    <input id="login" type="text" name="login" placeholder="Login" autocomplete="nope">
+                    <span class="close" id="close_login">
+                        <span id="icon-close-login" class="close-x">
+                            <i class="fa fa-close"></i>
+                        </span>
+                    </span>
+                </label>
+                
+                <label>
+                    <input id="mdp" type="password" name="mdp" placeholder="Mot de passe" autocomplete="nope">
+                    <span class="close close_mdp" id="close_mdp">
+                        <span id="icon-close-mdp" class="close-x">
+                            <i class="fa fa-close"></i>
+                        </span>
+                    </span>
+                </label>
+                
+                <button id="submit">Connexion</button>
+                
+            </form>
+        </div>
+        <!-- /page -->
+        
+        <!-- script -->
+        <script>
+            $(document).ready(function() {
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT * FROM localstorage WHERE id=?', 
+                        [1], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            if (len>=1) {
+                                $("#login").val(results.rows.item(0).email);
+                                $("#mdp").val("");
+                                test_co(results.rows.item(0).email, results.rows.item(0).password, "autoconnect");
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            });
+
+            var login = document.getElementById('login');
+            var mdp = document.getElementById('mdp');
+            var close_login = document.getElementById('close_login');
+            var close_mdp = document.getElementById('close_mdp');
+            var icon_close_login = document.getElementById('icon-close-login');
+            var icon_close_mdp = document.getElementById('icon-close-mdp');
+            var submit = document.getElementById('submit');
+            var popup = document.getElementById('pop-up');
+            var close_pop_up = document.getElementById('close-pop-up');
+            
+            mdp.addEventListener("keyup", apparition_close_mdp);
+            close_login.addEventListener("click", suppression_login);
+            close_mdp.addEventListener("click", suppression_mdp);
+            submit.addEventListener("click", pop_up);
+            close_pop_up.addEventListener("click", cacher_pop_up);
+            
+            login.onblur = function(){
+                close_login.style.opacity = "0";
+            };
+            
+            mdp.onblur = function(){
+                close_mdp.style.opacity = "0";
+            };
+            
+            login.addEventListener("focus", apparition_login);
+            mdp.addEventListener("focus", apparition_mdp);
+            
+            function apparition_login(){
+                if(login.value === "") close_login.style.opacity = '0';
+                else close_login.style.opacity = '1';
+                login.addEventListener("keyup", apparition_close_login);
+            }
+            
+            function apparition_mdp(){
+                if(mdp.value === "") close_mdp.style.opacity = '0';
+                else close_mdp.style.opacity = '1';
+                mdp.addEventListener("keyup", apparition_close_mdp);
+            }
+            
+            
+            function apparition_close_login(){
+                icon_close_login.style.backgroundColor = '#c7c7cd';
+                if(login.value === "") close_login.style.opacity = "0";
+                else if(login.value !== "" && close_login.style.opacity !== "1") {
+                    close_login.style.opacity = "1";
+                }
+            }
+            
+            function apparition_close_mdp(){
+                icon_close_mdp.style.backgroundColor = '#c7c7cd';
+                if(mdp.value === "") close_mdp.style.opacity = "0";
+                else if(mdp.value !== "" && close_mdp.style.opacity !== "1") {
+                    close_mdp.style.opacity = "1";
+                }
+            }
+            
+            function suppression_login(){
+                login.value = "";
+                icon_close_login.style.backgroundColor = '#67ae73';
+                close_login.style.opacity = "0";
+            }
+            
+             function suppression_mdp(){
+                mdp.value = "";
+                icon_close_mdp.style.backgroundColor = '#67ae73';
+                close_mdp.style.opacity = "0";
+            }
+            
+            function pop_up(evt){
+                evt.preventDefault();
+                submit.innerHTML = "<i class='fa fa-spinner fa-pulse'></i>";
+                //setTimeout(test_co, 2000);
+                test_co(login.value, mdp.value, "connect");
+            }
+            
+             function cacher_pop_up(){
+                popup.style.display = "none";
+            }
+            
+            function test_co(login, mdp, type){
+                //if(login.value === "test") popup.style.display = "block";
+                //else window.location = "dashboard.html";
+                //submit.innerHTML = "Connexion";
+
+                console.log(login+" / "+mdp)
+
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=connexion&email='+login+'&password='+mdp,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        console.log(transport);
+                        if (transport["statut"]=="erreur") {
+                            $(".connexion").show();
+                            if (type!="autoconnect") {
+                                $(".pop-up-text").html("<span>Connexion à youOrder impossible</span><span>Compte ou mot de passe invalide</span>");
+                                $("#close-pop-up").html("OK");
+                                popup.style.display = "block";
+                                submit.innerHTML = "Connexion";
+                            }
+                        }
+                        else if (transport["statut"]=="ok") {
+                            db.transaction(function (tx) {
+                              tx.executeSql(
+                                'UPDATE localstorage SET id_livreur=?, email=?, password=?, nom=?, prenom=?, telephone=?, photo=?, statut_connexion=? WHERE id=?', 
+                                [transport["id_livreur"], login, mdp, transport["nom"], transport["prenom"], transport["telephone"], transport["photo"], transport["statut_connexion"],  1], 
+                                function (tx, results) {
+                                    Android.storeUsername(transport["id_livreur"]);
+                                    window.location = "dashboard.html";
+                                },
+                                function (err) {
+                                  console.log(err);
+                                }
+                              );
+                            });
+                        }
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        $(".pop-up-text").html("<span>Connexion à youOrder en attente</span><span>Recherchez du réseau internet ou mobile</span>");
+                        $("#close-pop-up").html("J'ai compris");
+                        popup.style.display = "block";
+                        submit.innerHTML = "Connexion";
+                        $(".connexion").show();
+                    }
+                });
+            }
+            
+        </script>
+        <!-- /script -->
+    
+    </body>
+    
+</html>

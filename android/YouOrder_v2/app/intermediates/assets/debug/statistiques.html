@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Statistiques</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/statistiques.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <link rel="stylesheet" type="text/css" href="css/easy-pie.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/jquery.canvasjs.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Statistiques</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- date -->
+            <h1 id="date"><span id="date_txt"></span> <img src="images/arrow3.png" alt="arrow"></h1>
+            <!-- /date -->
+
+            <div class="pb_connexion">
+                Problème de connexion
+            </div>
+            
+            <!-- easy pie -->
+            <h2 class="firsth2">Heures</h2>
+            <div class="chart" data-percent="0">
+                <span id="nb_heures_effectuees"></span><br>
+                <span>sur <span id="nb_heures_totales" style="font-size:12px;text-decoration:none;"></span></span>
+            </div>
+            <span class="chart-detail">heures effectuées (<span id="chart_pc" style="font-size:12px;text-decoration:none;"></span>%)</span>
+            <!-- /easy pie -->
+            
+            <!-- line charts -->
+            <div id="chartContainer" style="height: 180px; width: 100%;"></div>
+            <!-- /line charts -->
+            
+            <!-- retard --> 
+            <div class="retard">
+                <h2>Retards / Absences</h2>
+                <div class="retard-l">
+                    <span id="nb_retard"></span>
+                    <span>Retards / Absences<br> cette semaine</span>
+                    <span id="date_txt_short"></span>
+                    <div class="triangle"></div>
+                </div>
+                <div class="retard-r">
+                    <span>Soit</span>
+                    <span id="tps_retard"></span>
+                    <span>Heures de retards / absences au total</span>
+                </div>
+                <div class="stop"></div>
+                <div class="retard-recap">
+                    C'est &nbsp;<span id="evo_retard"></span>&nbsp; que la semaine précédente
+                </div>
+            </div>
+            <!-- /retard --> 
+            
+            <!-- note -->
+            <h2 class='note-h2'>Note</h2>
+            <div class='note'>
+                <h3>Moyenne globale</h3>
+                <div id="note_livreur">
+                    <img src='images/notation-off.png' alt='star'>
+                    <img src='images/notation-off.png' alt='star'>
+                    <img src='images/notation-off.png' alt='star'>
+                    <img src='images/notation-off.png' alt='star'>
+                    <img src='images/notation-off.png' alt='star'>
+                </div>
+                <span id="stat">Voir les moyennes des 7 derniers jours<i class="fa fa-chevron-down"></i></span>
+                <div id="stat-graphique">
+                    <div id="chartContainer2" style="height: 150px; width: 100%;"></div>
+                </div>
+            </div>
+            <!-- /note -->
+            
+            <!-- commandes -->
+            <h2 class='note-h2'>Commandes</h2>
+            <div class='commande-stat recuperer'>
+                <span>Semaine passée: <span id="commandes_recup_last" style="display:inline;float:none">0</span></span>
+                <span id="commandes_recup_pc"><i class='fa fa-arrow-up'></i> 0%</span>
+                <div class='stop'></div>
+                <div class='stat-nbr' id="commandes_recup_week">0</div>
+                <div class='stat-nbr-detail'>
+                    <span>Commandes</span>
+                    <span>Récupérées</span>
+                </div>
+            </div>
+            <div class='commande-stat signer'>
+                <span>Semaine passée: <span id="commandes_signe_last" style="display:inline;float:none">0</span></span>
+                <span id="commandes_signe_pc"><i class='fa fa-arrow-up'></i> 0%</span>
+                <div class='stop'></div>
+                <div class='stat-nbr' id="commandes_signe_week">0</div>
+                <div class='stat-nbr-detail'>
+                    <span>Commandes</span>
+                    <span>Signées</span>
+                </div>
+            </div>
+            <div class='commande-stat echec'>
+                <span>Semaine passée: <span id="commandes_echec_last" style="display:inline;float:none">0</span></span>
+                <span  id="commandes_echec_pc"><i class='fa fa-arrow-down'></i> 0%</span>
+                <div class='stop'></div>
+                <div class='stat-nbr' id="commandes_echec_week">0</div>
+                <div class='stat-nbr-detail'>
+                    <span>Commandes</span>
+                    <span>en échec</span>
+                </div>
+            </div>
+            <div class='stop'></div>
+            <!-- /commandes -->
+            
+        </div>
+        <!-- /page -->
+        
+        <script>
+
+            $(function() {
+                $('.chart').easyPieChart({
+                    barColor: '#67ae73',
+                    trackColor: '#5a5a70',
+                    scaleColor: false,
+                    lineWidth: 5
+                });
+            });
+            
+            window.onload = function () {
+                chart = new CanvasJS.Chart("chartContainer",
+                {
+                    animationEnabled: true,
+                    backgroundColor: "#252736",
+                    axisX: {
+                        valueFormatString: "DD",
+                        interval:1,
+                        lineColor: "#5a5a70",
+                        tickColor: '#252736',
+                        intervalType: "day",
+                        labelFontSize: 10,
+                        labelFontColor: "#FFF",
+                    },
+                    axisY:{
+                        includeZero: false,
+                        lineColor: "#5a5a70",
+                        tickColor: '#252736',
+                        gridColor: "#5a5a70",
+                        labelFontSize: 10,
+                        labelFontColor: "#FFF",
+                        labelFontStyle: 'normal',
+                    },
+                    data: [{        
+                        type: "line",
+                        color: '#67ae73',
+                        lineThickness: 3,  
+                        toolTipContent: "{label}", 
+                        dataPoints: [
+                            { x: new Date(2016, 01, 01), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 02), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 03), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 04), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 05), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 06), y: 0, markerColor: '#67ae73' },
+                            { x: new Date(2016, 01, 07), y: 0, markerColor: '#67ae73' }
+                        ]
+                    }]
+                });
+                chart.render();
+            };
+            
+            $(function(){
+                $('#date').mobiscroll().calendar({
+                    theme: 'mobiscroll',
+                    lang: 'fr',
+                    min: new Date(2015, 7, 14),
+                    max: new Date(2026, 7, 14),
+                    display: 'bottom',
+                    color: 'red',
+                    dateFormat: 'yy-mm-dd',
+                    selectType: 'week',
+                    firstSelectDay: 1,
+                    buttons: [ 
+                        { 
+                            text: 'Ok',
+                            cssClass: 'fwb dwb',
+                            handler: 'set'
+                        }, {
+                            text: 'Annuler',
+                            handler: 'cancel'
+                        }
+                    ],
+                    onSelect: function (valueText, inst) {
+                        //console.log(valueText)
+                        //console.log(valueText.split(", "))
+                        $("#date_txt").html(getFullDateWeek(valueText.split(", ")[0],valueText.split(", ")[6])[0]);
+                        $("#date_txt_short").html(getFullDateWeek(valueText.split(", ")[0],valueText.split(", ")[6])[1]);
+                        load_stats(valueText.split(", ")[0], valueText.split(", ")[6], valueText);
+                    }
+                });
+                
+                week_tab_txt="";
+                week = getWeek(new Date());
+                ts_date_debut=new Date(week[0]);
+                ts_date_fin=new Date(week[6]);
+                date_debut=ts_date_debut.getFullYear()+"-"+('0'+(ts_date_debut.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_debut.getDate()).slice(-2);
+                date_fin=ts_date_fin.getFullYear()+"-"+('0'+(ts_date_fin.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_fin.getDate()).slice(-2);
+                $("#date_txt").html(getFullDateWeek(date_debut,date_fin)[0]);
+                $("#date_txt_short").html(getFullDateWeek(date_debut,date_fin)[1]);
+                for(i=0;i<7;i++) {
+                    $('#date').mobiscroll('addValue', new Date(week[i].getFullYear(), week[i].getMonth(), week[i].getDate()));
+                    var ts_date_check=new Date(week[i]);
+                    var date_check=ts_date_check.getFullYear()+"-"+('0'+(ts_date_check.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_check.getDate()).slice(-2);
+                    week_tab_txt+=date_check+", ";
+
+                }
+
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                            load_stats(date_debut, date_fin, week_tab_txt);
+                        }
+                    });
+                });
+            });
+
+            function getWeek(fromDate){
+                var monday = new Date(fromDate.setDate(fromDate.getDate()-(fromDate.getDay()-1)))
+                result = [new Date(monday)];
+                while (monday.setDate(monday.getDate()+1) && monday.getDay()!==1) {
+                    result.push(new Date(monday));
+                }
+                return result;
+            }
+
+            function load_stats(date_debut, date_fin, week_tab) {
+                $("#note_livreur").html("");
+                $.ajax({
+                    url      : 'https://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_stats&id_livreur='+id_livreur+'&date_debut='+date_debut+'&date_fin='+date_fin,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        console.log(transport);
+                        $(".pb_connexion").hide();
+                        $("#nb_heures_totales").html(('0'+transport["nb_heures_totales"]).slice(-2));
+                        $("#nb_heures_effectuees").html(transport["nb_heures_effectuees"]);
+                        $('.chart').data('easyPieChart').update(parseInt(transport["pc_heures"]));
+                        $('#chart_pc').html(parseInt(transport["pc_heures"]));
+                        for(i=0;i<7;i++) {
+                            //graph nb heure par jour
+                            chart.options.data[0].dataPoints[i].x = new Date(week_tab.split(", ")[i]);  // Update an existing dataPoint
+                            chart.options.data[0].dataPoints[i].y = parseInt(transport[week_tab.split(", ")[i]]["nb_heures"]);
+                            chart.options.data[0].dataPoints[i].label = transport[week_tab.split(", ")[i]]["nb_heures"];
+                        }
+                        $("#nb_retard").html(transport["stats_cumul_retard"]);
+                        $("#tps_retard").html(transport["stats_retard"]);
+                        $("#evo_retard").html(transport["stats_retard_last"]);
+
+                        for(j=1;j<=5;j++) {
+                            etoile_src=(j<=transport["note_livreur"]) ? "on" : "off";
+                            $("#note_livreur").append("<img src='images/notation-"+etoile_src+".png' alt='star'>")
+                        } 
+
+                        $("#commandes_recup_week").html(transport["commandes_recup_week"]);
+                        $("#commandes_signe_week").html(transport["commandes_signe_week"]);
+                        $("#commandes_echec_week").html(transport["commandes_echec_week"]);
+                        $("#commandes_recup_last").html(transport["commandes_recup_last"]);
+                        $("#commandes_signe_last").html(transport["commandes_signe_last"]);
+                        $("#commandes_echec_last").html(transport["commandes_echec_last"]);
+
+                        commandes_recup_pc=(transport["commandes_recup_week"]>transport["commandes_recup_last"]) ? ((transport["commandes_recup_week"]-transport["commandes_recup_last"])/transport["commandes_recup_week"])*100 : -((transport["commandes_recup_last"]-transport["commandes_recup_week"])/transport["commandes_recup_last"])*100;
+                        commandes_signe_pc=(transport["commandes_signe_week"]>transport["commandes_signe_last"]) ? ((transport["commandes_signe_week"]-transport["commandes_signe_last"])/transport["commandes_signe_week"])*100 : -((transport["commandes_signe_last"]-transport["commandes_signe_week"])/transport["commandes_signe_last"])*100;
+                        commandes_echec_pc=(transport["commandes_echec_week"]>transport["commandes_echec_last"]) ? ((transport["commandes_echec_week"]-transport["commandes_echec_last"])/transport["commandes_echec_week"])*100 : -((transport["commandes_echec_last"]-transport["commandes_echec_week"])/transport["commandes_echec_last"])*100;
+
+                        commandes_recup_pc=(isNaN(commandes_recup_pc)) ? 0 : parseFloat(commandes_recup_pc.toFixed(1));
+                        commandes_signe_pc=(isNaN(commandes_signe_pc)) ? 0 : parseFloat(commandes_signe_pc.toFixed(1));
+                        commandes_echec_pc=(isNaN(commandes_echec_pc)) ? 0 : parseFloat(commandes_echec_pc.toFixed(1));
+                        
+                        $("#commandes_recup_pc").html((commandes_recup_pc>0) ? "<i class='fa fa-arrow-up'></i> "+commandes_recup_pc+"%" : "<i class='fa fa-arrow-down'></i> "+Math.abs(commandes_recup_pc)+"%");
+                        $("#commandes_signe_pc").html((commandes_signe_pc>0) ? "<i class='fa fa-arrow-up'></i> "+commandes_signe_pc+"%" : "<i class='fa fa-arrow-down'></i> "+Math.abs(commandes_signe_pc)+"%");
+                        $("#commandes_echec_pc").html((commandes_echec_pc>0) ? "<i class='fa fa-arrow-up'></i> "+commandes_echec_pc+"%" : "<i class='fa fa-arrow-down'></i> "+Math.abs(commandes_echec_pc)+"%");
+                        chart.render();
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                        $(".pb_connexion").show();
+                        setTimeout(function() {
+                            load_stats(date_debut, date_fin, week_tab_txt);
+                        }, 5000);
+                    }
+                });
+            }
+                
+            
+            var stat = document.getElementById('stat');
+            var stat_graphique = document.getElementById('stat-graphique');
+            
+            stat.addEventListener('click', affiche_graphique);
+            
+            function affiche_graphique(){
+                if(stat_graphique.style.display !== "block"){
+                    stat_graphique.style.display = "block";
+                    stat.innerHTML = "Refermer";
+                } else {
+                    stat_graphique.style.display = "none";
+                    stat.innerHTML = "Voir les moyennes des 7 derniers jours <i class='fa fa-chevron-down'></i>";
+                }
+                var dataPoints=[];
+                var chart2 = new CanvasJS.Chart("chartContainer2",
+                    {
+                        animationEnabled: true,
+                        backgroundColor: "#3b3f53",
+                        legend: {
+                            verticalAlign: "bottom",
+                            horizontalAlign: "center"
+                        },
+                        axisY: {
+                            labelFontSize: 10,
+                            maximum: 5,
+                            labelFontColor: "#FFF",
+                            labelAngle: 0,
+                            labelFontStyle: 'normal',
+                            labelWeight: 'normal',
+                            tickColor: '#3b3f53',
+                            lineColor: "#5a5a70",
+                            interval: 1
+                        },
+                        axisX: {
+                            labelFontSize: 10,
+                            labelFontColor: "#FFF",
+                            labelAngle: 0,
+                            labelFontStyle: 'normal',
+                            labelWeight: 'normal',
+                            tickColor: '#3b3f53',
+                            lineColor: "#5a5a70",
+                            valueFormatString: "DD",
+                            interval:1,
+                            intervalType: "day"
+                        },
+                        theme: "theme2",
+                        data: [{        
+                            color: '#67ae73',
+                            type: "column",  
+                            legendMarkerColor: "grey",
+                            dataPoints: []
+                        }]
+                    });
+
+                // Ajax request for getting JSON data
+                //Replace data.php with your JSON API's url
+                $.getJSON('https://www.you-order.eu/webservices/action_webservice.php?action=get_moyenne&id_livreur='+id_livreur, function (data) {
+                    console.log(data)
+                    for (var i = 0; i < data.length; i++) {
+                        console.log(data[i])
+                        dataPoints.push({ x: new Date(data[i].jour), y: data[i].moyenne });
+                    }
+
+                    chart2.options.data[0].dataPoints = dataPoints;
+                    chart2.render();
+                });
+
+                //chart2.render();
+            }
+            
+            
+    
+        </script>
+        
+    </body>
+    
+</html>

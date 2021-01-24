@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Profil</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/profil.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Profil</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- photo -->
+            <div class="photo">
+                <div id="photo_src">
+                    <!-- <img id="profil" src="" alt="profil"> -->
+                </div>
+                <span id="nom"></span>
+            </div>
+            <!-- /photo -->
+            
+            <!-- details -->
+            <div class="details">
+                <div>
+                    <span>teléphone</span>
+                    <span id="numero_livreur"></span>
+                </div>
+                <div>
+                    <span>email</span>
+                    <span id="email_livreur"></span>
+                </div>
+                <div>
+                    <span>véhicule associé</span>
+                    <span id="vehicule"></span>
+                </div>
+            </div>
+            <!-- /details -->
+            
+        </div>
+        <!-- /page -->
+        
+        <script>
+            $(document).ready(function() {
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT * FROM localstorage WHERE id=?', 
+                        [1], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            if (len==1) {
+                                if (results.rows.item(0).id_livreur=="" || results.rows.item(0).id_livreur==null) window.location.href="index.html";
+
+                                photo=(results.rows.item(0).photo=="" || results.rows.item(0).photo==null) ? "images/no_avatar.png" : "https://you-order.eu/admin/upload/livreurs/"+results.rows.item(0).photo;
+                                $("#nom").html(results.rows.item(0).prenom+" "+results.rows.item(0).nom);
+                                $("#email_livreur").html(results.rows.item(0).email);
+                                $("#numero_livreur").html(results.rows.item(0).telephone);
+                                $("#vehicule").html(results.rows.item(0).info_vehicule);
+                                //$("#profil").attr("src", photo);
+                                $("#photo_src").attr("style", "background:url('"+photo+"') center center no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;");
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    )
+                });
+            });
+        </script>
+    </body>
+    
+</html>
