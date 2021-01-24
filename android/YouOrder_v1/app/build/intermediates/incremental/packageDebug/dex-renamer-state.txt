@@ -1,0 +1,7 @@
+#Mon Oct 24 11:36:33 CEST 2016
+base.0=/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_62d1fb50947259a632643d23b71e587e9bb96edf
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c2bc171dccb61344b9407ff0c4c253b460733e67/classes.dex
+base.1=/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c2bc171dccb61344b9407ff0c4c253b460733e67
+file.0=/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_62d1fb50947259a632643d23b71e587e9bb96edf/classes.dex
