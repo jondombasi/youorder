@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "970841543948",
+    "firebase_url": "https://youorder-c4c84.firebaseio.com",
+    "project_id": "youorder-c4c84",
+    "storage_bucket": "youorder-c4c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970841543948:android:35b76acd358d91c0",
+        "android_client_info": {
+          "package_name": "fr.youorder.livreur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970841543948-v8ag86nkj16bmfhak986i68df8910ois.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA35tniI2wlEP2oc06lGuAJXqH2o5ikx0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
