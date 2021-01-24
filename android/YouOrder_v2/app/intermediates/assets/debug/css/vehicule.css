@@ -1,0 +1,128 @@
+/* header */
+header{
+    height: 50px;
+    background-color: #1c1f2b;
+}
+
+header .title{
+    font-size: 18px;
+    color: #FFF;
+    line-height: 50px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 65px;
+}
+
+header img{
+    display: block;
+    position: absolute;
+    width: 25px;
+    margin-top: 13px;
+    top: 0;
+    right: 20px;
+}
+
+header .img-commandes{
+    right:65px;
+}
+
+header .back{
+    margin-top: 15px;
+    left:15px;
+}
+/* /header */
+
+/* date */
+#date{
+    height: 50px;
+    line-height: 50px;
+    background-color: #35394b;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+
+#date img{
+    width: 14px;
+    margin-left: 5px;
+}
+/* /date */
+
+/* jours */
+.jours{padding: 0 15px;}
+
+.icons{padding: 22px 0 7px 0;}
+
+.tab{margin-bottom: 30px;}
+
+.icons div:first-child,
+.icons div:nth-child(2),
+.icons div:nth-child(3),
+.tab div:first-child,
+.tab div:nth-child(2),
+.tab div:nth-child(3){
+    float: left;
+    text-align: center;
+}
+
+.icons div:first-child,
+.tab div:first-child{width:24%;}
+
+.icons div:nth-child(2),
+.icons div:nth-child(3),
+.tab div:nth-child(2),
+.tab div:nth-child(3){width: 38%;}
+
+.tab div:nth-child(2){
+    border-right: 1px solid #252736;
+    border-left: 1px solid #252736;
+}
+
+.icons img{width: 18px;}
+
+.tab span{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #3b3f53;
+}
+
+.tab div span:nth-child(2n){
+    background-color: #35394b;
+}
+
+h2{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* /jours */
+
+/* media queries */
+@media (min-width:360px){
+    header .title{padding-left: 90px;}
+}
+/* /media queries */
+
+/* mobiscroll */
+.fwb{font-weight: bold;}
+
+.mbsc-mobiscroll .dw-hl-now .dw-cal-today,
+.mbsc-mobiscroll .dw-cal-btn-txt,
+.mbsc-mobiscroll .dw-cal-days,
+.mbsc-mobiscroll .dwb{color:#67ae73 !important;}
+
+.mbsc-mobiscroll .dw-cal-days th{border-bottom-color: #67ae73 !important;}
+
+.mbsc-mobiscroll .dw-cal .dw-sel .dw-i{background-color: #67ae73 !important;}
+
+.mbsc-mobiscroll .dw-cal-btnc{color:#6a6a6a;}
+
+.mbsc-mobiscroll .dw-cal .dw-sel .dw-i .dw-cal-day-m{background-color: #FFF !important;}
+/* /mobiscroll */

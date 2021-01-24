@@ -1,0 +1,26 @@
+/* BASES */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*::-moz-focus-inner {border: none;}
+
+html{height: 100%;}
+
+body{background-color: #252736;}
+
+.stop{clear: both;}
+
+/* autofille chrome */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #3b3f53 inset;
+    -webkit-text-fill-color: #8c8c99 !important;
+}
+/* END BASES */
