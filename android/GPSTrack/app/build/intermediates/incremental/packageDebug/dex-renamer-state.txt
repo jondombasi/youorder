@@ -1,0 +1,7 @@
+#Mon Oct 03 16:48:47 CEST 2016
+base.0=/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4622d0e961060edc8a4dd1f34b28d3902108ec6b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_60c3a4383a96f09e6ca77ac7691c6fef863f8db9/classes.dex
+base.1=/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_60c3a4383a96f09e6ca77ac7691c6fef863f8db9
+file.0=/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4622d0e961060edc8a4dd1f34b28d3902108ec6b/classes.dex
