@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="588447683291"
+    token="-7325788398825436442"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="24839186527778"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
