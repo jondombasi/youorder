@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_5ac6c28d7364462f699a24fa687d198451f50115/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_76cf6a3f9798621562919582f8513a2a1e5a00c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="cbc5a9b5ca03224ca1ff895e43f497eba09ec775">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4622d0e961060edc8a4dd1f34b28d3902108ec6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_ebd90fb3bea68b2a97fd556b205e72227ea8b052/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_bc8dedc176a00bd17fcbb463327fd6ce37965adc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_f499072a89e6d57c11b387877417b61753b989e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_67d9924ecc5296af5594f6ee30b7404d07cab27a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_4c8a18089cea5556b3d9042b0f166c6ff5ddf885/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7726762adfb341e7a7f697a8cae6d12d370519cc">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_60c3a4383a96f09e6ca77ac7691c6fef863f8db9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.github.pwittchen/reactivenetwork/0.5.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a9fc739f576b756aaef57df6ea2dc860bbf8008c">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.pwittchen-reactivenetwork-0.5.2_f41563501f9666b92da43fc430d4f454f1b0b065/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_36068632c5e8ba4346e7923190767b96b530d952/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_0aefb8cd629004a33449eb3d6787c85e13d28aed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.1.0_986109cb1eeadc1289f80bfb2f5227678c11002e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/pl.charmas.android/android-reactive-location/0.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7b47ac96246358929b6f0202f761b80fd9a3847b">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.charmas.android-android-reactive-location-0.9_79684c2b506352b1d90edbf82a376b6d3b2b7daa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_d1a7bcfe284a9393f53d41986ec5d05a84bebd07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.9/e4362e62f1ba92e360b197d6d7ffae67e5ecae9a/rxjava-1.1.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e4362e62f1ba92e360b197d6d7ffae67e5ecae9a">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.9_0e5cb193f3771652e8b691ff771229f4c1bc105b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_be6316cddc8d10f079812f936316fad4e4bf4960/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_01c8bca9404eadae557e727d572e69c1b0fce272/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_45616b4e99b8ed3ecbccfe0fc0c7be860f76031a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_1497484d02790a02ad1c88d08ad098ef18f0d879/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_0c35487db074b762e63d4864f872a19cfbed5783/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_35760a80e367a3055614f1880b3d196b0fa394b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_a2af89aa221338cd65bf84917f301636e0b1b54a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_6e56b48094582dfb1b0dc84eeaae80b07aa285a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_841c95f4cea1352b741a80b1234a8b0869a1dbde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_8a45b5a4a236c2bfbc1d843f6b98b5234751fa16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_447f2b7e8937eb2976d302218ce42afe61ab84e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_5a42a71980b495b81707fd30febcb074efed9897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_774fbc0b95200dd29243520cab17bf97afcd6017/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_7b8cbf05618b10858c69aa99491aa8c759fef532/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_89da4d1a6ccd935e9c5f911c800a5a709a55b38e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e38ceffed1fb752b3ab4f4b3678697ff1924c57">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/GPSTrack/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.gcacace-signature-pad-1.2.0_6b90f13b3880e2f23301f6546b744fc161d5e0be/classes.dex" />
+    </item>
+
+</items>
