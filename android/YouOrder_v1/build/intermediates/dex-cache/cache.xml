@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-20.0.0_2f6640f4813b64252d818004dae4e31d72e28029/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-20.0.0_8e74baa775543b90fa575bb7cca67b2ac472c652/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-20.0.0_ca097d0ad280b93b5c48c73736061fbf73d79b4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b069b3da10e4e998580e57c606a4920a60e3582b">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c2bc171dccb61344b9407ff0c4c253b460733e67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-4.3.23_47215282301e31e56bdfb77a9d269146d2a226ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.6/a845a88238be0b5be9d238652c1bc0605ef91f52/android-async-http-1.4.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.6_8ded30b6cd24f1bc4fcc7faa2e34eef164ea5c98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d8413cc36366f7a7033dae849c13c39d51d16373">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_62d1fb50947259a632643d23b71e587e9bb96edf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mgmobile/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-20.0.0_aa0ef3d5f3777ccf0bc20313a03d48de53aeb2b5/classes.dex" />
+    </item>
+
+</items>
