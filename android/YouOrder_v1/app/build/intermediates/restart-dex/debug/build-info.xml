@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="7449041852718"
+    token="-359435019221746850"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2770" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="510" />
+    <task
+        name="verifier"
+        duration="43" />
+
+    <artifact
+        location="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="7449041852718"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/mgmobile/Desktop/Projects/YouOrder/Android/YouOrder_v1/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
