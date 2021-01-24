@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Notifications</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/notifications.css">
+        <link rel="stylesheet" type="text/css" href="css/mobiscroll.custom-2.17.1.min.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/mobiscroll.custom-2.17.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="dashboard.html"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Notifications</span>
+                    <a href="commandes.html"><img src="images/commandes-off.png" alt="Commandes"></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- nbr notifications -->
+            <div class="nbr-notifs">
+                <div id="new-notif" style="display:none">
+                    <div><img src="images/arrow.png" alt="arrow"></div>
+                    <span>3 nouvelles notifications</span>
+                </div>
+                Total : <span id="nb_total_notif"></span>
+            </div>
+            <!-- /nbr commandes -->
+            
+            <!-- notifications -->
+            <div class="notifs">
+                <span>Notifications</span>
+            </div>
+             <!-- /notifications -->
+             
+             <div class="notif">
+                 <ul id="notif" class="md-wo-list" style="display:none;">
+                    <li data-id="1">
+                        <h2>Titre de la notification</h2>
+                        <h3>Message</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, aperiam, illum.</p>
+                        <p class="date"><img src="images/clock2.png" alt="clock">Le 23 Juin 2016 à 12:15</p>
+                    </li>
+                 </ul> 
+             </div>
+            
+        </div>
+        <!-- /page -->
+        
+
+        <script>
+
+            $(document).ready(function() {
+                id_livreur=0;
+                cpt_notif=0;
+
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                            //mobiscroll_listview();
+                            load_notification();
+                            load_bdd_notification();
+                        }
+                    });
+                });
+            });
+
+            function load_notification() {
+                $("#notif").html("");
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT * FROM notifications WHERE statut!="supprime" ORDER BY date_reception DESC', 
+                        [], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            len_notif=len;
+                            console.log(len_notif)
+                            $("#nb_total_notif").html((len_notif>1) ? len_notif+" notifications" : len_notif+" notification")
+                            for (j = 0; j < len_notif; j++) {
+                                //console.log(results.rows.item(j))
+                                ts_date_affiche=new Date(results.rows.item(j).date_reception);
+                                date_now="Le "+('0'+ts_date_affiche.getDate()).slice(-2)+"/"+('0'+(ts_date_affiche.getMonth()+1)).slice(-2)+"/"+ts_date_affiche.getFullYear()+" à "+("0"+ts_date_affiche.getHours()).slice(-2)+":"+("0"+ts_date_affiche.getMinutes()).slice(-2);
+
+                                $("#notif").append("<li id='notif_"+results.rows.item(j).id+"'><h2>"+results.rows.item(j).nom+"</h2><h3>Message</h3><p>"+results.rows.item(j).message+"</p><p class='date'><img src='images/clock2.png' alt='clock'>"+date_now+"</p></li>");
+
+                                //marquer les notifications comme lues
+                                tx.executeSql(
+                                    'UPDATE notifications SET statut="read" WHERE id=?', 
+                                    [results.rows.item(j).id], 
+                                    function (tx2, results2) {
+                                    },
+                                    function (err) {
+                                        console.log(err);
+                                    }
+                                );
+                            }
+                            mobiscroll_listview()
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            }
+
+            function load_bdd_notification() {
+                //cpt_notif=0;
+                $.ajax({
+                    url      : 'http://www.you-order.eu/webservices/action_webservice.php',
+                    data     : 'action=get_notifications&id_livreur='+id_livreur,
+                    type     : "GET",
+                    cache    : false,
+                    timeout: 2000,
+                    success: function(transport) {
+                        //console.log(transport);
+                        nextRecord(transport);
+                    },
+                    error: function(transport) {
+                        console.log(transport);
+                    }
+                });
+            }
+
+            function nextRecord(transport) {
+                if (transport!=undefined) {
+                    var row = transport.shift();
+                }
+                if (row) {
+                    //console.log(row)
+                    db.transaction(function (txNotif) {
+                        txNotif.executeSql(
+                            'SELECT * FROM notifications WHERE id=?',
+                            [row.id], 
+                            function (txNotif, resultsNotif) {
+                                var len = resultsNotif.rows.length, i;
+                                //console.log(row.id)
+                                if (len>=1) {
+                                    console.log("existe");
+                                    if (resultsNotif.rows.item(0).nom!=row.nom || resultsNotif.rows.item(0).message!=row.message) {
+                                        console.log("différent");
+                                        doQuery(txNotif, 'UPDATE notifications SET nom=?, message=?, statut=? WHERE id=?',[row.nom, row.message, "unread", row.id], successHandler(transport)); 
+                                    }
+                                    else {
+                                        console.log("pas de modif");
+                                        nextRecord(transport);
+                                    }
+                                }
+                                else {
+                                    console.log("nouveau");
+                                    cpt_notif++;
+                                    ts_date_now=new Date();
+                                    date_now=ts_date_now.getFullYear()+"-"+('0'+(ts_date_now.getMonth()+1)).slice(-2)+"-"+('0'+ts_date_now.getDate()).slice(-2)+" "+("0"+ts_date_now.getHours()).slice(-2)+":"+("0"+ts_date_now.getMinutes()).slice(-2)+":00";
+
+                                    doQuery(txNotif, 'INSERT INTO notifications (id, nom, message, date_reception, statut) VALUES (?, ?, ?, ?, ?)',[row.id, row.nom, row.message, date_now, "unread"], successHandler(transport));
+                                }
+                            }, 
+                            function (err) {console.log(err)}
+                        );
+                    });
+                }
+                else {
+                    console.log("TERMINE OK");
+                    if (cpt_notif>=1) {
+                        $("#new-notif").show();
+                        $("#new-notif").find("span").html((cpt_notif>1) ? cpt_notif+" nouvelles notifications" : cpt_notif+" nouvelle notification");
+                    }
+                    //load_notification();
+                    setTimeout(function() {
+                        load_bdd_notification();
+                    },20000);
+                }
+            }
+
+            function doQuery(tx, query, values, successHandler, context) {
+                tx.executeSql(query, values, successHandler, errorHandler);
+            }
+
+            function successHandler(transport) {
+                console.log("ok ");
+                nextRecord(transport);
+            }
+
+            function errorHandler(error) {
+                console.log(error)
+            }
+            
+            $('#new-notif').click(function(){
+                load_notification();
+                //cacher le bandeau de notif
+                $('#new-notif').animate({
+                    left: '-=300'
+                }, 500, function() {console.log("fini");cpt_notif=0;$("#new-notif").attr("style", "left:50%;");$("#new-notif").hide();});
+                //mobiscroll_listview();
+            });
+            
+            function mobiscroll_listview(){
+
+                $('#notif').mobiscroll().listview({
+                    theme: 'mobiscroll',
+                    iconSlide: true,
+                    stages: [{
+                        percent: -25,
+                        color: '#67ae73',
+                        text: 'Supprimer',
+                        confirm: true,
+                        action: function (event, inst) {
+                            id_notif=event[0].id.replace("notif_", "");
+                            console.log(id_notif)
+                            db.transaction(function (tx) {
+                                tx.executeSql(
+                                    'UPDATE notifications SET statut="supprime" WHERE id=?', 
+                                    [id_notif], 
+                                    function (tx2, results2) {
+                                        len_notif--;
+                                        $("#nb_total_notif").html((len_notif>1) ? len_notif+" notifications" : len_notif+" notification")
+                                        event.css('display', 'none');
+                                    },
+                                    function (err) {
+                                        console.log(err);
+                                    }
+                                );
+                            });
+                        }
+                     }]
+                });
+
+           };
+            
+        </script>
+        
+    </body>
+    
+</html>

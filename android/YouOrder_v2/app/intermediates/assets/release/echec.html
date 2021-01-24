@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Détail Commande</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/signee.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+
+    </head>
+    
+    <body>
+
+        <!-- header -->
+        <header>
+
+            <div class="title">
+                <a href="javascript:void(0)" onclick="window.history.go(-1);"><img class="back" src="images/back.png" alt="Back"></a>
+                <span>Détails de la commande</span>
+                <a href="commandes.html"><img src="images/commandes-off.png" alt=""></a>
+                <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+            </div>
+            <div class="stop"></div>
+
+        </header>
+        <!-- /header -->
+        
+        <div class="etat">
+            <span>échec</span>
+        </div>
+        
+        <div class="info">
+            <h2>Informations commerçant</h2>
+            <span id="nom_resto"></span><br>
+            <span id="adresse_resto"></span>
+        </div>
+        
+        <div class="info">
+            <h2>Informations client</h2>
+            <span id="nom_client"></span><br>
+            <span id="adresse_client"></span>
+        </div>
+        
+        <div class="info commande">
+            <h2>Informations commande</h2>
+            <h3 class="raison">Raison</h3>
+            <div class="detail-raison" id="raison_refus"></div>
+            <h3>Commentaire</h3>
+            <p id="comm_refus"></p>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                db.transaction(function (tx) {
+                    tx.executeSql(
+                        'SELECT c.id, c.date_debut, c.date_fin, c.statut, c.comm_refus, c.raison_refus, r.nom as nom_resto, r.adresse as adresse_resto, r.numero as numero_resto, r.latitude as lat_resto, r.longitude as lng_resto, cl.nom as nom_client, cl.adresse as adresse_client, cl.numero as numero_client, cl.latitude as lat_client, cl.longitude as lng_client, l.id_livreur FROM commandes c JOIN restaurant r ON c.restaurant=r.id JOIN client cl ON c.client=cl.id JOIN localstorage l ON c.id=l.id_commande WHERE l.id=?', 
+                        [1], 
+                        function (tx, results) {
+                            var len = results.rows.length, i;
+                            if (len==1) {
+                                console.log(results.rows.item(0));
+
+                                switch (results.rows.item(0).raison_refus) {
+                                    case "1":
+                                        raison_refus="Ne réponds pas";
+                                        break;
+                                    case "2":
+                                        raison_refus="Mauvaise adresse";
+                                        break;
+                                    case "4":
+                                        raison_refus="Créneau dépassé";
+                                        break;
+                                    default:
+                                        raison_refus="Autre";
+                                        break;
+                                }
+
+                                $("#nom_resto").html(results.rows.item(0).nom_resto)
+                                $("#adresse_resto").html(results.rows.item(0).adresse_resto)
+                                $("#nom_client").html(results.rows.item(0).nom_client);
+                                $("#adresse_client").html(results.rows.item(0).adresse_client);
+                                $("#raison_refus").html(raison_refus);
+                                $("#comm_refus").html((results.rows.item(0).comm_refus!="") ? results.rows.item(0).comm_refus  : "Pas de commentaire");
+                            }
+                            else {
+                                window.location.href="index.html";
+                            }
+                        },
+                        function (err) {
+                            console.log(err);
+                        }
+                    );
+                });
+            })
+        </script>
+
+    </body>
+        
+</html>

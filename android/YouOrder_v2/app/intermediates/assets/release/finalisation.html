@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Fin de la commande</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,  minimun-scale=1.0, maximum-scale=1.0">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"> 
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/bases.css">
+        <link rel="stylesheet" type="text/css" href="css/finalisation.css">
+        <!-- /style -->
+        
+        <!-- script -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.autosize.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- /script -->
+        
+    </head>
+    
+    <body>
+    
+        <!-- page -->
+        <div id="page" class="page">
+            
+            <!-- header -->
+            <header>
+                <div class="title">
+                    <a href="javascript:void(0)" onclick="window.history.go(-1);"><img class="back" src="images/back.png" alt="Back"></a>
+                    <span>Fin de la commande</span>
+                    <a href="commandes.html"><img src="images/commandes-on.png" alt=""></a>
+                    <a href="planning.html"><img class="img-commandes" src="images/planning-off.png" alt="Planning"></a>
+                </div>
+                <div class="stop"></div>
+            </header>
+            <!-- /header -->
+            
+            <!-- radio -->
+            <div class="radio">
+                <form name="formulaire" id="formulaire">
+                    
+                    <div class="radio-button">
+                        <div class="roundedOne" id="test">
+                            <input type="radio" value="signee" id="roundedOne" name="check" />
+                            <label></label>
+                            <span>Signée</span>
+                        </div>
+                    </div>
+
+                    <div class="radio-button">
+                        <div class="roundedOne2" id="test2">
+                            <input type="radio" value="echec" id="roundedOne2" name="check" />
+                            <label></label>
+                            <span>Echec</span>
+                        </div>
+                    </div>
+                    <div class="stop"></div>
+                    
+                </form>
+            </div>
+            <!-- /radio -->
+            
+            <!-- signature -->
+            <div id="signature">
+                <img src="images/checked.png" alt="checked">
+                Commande livrée
+                <div>
+                    Signature
+                </div>
+            </div>
+            <!-- /signature -->
+            
+            <!-- échec -->
+            <div id="echec">
+                <img src="images/wrong.png" alt="wrong">
+                Commande non-livrée
+                
+                <h3>Raison</h3>
+                <div id="raison">
+                    Autre
+                    <img src="images/arrow3.png" alt="arrow">
+                    <div class="stop"></div>
+                </div>
+                
+                <h4>Commentaire</h4>
+                <textarea id="commentaire" class="normal" placeholder="Votre commentaire ..."></textarea>
+            </div>
+            <!-- /échec -->
+            
+            <!-- footer -->
+            <footer id="footer">
+                Valider
+            </footer>
+            <!-- /footer -->
+            
+        </div>
+        <!-- /page -->
+        
+        <div id="opacite">
+            
+        </div>
+        
+        <!-- raison -->
+        <div id="raison-liste">
+            <div id="raison1" onclick="choix_raison(1);" class="raison">Ne répond pas</div>
+            <div id="raison2" onclick="choix_raison(2);" class="raison">Mauvaise adresse</div>
+            <div class="stop"></div>
+            <div id="raison3" onclick="choix_raison(3);" class="raison raison-actif">Autre</div>
+            <div id="raison4" onclick="choix_raison(4);" class="raison">Créneau dépassé</div>
+            <div class="stop"></div>
+            <div class="button">
+                <span id="annuler">Annuler</span>
+                <span id="ok">OK</span>
+            </div>
+        </div>
+        <!-- /raison -->
+        
+        <script>
+            $(document).ready(function() {
+                raison_refus=3;
+                db.transaction(function (tx) {
+                    tx.executeSql('SELECT * FROM localstorage WHERE id=1', [], function (tx, results) {
+                        var len = results.rows.length, i;
+                        if (len==1) {
+                            console.log(results.rows.item(0));
+                            id_livreur=results.rows.item(0).id_livreur;
+                            if (id_livreur=="" || id_livreur==0) window.location.href="index.html";
+                            id_commande=results.rows.item(0).id_commande;
+                        }
+                    });
+                });
+            });
+
+            var footer = document.getElementById('footer');
+            var signature = document.getElementById('signature');
+            var echec = document.getElementById('echec');
+            var raison = document.getElementById('raison');
+            var raison_liste = document.getElementById('raison-liste');
+            var annuler = document.getElementById('annuler');
+            var ok = document.getElementById('ok');
+            var opacite = document.getElementById('opacite');
+            var textarea = document.getElementById('textarea');
+            
+            raison.addEventListener('click', choisir_raison);
+            annuler.addEventListener('click', annuler_raison);
+            ok.addEventListener('click', cacher_raison);
+            opacite.addEventListener('click', annuler_raison);
+            footer.addEventListener('click', go_commande);
+            
+            function choisir_raison(){
+                opacite.style.display = 'block';
+                var pos = -200;
+                var id = setInterval(frame, 2);
+                function frame(){
+                    if(pos === 0){
+                        clearInterval(id);
+                    } else {
+                        pos = pos + 4;
+                        raison_liste.style.bottom = pos + 'px';
+                    }
+                }
+            }
+            
+            function annuler_raison(){
+                opacite.style.display = 'none'; 
+                for(i = 1; i < 5; i++){
+                    document.getElementById('raison' + i).classList.remove('raison-actif');
+                }
+                var pos = 0;
+                var id = setInterval(frame, 2);
+                function frame(){
+                    if(pos === -200){
+                        clearInterval(id);
+                    } else {
+                        pos = pos - 4;
+                        raison_liste.style.bottom = pos + 'px';
+                    }
+                }
+            }
+            
+            function cacher_raison(){
+                opacite.style.display = 'none'; 
+                for(i = 1; i < 5; i++){
+                    if(document.getElementById('raison' + i).classList.contains('raison-actif')){
+                        if(i === 1){
+                            raison.innerHTML = 'Ne répond pas' + '<img src="images/arrow3.png" alt="arrow">';
+                        }
+                        else if(i === 2){
+                            raison.innerHTML = 'Mauvaise adresse' + '<img src="images/arrow3.png" alt="arrow">';
+                        }
+                        else if(i === 3){
+                            raison.innerHTML = 'Autre' + '<img src="images/arrow3.png" alt="arrow">';
+                        }
+                        else {
+                            raison.innerHTML = 'Créneau dépassé' + '<img src="images/arrow3.png" alt="arrow">';
+                        };
+                    }
+                }
+                var pos = 0;
+                var id = setInterval(frame, 2);
+                function frame(){
+                    if(pos === -200){
+                        clearInterval(id);
+                    } else {
+                        pos = pos - 4;
+                        raison_liste.style.bottom = pos + 'px';
+                    }
+                }
+            }
+            
+            function choix_raison(numero){
+                for(i = 1; i < 5; i++){
+                    document.getElementById('raison' + i).classList.remove('raison-actif');
+                }
+                var actif = document.getElementById('raison' + numero);
+                actif.classList.add('raison-actif');
+            }
+            
+            function go_commande(){
+                //window.location = 'commandes.html';
+                console.log($("input[name='check']:checked").val());
+                statut=$("input[name='check']:checked").val();
+                if (statut=="echec") {
+                    $(".raison").each(function() {
+                        if ($(this).hasClass("raison-actif")) {
+                            console.log($(this).attr("id").replace("raison", ""));
+                            raison_refus=$(this).attr("id").replace("raison", "");
+                        }
+                    })
+                    console.log($("#commentaire").val());
+                    comm_refus=$("#commentaire").val();
+                    change_statut('finalisation', statut, id_commande, id_livreur, raison_refus, comm_refus, '');
+                }
+                else if (statut=="signee") {
+                    Android.lancerSignature(id_commande);
+                }
+            }
+            
+            var checkbox = document.getElementById('roundedOne');
+            var checkbox2 = document.getElementById('roundedOne2');
+            var test = document.getElementById('test');
+            var test2 = document.getElementById('test2');
+            
+            var checkbox = document.getElementById('roundedOne');
+            var test = document.getElementById('test');
+            
+            var checkbox2 = document.getElementById('roundedOne2');
+            var test2 = document.getElementById('test2');
+
+            test.addEventListener('click', effet);
+            test2.addEventListener('click', effet2);
+
+            function effet(){
+
+                test.classList.add('test');
+                test2.classList.remove('test');
+                
+                footer.style.display = 'none';
+                
+                signature.style.display = 'none';
+                echec.style.display = 'none';
+
+                ($("#roundedOne").is(":checked")) ? $("#roundedOne").prop('checked', false) : $("#roundedOne").prop('checked', true);
+
+                Android.lancerSignature(id_commande);
+            }
+
+            function effet2(){
+                test2.classList.add('test');
+                test.classList.remove('test');
+                
+                if(footer.style.display !== 'block'){
+                    footer.style.display = 'block';
+                }
+                
+                signature.style.display = 'none';
+                echec.style.display = 'block';
+                
+                $(function(){
+                    $('.normal').autosize();
+                });
+
+                ($("#roundedOne2").is(":checked")) ? $("#roundedOne2").prop('checked', false) : $("#roundedOne2").prop('checked', true);
+            }
+                       
+        </script>
+        
+    </body>
+    
+</html>
