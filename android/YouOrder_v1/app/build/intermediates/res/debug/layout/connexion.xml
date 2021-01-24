@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    tools:context=".GpsTrackerActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="13dp"
+
+                        android:src="@drawable/ogo_" />
+
+                    <Button
+                        android:id="@+id/refresh"
+                        style="@style/DefaultButtonText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView1"
+                        android:layout_gravity="center"
+                        android:background="#a0ce4e"
+                        android:drawableLeft="@drawable/ic_stat_refresh"
+                        android:focusable="true"
+                        android:padding="12dp"
+                        android:text="@string/check_network"
+                        android:textColor="@drawable/colorbutton"
+                        android:textSize="19sp"
+                        android:visibility="gone" />
+
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical">
+
+                        <ProgressBar
+                            android:id="@+id/progressBarre"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/imageView1"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/title"
+                            android:textSize="@dimen/activity_horizontal_margin" />
+
+                        <TextView
+                            android:id="@+id/content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:padding="10dp"
+                            android:text="@string/content"
+                            android:textSize="@dimen/activity_horizontal_margin" />
+
+                        <EditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_top_bg"
+                            android:drawableLeft="@drawable/ic_action_logint_user"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"
+                            android:padding="10dp"
+                            android:textColorHint="#cccccc" />
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-2dp"
+                            android:background="@drawable/edittext_bottom_bg"
+                            android:drawableLeft="@drawable/ic_action_login_pass"
+                            android:hint="Mot de passe"
+                            android:padding="10dp"
+                            android:textColorHint="#cccccc" />
+
+
+                        <Button
+                            android:id="@+id/button1"
+                            style="@style/DefaultButtonText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="11dp"
+                            android:background="#a0ce4e"
+                            android:padding="10dp"
+                            android:text="Se connecter" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
